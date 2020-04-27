@@ -30,6 +30,7 @@ public class LocationService {
     /**
      * 铁路位置信息缓存
      */
+
     public static final String RAIL_LOCATION_CACHE = "railLocationCache";
 
     private static class RailLocationFile {
