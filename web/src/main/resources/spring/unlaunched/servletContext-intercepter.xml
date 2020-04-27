@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--设置拦截器，处理登录及权限控制-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/index.htm"/>
+            <mvc:mapping path="/sys/index.htm"/>
+            <mvc:mapping path="/sys/*/*"/>
+            <bean class="mose.sys.interceptor.CheckLoginInterceptor"></bean>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/sys/index.htm"/>
+            <mvc:mapping path="/sys/*/*"/>
+            <bean class="mose.sys.interceptor.AuthorityInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
+</beans>
