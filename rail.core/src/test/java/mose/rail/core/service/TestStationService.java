@@ -3,22 +3,32 @@
  * Project Name:rail
  * Module Name:TODO:Module
  */
-package com.critc.rail.service;
+package mose.rail.core.service;
 
+import mose.CommonConfiguration;
+import mose.core.time.DateUtil;
 import mose.network.modal.Grid;
-import com.critc.rail.dao.LinkDao;
-import com.critc.rail.modal.AdjoinStations;
-import com.critc.rail.modal.Bureau;
-import com.critc.rail.modal.BureauPartingStation;
-import com.critc.rail.modal.Link;
-import com.critc.rail.modal.Station;
-import com.critc.rail.modal.TrainlineDeport;
-import com.critc.rail.modal.Yard;
-import com.critc.util.date.DateUtil;
+import mose.network.service.GridService;
+import mose.rail.core.dao.BureauDao;
+import mose.rail.core.dao.LinkDao;
+import mose.rail.core.dao.StationDao;
+import mose.rail.core.dao.TrainlineDeportDao;
+import mose.rail.core.modal.AdjoinStations;
+import mose.rail.core.modal.Bureau;
+import mose.rail.core.modal.BureauPartingStation;
+import mose.rail.core.modal.Link;
+import mose.rail.core.modal.Station;
+import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.Yard;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -35,7 +45,29 @@ import java.util.List;
  * @author 靳磊 created on 2019/9/17
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("/spring/applicationContext-database.xml")
+@Configuration
+@ContextConfiguration(classes = {
+        CommonConfiguration.class, TestStationService.class
+})
+@PropertySource({"classpath:application-database.properties"})
+@ImportResource({
+        "classpath:/spring/applicationContext-common.xml",
+        "classpath:/spring/applicationContext-database.xml"
+})
+@ComponentScan(basePackages = "mose", useDefaultFilters = false, includeFilters = {
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
+                GridService.class,
+                NetworkElementService.class,
+                BureauService.class,
+                BureauDao.class,
+                TrainlineDeportService.class,
+                TrainlineDeportDao.class,
+                StationService.class,
+                StationDao.class,
+                LinkService.class,
+                LinkDao.class
+        })
+})
 public class TestStationService {
     @Autowired
     private BureauService bureauService;
@@ -45,8 +77,6 @@ public class TestStationService {
     private StationService stationService;
     @Autowired
     private LinkService linkService;
-    @Autowired
-    private LinkDao linkDao;
 
     @Test
     @Transactional

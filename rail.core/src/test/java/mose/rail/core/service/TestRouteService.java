@@ -3,17 +3,22 @@
  * Project Name:rail
  * Module Name:TODO:Module
  */
-package com.critc.rail.service;
+package mose.rail.core.service;
 
-import com.critc.rail.modal.Link;
-import com.critc.rail.modal.Site;
-import com.critc.rail.modal.Station;
-import com.critc.rail.modal.Yard;
-import com.critc.util.date.DateUtil;
+import mose.CommonConfiguration;
+import mose.network.service.GridService;
+import mose.rail.core.dao.LinkDao;
+import mose.rail.core.modal.Link;
+import mose.rail.core.modal.Site;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -28,7 +33,24 @@ import java.util.List;
  * @author 靳磊 created on 2019/9/17
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("/spring/applicationContext-database.xml")
+@Configuration
+@ContextConfiguration(classes = {
+        CommonConfiguration.class, TestRouteService.class
+})
+@PropertySource({"classpath:application-database.properties"})
+@ImportResource({
+        "classpath:/spring/applicationContext-common.xml",
+        "classpath:/spring/applicationContext-database.xml"
+})
+@ComponentScan(basePackages = "mose", useDefaultFilters = false, includeFilters = {
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
+                GridService.class,
+                NetworkElementService.class,
+                SiteService.class,
+                RouteService.class,
+                LinkDao.class
+        })
+})
 public class TestRouteService {
     @Autowired
     private RouteService routeService;

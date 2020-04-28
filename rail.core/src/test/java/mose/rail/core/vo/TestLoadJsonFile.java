@@ -3,10 +3,9 @@
  * Project Name:rail
  * Module Name:TODO:Module
  */
-package com.critc.rail.vo;
+package mose.rail.core.vo;
 
-import com.critc.rail.vo.NodeView;
-import com.critc.util.json.JsonUtil;
+import mose.core.json.JsonUtil;
 import org.junit.Assert;
 import org.junit.Test;
 

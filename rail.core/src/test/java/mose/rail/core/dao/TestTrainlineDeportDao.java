@@ -3,17 +3,23 @@
  * Project Name:rail
  * Module Name:TODO:Module
  */
-package com.critc.rail.dao;
+package mose.rail.core.dao;
 
+import mose.CommonConfiguration;
 import mose.network.modal.Grid;
-import com.critc.rail.modal.Bureau;
-import com.critc.rail.modal.TrainlineDeport;
-import com.critc.rail.vo.TrainlineDeportSearchVo;
+import mose.rail.core.modal.Bureau;
+import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.vo.TrainlineDeportSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -30,7 +36,21 @@ import java.util.List;
  * @author 靳磊 created on 2019/9/20
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("/spring/applicationContext-database.xml")
+@Configuration
+@ContextConfiguration(classes = {
+        CommonConfiguration.class, TestTrainlineDeportDao.class
+})
+@PropertySource({"classpath:application-database.properties"})
+@ImportResource({
+        "classpath:/spring/applicationContext-common.xml",
+        "classpath:/spring/applicationContext-database.xml"
+})
+@ComponentScan(basePackages = "mose.rail.core.dao", useDefaultFilters = false, includeFilters = {
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
+                BureauDao.class,
+                TrainlineDeportDao.class
+        })
+})
 public class TestTrainlineDeportDao {
     @Autowired
     private BureauDao bureauDao;
