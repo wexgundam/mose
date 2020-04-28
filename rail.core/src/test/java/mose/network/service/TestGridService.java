@@ -5,6 +5,7 @@
  */
 package mose.network.service;
 
+import mose.CommonConfiguration;
 import mose.core.time.DateUtil;
 import mose.network.modal.Grid;
 import mose.rail.core.service.LocationService;
@@ -30,7 +31,10 @@ import java.util.List;
  * @author 靳磊 created on 2019/9/4
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {TestGridService.class})
+@ContextConfiguration(classes = {
+        CommonConfiguration.class,
+        TestGridService.class
+})
 @Configuration
 @ComponentScan(basePackages = "mose.network.service", useDefaultFilters = false, includeFilters = {
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {GridService.class})

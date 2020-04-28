@@ -22,7 +22,7 @@ import org.junit.runners.Suite;
 //        mose.rail.dao.TestStationDao.class,
 //        mose.rail.dao.TestTrainlineDeportDao.class,
 //        mose.rail.dao.TestYardDao.class,
-//        mose.rail.modal.TestVector.class,
+        mose.rail.core.modal.TestVector.class,
 //        mose.rail.service.TestBureauService.class,
 //        mose.rail.service.TestLinkService.class,
         TestLocationService.class,

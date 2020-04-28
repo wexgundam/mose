@@ -5,6 +5,7 @@
  */
 package mose.rail.core.service;
 
+import mose.CommonConfiguration;
 import mose.core.cache.EhCacheUtil;
 import mose.rail.core.vo.StationLocationVo;
 import org.junit.Assert;
@@ -29,7 +30,10 @@ import java.io.IOException;
  * @author mose created on 2020/4/22
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = TestLocationService.class)
+@ContextConfiguration(classes = {
+        CommonConfiguration.class,
+        TestLocationService.class
+})
 @Configuration
 @ComponentScan(basePackages = "mose.rail.core.service", useDefaultFilters = false, includeFilters = {
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {LocationService.class})
