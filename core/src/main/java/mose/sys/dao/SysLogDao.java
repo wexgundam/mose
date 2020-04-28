@@ -37,7 +37,7 @@ public class SysLogDao extends BaseDao<SysLog, SysLogSearchVO> {
      * @param sysLogSearchVO 日志搜索vo
      * @return list
      *
-     * @author 杨超凡 created on 2017年11月10日
+     * @author mose created on 2017年11月10日
      */
     public List<SysLog> list(SysLogSearchVO sysLogSearchVO) {
         String sql = "select t.*,u.username username,u.real_name realName  from t_sys_log t,t_sys_user u where t.user_id=u.id  ";
@@ -54,7 +54,7 @@ public class SysLogDao extends BaseDao<SysLog, SysLogSearchVO> {
      * @param sysLogSearchVO 日志搜索vo
      * @return list
      *
-     * @author 杨超凡 created on 2017年11月10日
+     * @author mose created on 2017年11月10日
      */
     public List<SysLog> listAll(SysLogSearchVO sysLogSearchVO) {
         String sql = "select t.id,t.user_id,t.opera_date,t.operea_ip,t.module_name,t.opera_date,t.opera_url"
@@ -72,7 +72,7 @@ public class SysLogDao extends BaseDao<SysLog, SysLogSearchVO> {
      * @param sysLogSearchVO 日志搜索vo
      * @return
      *
-     * @author 杨超凡 created on 2017年11月10日
+     * @author mose created on 2017年11月10日
      */
     public int count(SysLogSearchVO sysLogSearchVO) {
         String sql = "select count(*) from t_sys_log t,t_sys_user u where t.user_id=u.id ";
@@ -88,7 +88,7 @@ public class SysLogDao extends BaseDao<SysLog, SysLogSearchVO> {
      * @param sysLogSearchVO 日志搜索vo
      * @return sql
      *
-     * @author 杨超凡 created on 2017年11月10日
+     * @author mose created on 2017年11月10日
      */
     private String createSearchSql(SysLogSearchVO sysLogSearchVO) {
         String sql = "";
@@ -114,7 +114,7 @@ public class SysLogDao extends BaseDao<SysLog, SysLogSearchVO> {
      * @param id 日志id
      * @return syslog
      *
-     * @author 杨超凡 created on 2017年11月10日
+     * @author mose created on 2017年11月10日
      */
     public SysLog getById(String id) {
         String sql = "select * from t_sys_log where id=? ";

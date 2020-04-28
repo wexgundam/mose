@@ -33,7 +33,7 @@ import java.util.Map;
 /**
  * what:    在线用户实时查看
  *
- * @author 郭飞 created on 2017年7月26日
+ * @author mose created on 2017年7月26日
  */
 
 @RequestMapping("/sys/onlineuser")
@@ -78,7 +78,7 @@ public class SysOnlineUserController {
      *
      * @throws SerializationException       SerializationException
      * @throws UnsupportedEncodingException
-     * @author 郭飞 created on 2017年9月26日
+     * @author mose created on 2017年9月26日
      */
     @SuppressWarnings("unused")
     @RequestMapping("/index")
@@ -154,7 +154,7 @@ public class SysOnlineUserController {
      *
      * @return ModelAndView ModelAndView
      *
-     * @author 郭飞 created on 2017年11月8日
+     * @author mose created on 2017年11月8日
      */
 
     @RequestMapping("/toLoginHistory")
@@ -191,7 +191,7 @@ public class SysOnlineUserController {
      * @param request  request
      * @param response response
      *
-     * @author 郭飞 created on 2017年11月9日
+     * @author mose created on 2017年11月9日
      */
     @RequestMapping("/getAutoComplteList")
     public void getAutoComplteList(HttpServletRequest request, HttpServletResponse response) {

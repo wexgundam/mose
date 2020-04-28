@@ -48,7 +48,7 @@ public class SysLogService {
     * @param sysLogSearchVO 日志搜索VO
     * @return list
     *
-    * @author 杨超凡 created on 2017年11月10日
+    * @author mose created on 2017年11月10日
     */
     public List<SysLog> list(SysLogSearchVO sysLogSearchVO) {
         List<SysLog> list = sysLogDao.list(sysLogSearchVO);
@@ -62,7 +62,7 @@ public class SysLogService {
      * @param sysLogSearchVO 日志搜索VO
      * @return list
      *
-     * @author 杨超凡 created on 2017年11月10日
+     * @author mose created on 2017年11月10日
      */
     public List<SysLog> listAll(SysLogSearchVO sysLogSearchVO) {
         List<SysLog> list = sysLogDao.listAll(sysLogSearchVO);
@@ -77,7 +77,7 @@ public class SysLogService {
     * @param sysLogSearchVO 日志搜索VO
     * @return int
     *
-    * @author 杨超凡 created on 2017年11月10日
+    * @author mose created on 2017年11月10日
     */
     public int count(SysLogSearchVO sysLogSearchVO) {
         return sysLogDao.count(sysLogSearchVO);
@@ -124,7 +124,7 @@ public class SysLogService {
      * @param id id
      * @return SysLog
      *
-     * @author 杨超凡 created on 2017年10月13日
+     * @author mose created on 2017年10月13日
      */
 	public SysLog getById(String id) {
 		return sysLogDao.getById(id);

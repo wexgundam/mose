@@ -1,7 +1,7 @@
 package mose.sys.service;
 
 import mose.core.code.RandomCodeUtil;
-import mose.core.date.DateUtil;
+import mose.core.time.DateUtil;
 import mose.core.encrypt.Md5SaltUtil;
 import mose.core.excel.Excel2007Util;
 import mose.core.file.FileUtil;
@@ -791,7 +791,7 @@ public class SysUserService {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     public Integer completionCalculate(SysUser sysUser) {
         int num = 0;

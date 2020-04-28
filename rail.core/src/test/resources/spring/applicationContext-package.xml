@@ -7,4 +7,5 @@
     <!--<context:component-scan base-package="mose.core"></context:component-scan>-->
     <!--<context:component-scan base-package="mose.sys"></context:component-scan>-->
     <context:component-scan base-package="mose.rail"></context:component-scan>
+    <context:component-scan base-package="mose.core.pub"></context:component-scan>
 </beans>

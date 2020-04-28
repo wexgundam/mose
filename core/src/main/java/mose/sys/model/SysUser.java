@@ -9,7 +9,7 @@ import javax.validation.constraints.Pattern;
 /**
  * 系统用户
  *
- * @author 马丽静
+ * @author mose
  * @date 2017-10-19
  */
 public class SysUser extends BaseModel {

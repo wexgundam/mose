@@ -43,6 +43,9 @@
         <pdfbox.version>2.0.8</pdfbox.version>
         <common.httpclient.version>4.5.2</common.httpclient.version>
         <common.net.version>3.6</common.net.version>
+        <org.locationtech.jts.version>1.16.1</org.locationtech.jts.version>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <commons-math3.version>3.6.1</commons-math3.version>
     </properties>
 
     <dependencyManagement>
@@ -264,6 +267,50 @@
                 <groupId>org.apache.pdfbox</groupId>
                 <artifactId>pdfbox</artifactId>
                 <version>${pdfbox.version}</version>
+            </dependency>
+
+            <!-- time -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+
+            <!-- math -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-math3</artifactId>
+                <version>${commons-math3.version}</version>
+            </dependency>
+
+            <!-- 空间图形计算 -->
+            <dependency>
+                <groupId>org.locationtech.jts</groupId>
+                <artifactId>jts-core</artifactId>
+                <version>${org.locationtech.jts.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.locationtech.jts.io</groupId>
+                <artifactId>jts-io-common</artifactId>
+                <version>${org.locationtech.jts.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.locationtech.jts</groupId>
+                <artifactId>jts-io</artifactId>
+                <version>${org.locationtech.jts.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.locationtech.jts</groupId>
+                <artifactId>jts-modules</artifactId>
+                <version>${org.locationtech.jts.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.locationtech.jts</groupId>
+                <artifactId>jts</artifactId>
+                <version>${org.locationtech.jts.version}</version>
+                <type>pom</type>
             </dependency>
         </dependencies>
     </dependencyManagement>

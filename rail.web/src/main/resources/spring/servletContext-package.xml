@@ -5,12 +5,12 @@
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--<context:component-scan base-package="mose.core">-->
-        <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+    <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
     <!--</context:component-scan>-->
     <!--<context:component-scan base-package="mose.sys">-->
-        <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+    <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
     <!--</context:component-scan>-->
-    <context:component-scan base-package="mose.rail.core">
-        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    <context:component-scan base-package="mose.rail.core" use-default-filters="false">
+        <context:include-filter type="assignable" expression="mose.rail.core.controller.LocationServiceController"/>
     </context:component-scan>
 </beans>

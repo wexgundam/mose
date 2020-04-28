@@ -13,7 +13,7 @@ import mose.core.page.PageSearchVO;
  * what:   用户登录查询VO
  * 
  *
- * @author ycf created on 2017年10月23日
+ * @author mose created on 2017年10月23日
  */
 public class SysUserLoginSearchVO extends PageSearchVO {
 	/**

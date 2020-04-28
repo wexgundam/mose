@@ -5,7 +5,7 @@
  */
 package mose.sys.controller;
 
-import mose.core.date.DateUtil;
+import mose.core.time.DateUtil;
 import mose.core.json.JsonUtil;
 import mose.core.page.PageNavigate;
 import mose.core.pub.PubConfig;
@@ -30,7 +30,7 @@ import java.util.List;
  * what:   用户登录记录查询Controller
  * 
  *
- * @author ycf created on 2017年10月19日
+ * @author mose created on 2017年10月19日
  */
 @Controller
 @RequestMapping("/sys/userlogin")
@@ -59,7 +59,7 @@ public class SysUserLoginController {
 	 * @param sysUserLoginSearchVO 用户登录记录查询VO
 	 * @return index
 	 *
-	 * @author 杨超凡 created on 2017年10月19日
+	 * @author mose created on 2017年10月19日
 	 */
 	@RequestMapping("/index")
 	public ModelAndView index(HttpServletRequest request, SysUserLoginSearchVO sysUserLoginSearchVO) {
@@ -95,7 +95,7 @@ public class SysUserLoginController {
 	 * @param response response
 	 * @param sysUserloginSearchVO 用户登陆记录查询VO
 	 *
-	 * @author 杨超凡 created on 2017年11月3日
+	 * @author mose created on 2017年11月3日
 	 */
 	@RequestMapping("/searchUserLogin")
 	public void searchUserLogin(HttpServletRequest request, HttpServletResponse response, SysUserLoginSearchVO sysUserloginSearchVO) {
@@ -111,7 +111,7 @@ public class SysUserLoginController {
 	 * 
 	 * @param response response
 	 *
-	 * @author 杨超凡 created on 2017年10月19日
+	 * @author mose created on 2017年10月19日
 	 */
 	@RequestMapping("/getAutoComplteList")
 	public void getAutoComplteList(HttpServletResponse response) {
@@ -125,7 +125,7 @@ public class SysUserLoginController {
 	 * @param sysUserLoginSearchVO 用户登陆记录查询VO
 	 * @return backUrl
 	 *
-	 * @author孔垂云 created on 2017年6月13日
+	 * @authormose created on 2017年6月13日
 	 */
 	private String createUrl(SysUserLoginSearchVO sysUserLoginSearchVO) {
 		String url = pubConfig.getDynamicServer() + "/sys/userlogin/index.htm?";

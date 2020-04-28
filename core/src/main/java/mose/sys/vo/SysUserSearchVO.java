@@ -6,7 +6,7 @@ import mose.core.page.PageSearchVO;
 /**
  * 用户查询VO
  *
- * @author 马丽静
+ * @author mose
  * @date 2017-10-25
  */
 public class SysUserSearchVO extends PageSearchVO {

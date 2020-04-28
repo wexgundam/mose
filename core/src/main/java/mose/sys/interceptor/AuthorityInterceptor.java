@@ -6,7 +6,7 @@
 package mose.sys.interceptor;
 
 import mose.core.code.GlobalCode;
-import mose.core.date.DateUtil;
+import mose.core.time.DateUtil;
 import mose.core.json.JsonUtil;
 import mose.core.pub.PubConfig;
 import mose.core.session.SessionUtil;
@@ -31,7 +31,7 @@ import java.util.regex.Pattern;
  * what: 系统权限控制拦截器，访问每个操作时先进行权限校验,同时记录日志
  * 
  *
- * @author 孔垂云 created on 2017年6月13日
+ * @author mose created on 2017年6月13日
  */
 public class AuthorityInterceptor implements HandlerInterceptor {
 	/**
@@ -66,7 +66,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
      * @return boolean
      * @throws Exception Exception
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         UserSession userSession = SessionUtil.getUserSession(request);
@@ -108,7 +108,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
      * @param parameters 参数
      * @param us 用户session
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     public void logOperation(String path, String parameters, UserSession us) {
         String log = "";
@@ -127,7 +127,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
 	 * @param modelAndView modelAndView
 	 * @throws Exception Exception
 	 *
-	 * @author 孔垂云 created on 2017年11月14日
+	 * @author mose created on 2017年11月14日
 	 */
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
 
@@ -143,7 +143,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
 	 * @param ex ex
 	 * @throws Exception Exception
 	 *
-	 * @author 孔垂云 created on 2017年6月13日
+	 * @author mose created on 2017年6月13日
 	 */
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
 
@@ -155,7 +155,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
      * @param url url
      * @return boolean
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     private static boolean checkUrl(String url) {
         Pattern pattern = Pattern.compile("^(add|update|delete|save|import).*");
@@ -168,7 +168,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
      * 
      * @param args 参数组
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     public static void main(String[] args) {
         //当条件满足时，将返回true，否则返回false

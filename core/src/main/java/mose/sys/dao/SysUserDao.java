@@ -26,7 +26,7 @@ public class SysUserDao extends BaseDao<SysUser, SysUserSearchVO> {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     public int add(SysUser sysUser) {
         String sql = "insert into t_sys_user(id,username,password,avatar,randomcode,status,real_name,mobile,deletable," +
@@ -117,7 +117,7 @@ public class SysUserDao extends BaseDao<SysUser, SysUserSearchVO> {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     public SysUser getByUsername(String username) {
         String sql = "select t.id,t.username,t.password,t.randomcode,t.status,t.real_name,t.mobile,t.avatar,t.role_id,t.deletable," +

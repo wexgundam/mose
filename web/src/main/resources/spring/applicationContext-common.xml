@@ -14,7 +14,7 @@
     <!-- spring从properties里面读取jdbc配置文件 -->
     <context:property-placeholder ignore-unresolvable="true" location="classpath:/application-*.properties"/>
 
-    <bean class="mose.core.spring.SpringContextHolder" lazy-init="false"/>
+    <bean class="mose.core.spring.SpringContextHolder" lazy-init="true"/>
     <context:annotation-config/>
 
     <!--添加声明，为Spring容器中那些匹配@AspectJ切面的Bean创建代理，其中的proxy-target-class="true"

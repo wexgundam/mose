@@ -14,7 +14,7 @@ import java.util.Random;
 /**
  * 根据验证字符串创建验证码图片
  * 
- * @author mose Created by ycf on 2017/8/8.
+ * @author mose Created by mose on 2017/8/8.
  */
 public class VerifyCodeUtil {
 	public static final String ABC_CODES = "ABCDEFGHJKLMNPQRSTUVWXYZ";

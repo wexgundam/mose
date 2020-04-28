@@ -12,6 +12,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -26,9 +29,10 @@ import java.io.IOException;
  * @author mose created on 2020/4/22
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({
-        "/spring/applicationContext-common.xml",
-        "/spring/applicationContext-package.xml"
+@ContextConfiguration(classes = TestLocationService.class)
+@Configuration
+@ComponentScan(basePackages = "mose.rail.core.service", useDefaultFilters = false, includeFilters = {
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {LocationService.class})
 })
 public class TestLocationService {
     @Autowired

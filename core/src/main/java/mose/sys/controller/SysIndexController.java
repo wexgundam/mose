@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * 
  * what: 跳转主页
  *
- * @author 孔垂云 created on 2017年7月6日
+ * @author mose created on 2017年7月6日
  */
 @RequestMapping("/")
 @Controller

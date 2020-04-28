@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
  * 
  * what:    系统界面Controller
  *
- * @author 刘艳超 created on 2017年11月1日
+ * @author mose created on 2017年11月1日
  */
 @Controller
 @RequestMapping("/sys/ui")
@@ -19,7 +19,7 @@ public class SysUiController {
 	 * 
 	 * @return
 	 *
-	 * @author 刘艳超 created on 2017年11月1日
+	 * @author mose created on 2017年11月1日
 	 */
 	@RequestMapping("/index")
 	public ModelAndView index(){

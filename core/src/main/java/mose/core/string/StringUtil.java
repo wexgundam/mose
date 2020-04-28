@@ -238,7 +238,7 @@ public class StringUtil {
      * @param str  需要转换的汉字
      * @return
      *
-     * @author 刘艳超 created on 2017年10月26日
+     * @author mose created on 2017年10月26日
      */
     public static String getPinYinAll(String str){
     	if (isNullOrEmpty(str)) {

@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  * what: 校验是否登录的拦截器,未登录直接跳转至登录页面
  * 
  *
- * @author 孔垂云 created on 2017年6月13日
+ * @author mose created on 2017年6月13日
  */
 public class CheckLoginInterceptor implements HandlerInterceptor {
     /**
@@ -36,7 +36,7 @@ public class CheckLoginInterceptor implements HandlerInterceptor {
      * @return boolean
      * @throws Exception Exception
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         UserSession userSession = SessionUtil.getUserSession(request);
@@ -67,7 +67,7 @@ public class CheckLoginInterceptor implements HandlerInterceptor {
 	 * @param modelAndView modelAndView
 	 * @throws Exception Exception
 	 *
-	 * @author 孔垂云 created on 2017年11月14日
+	 * @author mose created on 2017年11月14日
 	 */
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
 
@@ -84,7 +84,7 @@ public class CheckLoginInterceptor implements HandlerInterceptor {
 	 * @param ex ex
 	 * @throws Exception Exception
 	 *
-	 * @author 孔垂云 created on 2017年6月13日
+	 * @author mose created on 2017年6月13日
 	 */
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
 

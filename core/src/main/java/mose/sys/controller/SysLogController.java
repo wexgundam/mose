@@ -5,7 +5,7 @@
  */
 package mose.sys.controller;
 
-import mose.core.date.DateUtil;
+import mose.core.time.DateUtil;
 import mose.core.json.JsonUtil;
 import mose.core.page.PageNavigate;
 import mose.core.pub.PubConfig;
@@ -30,7 +30,7 @@ import java.util.List;
  * what: 系统日志查询Controller
  * 
  *
- * @author 孔垂云 created on 2017年6月13日
+ * @author mose created on 2017年6月13日
  */
 @Controller
 @RequestMapping("/sys/log")
@@ -59,7 +59,7 @@ public class SysLogController {
 	 * @param sysLogSearchVO 日志查询VO
 	 * @return index
 	 *
-	 * @author 杨超凡 created on 2017年11月2日
+	 * @author mose created on 2017年11月2日
 	 */
 	@RequestMapping("/index")
 	public ModelAndView index(HttpServletRequest request, SysLogSearchVO sysLogSearchVO) {
@@ -97,7 +97,7 @@ public class SysLogController {
 	 * @param response response
 	 * @param id 操作记录id
 	 *
-	 * @author 杨超凡 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/operaparams")
 	public void ajaxParam(HttpServletResponse response, String id) {
@@ -111,7 +111,7 @@ public class SysLogController {
 	 * 
 	 * @param response response
 	 *
-	 * @author 杨超凡 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/getAutoComplteList")
 	public void getAutoComplteList(HttpServletResponse response) {
@@ -126,7 +126,7 @@ public class SysLogController {
 	 * @param response response
 	 * @param sysLogSearchVO 日志查询VO
 	 *
-	 * @author 杨超凡 created on 2017年11月3日
+	 * @author mose created on 2017年11月3日
 	 */
 	@RequestMapping("/searchUserOper")
 	public void searchUserLogin(HttpServletRequest request, HttpServletResponse response, SysLogSearchVO sysLogSearchVO) {
@@ -143,7 +143,7 @@ public class SysLogController {
 	 * @param sysLogSearchVO 日志查询VO
 	 * @return backUrl
 	 *
-	 * @author孔垂云 created on 2017年6月13日
+	 * @authormose created on 2017年6月13日
 	 */
 	private String createUrl(SysLogSearchVO sysLogSearchVO) {
 		String url = pubConfig.getDynamicServer() + "/sys/log/index.htm?";

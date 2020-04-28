@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * what: 部门Controller
  *
- * @author 李红 created on 2017年10月30日
+ * @author mose created on 2017年10月30日
  */
 @Controller
 @RequestMapping("/sys/department")
@@ -59,7 +59,7 @@ public class SysDepartmentController {
      *
      * @return 到部门列表首页
      *
-     * @author 李红 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/index")
     public ModelAndView index(HttpServletRequest request) {
@@ -81,7 +81,7 @@ public class SysDepartmentController {
      *
      * @return 到新增部门页面
      *
-     * @author 李红 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/toAdd")
     public ModelAndView toAdd(HttpServletRequest request, HttpServletResponse response) {
@@ -107,7 +107,7 @@ public class SysDepartmentController {
      *
      * @return 到修改部门页面
      *
-     * @author 李红 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/toUpdate")
     public ModelAndView toUpdate(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -132,7 +132,7 @@ public class SysDepartmentController {
      *
      * @return 到操作提示页面
      *
-     * @author 李红 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/add")
     public String add(HttpServletRequest request, HttpServletResponse response, @Valid SysDepartment sysDepartment) {
@@ -167,7 +167,7 @@ public class SysDepartmentController {
      *
      * @return 到操作提示页面
      *
-     * @author 李红 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/update")
     public String update(HttpServletRequest request, HttpServletResponse response, @Valid SysDepartment sysDepartment) {
@@ -204,7 +204,7 @@ public class SysDepartmentController {
      *
      * @return 到操作提示页面
      *
-     * @author 李红 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/delete")
     public String delete(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -228,7 +228,7 @@ public class SysDepartmentController {
      * @param response        response
      * @param sysUserSearchVO sysUserSearchVO
      *
-     * @author 李红 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/searchUser")
     public void searchUser(HttpServletRequest request, HttpServletResponse response, SysUserSearchVO sysUserSearchVO) {

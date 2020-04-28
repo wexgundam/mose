@@ -27,7 +27,7 @@ import java.util.List;
  * what: 系统角色处理Controller
  * 
  *
- * @author 孔垂云 created on 2017年11月6日
+ * @author mose created on 2017年11月6日
  */
 @RequestMapping("/sys/role")
 @Controller
@@ -57,7 +57,7 @@ public class SysRoleController {
 	 * @param sysRoleSearchVO 查询条件
 	 * @return 到角色首页
 	 *
-	 * @author 孔垂云 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/index")
 	public ModelAndView index(HttpServletRequest request, HttpServletResponse response, SysRoleSearchVO sysRoleSearchVO) {
@@ -84,7 +84,7 @@ public class SysRoleController {
 	 * @param sysRoleSearchVO 查询条件
 	 * @return url
 	 *
-	 * @author 李红 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	private String createUrl(SysRoleSearchVO sysRoleSearchVO) {
 		String url = pubConfig.getDynamicServer() + "/sys/role/index.htm?";
@@ -103,7 +103,7 @@ public class SysRoleController {
 	 * @param response response
 	 * @return 到角色新增界面
 	 *
-	 * @author 孔垂云 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/toAdd")
 	public ModelAndView toAdd(HttpServletRequest request, HttpServletResponse response) {
@@ -131,7 +131,7 @@ public class SysRoleController {
 	 * @param id 角色id
 	 * @return 到角色修改页面
 	 *
-	 * @author 孔垂云 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/toUpdate")
 	public ModelAndView toUpdate(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -161,7 +161,7 @@ public class SysRoleController {
 	 * @param sysRole sysRole
 	 * @return 到操作提示页面
 	 *
-	 * @author 孔垂云 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/add")
 	public String add(HttpServletRequest request, HttpServletResponse response, @Valid SysRole sysRole) {
@@ -199,7 +199,7 @@ public class SysRoleController {
 	 * @param sysRole sysRole
 	 * @return 到操作提示页面
 	 *
-	 * @author 孔垂云 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/update")
 	public String update(HttpServletRequest request, HttpServletResponse response, @Valid SysRole sysRole) {
@@ -231,7 +231,7 @@ public class SysRoleController {
 	 * @param id 角色id
 	 * @return 到操作提示页面
 	 *
-	 * @author 孔垂云 created on 2017年11月6日
+	 * @author mose created on 2017年11月6日
 	 */
 	@RequestMapping("/delete")
 	public String delete(HttpServletRequest request, HttpServletResponse response, int id) {

@@ -215,7 +215,7 @@ public class SysResourceService {
      *
      * @return String
      *
-     * @author 郭飞 created on 2017年11月14日
+     * @author mose created on 2017年11月14日
      */
     public String createZtreeByResourceLevel(int resourceLevel) {
         // 模块列表

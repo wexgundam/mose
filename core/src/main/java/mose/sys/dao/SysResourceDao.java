@@ -132,7 +132,7 @@ public class SysResourceDao extends BaseDao<SysResource, SysResource> {
      * @param resourcelevel  资源等级
      * @return List
      *
-     * @author 郭飞 created on 2017年11月14日
+     * @author mose created on 2017年11月14日
      */
     public List<SysResource> listByTypeAndResourcelevel(int type, int resourcelevel) {
         String sql = "select t.id,t.name,t.code,t.parent_id,t.url,t.target,t.iconimg,t.display_order,t.type,t.description,t.resource_level,(select count(*)"

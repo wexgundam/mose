@@ -22,7 +22,7 @@ import java.util.List;
  *
  * what:   系统资源管理Controller
  *
- * @author 孔垂云 created on 2017年06月13日
+ * @author mose created on 2017年06月13日
  */
 @Controller
 @RequestMapping("/sys/resource")
@@ -66,7 +66,7 @@ public class SysResourceController  {
      * @param sysResource 系统资源实体类
      * @return ModelAndView
      *
-     * @author 郭飞 created on 2017年10月25日
+     * @author mose created on 2017年10月25日
      */
     @RequestMapping("/toAdd")
     public ModelAndView toAdd(HttpServletRequest request, HttpServletResponse response, SysResource sysResource) {
@@ -94,7 +94,7 @@ public class SysResourceController  {
      *  ajax初始化资源等级树
      * @param request request
      * @param response response
-     * @author 郭飞 created on 2017年11月14日
+     * @author mose created on 2017年11月14日
      */
     @RequestMapping("/initTree")
     public void    initTree(HttpServletRequest request, HttpServletResponse response){
@@ -111,7 +111,7 @@ public class SysResourceController  {
      * @param sysResource 系统资源实体类
      * @return ModelAndView
      *
-     * @author 郭飞 created on 2017年10月25日
+     * @author mose created on 2017年10月25日
      */
     @RequestMapping("/toFunctionAdd")
     public ModelAndView toFunctionAdd(HttpServletRequest request, HttpServletResponse response, SysResource sysResource) {
@@ -143,7 +143,7 @@ public class SysResourceController  {
      * @param id 资源id
      * @return ModelAndView
      *
-     * @author 郭飞 created on 2017年10月25日
+     * @author mose created on 2017年10月25日
      */
     @RequestMapping("/toUpdate")
     public ModelAndView toUpdate(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -167,7 +167,7 @@ public class SysResourceController  {
      * @param id 资源id
      * @return ModelAndView
      *
-     * @author 郭飞 created on 2017年10月25日
+     * @author mose created on 2017年10月25日
      */
     @RequestMapping("/toFunctionUpdate")
     public ModelAndView toFunctionUpdate(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -190,7 +190,7 @@ public class SysResourceController  {
      * @param sysResource 资源实体类
      * @return String
      *
-     * @author 孔垂云  created on 2017年11月13日
+     * @author mose  created on 2017年11月13日
      */
     @RequestMapping("/add")
     public String add(HttpServletRequest request, HttpServletResponse response, @Valid SysResource sysResource) {
@@ -224,7 +224,7 @@ public class SysResourceController  {
      * @param sysResource 资源实体类
      * @return String
      *
-     * @author 孔垂云  created on 2017年11月13日
+     * @author mose  created on 2017年11月13日
      */
     @RequestMapping("/update")
     public String update(HttpServletRequest request, HttpServletResponse response, @Valid SysResource sysResource) {
@@ -263,7 +263,7 @@ public class SysResourceController  {
      * @param id 资源id
      * @return String
      *
-     * @author 孔垂云 created on 2017年11月13日
+     * @author mose created on 2017年11月13日
      */
     @RequestMapping("/delete")
     public String delete(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -294,7 +294,7 @@ public class SysResourceController  {
      * @param resourceName 资源名称
      * @return ModelAndView
      *
-     * @author 孔垂云  created on 2017年11月13日
+     * @author mose  created on 2017年11月13日
      */
     @RequestMapping("/functionIndex")
     public ModelAndView functionIndex(HttpServletRequest request, int parentId, String resourceName) {

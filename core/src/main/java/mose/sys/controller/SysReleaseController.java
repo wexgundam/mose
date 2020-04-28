@@ -29,7 +29,7 @@ import java.util.List;
  * what: 系统升级 Controller. <br/>
  *
  * 
- * @author liuzr created on 2017年10月31日
+ * @author mose created on 2017年10月31日
  */
 @Controller
 @RequestMapping("/sys/release")
@@ -55,7 +55,7 @@ public class SysReleaseController {
 	 * @param sysReleaseSearchVO sysReleaseSearchVo查询条件
 	 * @return 跳转到系统升级说明主页
 	 *
-	 * @author 刘正荣 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@RequestMapping("/index")
 	public ModelAndView index(HttpServletRequest request, SysReleaseSearchVO sysReleaseSearchVO) {
@@ -87,7 +87,7 @@ public class SysReleaseController {
 	 * @param sysReleaseSearchVO sysRlease查询条件
 	 * @return 返回拼接的url
 	 *
-	 * @author 刘正荣 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	private String createUrl(SysReleaseSearchVO sysReleaseSearchVO) {
 		String url = pubConfig.getDynamicServer() + "/sys/release/index.htm?";
@@ -116,7 +116,7 @@ public class SysReleaseController {
 	 * @param request request
 	 * @return 跳转到添加系统说明页面
 	 *
-	 * @author 刘正荣 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@RequestMapping("/toAdd")
 	public ModelAndView toAdd(HttpServletRequest request) {
@@ -137,7 +137,7 @@ public class SysReleaseController {
 	 * @param id 需要修改的系统说明信息的id
 	 * @return 跳转到系统修改系统说明页面
 	 *
-	 * @author 刘正荣 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@RequestMapping("/toUpdate")
 	public ModelAndView toUpdate(HttpServletRequest request, int id) {
@@ -157,7 +157,7 @@ public class SysReleaseController {
 	 * @param id 将要查看的系统说明的id
 	 * @return 跳转到查看详情页面
 	 *
-	 * @author 刘正荣 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@RequestMapping("/toDetail")
 	public ModelAndView toDetail(HttpServletRequest request, int id) {
@@ -179,7 +179,7 @@ public class SysReleaseController {
 	 * @param content 系统升级说明
 	 * @return 返回操作结果，0表示新增失败,1表示成功
 	 *
-	 * @author liuzr created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@RequestMapping("/add")
 	public String add(HttpServletRequest request, @Valid SysRelease sysRelease, String content) {
@@ -205,7 +205,7 @@ public class SysReleaseController {
 	 * @param sysRelease 修改后的信息
 	 * @param content 发布内容
 	 * @return 返回处理结果
-	 * @author 刘正荣 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@RequestMapping("/update")
 	public String update(HttpServletRequest request, HttpServletResponse response, @Valid SysRelease sysRelease,
@@ -227,7 +227,7 @@ public class SysReleaseController {
 	 * @param id 需要删除的系统说明的id
 	 * @return 0表示失败，1表示成功
 	 *
-	 * @author liuzr created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@RequestMapping("/delete")
 	public String delete(int id) {
@@ -248,7 +248,7 @@ public class SysReleaseController {
 	 * @param response response
 	 * @param path 文件路径
 	 * 
-	 * @author 刘正荣 created on 2017年10月30日
+	 * @author mose created on 2017年10月30日
 	 */
 	@RequestMapping("/readFile")
 	public void readFile(HttpServletRequest request, HttpServletResponse response, String path) {
@@ -264,7 +264,7 @@ public class SysReleaseController {
 	 * @param name 版本名称
 	 * @param version 版本号
 	 *
-	 * @author 刘正荣 created on 2017年10月30日
+	 * @author mose created on 2017年10月30日
 	 */
 
 	/**
@@ -277,7 +277,7 @@ public class SysReleaseController {
 	 * @param name 版本名称
 	 * @param version 版本号
 	 *
-	 * @author 刘正荣 created on 2017年11月16日
+	 * @author mose created on 2017年11月16日
 	 */
 	@RequestMapping("/checkVersionExist")
 	public void checkVersionExist(HttpServletResponse response, String preName, String preVersion, String name,

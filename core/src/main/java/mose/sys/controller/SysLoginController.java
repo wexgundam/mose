@@ -31,7 +31,7 @@ import java.util.Date;
 /**
  * what:    系统登录校验，及首页显示
  *
- * @author 孔垂云 created on 2017年6月13日
+ * @author mose created on 2017年6月13日
  */
 @RequestMapping("/")
 @Controller
@@ -65,7 +65,7 @@ public class SysLoginController {
      *
      * @return login
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     @RequestMapping("/login")
     public ModelAndView login(HttpServletRequest request, HttpServletResponse response) {
@@ -83,7 +83,7 @@ public class SysLoginController {
      * @param username 用户名
      * @param password 密码
      *
-     * @author 杨超凡 created on 2017年11月2日
+     * @author mose created on 2017年11月2日
      */
     @RequestMapping("/checkLogin")
     public void checkLogin(HttpServletRequest request, HttpServletResponse response, String username, String password) {
@@ -164,7 +164,7 @@ public class SysLoginController {
      *
      * @return index
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     @RequestMapping("/index")
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response) {
@@ -183,7 +183,7 @@ public class SysLoginController {
      *
      * @return index
      *
-     * @author 郭飞 created on 2017年10月27日
+     * @author mose created on 2017年10月27日
      */
     @RequestMapping("/sys/index")
     public ModelAndView sysIndex(HttpServletRequest request, HttpServletResponse response) {
@@ -200,7 +200,7 @@ public class SysLoginController {
      *
      * @return index
      *
-     * @author 刘艳超 created on 2017年11月3日
+     * @author mose created on 2017年11月3日
      */
     @RequestMapping("/themeOfHorizontal")
     public ModelAndView themeOfHorizontal(HttpServletRequest request) {
@@ -220,7 +220,7 @@ public class SysLoginController {
      *
      * @return index
      *
-     * @author 刘艳超 created on 2017年11月3日
+     * @author mose created on 2017年11月3日
      */
     @RequestMapping("/themeOfVertical")
     public ModelAndView themeOfVertical(HttpServletRequest request) {
@@ -241,7 +241,7 @@ public class SysLoginController {
      *
      * @return login
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     @RequestMapping("/logout")
     public String logout(HttpServletRequest request, HttpServletResponse response) {
@@ -275,7 +275,7 @@ public class SysLoginController {
      *
      * @return 成功或错误界面
      *
-     * @author 孔垂云 created on 2017年6月13日
+     * @author mose created on 2017年6月13日
      */
     @RequestMapping("/updatePass")
     public String updatePass(HttpServletRequest request, HttpServletResponse response, SysUser sysUser) {
@@ -301,7 +301,7 @@ public class SysLoginController {
      * @param para     生成验证码类型参数
      *
      * @throws IOException IOException
-     * @author 杨超凡 created on 2017年11月2日
+     * @author mose created on 2017年11月2日
      */
     @RequestMapping("/authImage")
     public void authImage(HttpServletRequest request, HttpServletResponse response, Integer para) throws IOException {
@@ -334,7 +334,7 @@ public class SysLoginController {
      * @param response response
      * @param authCode 验证码
      *
-     * @author 杨超凡 created on 2017年11月2日
+     * @author mose created on 2017年11月2日
      */
     @RequestMapping("/authPicCode")
     public void authCode(HttpSession session, HttpServletResponse response, String authCode) {
@@ -349,7 +349,7 @@ public class SysLoginController {
      * @param response response
      * @param sysUser  系统用户
      *
-     * @author 杨超凡 created on 2017年11月2日
+     * @author mose created on 2017年11月2日
      */
     private void loginSuccess(HttpServletRequest request, HttpServletResponse response, SysUser sysUser) {
         String ip = StringUtil.getIp(request);

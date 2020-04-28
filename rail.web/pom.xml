@@ -15,6 +15,10 @@
     <dependencies>
         <dependency>
             <groupId>mose</groupId>
+            <artifactId>core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mose</groupId>
             <artifactId>rail.core</artifactId>
         </dependency>
 

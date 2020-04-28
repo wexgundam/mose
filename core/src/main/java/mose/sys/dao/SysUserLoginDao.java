@@ -47,7 +47,7 @@ public class SysUserLoginDao extends BaseDao<SysUserLogin, SysUserLoginSearchVO>
      * @param userId 用户id
      * @return SysUserLogin 用户登录model
      *
-     * @author 杨超凡 created on 2017年11月10日
+     * @author mose created on 2017年11月10日
      */
     public SysUserLogin getLastLogin(int userId) {
         String sql = "select t.id,t.user_id,t.login_date,t.login_ip,t.terminal,t.explorertype,t.explorerversion from t_sys_user_login  t where user_id=? and rownum<2 order by login_date desc";
@@ -60,7 +60,7 @@ public class SysUserLoginDao extends BaseDao<SysUserLogin, SysUserLoginSearchVO>
  * @param sysUserloginSearchVO 用户登录VO
  * @return list
  *
- * @author 杨超凡 created on 2017年11月10日
+ * @author mose created on 2017年11月10日
  */
     public List<SysUserLogin> list(SysUserLoginSearchVO sysUserloginSearchVO) {
         String sql = "select t.*,u.username username,u.real_name realName  from t_sys_user_login t,t_sys_user u where t.user_id=u.id  ";
@@ -77,7 +77,7 @@ public class SysUserLoginDao extends BaseDao<SysUserLogin, SysUserLoginSearchVO>
     * @param sysUserLoginSearchVO 用户登录VO
     * @return int
     *
-    * @author 杨超凡 created on 2017年11月10日
+    * @author mose created on 2017年11月10日
     */
     public int count(SysUserLoginSearchVO sysUserLoginSearchVO) {
         String sql = "select count(*) from t_sys_user_login t,t_sys_user u where t.user_id=u.id ";

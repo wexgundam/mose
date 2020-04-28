@@ -17,7 +17,7 @@ import java.util.Set;
  * what:    在线用户service
  *
  *
- * @author 郭飞 created on 2017年10月31日
+ * @author mose created on 2017年10月31日
  */
 @Service
 public class SysOnlineUserService {
@@ -35,7 +35,7 @@ public class SysOnlineUserService {
 	 * @param sysUserSearchVO 查询实体类
 	 * @return String
 	 *
-	 * @author 郭飞 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 
 	public  String createUrl(SysUserSearchVO sysUserSearchVO) {
@@ -67,7 +67,7 @@ public class SysOnlineUserService {
 	 * @param sessionlist 在线用户list
 	 * @return ArrayList
 	 *
-	 * @author 郭飞 created on 2017年9月29日
+	 * @author mose created on 2017年9月29日
 	 */
 	public  ArrayList<UserSession> conditionSearch(String userName, String realName, String roleName, ArrayList<UserSession> sessionlist) {
 		boolean tag1 =  StringUtil.isNotNullOrEmpty(userName);
@@ -128,7 +128,7 @@ public class SysOnlineUserService {
 	 * @param redisTemplate redisTemplate
 	 * @return ArrayList
 	 *
-	 * @author 郭飞 created on 2017年10月31日
+	 * @author mose created on 2017年10月31日
 	 */
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public ArrayList<UserSession> getUserSession(RedisTemplate redisTemplate){
@@ -155,7 +155,7 @@ public class SysOnlineUserService {
 	 * @param sysUserLoginSearchVO 查询实体类
 	 * @return String
 	 *
-	 * @author 郭飞 created on 2017年11月8日
+	 * @author mose created on 2017年11月8日
 	 */
 	public String createUrl2(SysUserLoginSearchVO sysUserLoginSearchVO) {
 		String url = pubConfig.getDynamicServer() + "/sys/onlineuser/toLoginHistory.htm?";

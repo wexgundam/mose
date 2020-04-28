@@ -1,7 +1,7 @@
 package mose.sys.controller;
 
 import mose.core.code.GlobalCode;
-import mose.core.date.DateUtil;
+import mose.core.time.DateUtil;
 import mose.core.json.JsonUtil;
 import mose.core.page.PageNavigate;
 import mose.core.pub.PubConfig;
@@ -42,7 +42,7 @@ import java.util.Random;
 /**
  * what:    系统用户管理Controller
  *
- * @author 马丽静 created on 2017年7月26日
+ * @author mose created on 2017年7月26日
  */
 @RequestMapping("/sys/user")
 @Controller
@@ -70,7 +70,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年7月26日
+     * @author mose created on 2017年7月26日
      */
     @RequestMapping("/index")
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response, SysUserSearchVO sysUserSearchVO) {
@@ -98,7 +98,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017/11/8
+     * @author mose created on 2017/11/8
      */
     private String createUrl(SysUserSearchVO sysUserSearchVO) {
         String url = pubConfig.getDynamicServer() + "/sys/user/index.htm?";
@@ -123,7 +123,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年7月26日
+     * @author mose created on 2017年7月26日
      */
     @RequestMapping("/toAdd")
     public ModelAndView toAdd(HttpServletRequest request, HttpServletResponse response) {
@@ -153,7 +153,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/toUpdate")
     public ModelAndView toUpdate(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -194,7 +194,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/departmentTree")
     @ResponseBody
@@ -220,7 +220,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/detail")
     public ModelAndView detail(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -242,7 +242,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/add")
     public String add(HttpServletRequest request, HttpServletResponse response, SysUser sysUser) {
@@ -270,7 +270,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/update")
     @ResponseBody
@@ -304,7 +304,7 @@ public class SysUserController {
      *
      * @return String 数据库存放的avatar字段
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/uploadAvatar")
     public String uploadAvatar(MultipartFile file) throws IOException {
@@ -331,7 +331,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/delete")
     public String delete(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -351,7 +351,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/saveResetPass")
     public String saveResetPass(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -372,7 +372,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 孔垂云 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/saveLock")
     public String saveLock(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -393,7 +393,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/saveUnlock")
     public String saveUnlock(HttpServletRequest request, HttpServletResponse response, int id) {
@@ -414,7 +414,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/checkUserExist")
     public void checkUserExist(HttpServletRequest request, HttpServletResponse response, String username) {
@@ -435,7 +435,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/checkMobileExist")
     public void checkMobileExist(HttpServletRequest request, HttpServletResponse response, String mobile) {
@@ -456,7 +456,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/searchUserLogin")
     public void searchUserLogin(HttpServletRequest request, HttpServletResponse response, SysUserLoginSearchVO sysUserloginSearchVO) {
@@ -472,7 +472,7 @@ public class SysUserController {
      * @param response
      * @param sysUserSearchVO 导出数据的查询条件
      *
-     * @author 孙超 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/exportUserExcel")
     public void exportUserExcel(HttpServletRequest request, HttpServletResponse response, SysUserSearchVO sysUserSearchVO) {
@@ -484,7 +484,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 孙超 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/toImportUser")
     public String toImportUser() {
@@ -499,7 +499,7 @@ public class SysUserController {
      * @param response
      * @param listJson 包含校验结果的集合
      *
-     * @author 孙超 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @SuppressWarnings("unchecked")
     @RequestMapping("/importUser")
@@ -528,7 +528,7 @@ public class SysUserController {
      * @param request
      * @param response
      *
-     * @author 孙超 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     @RequestMapping("/validationImportUser")
     public void validationImportUser(@RequestParam("file1") MultipartFile file, HttpServletRequest request, HttpServletResponse response) {
@@ -552,7 +552,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/view")
     public ModelAndView view(HttpServletRequest request, HttpServletResponse response) {
@@ -578,7 +578,7 @@ public class SysUserController {
 //     * @param response
 //     * @param userId
 //     * @return
-//     * @author 马丽静 created on 2017年11月6日
+//     * @author mose created on 2017年11月6日
 //     */
 //    @RequestMapping("/uploadAvatar")
 //    public void uploadAvatar(MultipartFile avatarFile, String avatarData, HttpServletRequest request,
@@ -621,7 +621,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/toUpdatePass")
     public ModelAndView updatePass(HttpServletRequest request, HttpServletResponse response, SysUser sysUser) {
@@ -641,7 +641,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 孔垂云 created on 2017年11月6日
+     * @author mose created on 2017年11月6日
      */
     @RequestMapping("/saveUpdatePass")
     public String saveUpdatePass(HttpServletRequest request, HttpServletResponse response, SysUser sysUser) {
@@ -666,7 +666,7 @@ public class SysUserController {
      *
      * @return
      *
-     * @author 马丽静 created on 2017年11月15日
+     * @author mose created on 2017年11月15日
      */
     @RequestMapping("/completionCalculate")
     @ResponseBody

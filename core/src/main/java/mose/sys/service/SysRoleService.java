@@ -381,7 +381,7 @@ public class SysRoleService {
      *
      * @return 菜单对应的HTML
      *
-     * @author 刘艳超 created on 2017年10月30日
+     * @author mose created on 2017年10月30日
      */
     private String createMenuStr3(List<SysResource> listResource, List<Integer> displayResourceIdList,
                                   SysResource sysResource, int resourceLevel) {

@@ -18,7 +18,7 @@ import java.io.File;
 /**
  * what: 研发规范Controller
  *
- * @author 孙超 created on 2017年11月6日
+ * @author mose created on 2017年11月6日
  */
 @Controller
 @RequestMapping("sys/specification")
@@ -34,7 +34,7 @@ public class SysSpecificationController {
 	 * 
 	 * @return mv
 	 *
-	 * @author 孙超 created on 2017年11月8日
+	 * @author mose created on 2017年11月8日
 	 */
 	@RequestMapping("/index")
 	public ModelAndView index() {
