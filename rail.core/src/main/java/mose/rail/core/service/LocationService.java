@@ -12,10 +12,13 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.FileCopyUtils;
+import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 /**
  * what:    位置服务. <br/>
@@ -106,7 +109,7 @@ public class LocationService {
      */
     @PostConstruct
     public void initData() throws IOException {
-        Resource data = new ClassPathResource("railLocation.json");
+        Resource data = new ClassPathResource("mose/rail/core/railLocation.json");
         RailLocationFile railLocationFile = JsonUtil.toObject(new String(FileCopyUtils.copyToByteArray(data.getFile()), "UTF-8"), RailLocationFile.class);
         for (int index = 0; index < railLocationFile.getRailLocationJsons().size(); index++) {
             RailLocationJson railLocationJson = railLocationFile.getRailLocationJsons().get(index);
@@ -141,6 +144,51 @@ public class LocationService {
             return vo;
         } else {
             return null;
+        }
+    }
+
+    /**
+     * what:    通过腾讯地图获取地点集合. <br/>
+     * when:    (这里描述这个类的适用时机 – 可选).<br/>
+     * how:     (这里描述这个类的使用方法 – 可选).<br/>
+     * warning: (这里描述这个类的注意事项 – 可选).<br/>
+     *
+     * @author 靳磊 created on 2020/4/30
+     */
+    public List getLocations(String keyword) {
+        StringBuffer url = new StringBuffer();
+        url.append("https://apis.map.qq.com/ws/place/v1/search?");
+        url.append("boundary=region(全国)");
+//        url.append("&filter=category=火车站");
+        url.append("&page_size=20");
+        url.append("&page_index=1");
+        url.append("&orderby=_distance");
+        url.append("&key=SJ3BZ-QX3LF-3AKJA-NRZCQ-ILP4J-H4FKN");
+        url.append("&keyword=");
+        url.append(keyword);
+        RestTemplate restTemplate = new RestTemplate();
+        Map result = restTemplate.getForObject(url.substring(0), Map.class);
+        if (result.get("status").equals(0)) {
+            List<Map> data = (List<Map>) result.get("data");
+            for (int index = 0; index < data.size(); index++) {
+                Map<String, Object> entry = (Map) data.get(index);
+                entry.remove("id");
+                entry.remove("address");
+                entry.remove("tel");
+                entry.remove("category");
+                entry.remove("ad_info");
+                entry.remove("pano");
+                entry.remove("type");
+                entry.remove("type");
+                entry.put("locationName", entry.get("title"));
+                entry.remove("title");
+                Map<String, Double> location = (Map<String, Double>) entry.get("location");
+                entry.put("latLng", new double[]{location.get("lat"), location.get("lng")});
+                entry.remove("location");
+            }
+            return data;
+        } else {
+            return Collections.emptyList();
         }
     }
 }

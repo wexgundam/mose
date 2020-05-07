@@ -7,6 +7,8 @@ package mose.rail.core.service;
 
 import mose.CommonConfiguration;
 import mose.core.cache.EhCacheUtil;
+import mose.core.restful.RestfulClientModelMap;
+import mose.core.restful.RestfulTemplate;
 import mose.rail.core.vo.StationLocationVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -18,8 +20,15 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * what:    (这里用一句话描述这个类的作用). <br/>
@@ -35,8 +44,9 @@ import java.io.IOException;
         TestLocationService.class
 })
 @Configuration
-@ComponentScan(basePackages = "mose.rail.core.service", useDefaultFilters = false, includeFilters = {
-        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {LocationService.class})
+@ComponentScan(basePackages = "mose", useDefaultFilters = false, includeFilters = {
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {LocationService.class}),
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {RestfulTemplate.class})
 })
 public class TestLocationService {
     @Autowired
@@ -62,5 +72,11 @@ public class TestLocationService {
         Assert.assertNotNull(stationLocationVo);
         Assert.assertEquals(39.902802, stationLocationVo.getLatLng()[0], 0.0001);
         Assert.assertEquals(116.427048, stationLocationVo.getLatLng()[1], 0.0001);
+    }
+
+    @Test
+    public void testGetLatLng2() {
+        List locations = locationService.getLocations("北京");
+        Assert.assertNotNull(locations);
     }
 }

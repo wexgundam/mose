@@ -41,6 +41,7 @@ public class LocationServiceController {
         } else {
             modelMap.put("success", false);
             modelMap.put("message", "no such station whose name is [" + stationName + "].");
+            modelMap.put("data", locationService.getLocations(stationName));
         }
         String json = JsonUtil.toStr(modelMap);
         WebUtil.out(response, json);
