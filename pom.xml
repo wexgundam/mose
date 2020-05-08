@@ -13,6 +13,7 @@
         <module>web</module>
         <module>rail.core</module>
         <module>rail.web</module>
+        <module>rail.public</module>
     </modules>
 
     <properties>

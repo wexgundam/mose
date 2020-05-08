@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>编辑多边形</title>
+    <script src="D:\develop\ui\metronic_v4.7.5\_start\plugins\jquery.min.js"></script>
+    <script src="D:\develop\ui\EaselJS-1.0.0\lib\easeljs.js"></script>
+    <script src="D:\develop\workspace\intellijidea\rail\rail-web\src\main\webapp\assets\vector-tile\vector-tile.js"></script>
+    <script>
+        document.oncontextmenu = function () {
+            return false;
+        };
+        /**
+         * *********************
+         * 可编辑多边形
+         *
+         * 1. 多边形，
+         * 2. 多边形的顶点
+         * 3. 多边形边的中点
+         * 4. 拖拽顶点，顶点数量不增加，改变多边形形状
+         * 5. 拖拽中点，被拖拽的中点成为新的顶点，改变多边形形状
+         * 6. 双击顶点，被双击顶点不再是顶点，改变多边形形状
+         * 7. 多边形定义采用回归顶点方式定义，即n+1，n代表顶点数，n+1代表多变形数据开始顶点和结束顶点为同一坐标点
+         *    （坐标数组-2) / 2 == 多边形顶点数 == 多边形边数
+         * *********************
+         *
+         **/
+        function Polygon() {
+            // 左上角坐标
+            this.x = null;
+            // 左上角坐标
+            this.y = null;
+            // 多边形坐标点串数组
+            this.xys = null;
+            // 是否可以编辑
+            this.editable = false;
+            // polygonShape容器
+            this.container = null;
+            // 显示用多边形图形
+            this.polygonShape = null;
+            // operation容器
+            this.operationShapeContainer = null;
+            // 操作辅助线
+            this.operationLine = null;
+        };
+        /**
+         *  根据给定的坐标，创建默认可编辑多边形
+         *  给定坐标将被设置为多边形左上角坐标
+         *  其所包含图形将以该坐标为原点进行绘制
+         *  默认多边形，以给定坐标为顶点之一，构件一个三角形
+         **/
+        Polygon.prototype.createDefault = function (x, y) {
+            this.x = x;
+            this.y = y;
+            this.xys = [0, -50, -50, +50, +50, +50, 0, -50];
+            this.createShape();
+        };
+        // 构件图形
+        Polygon.prototype.createShape = function () {
+            // 多边形容器
+            this.container = new createjs.Container();
+            this.container.x = this.x;
+            this.container.y = this.y;
+
+            // 多边形图形
+            this.polygonShape = this.createPolygonShape(this.xys);
+            this.container.addChild(this.polygonShape);
+
+            // operation容器
+            this.operationShapeContainer = new createjs.Container();
+            this.operationShapeContainer.x = 0;
+            this.operationShapeContainer.y = 0;
+            this.container.addChild(this.operationShapeContainer);
+            // 操作辅助线
+            this.operationLine = new createjs.Shape();
+            this.operationLine.x = 0;
+            this.operationLine.y = 0;
+            this.operationLine.strokeColor = "rgba(31, 140, 255, 1)";
+            this.container.addChild(this.operationLine);
+        };
+        // 创建多边形图形
+        Polygon.prototype.createPolygonShape = function (xys) {
+            var polygonShape = new createjs.Shape();
+            polygonShape.x = 0;
+            polygonShape.y = 0;
+            polygonShape.xys = xys;
+            polygonShape.fillColor = randomColor(0.2);
+            polygonShape.strokeColor = randomColor(1);
+
+            var polygon = this;
+
+            // 双击多边形，切换可编辑状态
+            function doubleClickHandleInteraction(event) {
+                polygon.editable = !polygon.editable;
+                if (polygon.editable) {
+                    polygon.createOperationShapes();
+                    polygon.container.addChild(polygon.operationShapeContainer);
+                    polygon.view.polygon = polygon;
+                } else {
+                    polygon.container.removeChild(polygon.operationShapeContainer);
+                    polygon.view.polygon = null;
+                }
+            }
+
+            polygonShape.on("dblclick", doubleClickHandleInteraction);
+
+            this.paintPolygonShape(polygonShape);
+
+            return polygonShape;
+        };
+        // 绘制多边形图形
+        Polygon.prototype.paintPolygonShape = function (polygonShape) {
+            polygonShape.graphics.clear().beginStroke(polygonShape.strokeColor).beginFill(polygonShape.fillColor);
+            for (var xysIndex = 0; xysIndex < polygonShape.xys.length; xysIndex += 2) {
+                // 创建多边形图形
+                if (xysIndex == 0) {
+                    polygonShape.graphics.moveTo(polygonShape.xys[xysIndex], polygonShape.xys[xysIndex + 1]);
+                } else {
+                    polygonShape.graphics.lineTo(polygonShape.xys[xysIndex], polygonShape.xys[xysIndex + 1]);
+                }
+            }
+            polygonShape.graphics.endFill();
+        };
+        // 批量创建操作点图形
+        Polygon.prototype.createOperationShapes = function () {
+            // 清空
+            this.operationShapeContainer.removeAllChildren();
+            // 因为模型采用的是回归原点方式，所以（坐标数组-2) / 2 == 多边形顶点数 == 多边形边数
+            for (var xysIndex = 0; xysIndex < this.xys.length - 2; xysIndex += 2) {
+                // 创建多边形顶点图形
+                var operationShape = this.createOperationShape(this.xys[xysIndex], this.xys[xysIndex + 1], 1, true);
+                this.operationShapeContainer.addChild(operationShape);
+
+                // 创建多边形边的中点图形
+                var operationShape = this.createOperationShape((this.xys[xysIndex] + this.xys[xysIndex + 2]) / 2,
+                    (this.xys[xysIndex + 1] + this.xys[xysIndex + 3]) / 2, 0.5, false);
+                this.operationShapeContainer.addChild(operationShape);
+            }
+        };
+        // 创建操作点图形
+        Polygon.prototype.createOperationShape = function (x, y, alpha, isVertex) {
+            // 创建多边形边的中点图形
+            var shape = new createjs.Shape();
+            shape.x = x;
+            shape.y = y;
+            shape.isVertex = isVertex;
+            shape.radios = 5;
+            shape.fillColor = "rgba(255, 255, 255, " + alpha + ")";
+            shape.strokeColor = "rgba(31, 140, 255, " + alpha + ")";
+            shape.graphics
+                .beginStroke(shape.strokeColor)
+                .beginFill(shape.fillColor)
+                .drawCircle(0, 0, shape.radios)
+                .endFill();
+            shape.cursor = "pointer";
+
+            var handler = new OperationShapeActionHandler(this);
+
+            shape.on("mouseover", function (e) {
+                handler.mouseOver(e);
+            });
+            shape.on("mouseout", function (e) {
+                handler.mouseOut(e);
+            });
+            shape.on("pressmove", function (e) {
+                handler.pressMove(e);
+            });
+            shape.on("pressup", function (e) {
+                handler.pressUp(e);
+            });
+            shape.on("dblclick", function (e) {
+                handler.doubleClick(e);
+            });
+
+
+            return shape;
+        };
+        // 获取给定操作点左右相邻的操作点集合
+        Polygon.prototype.getAdjoinPolygonVertexShapes = function (centerOperationShape) {
+            // 当前处理操作点的索引
+            var centerOperationShapeIndex = this.operationShapeContainer.getChildIndex(centerOperationShape);
+            // 前一个多边形顶点类操作点
+            var previousPolygonVertexOperationShape = null;
+            // 后一个多边形顶点类操作点
+            var nextPolygonVertexOperationShape = null;
+
+            for (var index = 0; index < centerOperationShapeIndex; index++) {
+                var operationShape = this.operationShapeContainer.getChildAt(index);
+                if (!operationShape.isVertex) {
+                    continue;
+                }
+                previousPolygonVertexOperationShape = operationShape;
+                if (nextPolygonVertexOperationShape == null) {
+                    nextPolygonVertexOperationShape = operationShape;
+                }
+            }
+            for (var index = this.operationShapeContainer.children.length - 1; index > centerOperationShapeIndex; index--) {
+                var operationShape = this.operationShapeContainer.getChildAt(index);
+                if (!operationShape.isVertex) {
+                    continue;
+                }
+                if (previousPolygonVertexOperationShape == null) {
+                    previousPolygonVertexOperationShape = operationShape;
+                }
+                nextPolygonVertexOperationShape = operationShape;
+            }
+            return [previousPolygonVertexOperationShape, centerOperationShape, nextPolygonVertexOperationShape];
+        };
+        // 重置多边形
+        Polygon.prototype.resetXys = function () {
+            this.xys = [];
+            for (var index = 0; index < this.operationShapeContainer.children.length; index++) {
+                var operationShape = this.operationShapeContainer.getChildAt(index);
+                if (operationShape.isVertex) {
+                    this.xys.push(operationShape.x);
+                    this.xys.push(operationShape.y);
+                }
+            }
+            this.xys.push(this.xys[0]);
+            this.xys.push(this.xys[1]);
+            this.polygonShape.xys = this.xys;
+            this.paintPolygonShape(this.polygonShape);
+            this.createOperationShapes();
+        };
+        // 获取多边形的图形
+        Polygon.prototype.getShape = function () {
+            return this.container;
+        };
+
+        /**
+         * 定义操作点事件监听器
+         */
+        function OperationShapeActionHandler(polygon) {
+            this.polygon = polygon;
+        };
+        OperationShapeActionHandler.prototype.pressMove = function (event) {
+            var operationShape = event.target;
+            operationShape.isVertex = true;
+            operationShape.x += event.localX;
+            operationShape.y += event.localY;
+
+            var operationLine = this.polygon.operationLine;
+            var adjoinPolygonVertexShapes = this.polygon.getAdjoinPolygonVertexShapes(operationShape);
+            operationLine.graphics.clear().setStrokeDash([5, 5], 0).setStrokeStyle(2, "round").beginStroke(
+                operationLine.strokeColor);
+            operationLine.graphics.moveTo(
+                adjoinPolygonVertexShapes[0].x, adjoinPolygonVertexShapes[0].y)
+                .lineTo(adjoinPolygonVertexShapes[1].x, adjoinPolygonVertexShapes[1].y)
+                .lineTo(adjoinPolygonVertexShapes[2].x, adjoinPolygonVertexShapes[2].y);
+            operationLine.graphics.endFill();
+        };
+        OperationShapeActionHandler.prototype.pressUp = function (event) {
+            this.polygon.operationLine.graphics.clear();
+            this.polygon.resetXys();
+        };
+        OperationShapeActionHandler.prototype.doubleClick = function (event) {
+            //消除顶点
+            var operationShape = event.target;
+            // 非多边形顶点或顶点数不足3个的不消除顶点
+            if (!operationShape.isVertex || this.polygon.xys.length < 9) {
+                return;
+            }
+            this.polygon.operationShapeContainer.removeChild(operationShape);
+            this.polygon.resetXys();
+        };
+        OperationShapeActionHandler.prototype.mouseOver = function (event) {
+            // 鼠标悬浮跟换背景色
+            var radios = event.target.radios;
+            var strokeColor = event.target.strokeColor;
+            var graphics = event.target.graphics;
+            graphics.clear()
+                .beginStroke(strokeColor)
+                .beginFill("red")
+                .drawCircle(0, 0, radios)
+                .endFill();
+        };
+        OperationShapeActionHandler.prototype.mouseOut = function (event) {
+            // 鼠标移出恢复背景色
+            var radios = event.target.radios;
+            var fillColor = event.target.fillColor;
+            var strokeColor = event.target.strokeColor;
+            var graphics = event.target.graphics;
+            graphics.clear()
+                .beginStroke(strokeColor)
+                .beginFill(fillColor)
+                .drawCircle(0, 0, radios)
+                .endFill();
+        };
+
+        /**
+         * 生成随机色
+         *
+         * */
+        function randomColor(alpha) {
+            var r = Math.round(Math.random() * 255);
+            var g = Math.round(Math.random() * 255);
+            var b = Math.round(Math.random() * 255);
+            return "rgba(" + r + "," + g + "," + b + "," + alpha + ")";
+        }
+
+        /**
+         * 新增多边形处理器
+         */
+        function AddPolygonActionHandler(view) {
+            this.view = view;
+            this.polygon = null;
+        };
+        // 新增多边形
+        AddPolygonActionHandler.prototype.create = function (event) {
+            if (event.nativeEvent.button != 2 || this.view.polygon != null) {
+                return;
+            }
+            var polygon = new Polygon();
+            polygon.view = this.view;
+            polygon.createDefault(event.stageX, event.stageY);
+            polygon.editable = true;
+            polygon.createOperationShapes();
+            this.view.polygon = polygon;
+            this.view.addShape(polygon.getShape());
+        };
+        // 清除被编辑的多边形
+        AddPolygonActionHandler.prototype.clear = function (e) {
+            if (this.view.polygon != null) {
+                this.view.removeShape(this.view.polygon.getShape());
+                this.view.polygon = null;
+            }
+        };
+        // 放大
+        AddPolygonActionHandler.prototype.zoomIn = function (e) {
+            this.view.zoomLevel = this.view.zoomLevel * 2;
+            this.view.stage.scaleX = this.view.zoomLevel;
+            this.view.stage.scaleY = this.view.zoomLevel;
+            this.view.stage.x = -400 * this.view.zoomLevel + 400;
+            this.view.stage.y = -400 * this.view.zoomLevel + 400;
+            $("#zoomLevelText").attr("value", this.view.zoomLevel);
+        };
+        // 缩小
+        AddPolygonActionHandler.prototype.zoomOut = function (e) {
+            this.view.zoomLevel = this.view.zoomLevel / 2;
+            this.view.stage.scaleX = this.view.zoomLevel;
+            this.view.stage.scaleY = this.view.zoomLevel;
+            this.view.stage.x = -400 * this.view.zoomLevel + 400;
+            this.view.stage.y = -400 * this.view.zoomLevel + 400;
+            $("#zoomLevelText").attr("value", this.view.zoomLevel);
+        };
+
+        function init() {
+            var stage = new createjs.Stage("demoCanvas");
+            stage.enableMouseOver(10);
+            /**
+             * 矢量瓦片系统的视图对象
+             * @type {Object}
+             */
+            var view = new View();
+            //关联stage
+            view.stage = stage;
+            //视图范围宽
+            view.width = 800;
+            //视图范围高
+            view.height = 800;
+            //缩放等级
+            view.zoomLevel = 1;
+
+            var shape = new createjs.Shape();
+            shape.radios = 5;
+            shape.fillColor = "rgba(255, 255, 255, " + 1 + ")";
+            shape.strokeColor = "rgba(31, 140, 255, " + 1 + ")";
+            shape.graphics
+                .beginStroke(shape.strokeColor)
+                .beginFill(shape.fillColor)
+                .drawCircle(400, 400, shape.radios)
+                .endFill();
+            shape.cursor = "pointer";
+            view.stage.addChild(shape);
+
+            // 编辑多边形处理器
+            var addPolygonActionHandler = new AddPolygonActionHandler(view);
+            stage.on("stagemousedown", function (e) {
+                addPolygonActionHandler.create(e);
+            });
+
+            // 移除被编辑的多边形
+            $("#deleteEditingPolygon").on("click", function (e) {
+                addPolygonActionHandler.clear();
+            });
+
+            // 放大
+            $("#zoomInButton").on("click", function (e) {
+                addPolygonActionHandler.zoomIn();
+            });
+            // 放大
+            $("#zoomOutButton").on("click", function (e) {
+                addPolygonActionHandler.zoomOut();
+            });
+            // 放大
+            $("#leftButton").on("click", function (e) {
+                view.stage.x += 10;
+            });
+
+            //启动定时器，定时刷新
+            // these are equivalent, 1000ms / 40fps = 25ms
+            createjs.Ticker.interval = 1000;
+            createjs.Ticker.framerate = 10;
+            createjs.Ticker.addEventListener("tick", function (event) {
+                if (view.loading) {
+                    return;
+                }
+                view.load();
+                view.paint();
+            });
+        }
+    </script>
+</head>
+<body onload="init();">
+    <div>
+        <input id="deleteEditingPolygon" type="button" value="删除">
+        <input id="zoomInButton" type="button" value="放大" />
+        <input id="zoomOutButton" type="button" value="缩小">
+        <input id="zoomLevelText" type="text" value="1">
+        <input id="leftButton" type="button" value="left">
+    </div>
+    <canvas id="demoCanvas" width="800" height="800">
+        alternate content
+    </canvas>
+</body>
+</html>
