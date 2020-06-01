@@ -9,6 +9,7 @@ import mose.core.json.JsonUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -20,14 +21,15 @@ import java.io.InputStream;
  *
  * @author 靳磊 created on 2019/10/12
  */
-public class TestLoadJsonFile {
+public class WriteJsonFile {
     @Test
-    public void testLoad() throws IOException {
-        InputStream inputStream = this.getClass().getResourceAsStream("nodeViews.json");
-        byte[] bytes = new byte[inputStream.available()];
-        inputStream.read(bytes);
-        String json = new String(bytes);
-        NodeView[] nodeView = JsonUtil.toObject(json, NodeView[].class);
+    public void testWrite() throws IOException {
+        NodeView nodeView = new NodeView();
+        nodeView.setId("test");
+        String json = JsonUtil.toStr(nodeView);
+        FileOutputStream outputStream = new FileOutputStream("D://test.json");
+        outputStream.write(json.getBytes("utf-8"));
+        outputStream.close();
         Assert.assertNotNull(nodeView);
     }
 }

@@ -95,52 +95,78 @@
         };
 
         var doLoad = function (view) {
-            var url = jQuery.dynamicServer + '/rail/networkmap/features.htm?';
-            url += 'zoom-level=' + view.zoomLevel;
-            url += '&previous-zoom-level=' + view.previousZoomLevel;
-            url += '&view-width=' + view.width;
-            url += '&view-height=' + view.height;
-            url += '&figure-center-view-coordinate-delta-x=' + view.figureCenterViewCoordinateDeltaX;
-            url += '&figure-center-view-coordinate-delta-y=' + view.figureCenterViewCoordinateDeltaY;
-            url += '&locked-view-coordinate-delta-x=' + view.lockedViewCoordinateDeltaX;
-            url += '&locked-view-coordinate-delta-y=' + view.lockedViewCoordinateDeltaY;
+            // var url = jQuery.dynamicServer + '/rail/networkmap/features.htm?';
+            // url += 'zoom-level=' + view.zoomLevel;
+            // url += '&previous-zoom-level=' + view.previousZoomLevel;
+            // url += '&view-width=' + view.width;
+            // url += '&view-height=' + view.height;
+            // url += '&figure-center-view-coordinate-delta-x=' + view.figureCenterViewCoordinateDeltaX;
+            // url += '&figure-center-view-coordinate-delta-y=' + view.figureCenterViewCoordinateDeltaY;
+            // url += '&locked-view-coordinate-delta-x=' + view.lockedViewCoordinateDeltaX;
+            // url += '&locked-view-coordinate-delta-y=' + view.lockedViewCoordinateDeltaY;
+            //
+            // $.ajax({
+            //     type: 'GET',
+            //     url: url,
+            //     dataType: 'json',
+            //     success: function (result) {
+            //         if (result["success"]) {
+            //             //获取缩放等级
+            //             view.zoomLevel = result.data.zoomLevel;
+            //             //最小缩放等级
+            //             view.minZoomLevel = result.data.minZoomLevel;
+            //             //最大缩放等级
+            //             view.maxZoomLevel = result.data.maxZoomLevel;
+            //             //获取视同中心点视图坐标偏移量x
+            //             view.figureCenterViewCoordinateDeltaX = result.data.figureCenterViewCoordinateDeltaX;
+            //             //获取视同中心点视图坐标偏移量y
+            //             view.figureCenterViewCoordinateDeltaY = result.data.figureCenterViewCoordinateDeltaY;
+            //
+            //             view.removeAllShapes();
+            //
+            //             for (var index = 0; index < result.data.points.length; index++) {
+            //                 var point = result.data.points[index];
+            //                 view.addShape(createPointShape(point));
+            //             }
+            //             for (var index = 0; index < result.data.texts.length; index++) {
+            //                 var text = result.data.texts[index];
+            //                 view.addShape(createTextShape(text));
+            //             }
+            //             for (var index = 0; index < result.data.lineStrings.length; index++) {
+            //                 var lineString = result.data.lineStrings[index];
+            //                 view.addShape(createLineStringShape(lineString));
+            //             }
+            //
+            //             view.loading = false;
+            //         }
+            //     }
+            // });
 
-            $.ajax({
-                type: 'GET',
-                url: url,
-                dataType: 'json',
-                success: function (result) {
-                    if (result["success"]) {
-                        //获取缩放等级
-                        view.zoomLevel = result.data.zoomLevel;
-                        //最小缩放等级
-                        view.minZoomLevel = result.data.minZoomLevel;
-                        //最大缩放等级
-                        view.maxZoomLevel = result.data.maxZoomLevel;
-                        //获取视同中心点视图坐标偏移量x
-                        view.figureCenterViewCoordinateDeltaX = result.data.figureCenterViewCoordinateDeltaX;
-                        //获取视同中心点视图坐标偏移量y
-                        view.figureCenterViewCoordinateDeltaY = result.data.figureCenterViewCoordinateDeltaY;
+            view.zoomLevel = 1;
+            //最小缩放等级
+            view.minZoomLevel = 1;
+            //最大缩放等级
+            view.maxZoomLevel = 8;
+            //获取视同中心点视图坐标偏移量x
+            view.figureCenterViewCoordinateDeltaX = 300;
+            //获取视同中心点视图坐标偏移量y
+            view.figureCenterViewCoordinateDeltaY = 400;
 
-                        view.removeAllShapes();
+            view.removeAllShapes();
 
-                        for (var index = 0; index < result.data.points.length; index++) {
-                            var point = result.data.points[index];
-                            view.addShape(createPointShape(point));
-                        }
-                        for (var index = 0; index < result.data.texts.length; index++) {
-                            var text = result.data.texts[index];
-                            view.addShape(createTextShape(text));
-                        }
-                        for (var index = 0; index < result.data.lineStrings.length; index++) {
-                            var lineString = result.data.lineStrings[index];
-                            view.addShape(createLineStringShape(lineString));
-                        }
+            for (var index = 0; index < nodeVos.length; index++) {
+                view.addShape(createPointShape(nodeVos[index]));
+            }
+            // for (var index = 0; index < result.data.texts.length; index++) {
+            //     var text = result.data.texts[index];
+            //     view.addShape(createTextShape(text));
+            // }
+            // for (var index = 0; index < result.data.lineStrings.length; index++) {
+            //     var lineString = result.data.lineStrings[index];
+            //     view.addShape(createLineStringShape(lineString));
+            // }
 
-                        view.loading = false;
-                    }
-                }
-            });
+            view.loading = false;
         };
 
         //初始化canvas尺寸
@@ -155,8 +181,10 @@
         pageContentParents.css("padding-right", "0px");
 
         var actions = pageContentParents.find("#actions");
-        vectorTileCanvas.get(0).width = pageContentParents.width();
-        vectorTileCanvas.get(0).height = pageContentParents.height() - actions.outerHeight() - 4;
+        // vectorTileCanvas.get(0).width = pageContentParents.width();
+        // vectorTileCanvas.get(0).height = pageContentParents.height() - actions.outerHeight() - 4;
+        vectorTileCanvas.get(0).width = 600;
+        vectorTileCanvas.get(0).height = 800;
 
         var vectorTile = new VectorTile();
         vectorTile.canvasId = "vectorTileCanvas";

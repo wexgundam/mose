@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Tutorial Demo</title>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.4.9/dist/g6.min.js"></script>
+</head>
+<body>
+    <div id="mountNode"></div>
+    <script>
+        const data = {
+            nodes: [
+                {
+                    id: 'node1',
+                    label: 'node1',
+                    x: 100,
+                    y: 200,
+                    visible: false,
+                    // 该节点可选的连接点集合，该点有两个可选的连接点
+                    anchorPoints: [
+                        [0, 1],
+                        [0.8, 1],
+                    ],
+                    type: 'rect',
+                    // 节点上左右上下四个方向上的链接circle配置
+                    linkPoints: {
+                        top: true,
+                        right: false,
+                        bottom: true,
+                        left: false,
+                        // circle的大小
+                        size: 5,
+                        lineWidth: 1,
+                        fill: '#fff',
+                        stroke: '#1890FF',
+                    },
+                },
+                {
+                    id: 'node2',
+                    label: 'node2',
+                    x: 300,
+                    y: 400,
+                    // 该节点可选的连接点集合，该点有两个可选的连接点
+                    anchorPoints: [
+                        [0.5, 0],
+                        [1, 0.5],
+                    ],
+                    type: 'rect',
+                },
+            ],
+            edges: [
+                {
+                    source: 'node1',
+                    target: 'node2',
+                    // 该边连入 source 点的第 0 个 anchorPoint，
+                    sourceAnchor: 0,
+                    // 该边连入 target 点的第 0 个 anchorPoint，
+                    targetAnchor: 0,
+                    style: {
+                        endArrow: true,
+                    },
+                },
+                {
+                    source: 'node2',
+                    target: 'node1',
+                    // 该边连入 source 点的第 1 个 anchorPoint，
+                    sourceAnchor: 1,
+                    // 该边连入 source 点的第 1 个 anchorPoint，
+                    targetAnchor: 1,
+                    style: {
+                        endArrow: true,
+                    },
+                },
+            ],
+        };
+
+        // 创建 G6 图实例
+        const graph = new G6.Graph({
+            container: 'mountNode', // 指定图画布的容器 id，与第 9 行的容器对应
+            // 画布宽高
+            width: 800,
+            height: 500,
+            minZoom: 0.01,
+            maxZoom: 20,
+            fitView: true,
+            modes: {
+                default: ['drag-canvas', 'drag-node'],
+            },
+            defaultNode: {
+                size: 45,
+                type: 'star',
+                size: [120, 60],
+                style: {
+                    fill: '#ff313b',
+                    stroke: '#5B8FF9',
+                    lineWidth: 3,
+                },
+            },
+            nodeStateStyles: {
+                // 鼠标hover状态下的配置
+                hover: {
+                    fillOpacity: 0.2,
+                },
+                // 选中节点状态下的配置
+                selected: {
+                    lineWidth: 5,
+                },
+            },
+        });
+        // 读取数据
+        graph.data(data);
+        // 渲染图
+        graph.render();
+
+        graph.on('node:mouseenter', evt => {
+            const {item} = evt;
+            graph.setItemState(item, 'hover', true);
+        });
+
+        graph.on('node:mouseleave', evt => {
+            const {item} = evt;
+            graph.setItemState(item, 'hover', false);
+        });
+
+        graph.on('node:click', evt => {
+            const {item} = evt;
+            graph.setItemState(item, 'selected', true);
+        });
+    </script>
+</body>
+</html>

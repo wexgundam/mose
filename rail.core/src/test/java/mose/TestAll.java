@@ -6,7 +6,7 @@
 package mose;
 
 
-import mose.rail.core.service.TestLocationService;
+import mose.rail.core.vo.LoadJsonFile;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -33,7 +33,6 @@ import org.junit.runners.Suite;
         mose.rail.core.service.TestTrainlineDeportService.class,
         mose.rail.core.service.TestTrainlineService.class,
         mose.rail.core.service.TestYardService.class,
-        mose.rail.core.vo.TestLoadJsonFile.class,
         mose.tile.modal.TestTileBounds.class
 })
 public class TestAll {

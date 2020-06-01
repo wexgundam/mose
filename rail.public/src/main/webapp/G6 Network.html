@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>G6 Network</title>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.4.9/dist/g6.min.js"></script>
+    <!--<script src="D:\develop\ui\metronic_v4.7.5\_start\plugins\jquery.min.js"></script>-->
+    <script src="http://10.1.117.43:8090/assets/metronic4.7/global/plugins/jquery.min.js"></script>
+</head>
+<body>
+    <div id="mountNode"></div>
+    <script>
+        const main = async () => {
+                const response = await fetch('G6DataSimple.json');
+                const data = await response.json();
+
+                // 实例化 minimap 插件
+                const minimap = new G6.Minimap({
+                    size: [200, 200],
+                    className: 'minimap',
+                    type: 'delegate',
+                });
+                // 实例化 grid 插件
+                const grid = new G6.Grid();
+
+
+                const graph = new G6.Graph({
+                        container: 'mountNode',
+                        width: 500,
+                        height: 500,
+                        // 内置交互
+                        modes: {
+                            default: ['drag-canvas', {
+                                type: 'zoom-canvas',
+                                sensitivity: 5,
+                                minZoom: 0.01,
+                                maxZoom: 30,
+                            }, 'drag-node', 'click-select'],
+                        },
+                        defaultNode: {
+                            style: {fillOpacity: 0.3, fill: "blue", stroke: "black"},
+                            stateStyles: {
+                                hover: {fill: "lightsteelblue"},
+                                selected: {stroke: "green", lineWidth: 3},
+                            },
+                            labelCfg: {
+                                position: 'bottom',
+                            },
+                        },
+//                fitView: true,
+                        minZoom: 0.0001,
+                        plugins: [minimap, grid], // 将 minimap 实例配置到图上
+                    }
+                    )
+                ;
+
+                // 鼠标进入节点
+                graph.on('node:mouseenter', e => {
+                    const nodeItem = e.item; // 获取鼠标进入的节点元素对象
+                    graph.setItemState(nodeItem, 'hover', true); // 设置当前节点的 hover 状态为 true
+                });
+
+                // 鼠标离开节点
+                graph.on('node:mouseleave', e => {
+                    const nodeItem = e.item; // 获取鼠标离开的节点元素对象
+                    graph.setItemState(nodeItem, 'hover', false); // 设置当前节点的 hover 状态为 false
+                });
+
+                graph.data(data);
+                graph.render();
+                graph.zoom(0.01);
+                graph.focusItem("48804.0");//北京
+            }
+        ;
+        main();
+    </script>
+</body>
+</html>
