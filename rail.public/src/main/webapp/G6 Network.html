@@ -3,75 +3,601 @@
 <head>
     <meta charset="UTF-8" />
     <title>G6 Network</title>
-    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.4.9/dist/g6.min.js"></script>
-    <!--<script src="D:\develop\ui\metronic_v4.7.5\_start\plugins\jquery.min.js"></script>-->
-    <script src="http://10.1.117.43:8090/assets/metronic4.7/global/plugins/jquery.min.js"></script>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.5.2/dist/g6.min.js"></script>
+    <script src="assets/g6/polygon.js"></script>
+    <style>
+        .g6-minimap-container {
+            border: 1px solid #e2e2e2;
+        }
+
+        .g6-minimap-viewport {
+            border: 2px solid rgb(25, 128, 255);
+        }
+    </style>
 </head>
 <body>
     <div id="mountNode"></div>
     <script>
+        //背景图片
+        G6.registerCombo('backgroundCombo', {
+            drawShape(cfg, group) {
+                // Get the padding from the configuration
+                cfg.padding = [0, 0, 0, 0];
+                const image = group.addShape('rect', {
+                    attrs: {
+                        x: -128,
+                        y: -128,
+                        width: 256,
+                        height: 256,
+                        fill: 'red',
+                        stroke: 'red',
+                        fillOpacity: 0,
+                        strokeOpacity: 0,
+                    },
+                    draggable: true,
+                    name: 'combo-background'
+                });
+                return image;
+            },
+        }, 'rect');
+
+        //背景边界
+        G6.registerNode('backgroundPath', {
+            drawShape(cfg, group) {
+                const path = group.addShape('path', {
+                    attrs: {
+                        path: 'M 0,0 L 0,256 L 256,256 L 256,0 Z',
+                        stroke: '#000',
+                        lineWidth: 1,
+                        strokeOpacity: 0,
+                    },
+                    name: 'path-background',
+                });
+                return path;
+            },
+        }, 'rect');
+
+        //随机颜色
+        function randomColor() {
+            return 'rgb(' + Math.random() * 255 + ',' + Math.random() * 255 + ',' + Math.random() * 255 + ')';
+        }
+
         const main = async () => {
-                const response = await fetch('G6DataSimple.json');
-                const data = await response.json();
+            const dataManager = {
+                staticServer: 'http://localhost',
+                graph: null,
+                previousZoomLevel: -1,
+                zoomLevel: -1,
+                previousCanvasTopLeftPoint: [],
+                previousBackgroundPathXY: [],
+                canvasTopLeftPoint: [],
+                loadingTiles: false,
+                loadingBureauPolygons: false,
+                bureauPolygonNodes: [],
+                loadingBureauKeyPoints: false,
+                bureauKeyPointNodes: [],
+                loadingTrainlineDeportStations: false,
+                trainlineDeportStationNodes: [],
 
-                // 实例化 minimap 插件
-                const minimap = new G6.Minimap({
-                    size: [200, 200],
-                    className: 'minimap',
-                    type: 'delegate',
-                });
-                // 实例化 grid 插件
-                const grid = new G6.Grid();
+                refresh: function () {
+                    const context = this;
+                    context.previousCanvasTopLeftPoint = context.canvasTopLeftPoint;
+                    context.refreshTiles();
+                    context.refreshBureauPolygons();
+                    context.refreshBureauKeyPoints();
+                    context.refreshTrainlineDeportStations();
+                    const backgroundPath = context.graph.findById('backgroundPath');
+                    context.previousBackgroundPathXY = [backgroundPath.getModel().x, backgroundPath.getModel().y];
+                },
+                //加载背景瓦片
+                refreshTiles: function () {
+                    const doRefresh = async (context) => {
+
+                        var isloading = context.loadingTiles;
+                        if (isloading) {
+                            return;
+                        }
+
+                        isloading = true;
+
+                        const staticServer = context.staticServer;
+                        const graph = context.graph;
+                        const backgroundCombo = graph.findById('backgroundCombo');
+                        const group = backgroundCombo.getContainer();
+
+                        const zoomLevel = dataManager.zoomLevel;
+                        const previousZoomLevel = dataManager.previousZoomLevel;
+
+                        function clear() {
+                            for (var index = group.getChildren().length; index > 0; index--) {
+                                const node = group.getChildByIndex(index);
+                                group.removeChild(node);
+                                graph.removeItem(node);
+                            }
+                        }
+
+                        if (zoomLevel >= 0 && zoomLevel < 3
+                            && (previousZoomLevel >= 3 || previousZoomLevel < 0)) {
+                            clear();
+                            group.addShape('image', {
+                                attrs: {
+                                    x: -128,
+                                    y: -128,
+                                    width: 256,
+                                    height: 256,
+                                    img: staticServer + '/image/china-map-0-0-0.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                        }
+                        if (zoomLevel >= 3 && zoomLevel < 18
+                            && (previousZoomLevel >= 18 || previousZoomLevel < 3)) {
+                            clear();
+                            var k = 256 / 4.2;
+                            var deltaX = -11;
+                            var deltaY = 13;
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - 2 * k + deltaX,
+                                    y: -128 + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-1-0-0.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - k + deltaX,
+                                    y: -128 + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-1-1-0.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - 2 * k + deltaX,
+                                    y: -128 + k + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-1-0-1.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - k + deltaX,
+                                    y: -128 + k + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-1-1-1.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                        }
+                        if (zoomLevel >= 18 && zoomLevel < 19
+                            && (previousZoomLevel >= 19 || previousZoomLevel < 18)) {
+                            clear();
+                            var k = 256 / 4.2;
+                            var deltaX = -11;
+                            var deltaY = 13;
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - 2 * k + deltaX,
+                                    y: -128 + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-2-0-0.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - k + deltaX,
+                                    y: -128 + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-2-1-0.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - 2 * k + deltaX,
+                                    y: -128 + k + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-2-0-1.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                            group.addShape('image', {
+                                attrs: {
+                                    x: 128 - k + deltaX,
+                                    y: -128 + k + deltaY,
+                                    width: k,
+                                    height: k,
+                                    img: staticServer + '/image/china-map-2-1-1.png',
+                                },
+                                draggable: true,
+                                name: 'backgroundCombo-background'
+                            });
+                        }
+                        if (zoomLevel >= 19 && previousZoomLevel < 19) {
+                            clear();
+                        }
+
+                        isloading = false;
+                    };
+                    doRefresh(this);
+                },
+                //加载bureau polygon
+                refreshBureauPolygons: function () {
+                    const doRefresh = async (context) => {
+                        var isloading = context.loadingBureauPolygons;
+                        if (isloading) {
+                            return;
+                        }
+
+                        isloading = true;
+
+                        const staticServer = context.staticServer;
+                        const zoomLevel = context.zoomLevel;
+                        const previousZoomLevel = context.previousZoomLevel;
+                        const graph = context.graph;
+                        const backgroundCombo = graph.findById('backgroundCombo');
+                        const backgroundPath = graph.findById('backgroundPath');
+                        const backgroundPathX = backgroundPath.getModel().x;
+
+                        //清除时机
+                        if (previousZoomLevel >= 0 && previousZoomLevel < 3
+                            && (zoomLevel >= 3 || zoomLevel < 0)) {
+                            context.bureauPolygonNodes.forEach(node => {
+                                backgroundCombo.removeChild(node);
+                                graph.removeItem(node);
+                            });
+                            context.bureauPolygonNodes.length = 0;
+                        }
+
+                        //绘制时机
+                        if (zoomLevel >= 0 && zoomLevel < 3
+                            && (previousZoomLevel < 0 || previousZoomLevel >= 3)) {
+                            const backgroundPathY = backgroundPath.getModel().y;
+                            const bureauPolygonResponse = await fetch(staticServer + '/file/bureauPolygonVos.json');
+                            const bureauPolygonData = await bureauPolygonResponse.json();
+                            bureauPolygonData.bureauPolygonVos.forEach(bureauPolygonVo => {
+                                bureauPolygonVo.x += backgroundPathX;
+                                bureauPolygonVo.y += backgroundPathY;
+                                bureauPolygonVo.style.fill = randomColor();
+                                bureauPolygonVo.style.stroke = bureauPolygonVo.style.fill;
+                                const node = graph.addItem('node', bureauPolygonVo);
+                                context.bureauPolygonNodes.push(node);
+                                backgroundCombo.addChild(node);
+                            });
+                            backgroundCombo.toBack();
+                        }
+
+                        isloading = false;
+                    };
+                    doRefresh(this);
+                },
+                //加载bureau key point
+                refreshBureauKeyPoints: function () {
+                    const doRefresh = async (context) => {
+                        var isloading = context.loadingBureauKeyPoints;
+                        if (isloading) {
+                            return;
+                        }
+
+                        isloading = true;
+
+                        const staticServer = context.staticServer;
+                        const zoomLevel = context.zoomLevel;
+                        const previousZoomLevel = context.previousZoomLevel;
+                        const graph = context.graph;
+                        const backgroundCombo = graph.findById('backgroundCombo');
+                        const backgroundPath = graph.findById('backgroundPath');
+                        const backgroundPathX = backgroundPath.getModel().x;
+                        const backgroundPathY = backgroundPath.getModel().y;
+
+                        //清除时机
+                        if (previousZoomLevel >= 0 && previousZoomLevel < 5
+                            && (zoomLevel >= 5 || zoomLevel < 0)) {
+                            context.bureauKeyPointNodes.forEach(node => {
+                                backgroundCombo.removeChild(node);
+                                graph.removeItem(node);
+                            });
+                            context.bureauKeyPointNodes.length = 0;
+                        }
 
 
-                const graph = new G6.Graph({
-                        container: 'mountNode',
-                        width: 500,
-                        height: 500,
-                        // 内置交互
-                        modes: {
-                            default: ['drag-canvas', {
-                                type: 'zoom-canvas',
-                                sensitivity: 5,
-                                minZoom: 0.01,
-                                maxZoom: 30,
-                            }, 'drag-node', 'click-select'],
-                        },
-                        defaultNode: {
-                            style: {fillOpacity: 0.3, fill: "blue", stroke: "black"},
-                            stateStyles: {
-                                hover: {fill: "lightsteelblue"},
-                                selected: {stroke: "green", lineWidth: 3},
-                            },
-                            labelCfg: {
-                                position: 'bottom',
-                            },
-                        },
-//                fitView: true,
-                        minZoom: 0.0001,
-                        plugins: [minimap, grid], // 将 minimap 实例配置到图上
+                        //绘制时机
+                        if (zoomLevel >= 0 && zoomLevel < 5
+                            && (previousZoomLevel < 0 || previousZoomLevel >= 5)) {
+                            const bureauKeyPointResponse = await fetch(staticServer + '/file/bureauKeyPointVos.json');
+                            const bureauKeyPointData = await bureauKeyPointResponse.json();
+                            bureauKeyPointData.bureauKeyPointVos.forEach(bureauKeyPointVo => {
+                                bureauKeyPointVo.x += backgroundPathX;
+                                bureauKeyPointVo.y += backgroundPathY;
+                                const node = graph.addItem('node', bureauKeyPointVo);
+                                context.bureauKeyPointNodes.push(node);
+                                backgroundCombo.addChild(node);
+                            });
+                            backgroundCombo.toBack();
+                        }
+
+                        isloading = false;
+                    };
+                    doRefresh(this);
+                },
+                //加载trainline deport stations
+                refreshTrainlineDeportStations: function () {
+                    const doRefresh = async (context) => {
+                        var isloading = context.loadingTrainlineDeportStations;
+                        if (isloading) {
+                            return;
+                        }
+
+                        isloading = true;
+                        const staticServer = context.staticServer;
+                        const graph = context.graph;
+                        const zoomLevel = context.zoomLevel;
+                        const previousZoomLevel = context.previousZoomLevel;
+                        const previousCanvasTopLeftPoint = context.previousCanvasTopLeftPoint;
+                        const pointByCanvas = graph.getPointByCanvas(0, 0);
+                        const canvasTopLeftPoint = [pointByCanvas.x, pointByCanvas.y];
+                        const trainlineDeportStationNodes = context.trainlineDeportStationNodes;
+
+                        const topLeftPointByCanvas = graph.getPointByCanvas(0, 0);
+                        const bottomRightPointByCanvas = graph.getPointByCanvas(graph.get('width'),
+                            graph.get('height'));
+                        const backgroundCombo = graph.findById('backgroundCombo');
+                        const backgroundPath = graph.findById('backgroundPath');
+                        const previousBackgroundPathXY = context.previousBackgroundPathXY;
+                        const backgroundPathX = backgroundPath.getModel().x;
+                        const backgroundPathY = backgroundPath.getModel().y;
+
+                        var toClear = false;
+                        var toLoad = false;
+                        //时机
+                        if (zoomLevel < 18 && previousZoomLevel >= 18) {
+                            toClear = true;
+                        }
+                        if (zoomLevel >= 18 && previousZoomLevel < 18) {
+                            toClear = true;
+                            toLoad = true;
+                        }
+                        if (zoomLevel >= 18
+                            && (canvasTopLeftPoint.x != previousCanvasTopLeftPoint.x
+                            || canvasTopLeftPoint.y != previousCanvasTopLeftPoint.y
+                            || backgroundPathX != previousBackgroundPathXY.x
+                            || backgroundPathY != previousBackgroundPathXY.y)) {
+                            toClear = true;
+                            toLoad = true;
+                        }
+                        if (toClear) {
+                            trainlineDeportStationNodes.forEach(node => {
+                                backgroundCombo.removeChild(node);
+                                graph.removeItem(node);
+                            });
+                            trainlineDeportStationNodes.length = 0;
+                        }
+                        if (toLoad) {
+                            const trainlineDeportStationResponse = await fetch(
+                                staticServer + '/file/trainlineDeportStationVos.json');
+                            const trainlineDeportStationData = await
+                                trainlineDeportStationResponse.json();
+                            trainlineDeportStationNodes.length = 0;
+                            trainlineDeportStationData.trainlineDeportStationVos.forEach(trainlineDeport => {
+                                const color = randomColor();
+                                trainlineDeport.forEach(trainlineDeportStationVo => {
+                                    trainlineDeportStationVo.x += backgroundPathX;
+                                    trainlineDeportStationVo.y += backgroundPathY;
+                                    if (trainlineDeportStationVo.x > topLeftPointByCanvas.x
+                                        && trainlineDeportStationVo.x < bottomRightPointByCanvas.x
+                                        && trainlineDeportStationVo.y > topLeftPointByCanvas.y
+                                        && trainlineDeportStationVo.y < bottomRightPointByCanvas.y) {
+                                        trainlineDeportStationVo.style.stroke = color;
+                                        trainlineDeportStationVo.style.fill = color;
+                                        trainlineDeportStationVo.size = 0.03;
+                                        trainlineDeportStationVo.style.lineWidth = 0.03;
+                                        const node = graph.addItem('node', trainlineDeportStationVo);
+                                        trainlineDeportStationNodes.push(node);
+                                        backgroundCombo.addChild(node);
+                                    }
+                                });
+                            });
+                            backgroundCombo.toBack();
+                        }
+
+                        isloading = false;
+                    };
+                    doRefresh(this);
+                },
+                //刷新缩放级别
+                refreshZoomLevel: function () {
+                    const zoom = graph.getZoom();
+
+                    var zoomLevel = -1;
+                    if (zoom >= 0) {
+                        zoomLevel = 0;
                     }
-                    )
-                ;
+                    if (zoom >= 2) {
+                        zoomLevel = 1;
+                    }
+                    if (zoom >= 4) {
+                        zoomLevel = 2;
+                    }
+                    if (zoom >= 6) {
+                        zoomLevel = 3;
+                    }
+                    if (zoom >= 8) {
+                        zoomLevel = 4;
+                    }
+                    if (zoom >= 10) {
+                        zoomLevel = 5;
+                    }
+                    if (zoom >= 12) {
+                        zoomLevel = 6;
+                    }
+                    if (zoom >= 14) {
+                        zoomLevel = 7;
+                    }
+                    if (zoom >= 16) {
+                        zoomLevel = 8;
+                    }
+                    if (zoom >= 18) {
+                        zoomLevel = 9;
+                    }
+                    if (zoom >= 20) {
+                        zoomLevel = 10;
+                    }
+                    if (zoom >= 22) {
+                        zoomLevel = 11;
+                    }
+                    if (zoom >= 24) {
+                        zoomLevel = 12;
+                    }
+                    if (zoom >= 26) {
+                        zoomLevel = 13;
+                    }
+                    if (zoom >= 28) {
+                        zoomLevel = 14;
+                    }
+                    if (zoom >= 30) {
+                        zoomLevel = 15;
+                    }
+                    if (zoom >= 32) {
+                        zoomLevel = 16;
+                    }
+                    if (zoom >= 34) {
+                        zoomLevel = 17;
+                    }
+                    if (zoom >= 100) {
+                        zoomLevel = 18;
+                    }
+                    if (zoom >= 300) {
+                        zoomLevel = 19;
+                    }
 
-                // 鼠标进入节点
-                graph.on('node:mouseenter', e => {
-                    const nodeItem = e.item; // 获取鼠标进入的节点元素对象
-                    graph.setItemState(nodeItem, 'hover', true); // 设置当前节点的 hover 状态为 true
-                });
+                    if (this.zoomLevel != zoomLevel) {
+                        this.previousZoomLevel = this.zoomLevel;
+                        this.zoomLevel = zoomLevel;
+                        dataManager.refresh();
+                    }
+                },
+            };
 
-                // 鼠标离开节点
-                graph.on('node:mouseleave', e => {
-                    const nodeItem = e.item; // 获取鼠标离开的节点元素对象
-                    graph.setItemState(nodeItem, 'hover', false); // 设置当前节点的 hover 状态为 false
-                });
+            // 实例化 minimap 插件
+            const minimap = new G6.Minimap({
+                size: [150, 150],
+                className: 'minimap',
+                type: 'delegate',
+            });
 
-                graph.data(data);
-                graph.render();
-                graph.zoom(0.01);
-                graph.focusItem("48804.0");//北京
-            }
-        ;
+            // 实例化 grid 插件
+            const grid = new G6.Grid();
+
+            //实例化绘图引擎
+            const graph = new G6.Graph({
+                container: 'mountNode',
+                width: 580,
+                height: 500,
+                // Set groupByTypes to false to get rendering result with reasonable visual zIndex for combos
+                groupByTypes: false,
+                // 内置交互
+                modes: {
+                    default: [
+                        'drag-canvas',
+                        {
+                            type: 'zoom-canvas',
+                            sensitivity: 1,
+                            minZoom: 1,
+                            maxZoom: 300,
+                        },
+                        'drag-combo',
+                        'click-select'],
+                },
+                defaultNode: {
+                    style: {fillOpacity: 0.3, fill: "red", stroke: "red"},
+                    stateStyles: {
+                        hover: {fill: "lightsteelblue"},
+                        selected: {stroke: "green", lineWidth: 3},
+                    },
+                    labelCfg: {
+                        position: 'bottom',
+                    },
+                },
+                minZoom: 1,
+                maxZoom: 300,
+                plugins: [minimap, grid], // 将 minimap 实例配置到图上
+            });
+
+            graph.on('dragend', e => {
+                dataManager.refresh();
+            });
+
+            graph.on('click', e => {
+                const nodeItem = e.item; // 获取鼠标离开的节点元素对象
+            });
+
+            //            // 鼠标离开节点
+//            graph.on('node:mouseleave', e => {
+//                const nodeItem = e.item; // 获取鼠标离开的节点元素对象
+//                graph.setItemState(nodeItem, 'hover', false); // 设置当前节点的 hover 状态为 false
+//            });
+
+//            // 鼠标离开节点
+//            graph.on('node:mouseleave', e => {
+//                const nodeItem = e.item; // 获取鼠标离开的节点元素对象
+//                graph.setItemState(nodeItem, 'hover', false); // 设置当前节点的 hover 状态为 false
+//            });
+
+            // 鼠标滚轮对图进行缩放后
+            graph.on('wheelzoom', e => {
+                dataManager.refreshZoomLevel();
+            });
+
+            graph.data({
+                combos: [
+                    {
+                        id: 'backgroundCombo',
+                        type: 'backgroundCombo',
+                        zoomLevel: -1,
+                    },
+                ],
+                nodes: [
+                    {
+                        id: 'backgroundPath',
+                        type: 'backgroundPath',
+                        comboId: 'backgroundCombo',
+                        x: 100,
+                        y: 50,
+                        // 节点在各状态下的样式
+                        stateStyles: {
+                            // hover 状态为 true 时的样式
+                            hover: {},
+                            // click 状态为 true 时的样式
+                            click: {},
+                        },
+                    },
+                ],
+            });
+            graph.render();
+
+            dataManager.graph = graph;
+            dataManager.refreshZoomLevel();
+        };
         main();
     </script>
 </body>
