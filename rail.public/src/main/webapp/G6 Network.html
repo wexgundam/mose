@@ -66,6 +66,7 @@
             const dataManager = {
                 staticServer: 'http://localhost',
                 graph: null,
+                zoomLevelUpdated: false,
                 previousZoomLevel: -1,
                 zoomLevel: -1,
                 previousCanvasTopLeftPoint: [],
@@ -92,9 +93,12 @@
                 //加载背景瓦片
                 refreshTiles: function () {
                     const doRefresh = async (context) => {
-
                         var isloading = context.loadingTiles;
                         if (isloading) {
+                            return;
+                        }
+
+                        if (!context.zoomLevelUpdated) {
                             return;
                         }
 
@@ -249,6 +253,10 @@
                             return;
                         }
 
+                        if (!context.zoomLevelUpdated) {
+                            return;
+                        }
+
                         isloading = true;
 
                         const staticServer = context.staticServer;
@@ -299,6 +307,10 @@
                             return;
                         }
 
+                        if (!context.zoomLevelUpdated) {
+                            return;
+                        }
+
                         isloading = true;
 
                         const staticServer = context.staticServer;
@@ -345,6 +357,10 @@
                     const doRefresh = async (context) => {
                         var isloading = context.loadingTrainlineDeportStations;
                         if (isloading) {
+                            return;
+                        }
+
+                        if (!context.zoomLevelUpdated) {
                             return;
                         }
 
@@ -491,9 +507,11 @@
                     }
 
                     if (this.zoomLevel != zoomLevel) {
+                        this.zoomLevelUpdated = true;
                         this.previousZoomLevel = this.zoomLevel;
                         this.zoomLevel = zoomLevel;
                         dataManager.refresh();
+                        this.zoomLevelUpdated = false;
                     }
                 },
             };
