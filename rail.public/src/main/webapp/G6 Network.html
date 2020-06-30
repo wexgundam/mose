@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>G6 Network</title>
-    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.5.2/dist/g6.min.js"></script>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.5.6/dist/g6.min.js"></script>
     <script src="assets/g6/polygon.js"></script>
     <style>
         .g6-minimap-container {
@@ -15,7 +15,7 @@
         }
     </style>
 </head>
-<body>
+<body style="overflow-x: hidden;overflow-y: hidden">
     <div id="mountNode"></div>
     <script>
         //背景图片
@@ -25,10 +25,10 @@
                 cfg.padding = [0, 0, 0, 0];
                 const image = group.addShape('rect', {
                     attrs: {
-                        x: -128,
-                        y: -128,
-                        width: 256,
-                        height: 256,
+                        x: -cfg.width / 2,
+                        y: -cfg.height / 2,
+                        width: cfg.width,
+                        height: cfg.height,
                         fill: 'red',
                         stroke: 'red',
                         fillOpacity: 0,
@@ -42,16 +42,19 @@
         }, 'rect');
 
         //背景边界
-        G6.registerNode('backgroundPath', {
+        G6.registerNode('backgroundRect', {
             drawShape(cfg, group) {
-                const path = group.addShape('path', {
+                const path = group.addShape('rect', {
                     attrs: {
-                        path: 'M 0,0 L 0,256 L 256,256 L 256,0 Z',
+                        x: -cfg.width / 2,
+                        y: -cfg.height / 2,
+                        width: cfg.width,
+                        height: cfg.height,
                         stroke: '#000',
                         lineWidth: 1,
                         strokeOpacity: 0,
                     },
-                    name: 'path-background',
+                    name: cfg.name,
                 });
                 return path;
             },
@@ -64,13 +67,14 @@
 
         const main = async () => {
             const dataManager = {
-                staticServer: 'http://localhost',
+//                staticServer: 'http://39.155.169.121:9999',
+                staticServer: 'http://10.1.117.43',
                 graph: null,
                 zoomLevelUpdated: false,
                 previousZoomLevel: -1,
                 zoomLevel: -1,
                 previousCanvasTopLeftPoint: [],
-                previousBackgroundPathXY: [],
+                previousBackgroundRectXY: [],
                 canvasTopLeftPoint: [],
                 loadingTiles: false,
                 loadingBureauPolygons: false,
@@ -87,8 +91,8 @@
                     context.refreshBureauPolygons();
                     context.refreshBureauKeyPoints();
                     context.refreshTrainlineDeportStations();
-                    const backgroundPath = context.graph.findById('backgroundPath');
-                    context.previousBackgroundPathXY = [backgroundPath.getModel().x, backgroundPath.getModel().y];
+                    const backgroundRect = context.graph.findById('backgroundRect');
+                    context.previousBackgroundRectXY = [backgroundRect.getModel().x, backgroundRect.getModel().y];
                 },
                 //加载背景瓦片
                 refreshTiles: function () {
@@ -101,8 +105,6 @@
                         if (!context.zoomLevelUpdated) {
                             return;
                         }
-
-                        isloading = true;
 
                         const staticServer = context.staticServer;
                         const graph = context.graph;
@@ -134,6 +136,7 @@
                                 draggable: true,
                                 name: 'backgroundCombo-background'
                             });
+
                         }
                         if (zoomLevel >= 3 && zoomLevel < 18
                             && (previousZoomLevel >= 18 || previousZoomLevel < 3)) {
@@ -241,7 +244,7 @@
                             clear();
                         }
 
-                        isloading = false;
+                        backgroundCombo.toBack();
                     };
                     doRefresh(this);
                 },
@@ -257,15 +260,14 @@
                             return;
                         }
 
-                        isloading = true;
-
                         const staticServer = context.staticServer;
                         const zoomLevel = context.zoomLevel;
                         const previousZoomLevel = context.previousZoomLevel;
                         const graph = context.graph;
                         const backgroundCombo = graph.findById('backgroundCombo');
-                        const backgroundPath = graph.findById('backgroundPath');
-                        const backgroundPathX = backgroundPath.getModel().x;
+                        const backgroundRect = graph.findById('backgroundRect');
+                        const backgroundRectX = backgroundRect.getModel().x - 128;
+                        const backgroundRectY = backgroundRect.getModel().y - 128;
 
                         //清除时机
                         if (previousZoomLevel >= 0 && previousZoomLevel < 3
@@ -280,22 +282,19 @@
                         //绘制时机
                         if (zoomLevel >= 0 && zoomLevel < 3
                             && (previousZoomLevel < 0 || previousZoomLevel >= 3)) {
-                            const backgroundPathY = backgroundPath.getModel().y;
                             const bureauPolygonResponse = await fetch(staticServer + '/file/bureauPolygonVos.json');
                             const bureauPolygonData = await bureauPolygonResponse.json();
                             bureauPolygonData.bureauPolygonVos.forEach(bureauPolygonVo => {
-                                bureauPolygonVo.x += backgroundPathX;
-                                bureauPolygonVo.y += backgroundPathY;
+                                bureauPolygonVo.x += backgroundRectX;
+                                bureauPolygonVo.y += backgroundRectY;
                                 bureauPolygonVo.style.fill = randomColor();
                                 bureauPolygonVo.style.stroke = bureauPolygonVo.style.fill;
                                 const node = graph.addItem('node', bureauPolygonVo);
                                 context.bureauPolygonNodes.push(node);
                                 backgroundCombo.addChild(node);
                             });
-                            backgroundCombo.toBack();
+                            backgroundRect.toBack();
                         }
-
-                        isloading = false;
                     };
                     doRefresh(this);
                 },
@@ -311,20 +310,18 @@
                             return;
                         }
 
-                        isloading = true;
-
                         const staticServer = context.staticServer;
                         const zoomLevel = context.zoomLevel;
                         const previousZoomLevel = context.previousZoomLevel;
                         const graph = context.graph;
                         const backgroundCombo = graph.findById('backgroundCombo');
-                        const backgroundPath = graph.findById('backgroundPath');
-                        const backgroundPathX = backgroundPath.getModel().x;
-                        const backgroundPathY = backgroundPath.getModel().y;
+                        const backgroundRect = graph.findById('backgroundRect');
+                        const backgroundRectX = backgroundRect.getModel().x - 128;
+                        const backgroundRectY = backgroundRect.getModel().y - 128;
 
                         //清除时机
-                        if (previousZoomLevel >= 0 && previousZoomLevel < 5
-                            && (zoomLevel >= 5 || zoomLevel < 0)) {
+                        if (previousZoomLevel >= 0 && previousZoomLevel < 20
+                            && (zoomLevel >= 20 || zoomLevel < 0)) {
                             context.bureauKeyPointNodes.forEach(node => {
                                 backgroundCombo.removeChild(node);
                                 graph.removeItem(node);
@@ -334,21 +331,25 @@
 
 
                         //绘制时机
-                        if (zoomLevel >= 0 && zoomLevel < 5
-                            && (previousZoomLevel < 0 || previousZoomLevel >= 5)) {
+                        if (zoomLevel >= 0 && zoomLevel < 20
+                            && (previousZoomLevel < 0 || previousZoomLevel >= 20)) {
                             const bureauKeyPointResponse = await fetch(staticServer + '/file/bureauKeyPointVos.json');
                             const bureauKeyPointData = await bureauKeyPointResponse.json();
                             bureauKeyPointData.bureauKeyPointVos.forEach(bureauKeyPointVo => {
-                                bureauKeyPointVo.x += backgroundPathX;
-                                bureauKeyPointVo.y += backgroundPathY;
+                                bureauKeyPointVo.x += backgroundRectX;
+                                bureauKeyPointVo.y += backgroundRectY;
                                 const node = graph.addItem('node', bureauKeyPointVo);
                                 context.bureauKeyPointNodes.push(node);
                                 backgroundCombo.addChild(node);
                             });
                             backgroundCombo.toBack();
+                        } else {
+                            context.bureauKeyPointNodes.forEach(node => {
+                                node.getModel().size = 3 / graph.getZoom();
+                                node.getModel().style.lineWidth = node.getModel().size;
+                                node.update(node.getModel());
+                            });
                         }
-
-                        isloading = false;
                     };
                     doRefresh(this);
                 },
@@ -360,7 +361,6 @@
                             return;
                         }
 
-                        isloading = true;
                         const staticServer = context.staticServer;
                         const graph = context.graph;
                         const zoomLevel = context.zoomLevel;
@@ -374,10 +374,10 @@
                         const bottomRightPointByCanvas = graph.getPointByCanvas(graph.get('width'),
                             graph.get('height'));
                         const backgroundCombo = graph.findById('backgroundCombo');
-                        const backgroundPath = graph.findById('backgroundPath');
-                        const previousBackgroundPathXY = context.previousBackgroundPathXY;
-                        const backgroundPathX = backgroundPath.getModel().x;
-                        const backgroundPathY = backgroundPath.getModel().y;
+                        const backgroundRect = graph.findById('backgroundRect');
+                        const previousBackgroundRectXY = context.previousBackgroundRectXY;
+                        const backgroundRectX = backgroundRect.getModel().x - 128;
+                        const backgroundRectY = backgroundRect.getModel().y - 128;
 
                         var toClear = false;
                         var toLoad = false;
@@ -392,8 +392,8 @@
                         if (zoomLevel >= 18
                             && (canvasTopLeftPoint.x != previousCanvasTopLeftPoint.x
                             || canvasTopLeftPoint.y != previousCanvasTopLeftPoint.y
-                            || backgroundPathX != previousBackgroundPathXY.x
-                            || backgroundPathY != previousBackgroundPathXY.y)) {
+                            || backgroundRectX != previousBackgroundRectXY.x
+                            || backgroundRectY != previousBackgroundRectXY.y)) {
                             toClear = true;
                             toLoad = true;
                         }
@@ -413,8 +413,8 @@
                             trainlineDeportStationData.trainlineDeportStationVos.forEach(trainlineDeport => {
                                 const color = randomColor();
                                 trainlineDeport.forEach(trainlineDeportStationVo => {
-                                    trainlineDeportStationVo.x += backgroundPathX;
-                                    trainlineDeportStationVo.y += backgroundPathY;
+                                    trainlineDeportStationVo.x += backgroundRectX;
+                                    trainlineDeportStationVo.y += backgroundRectY;
                                     if (trainlineDeportStationVo.x > topLeftPointByCanvas.x
                                         && trainlineDeportStationVo.x < bottomRightPointByCanvas.x
                                         && trainlineDeportStationVo.y > topLeftPointByCanvas.y
@@ -431,8 +431,6 @@
                             });
                             backgroundCombo.toBack();
                         }
-
-                        isloading = false;
                     };
                     doRefresh(this);
                 },
@@ -512,9 +510,13 @@
                 },
             };
 
+            const width = document.getElementById('mountNode').scrollWidth;
+            const height = document.getElementById('mountNode').scrollHeight || document.getElementById(
+                    'mountNode').parentNode.scrollHeight || (window.innerHeight );
+
             // 实例化 minimap 插件
             const minimap = new G6.Minimap({
-                size: [150, 150],
+                size: [200, 200 * height / width],
                 className: 'minimap',
                 type: 'delegate',
             });
@@ -525,8 +527,8 @@
             //实例化绘图引擎
             const graph = new G6.Graph({
                 container: 'mountNode',
-                width: 580,
-                height: 500,
+                width: width,
+                height: height,
                 // Set groupByTypes to false to get rendering result with reasonable visual zIndex for combos
                 groupByTypes: false,
                 // 内置交互
@@ -554,7 +556,7 @@
                 },
                 minZoom: 1,
                 maxZoom: 300,
-                plugins: [minimap, grid], // 将 minimap 实例配置到图上
+                plugins: [grid, minimap], // 将 minimap 实例配置到图上
             });
 
             graph.on('dragend', e => {
@@ -587,23 +589,21 @@
                     {
                         id: 'backgroundCombo',
                         type: 'backgroundCombo',
-                        zoomLevel: -1,
+                        x1: 0,
+                        y1: 0,
+                        width: width,
+                        height: height,
                     },
                 ],
                 nodes: [
                     {
-                        id: 'backgroundPath',
-                        type: 'backgroundPath',
+                        id: 'backgroundRect',
+                        type: 'backgroundRect',
                         comboId: 'backgroundCombo',
-                        x: 100,
-                        y: 50,
-                        // 节点在各状态下的样式
-                        stateStyles: {
-                            // hover 状态为 true 时的样式
-                            hover: {},
-                            // click 状态为 true 时的样式
-                            click: {},
-                        },
+                        x: width / 2,
+                        y: height / 2,
+                        width: width,
+                        height: height,
                     },
                 ],
             });
@@ -611,6 +611,13 @@
 
             dataManager.graph = graph;
             dataManager.refreshZoomLevel();
+
+            const minimapElement = document.getElementsByClassName('minimap')[0];
+            minimapElement.style.position = 'fixed';
+            minimapElement.style.top = (height - 200 * height / width) + 'px';
+            minimapElement.style.left = '0px';
+            minimapElement.style.border = '2px solid #c0c0c0';
+            minimapElement.style.zIndex = '9999';
         };
         main();
     </script>
