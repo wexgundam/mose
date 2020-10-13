@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"1","entryText":"朝阳","lng":120.40939,"lat":41.59983},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"2","entryText":"北票","lng":120.77827,"lat":41.76183},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"3","entryText":"乌兰木图","lng":121.288814,"lat":41.964245},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"4","entryText":"阜新","lng":121.659478,"lat":42.057453},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"5","entryText":"黑山北","lng":122.299628,"lat":42.045812},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"6","entryText":"姚家窝堡线路所","lng":122.636759333333,"lat":42.0317186666666},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"7","entryText":"新民北","lng":122.805325,"lat":42.024672},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"8","entryText":"沈阳西","lng":123.234278,"lat":41.9185},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"9","entryText":"丁香湖1号线路所","lng":123.234278,"lat":41.9185},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"10","entryText":"大二环1号线路所","lng":123.226495375,"lat":41.7107879},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"1","entryIndex":"11","entryText":"沈阳高速场","lng":123.41185,"lat":41.66729},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"2","entryIndex":"12","entryText":"丁香湖1号线路所","lng":123.234278,"lat":41.9185},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"2","entryIndex":"13","entryText":"大二环2号线路所","lng":123.264533833333,"lat":41.8094125999999},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"2","entryIndex":"14","entryText":"沈阳北高速场","lng":123.449059,"lat":41.8200852},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"3","entryIndex":"15","entryText":"姚家窝堡线路所","lng":122.636759333333,"lat":42.0317186666666},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"3","entryIndex":"16","entryText":"新民北","lng":122.805325,"lat":42.024672},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"3","entryIndex":"17","entryText":"田家窝堡线路所","lng":122.785325,"lat":41.974672},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"3","entryIndex":"18","entryText":"彰武高速场","lng":122.33617,"lat":42.90872},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"3","entryIndex":"19","entryText":"甘旗卡高速场","lng":122.35617,"lat":42.95872},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"3","entryIndex":"20","entryText":"通辽高速场","lng":122.33617,"lat":42.90872},
+{"bureauCode":2,"ddtId":"48","ddtName":"京沈二台","queueIndex":"3","entryIndex":"21","entryText":"通辽动车存车场","lng":122.31617,"lat":42.85872}
+
+  ]
+}

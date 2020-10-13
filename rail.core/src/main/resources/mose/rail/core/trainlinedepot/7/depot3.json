@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"1","entryText":"漯河新场","lng":114.045323333333,"lat":33.5340216666666},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"2","entryText":"漯河","lng":114.04282,"lat":33.57089},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"3","entryText":"孟庙","lng":114.01668,"lat":33.62716},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"4","entryText":"裴城","lng":113.80077,"lat":33.69344},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"5","entryText":"丁营","lng":113.60697,"lat":33.75717},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"6","entryText":"邓李","lng":113.500205,"lat":33.745995},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"7","entryText":"平顶山东","lng":113.39344,"lat":33.73482},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"8","entryText":"平顶山","lng":113.30413,"lat":33.7193},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"9","entryText":"姚孟","lng":113.23778,"lat":33.74863},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"10","entryText":"余官营","lng":113.14037,"lat":33.8081},
+{"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","queueIndex":"1","entryIndex":"11","entryText":"宝丰所","lng":113.12037,"lat":33.7581}
+   
+  ]
+}

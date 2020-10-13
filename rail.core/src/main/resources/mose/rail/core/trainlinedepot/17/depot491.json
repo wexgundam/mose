@@ -1,0 +1,21 @@
+{
+  "entries": [
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"1","entryIndex":"0","entryText":"吐鲁番","lng":88.87531,"lat":43.15149},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"1","entryIndex":"1","entryText":"大河沿","lng":88.81965,"lat":43.12062},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"1","entryIndex":"2","entryText":"头道河线路所","lng":88.81965,"lat":43.12062},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"1","entryIndex":"3","entryText":"珍珠泉","lng":88.54337,"lat":43.083585},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"2","entryIndex":"4","entryText":"珍珠泉","lng":88.54337,"lat":43.083585},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"3","entryIndex":"5","entryText":"煤窑沟","lng":89.320952,"lat":43.155759},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"4","entryIndex":"6","entryText":"煤窑沟","lng":89.320952,"lat":43.155759},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"4","entryIndex":"7","entryText":"夏普吐勒","lng":88.98779,"lat":43.16746},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"4","entryIndex":"8","entryText":"吐鲁番","lng":88.87531,"lat":43.15149},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"5","entryIndex":"9","entryText":"吐鲁番","lng":88.87531,"lat":43.15149},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"5","entryIndex":"10","entryText":"天山","lng":88.53528,"lat":43.207351},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"5","entryIndex":"11","entryText":"达坂城","lng":88.34721,"lat":43.32404},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"5","entryIndex":"12","entryText":"盐湖","lng":88.110545,"lat":43.420644},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"5","entryIndex":"13","entryText":"三葛庄","lng":87.79561,"lat":43.58991},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"5","entryIndex":"14","entryText":"芨芨槽子","lng":87.64342,"lat":43.64553},
+{"bureauCode":17,"ddtId":"491","ddtName":"吐枢纽台","queueIndex":"6","entryIndex":"15","entryText":"芨芨槽子","lng":87.64342,"lat":43.64553}
+    
+  ]
+}

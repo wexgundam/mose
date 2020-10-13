@@ -1,0 +1,15 @@
+{
+  "entries": [
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"1","entryText":"岷县","lng":104.06994,"lat":34.39201},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"2","entryText":"漳县","lng":104.15836,"lat":34.71721},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"3","entryText":"渭源","lng":104.22842,"lat":35.09624},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"4","entryText":"杨家川","lng":104.295934,"lat":35.318675},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"5","entryText":"新窑坡","lng":104.29485,"lat":35.702975},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"6","entryText":"夏官营兰渝场","lng":104.179825,"lat":35.952795},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"7","entryText":"夏客线路所","lng":104.036127999999,"lat":35.9913715},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"8","entryText":"兰州东","lng":103.892431,"lat":36.029948},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"1","entryIndex":"9","entryText":"兰州","lng":103.851122,"lat":36.034804},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"2","entryIndex":"10","entryText":"夏官营兰渝场","lng":104.179825,"lat":35.952795},
+{"bureauCode":16,"ddtId":"16","ddtName":"兰渝一台","queueIndex":"2","entryIndex":"11","entryText":"夏货线路所","lng":104.1141425,"lat":35.9896175}    
+  ]
+}

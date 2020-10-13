@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"1","entryIndex":"0","entryText":"喀什","lng":76.04926,"lat":39.49263},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"1","entryText":"喀什","lng":76.04926,"lat":39.49263},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"2","entryText":"疏勒","lng":75.99482,"lat":39.38214},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"3","entryText":"阿克陶","lng":75.97627,"lat":39.16483},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"4","entryText":"英吉沙","lng":76.164275,"lat":38.967662},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"5","entryText":"克孜勒","lng":76.144275,"lat":38.917662},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"6","entryText":"马牙克","lng":76.6781635,"lat":38.621142},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"7","entryText":"托洛拉克","lng":77.212052,"lat":38.324622},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"8","entryText":"莎车","lng":77.232052,"lat":38.374622},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"9","entryText":"泽普","lng":77.30827,"lat":38.1785},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"10","entryText":"叶城","lng":77.47377,"lat":37.89292},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"11","entryText":"阔什","lng":77.81435,"lat":37.72608},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"12","entryText":"皮山","lng":78.28538,"lat":37.56674},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"13","entryText":"藏桂","lng":78.78123,"lat":37.393565},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"14","entryText":"昆玉","lng":79.27708,"lat":37.22039},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"15","entryText":"墨玉","lng":79.73319,"lat":37.22258},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"2","entryIndex":"16","entryText":"和田","lng":79.90711,"lat":37.15828},
+{"bureauCode":17,"ddtId":"211","ddtName":"喀和台","queueIndex":"3","entryIndex":"17","entryText":"和田","lng":79.90711,"lat":37.15828}   
+  ]
+}

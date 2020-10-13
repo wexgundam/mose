@@ -1,0 +1,24 @@
+{
+  "entries": [
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"1","entryIndex":"1","entryText":"广州","lng":113.25834,"lat":23.149135},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"1","entryIndex":"2","entryText":"广州东","lng":113.324587,"lat":23.150587},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"2","entryIndex":"3","entryText":"广州东","lng":113.324587,"lat":23.150587},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"2","entryIndex":"4","entryText":"石牌城际场","lng":113.37229,"lat":23.13968},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"2","entryIndex":"5","entryText":"下元城际场","lng":113.48854,"lat":23.113418},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"2","entryIndex":"6","entryText":"仙村城际场","lng":113.710563,"lat":23.171673},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"2","entryIndex":"7","entryText":"东莞城际场","lng":113.858404,"lat":23.088932},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"3","entryIndex":"8","entryText":"天河东","lng":113.42467,"lat":23.0442},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"3","entryIndex":"9","entryText":"黄埔","lng":113.44467,"lat":23.0942},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"10","entryText":"广州东","lng":113.324587,"lat":23.150587},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"11","entryText":"石牌普速场","lng":113.304587,"lat":23.100587},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"12","entryText":"天河东","lng":113.42467,"lat":23.0442},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"13","entryText":"下元普速场","lng":113.583923,"lat":23.083932},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"14","entryText":"新塘","lng":113.603923,"lat":23.133932},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"15","entryText":"仙村普速场","lng":113.724111499999,"lat":23.121326},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"16","entryText":"石龙Ⅰ场","lng":113.8443,"lat":23.10872},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"17","entryText":"石龙Ⅱ场","lng":113.851351999999,"lat":23.098826},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"4","entryIndex":"18","entryText":"东莞普速场","lng":113.858404,"lat":23.088932},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"5","entryIndex":"19","entryText":"新塘","lng":113.603923,"lat":23.133932},
+{"bureauCode":12,"ddtId":"129","ddtName":"广深一台","queueIndex":"5","entryIndex":"20","entryText":"新塘南","lng":113.603923,"lat":23.133932}    
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entries": [
+ {"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"1","entryText":"徐州东徐兰场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"2","entryText":"徐州东京沪场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"3","entryText":"后马庄","lng":117.319204,"lat":34.219051},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"4","entryText":"观音机场","lng":117.561312,"lat":34.038169},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"5","entryText":"睢宁","lng":117.93808,"lat":33.95243},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"6","entryText":"宿迁","lng":118.325989999999,"lat":33.8535},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"7","entryText":"泗阳徐盐场","lng":118.7139,"lat":33.75457},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"1","entryIndex":"8","entryText":"淮安东","lng":119.18887,"lat":33.57014},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"2","entryIndex":"9","entryText":"徐州东徐兰场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"29","ddtName":"徐连徐淮高铁台","queueIndex":"2","entryIndex":"10","entryText":"徐州东动车存车场","lng":117.30386,"lat":34.26747}   
+  ]
+}

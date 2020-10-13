@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"1","entryText":"从江","lng":109.11483,"lat":25.90887},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"2","entryText":"三江南","lng":109.602945,"lat":25.6416699999999},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"3","entryText":"五通","lng":110.09106,"lat":25.37447},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"4","entryText":"桂林西","lng":110.2677,"lat":25.35448},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"5","entryText":"桂林北一场","lng":110.30186,"lat":25.32927},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"6","entryText":"定江线路所","lng":110.390566666666,"lat":25.20607},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"7","entryText":"阳朔","lng":110.56798,"lat":24.95967},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"8","entryText":"恭城","lng":110.87015,"lat":24.83036},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"9","entryText":"钟山西","lng":111.33202,"lat":24.55242},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"10","entryText":"贺州贵广场","lng":111.745775,"lat":24.22264},
+{"bureauCode":13,"ddtId":"36","ddtName":"贵广台","queueIndex":"1","entryIndex":"11","entryText":"怀集","lng":112.15953,"lat":23.89286}   
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"1","entryText":"包头西五场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"2","entryText":"包头西二场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"3","entryText":"包头北","lng":109.74724,"lat":40.66262},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"4","entryText":"北翻矿","lng":109.771779999999,"lat":40.6832},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"5","entryText":"昆独仑召","lng":109.79632,"lat":40.70378},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"6","entryText":"瓦窑坝","lng":109.80634,"lat":40.73996},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"7","entryText":"明安","lng":109.81058,"lat":40.85573},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"8","entryText":"营盘湾","lng":109.79265,"lat":40.92523},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"9","entryText":"高家村","lng":109.797572,"lat":40.981274},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"10","entryText":"石门村","lng":109.78936,"lat":41.03815},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"11","entryText":"坝梁","lng":109.77131,"lat":41.09104},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"12","entryText":"西斗铺","lng":109.79723,"lat":41.22173},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"13","entryText":"老羊壕","lng":109.841513,"lat":41.393555},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"14","entryText":"艾不盖","lng":109.85964,"lat":41.52986},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"15","entryText":"乌兰胡同","lng":109.8685,"lat":41.61017},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"16","entryText":"白云鄂博南","lng":109.912935,"lat":41.6919},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"17","entryText":"白云鄂博","lng":109.95737,"lat":41.77363},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"1","entryIndex":"18","entryText":"矿山","lng":109.93737,"lat":41.72363},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"2","entryIndex":"19","entryText":"白云鄂博南","lng":109.912935,"lat":41.6919},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"2","entryIndex":"20","entryText":"朝鲁图","lng":109.892935,"lat":41.6419},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"2","entryIndex":"21","entryText":"百灵庙","lng":109.872935,"lat":41.5919},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"2","entryIndex":"22","entryText":"额很乌苏","lng":109.852935,"lat":41.5419},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"2","entryIndex":"23","entryText":"小布盖齐","lng":109.832935,"lat":41.4919},
+{"bureauCode":5,"ddtId":"16","ddtName":"包满台","queueIndex":"2","entryIndex":"24","entryText":"巴音花","lng":109.812935,"lat":41.4419}
+   
+  ]
+}

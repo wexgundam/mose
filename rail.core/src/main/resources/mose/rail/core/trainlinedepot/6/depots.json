@@ -1,0 +1,25 @@
+{ 
+  "depots": [
+    {"bureauCode":6,"ddtId":"2","ddtName":"京广北台","lng":114.276695,"lat":35.759886},
+    {"bureauCode":6,"ddtId":"5","ddtName":"郑州地区台","lng":113.657341,"lat":34.747255},
+    {"bureauCode":6,"ddtId":"6","ddtName":"新菏台","lng":115.306041,"lat":35.252734},
+    {"bureauCode":6,"ddtId":"8","ddtName":"京广南台","lng":113.788319,"lat":34.374896},
+    {"bureauCode":6,"ddtId":"9","ddtName":"陇海东台","lng":115.662003,"lat":34.440327},
+    {"bureauCode":6,"ddtId":"11","ddtName":"宁西台","lng":111.865711,"lat":33.065938},
+    {"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","lng":113.540375,"lat":34.777205},
+    {"bureauCode":6,"ddtId":"15","ddtName":"陇海西台","lng":110.315266,"lat":34.50203},
+    {"bureauCode":6,"ddtId":"16","ddtName":"焦柳一台","lng":112.513196,"lat":34.633649},
+    {"bureauCode":6,"ddtId":"19","ddtName":"新地台","lng":113.864365,"lat":35.305039},
+    {"bureauCode":6,"ddtId":"20","ddtName":"太焦台","lng":112.925034,"lat":36.512947},
+    {"bureauCode":6,"ddtId":"21","ddtName":"新月台","lng":113.648586,"lat":35.256834},
+    {"bureauCode":6,"ddtId":"22","ddtName":"候月台","lng":112.949753,"lat":35.201306},
+    {"bureauCode":6,"ddtId":"23","ddtName":"洛阳地区台","lng":112.594993,"lat":34.716103},
+    {"bureauCode":6,"ddtId":"24","ddtName":"焦柳台","lng":112.586517,"lat":33.108367},
+    {"bureauCode":6,"ddtId":"26","ddtName":"中南台","lng":114.345016,"lat":35.913523},
+    {"bureauCode":6,"ddtId":"41","ddtName":"郑西台郑州段","lng":110.066164,"lat":34.521409},
+    {"bureauCode":6,"ddtId":"51","ddtName":"郑州京广高铁台","lng":114.339523,"lat":36.104596},
+    {"bureauCode":6,"ddtId":"63","ddtName":"郑州城际台","lng":113.818703,"lat":34.585666},
+    {"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","lng":112.07119,"lat":32.682152},
+    {"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","lng":113.821793,"lat":34.018234}
+  ]
+}

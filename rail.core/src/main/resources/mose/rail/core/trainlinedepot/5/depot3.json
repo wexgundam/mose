@@ -1,0 +1,17 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"1","entryText":"集宁南","lng":113.09919,"lat":41.03145},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"2","entryText":"葫芦","lng":113.010792,"lat":41.043129},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"3","entryText":"卓资东","lng":112.61719,"lat":40.92388},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"4","entryText":"旗下营东","lng":112.21154,"lat":40.96512},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"5","entryText":"陶卜齐II场","lng":112.03394,"lat":40.88221},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"6","entryText":"陶卜齐","lng":112.03394,"lat":40.88221},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"7","entryText":"白塔","lng":111.844631,"lat":40.869407},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"8","entryText":"呼和浩特东普速场","lng":111.765876,"lat":40.849341},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"9","entryText":"呼和浩特东高速场","lng":111.765876,"lat":40.849341},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"10","entryText":"呼和浩特呼准场","lng":111.665361,"lat":40.831639},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"11","entryText":"呼和浩特集包场","lng":111.665361,"lat":40.831639},
+{"bureauCode":5,"ddtId":"3","ddtName":"集呼台","queueIndex":"1","entryIndex":"12","entryText":"呼和浩特西场","lng":111.665361,"lat":40.831639}
+   
+  ]
+}

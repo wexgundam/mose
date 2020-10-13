@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"1","entryText":"黔江渝怀场","lng":109.038928,"lat":29.544017},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"2","entryText":"咸丰","lng":109.058928,"lat":29.594017},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"3","entryText":"来凤","lng":109.357159,"lat":29.521003},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"4","entryText":"龙山北","lng":109.337159,"lat":29.471003},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"5","entryText":"水沙坪","lng":109.7059245,"lat":29.386758},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"6","entryText":"凤岩","lng":110.07469,"lat":29.3025129999999},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"7","entryText":"桑植","lng":110.09469,"lat":29.352513},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"8","entryText":"教字垭","lng":110.34076,"lat":29.28202},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"9","entryText":"张家界西","lng":110.462634,"lat":29.163052},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"10","entryText":"禾家村黔张常场","lng":110.67638625,"lat":29.13118825},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"11","entryText":"牛车河","lng":111.000011,"lat":29.031121},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"12","entryText":"龙潭镇","lng":111.1990155,"lat":28.9684905},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"13","entryText":"桃源","lng":111.39802,"lat":28.90586},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"14","entryText":"陬市","lng":111.54655,"lat":28.988895},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"15","entryText":"兴发村所","lng":111.69508,"lat":29.07193},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"1","entryIndex":"16","entryText":"常德","lng":111.69508,"lat":29.07193},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"2","entryIndex":"17","entryText":"禾家村黔张常场","lng":110.67638625,"lat":29.13118825},
+{"bureauCode":12,"ddtId":"121","ddtName":"黔常台","queueIndex":"2","entryIndex":"18","entryText":"禾家村焦柳场","lng":110.62145,"lat":29.16529}   
+  ]
+}

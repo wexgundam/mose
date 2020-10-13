@@ -1,0 +1,32 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"1","entryIndex":"1","entryText":"三明北南龙场","lng":117.80678,"lat":26.37572},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"1","entryIndex":"2","entryText":"三明北昌福场","lng":117.80678,"lat":26.37572},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"3","entryText":"三明北鹰厦场","lng":117.80678,"lat":26.37572},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"4","entryText":"三明北昌福场","lng":117.80678,"lat":26.37572},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"5","entryText":"泰宁","lng":117.15327,"lat":26.92706},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"6","entryText":"将乐","lng":117.47849,"lat":26.69512},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"7","entryText":"夏茂","lng":117.63009,"lat":26.55189},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"8","entryText":"三明北昌福场","lng":117.80678,"lat":26.37572},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"9","entryText":"尤溪","lng":118.14168,"lat":26.16705},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"10","entryText":"中仙","lng":118.14168,"lat":26.16705},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"11","entryText":"长庆","lng":118.93366,"lat":25.84821},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"12","entryText":"永泰","lng":118.93366,"lat":25.84821},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"2","entryIndex":"13","entryText":"杜坞","lng":119.240372,"lat":26.118065},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"5","entryText":"南丰","lng":116.59961,"lat":27.28627},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"6","entryText":"建宁县北","lng":116.87109,"lat":26.91597},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"7","entryText":"泰宁","lng":117.15327,"lat":26.92706},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"8","entryText":"将乐","lng":117.47849,"lat":26.69512},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"9","entryText":"夏茂","lng":117.63009,"lat":26.55189},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"10","entryText":"三明北昌福场","lng":117.80678,"lat":26.37572},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"11","entryText":"尤溪","lng":118.14168,"lat":26.16705},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"12","entryText":"中仙","lng":118.14168,"lat":26.16705},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"13","entryText":"长庆","lng":118.93366,"lat":25.84821},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"14","entryText":"永泰","lng":118.93366,"lat":25.84821},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"15","entryText":"杜坞","lng":119.240372,"lat":26.118065},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"3","entryIndex":"16","entryText":"莆田","lng":119.06275,"lat":25.35083},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"4","entryIndex":"16","entryText":"永泰","lng":118.93366,"lat":25.84821},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"4","entryIndex":"17","entryText":"涵江北","lng":119.01972,"lat":25.5166233333333},
+{"bureauCode":11,"ddtId":"20","ddtName":"建福台","queueIndex":"4","entryIndex":"18","entryText":"莆田","lng":119.06275,"lat":25.35083}   
+  ]
+}

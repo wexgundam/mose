@@ -1,0 +1,18 @@
+{
+  "depots": [
+    {"bureauCode":17,"ddtId":"9","ddtName":"枢纽一台","lng":106.714475,"lat":26.604029},
+    {"bureauCode":17,"ddtId":"10","ddtName":"南昆台","lng":103.704187,"lat":24.853037},
+    {"bureauCode":17,"ddtId":"13","ddtName":"成昆台","lng":101.849143,"lat":25.744579},
+    {"bureauCode":17,"ddtId":"14","ddtName":"枢纽二台","lng":102.474046,"lat":24.917734},
+    {"bureauCode":17,"ddtId":"18","ddtName":"沾水台新","lng":104.51017,"lat":26.007551},
+    {"bureauCode":17,"ddtId":"23","ddtName":"沪昆台","lng":103.798333,"lat":25.532375},
+    {"bureauCode":17,"ddtId":"27","ddtName":"广大台","lng":101.52767,"lat":25.04495},
+    {"bureauCode":17,"ddtId":"30","ddtName":"玉河台","lng":102.54522,"lat":24.35423},
+    {"bureauCode":17,"ddtId":"38","ddtName":"大丽线","lng":100.254272,"lat":25.592131},
+    {"bureauCode":17,"ddtId":"50","ddtName":"米轨台","lng":103.14119,"lat":24.92005},
+    {"bureauCode":17,"ddtId":"101","ddtName":"长昆台","lng":103.03687,"lat":25.33872},
+    {"bureauCode":17,"ddtId":"111","ddtName":"云桂台","lng":103.383488,"lat":24.404365},
+    {"bureauCode":17,"ddtId":"121","ddtName":"枢纽三台","lng":102.974487,"lat":24.819931},
+    {"bureauCode":17,"ddtId":"131","ddtName":"昆广大台","lng":102.069671,"lat":25.126716}
+  ]
+}

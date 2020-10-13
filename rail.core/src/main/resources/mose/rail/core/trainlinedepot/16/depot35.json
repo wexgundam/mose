@@ -1,0 +1,11 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"35","ddtName":"宝兰台","queueIndex":"1","entryIndex":"1","entryText":"东岔","lng":106.53936,"lat":34.442455},
+{"bureauCode":16,"ddtId":"35","ddtName":"宝兰台","queueIndex":"1","entryIndex":"2","entryText":"天水南","lng":105.85766,"lat":34.54844},
+{"bureauCode":16,"ddtId":"35","ddtName":"宝兰台","queueIndex":"1","entryIndex":"3","entryText":"秦安","lng":105.65941,"lat":34.84691},
+{"bureauCode":16,"ddtId":"35","ddtName":"宝兰台","queueIndex":"1","entryIndex":"4","entryText":"通渭","lng":105.26233,"lat":35.19562},
+{"bureauCode":16,"ddtId":"35","ddtName":"宝兰台","queueIndex":"1","entryIndex":"5","entryText":"下小岔","lng":104.92408,"lat":35.401145},
+{"bureauCode":16,"ddtId":"35","ddtName":"宝兰台","queueIndex":"1","entryIndex":"6","entryText":"定西北","lng":104.58583,"lat":35.60667}
+   
+  ]
+}

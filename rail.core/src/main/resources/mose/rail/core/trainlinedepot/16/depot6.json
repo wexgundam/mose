@@ -1,0 +1,22 @@
+{
+  "entries": [
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"1","entryText":"武威南到达场","lng":102.761514,"lat":37.795884},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"2","entryText":"武威南上下场","lng":102.73735,"lat":37.8154},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"3","entryText":"武威","lng":102.62366,"lat":37.90384},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"4","entryText":"北河","lng":102.564465,"lat":37.9553855},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"5","entryText":"槐安","lng":102.50527,"lat":38.006931},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"6","entryText":"截河坝","lng":102.3767,"lat":38.1316005},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"7","entryText":"青山堡","lng":102.24813,"lat":38.25627},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"8","entryText":"金昌","lng":102.06368,"lat":38.37113},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"9","entryText":"玉石","lng":101.89147,"lat":38.4709},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"10","entryText":"芨岭","lng":101.78828,"lat":38.53096},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"11","entryText":"大青阳口","lng":101.5296,"lat":38.65202},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"12","entryText":"马莲井","lng":101.302145,"lat":38.73249},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"13","entryText":"山丹","lng":101.07469,"lat":38.81296},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"14","entryText":"东乐","lng":100.805671,"lat":38.845722},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"15","entryText":"西屯","lng":100.72096,"lat":38.881231},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"16","entryText":"张掖","lng":100.51916,"lat":38.97355},
+{"bureauCode":16,"ddtId":"6","ddtName":"武平台","queueIndex":"1","entryIndex":"17","entryText":"平原堡","lng":100.35183,"lat":39.081}
+   
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "entries": [
+ {"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"1","entryIndex":"1","entryText":"拉萨西","lng":91.0526,"lat":29.6031133333333},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"1","entryIndex":"2","entryText":"柳梧线路所","lng":91.0526,"lat":29.6031133333333},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"1","entryIndex":"3","entryText":"拉萨南","lng":91.04373,"lat":29.59307},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"4","entryText":"拉萨","lng":91.07034,"lat":29.6232},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"5","entryText":"拉萨南","lng":91.04373,"lat":29.59307},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"6","entryText":"白堆","lng":90.980155,"lat":29.490945},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"7","entryText":"协荣","lng":90.91658,"lat":29.38882},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"8","entryText":"曲水县","lng":90.69648,"lat":29.35003},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"9","entryText":"茶巴拉","lng":90.4900299999999,"lat":29.339115},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"10","entryText":"尼木","lng":90.28358,"lat":29.3282},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"11","entryText":"卡如","lng":90.0490849999999,"lat":29.319315},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"12","entryText":"仁布","lng":89.81459,"lat":29.31043},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"13","entryText":"达竹卡","lng":89.79459,"lat":29.26043},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"14","entryText":"当古","lng":89.77459,"lat":29.21043},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"15","entryText":"杰琼","lng":88.87216,"lat":29.1221399999999},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"16","entryText":"卡堆","lng":88.89216,"lat":29.17214},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"17","entryText":"日喀则","lng":88.91216,"lat":29.22214},
+{"bureauCode":18,"ddtId":"2","ddtName":"拉日台","queueIndex":"2","entryIndex":"18","entryText":"日喀则西","lng":88.89216,"lat":29.17214}
+   
+  ]
+}

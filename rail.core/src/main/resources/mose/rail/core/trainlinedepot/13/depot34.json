@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"1","entryIndex":"1","entryText":"覃塘","lng":109.41979,"lat":23.10913},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"1","entryIndex":"2","entryText":"根竹","lng":109.52088,"lat":23.108251},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"1","entryIndex":"3","entryText":"贵港黎湛场","lng":109.578493333333,"lat":23.0804873333333},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"4","entryText":"凌村线路所","lng":109.3065,"lat":23.1622454999999},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"5","entryText":"根竹","lng":109.52088,"lat":23.108251},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"6","entryText":"贵港南广场","lng":109.61318,"lat":23.0991},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"7","entryText":"厚禄","lng":109.88441,"lat":23.20876},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"8","entryText":"桂平","lng":110.11643,"lat":23.31647},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"9","entryText":"平南南","lng":110.43272,"lat":23.41771},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"10","entryText":"藤县","lng":110.98736,"lat":23.33437},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"11","entryText":"梧州南","lng":111.22259,"lat":23.39429},
+{"bureauCode":13,"ddtId":"34","ddtName":"南广CTC台","queueIndex":"2","entryIndex":"12","entryText":"郁南","lng":111.46995,"lat":23.24581}   
+  ]
+}

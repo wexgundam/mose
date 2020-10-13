@@ -1,0 +1,18 @@
+{
+  "entries": [
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"1","entryText":"汉口","lng":114.254585,"lat":30.618919},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"2","entryText":"新墩","lng":114.168588,"lat":30.6114624},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"3","entryText":"吴家山","lng":114.07195,"lat":30.611674},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"4","entryText":"吴家山线路所","lng":113.94244,"lat":30.576747},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"5","entryText":"汉川","lng":113.81293,"lat":30.54182},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"6","entryText":"天门南","lng":113.45651,"lat":30.42786},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"7","entryText":"仙桃西","lng":113.1401,"lat":30.42376},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"8","entryText":"潜江","lng":112.93953,"lat":30.38949},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"9","entryText":"荆州","lng":112.21313,"lat":30.37054},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"10","entryText":"枝江北","lng":111.77236,"lat":30.47659},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"11","entryText":"宜昌东线路所","lng":111.571445,"lat":30.56739},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"12","entryText":"宜昌东一场","lng":111.37053,"lat":30.65819},
+{"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","queueIndex":"1","entryIndex":"13","entryText":"宜昌东二场","lng":111.37053,"lat":30.65819}
+    
+  ]
+}

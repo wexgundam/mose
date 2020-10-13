@@ -1,0 +1,28 @@
+{
+  "entries": [
+ {"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"1","entryIndex":"1","entryText":"海石湾","lng":102.864979,"lat":36.341029},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"1","entryIndex":"2","entryText":"窑街","lng":102.844979,"lat":36.291029},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"3","entryText":"海石湾","lng":102.864979,"lat":36.341029},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"4","entryText":"老鸦城","lng":102.6500945,"lat":36.4091195},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"5","entryText":"乐都","lng":102.43521,"lat":36.47721},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"6","entryText":"杏园","lng":102.316091,"lat":36.489113},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"7","entryText":"大峡","lng":102.2126105,"lat":36.4971715},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"8","entryText":"平安驿","lng":102.10913,"lat":36.50523},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"9","entryText":"曹家堡","lng":102.08913,"lat":36.45523},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"10","entryText":"西宁东","lng":101.813427333333,"lat":36.5508546666666},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"11","entryText":"西宁货","lng":101.833427333333,"lat":36.6008546666666},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"12","entryText":"西宁普速场","lng":101.81348,"lat":36.6195},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"13","entryText":"小桥","lng":123.48034,"lat":41.92276},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"2","entryIndex":"14","entryText":"西宁西","lng":101.688512,"lat":36.657661},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"3","entryIndex":"15","entryText":"小桥","lng":123.48034,"lat":41.92276},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"3","entryIndex":"16","entryText":"西宁北","lng":101.77037,"lat":36.66386},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"3","entryIndex":"17","entryText":"孙家寨","lng":101.762001,"lat":36.736122},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"3","entryIndex":"18","entryText":"长宁堡","lng":101.742001,"lat":36.686122},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"3","entryIndex":"19","entryText":"陶家寨","lng":101.722001,"lat":36.636122},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"3","entryIndex":"20","entryText":"大通县","lng":101.702001,"lat":36.586122},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"4","entryIndex":"21","entryText":"西宁货","lng":101.833427333333,"lat":36.6008546666666},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"4","entryIndex":"22","entryText":"西宁动车所","lng":101.843401,"lat":36.591532},
+{"bureauCode":18,"ddtId":"1","ddtName":"海宁台","queueIndex":"4","entryIndex":"23","entryText":"西宁高速场","lng":101.8457724,"lat":36.6555724}
+   
+  ]
+}

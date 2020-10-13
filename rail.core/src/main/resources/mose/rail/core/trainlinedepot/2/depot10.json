@@ -1,0 +1,31 @@
+{
+  "entries": [
+  {"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"1","entryIndex":"1","entryText":"沈阳西","lng":123.234278,"lat":41.9185},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"1","entryIndex":"2","entryText":"丁香湖1号线路所","lng":123.234278,"lat":41.9185},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"1","entryIndex":"3","entryText":"丁香湖2号线路所","lng":122.77147,"lat":41.55922},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"1","entryIndex":"4","entryText":"大二环1号线路所","lng":123.226495375,"lat":41.7107879},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"1","entryIndex":"5","entryText":"沈阳高速场","lng":123.41185,"lat":41.66729},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"2","entryIndex":"6","entryText":"辽中","lng":122.77147,"lat":41.55922},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"2","entryIndex":"7","entryText":"丁香湖2号线路所","lng":122.77147,"lat":41.55922},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"2","entryIndex":"8","entryText":"丁香湖1号线路所","lng":123.234278,"lat":41.9185},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"2","entryIndex":"9","entryText":"大二环2号线路所","lng":123.264533833333,"lat":41.8094125999999},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"2","entryIndex":"10","entryText":"沈阳北高速场","lng":123.449059,"lat":41.8200852},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"2","entryIndex":"11","entryText":"沈阳北","lng":123.435883,"lat":41.819465},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"3","entryIndex":"12","entryText":"丁香湖2号线路所","lng":122.77147,"lat":41.55922},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"3","entryIndex":"13","entryText":"大二环1号线路所","lng":123.226495375,"lat":41.7107879},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"3","entryIndex":"14","entryText":"大成","lng":123.350136,"lat":41.827408},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"3","entryIndex":"15","entryText":"沈阳北","lng":123.435883,"lat":41.819465},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"4","entryIndex":"16","entryText":"揽军屯","lng":123.352467,"lat":41.79147275},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"4","entryIndex":"17","entryText":"浑河","lng":123.38126,"lat":41.72711},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"4","entryIndex":"18","entryText":"沈阳","lng":123.393368,"lat":41.794601},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"4","entryIndex":"19","entryText":"沈阳北","lng":123.435883,"lat":41.819465},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"4","entryIndex":"20","entryText":"文官屯","lng":123.47785,"lat":41.88258},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"5","entryIndex":"21","entryText":"于洪","lng":123.31762,"lat":41.82209},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"5","entryIndex":"22","entryText":"大成","lng":123.350136,"lat":41.827408},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"5","entryIndex":"23","entryText":"沈阳","lng":123.393368,"lat":41.794601},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"6","entryIndex":"24","entryText":"沈阳北高速场","lng":123.449059,"lat":41.8200852},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"6","entryIndex":"25","entryText":"沈阳北","lng":123.435883,"lat":41.819465},
+{"bureauCode":2,"ddtId":"10","ddtName":"沈阳枢纽客车台","queueIndex":"6","entryIndex":"26","entryText":"沈阳东","lng":123.501763,"lat":41.822566}
+  
+  ]
+}

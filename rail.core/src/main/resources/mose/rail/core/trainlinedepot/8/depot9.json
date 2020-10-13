@@ -1,0 +1,23 @@
+{
+  "entries": [
+  {"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"1","entryIndex":"1","entryText":"千河","lng":107.3038,"lat":34.39112},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"1","entryIndex":"2","entryText":"卧龙寺","lng":107.26243,"lat":34.36384},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"3","entryText":"千河","lng":107.3038,"lat":34.39112},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"4","entryText":"凤翔","lng":107.250698,"lat":34.461416},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"5","entryText":"冯家山","lng":107.18942,"lat":34.52436},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"6","entryText":"段家湾","lng":107.152645,"lat":34.57981},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"7","entryText":"千阳","lng":107.11587,"lat":34.63526},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"8","entryText":"水沟","lng":107.01963,"lat":34.74641},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"9","entryText":"娘娘庙","lng":106.94269,"lat":34.80518},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"10","entryText":"陇县","lng":106.85092,"lat":34.87084},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"11","entryText":"史家铺","lng":106.7802,"lat":35.01277},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"12","entryText":"火烧寨","lng":106.7766,"lat":35.04049},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"13","entryText":"神峪河","lng":106.79117,"lat":35.1366},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"14","entryText":"安口南","lng":106.77802,"lat":35.1852933333333},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"2","entryIndex":"15","entryText":"安口窑","lng":106.80885,"lat":35.23477},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"3","entryIndex":"16","entryText":"安口南","lng":106.77802,"lat":35.1852933333333},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"3","entryIndex":"17","entryText":"华亭","lng":106.73404,"lat":35.18451},
+{"bureauCode":8,"ddtId":"9","ddtName":"宝中台","queueIndex":"3","entryIndex":"18","entryText":"砚北","lng":106.71404,"lat":35.13451}
+  
+  ]
+}

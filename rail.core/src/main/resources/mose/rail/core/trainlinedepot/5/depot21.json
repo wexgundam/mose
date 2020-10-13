@@ -1,0 +1,17 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"1","entryIndex":"1","entryText":"集宁","lng":113.105598,"lat":41.043085},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"1","entryIndex":"2","entryText":"葫芦","lng":113.010792,"lat":41.043129},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"3","entryText":"集宁南","lng":113.09919,"lat":41.03145},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"4","entryText":"葫芦","lng":113.010792,"lat":41.043129},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"5","entryText":"八苏木","lng":112.84831,"lat":40.95283},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"6","entryText":"十八台","lng":112.81833,"lat":40.9053},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"7","entryText":"马盖图","lng":112.70598,"lat":40.90695},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"8","entryText":"姑家堡","lng":112.62067,"lat":40.92016},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"9","entryText":"卓资山","lng":112.56177,"lat":40.90215},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"10","entryText":"福生庄","lng":112.46246,"lat":40.96777},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"11","entryText":"三道营","lng":112.29613,"lat":40.99274},
+{"bureauCode":5,"ddtId":"21","ddtName":"集旗台","queueIndex":"2","entryIndex":"12","entryText":"旗下营","lng":112.15278,"lat":40.97561}
+   
+  ]
+}

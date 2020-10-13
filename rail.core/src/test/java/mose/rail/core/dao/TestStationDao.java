@@ -8,7 +8,7 @@ package mose.rail.core.dao;
 import mose.CommonConfiguration;
 import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import mose.rail.core.vo.StationSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -46,7 +46,7 @@ import java.util.List;
         "classpath:/spring/applicationContext-database.xml"
 })
 @ComponentScan(basePackages = "mose.rail.core.dao", useDefaultFilters = false, includeFilters = {
-        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {StationDao.class, BureauDao.class, TrainlineDeportDao.class})
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {StationDao.class, BureauDao.class, TrainlineDepotDao.class})
 })
 public class TestStationDao {
     @Autowired
@@ -54,7 +54,7 @@ public class TestStationDao {
     @Autowired
     private BureauDao bureauDao;
     @Autowired
-    private TrainlineDeportDao trainlineDeportDao;
+    private TrainlineDepotDao trainlineDepotDao;
     private Station station;
 
     @Before
@@ -85,11 +85,11 @@ public class TestStationDao {
         station.setJurisdictionBureauId(bureauId);
         station.setJurisdictionBureauName(bureau.getName());
 
-        TrainlineDeport trainlineDeport = new TrainlineDeport();
-        trainlineDeport.setName("td");
-        int trainlineDeportId = trainlineDeportDao.addOne(trainlineDeport);
-        station.setJurisdictionTdId(trainlineDeportId);
-        station.setJurisdictionTdName(trainlineDeport.getName());
+        TrainlineDepot trainlineDepot = new TrainlineDepot();
+        trainlineDepot.setName("td");
+        int trainlineDepotId = trainlineDepotDao.addOne(trainlineDepot);
+        station.setJurisdictionTdId(trainlineDepotId);
+        station.setJurisdictionTdName(trainlineDepot.getName());
 
         int id = stationDao.addOne(station);
         station.setId(id);
@@ -207,9 +207,9 @@ public class TestStationDao {
         getMany = stationDao.getMany(bureau);
         Assert.assertTrue(getMany.size() > 0);
 
-        trainlineDeport = new TrainlineDeport();
-        trainlineDeport.setId(station.getJurisdictionTdId());
-        getMany = stationDao.getMany(trainlineDeport);
+        trainlineDepot = new TrainlineDepot();
+        trainlineDepot.setId(station.getJurisdictionTdId());
+        getMany = stationDao.getMany(trainlineDepot);
         Assert.assertTrue(getMany.size() > 0);
 
         stationDao.updateOne(station);

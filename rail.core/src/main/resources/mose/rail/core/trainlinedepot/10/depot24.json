@@ -1,0 +1,35 @@
+{
+  "entries": [
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"1","entryText":"赣榆北","lng":119.201197,"lat":35.03682},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"2","entryText":"柘汪","lng":119.1564775,"lat":34.957981},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"3","entryText":"赣榆","lng":119.111758,"lat":34.879142},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"4","entryText":"沈圩线路所","lng":119.075069,"lat":34.729931},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"5","entryText":"包庄","lng":119.03838,"lat":34.58072},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"6","entryText":"连云港","lng":119.163427,"lat":34.608894},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"7","entryText":"盐坨","lng":119.2304,"lat":34.66675},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"8","entryText":"新浦东","lng":119.19327,"lat":34.62393},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"1","entryIndex":"9","entryText":"云台山","lng":119.29015,"lat":34.68967},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"2","entryIndex":"10","entryText":"云台山","lng":119.29015,"lat":34.68967},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"2","entryIndex":"11","entryText":"连云港东","lng":119.34085,"lat":34.7182},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"2","entryIndex":"12","entryText":"墟沟北","lng":119.3638805,"lat":34.730047},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"2","entryIndex":"13","entryText":"墟沟","lng":119.386911,"lat":34.741894},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"2","entryIndex":"14","entryText":"连云","lng":119.366911,"lat":34.691894},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"15","entryText":"连云港","lng":119.163427,"lat":34.608894},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"16","entryText":"包庄","lng":119.03838,"lat":34.58072},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"17","entryText":"海州","lng":119.139951,"lat":34.577281},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"18","entryText":"董集","lng":119.236115,"lat":34.430808},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"19","entryText":"灌云东","lng":119.48186,"lat":34.34471},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"20","entryText":"响水县","lng":119.68784,"lat":34.192301},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"21","entryText":"滨海港","lng":119.859421,"lat":34.060021},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"22","entryText":"阜宁东","lng":119.94062,"lat":33.79887},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"23","entryText":"射阳","lng":120.01959,"lat":33.68225},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"24","entryText":"盐城北","lng":120.102645,"lat":33.448903},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"3","entryIndex":"25","entryText":"圩洋线路所","lng":119.109448333333,"lat":30.305671},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"4","entryIndex":"26","entryText":"盐城北","lng":120.102645,"lat":33.448903},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"4","entryIndex":"27","entryText":"盐城普速场","lng":120.184375,"lat":33.371209},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"5","entryIndex":"28","entryText":"云台山","lng":119.29015,"lat":34.68967},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"5","entryIndex":"29","entryText":"东辛","lng":119.27015,"lat":34.63967},
+{"bureauCode":10,"ddtId":"24","ddtName":"连盐客专台","queueIndex":"5","entryIndex":"30","entryText":"徐圩","lng":119.25015,"lat":34.58967}
+    
+  ]
+}

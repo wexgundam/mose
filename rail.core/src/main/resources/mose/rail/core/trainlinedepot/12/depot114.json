@@ -1,0 +1,21 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"1","entryIndex":"1","entryText":"怀集","lng":112.15953,"lat":23.89286},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"1","entryIndex":"2","entryText":"广宁","lng":112.425991,"lat":23.585161},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"1","entryIndex":"3","entryText":"肇庆东贵广场","lng":112.5445305,"lat":23.3995605},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"1","entryIndex":"4","entryText":"三水南贵广场","lng":112.78905525,"lat":23.2395147499999},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"1","entryIndex":"5","entryText":"佛山西","lng":113.03358,"lat":23.079469},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"1","entryIndex":"6","entryText":"盐步所","lng":113.1514515,"lat":23.0340135},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"1","entryIndex":"7","entryText":"广州南","lng":113.269323,"lat":22.988558},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"2","entryIndex":"8","entryText":"佛山西","lng":113.03358,"lat":23.079469},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"2","entryIndex":"9","entryText":"佛山西城际场","lng":113.017043333333,"lat":23.093856},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"3","entryIndex":"10","entryText":"三水南南广场","lng":112.87154,"lat":23.11371},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"3","entryIndex":"11","entryText":"佛山西","lng":113.03358,"lat":23.079469},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"3","entryIndex":"12","entryText":"盐步所","lng":113.1514515,"lat":23.0340135},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"3","entryIndex":"13","entryText":"广州南","lng":113.269323,"lat":22.988558},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"4","entryIndex":"14","entryText":"三眼桥","lng":113.24475,"lat":23.13859},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"4","entryIndex":"15","entryText":"盐步所","lng":113.1514515,"lat":23.0340135},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"5","entryIndex":"16","entryText":"佛山西动车所","lng":113.01358,"lat":23.029469},
+{"bureauCode":12,"ddtId":"114","ddtName":"贵广台","queueIndex":"5","entryIndex":"17","entryText":"佛山西","lng":113.03358,"lat":23.079469}   
+  ]
+}

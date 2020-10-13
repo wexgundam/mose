@@ -1,0 +1,21 @@
+{
+  "entries": [
+ {"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"1","entryText":"横山","lng":110.128645,"lat":25.158625},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"2","entryText":"大溪河","lng":110.05842,"lat":25.08744},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"3","entryText":"塘堡","lng":110.01278,"lat":25.03809},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"4","entryText":"永福","lng":109.99503,"lat":24.99408},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"5","entryText":"葡萄","lng":110.000451,"lat":24.908543},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"6","entryText":"亲睦村","lng":109.972850999999,"lat":24.8548525},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"7","entryText":"矮岭","lng":109.945251,"lat":24.801162},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"8","entryText":"波寨","lng":109.884711,"lat":24.774672},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"9","entryText":"大端河","lng":109.86081,"lat":24.70245},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"10","entryText":"黄冕","lng":109.85358,"lat":24.66831},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"11","entryText":"幽兰","lng":109.81912,"lat":24.610211},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"12","entryText":"新村","lng":109.782559999999,"lat":24.5449955},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"13","entryText":"鹿寨","lng":109.746,"lat":24.47978},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"14","entryText":"对亭","lng":109.67849,"lat":24.4336},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"15","entryText":"雒容","lng":109.60537,"lat":24.40577},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"16","entryText":"洛埠","lng":109.52504,"lat":24.43523},
+{"bureauCode":13,"ddtId":"3","ddtName":"桂柳台","queueIndex":"1","entryIndex":"17","entryText":"鹧鸪江","lng":109.466725,"lat":24.3821799999999}   
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"1","entryIndex":"1","entryText":"枫林","lng":115.40657,"lat":29.76061},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"1","entryIndex":"2","entryText":"瑞昌西","lng":115.63285,"lat":29.66109},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"1","entryIndex":"3","entryText":"柴桑","lng":115.848687,"lat":29.629418},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"1","entryIndex":"4","entryText":"洪家山线路所","lng":115.932782166666,"lat":29.6514136666666},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"1","entryIndex":"5","entryText":"庐山客专场","lng":115.88221,"lat":29.59794},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"1","entryIndex":"6","entryText":"K23线路所","lng":115.85352,"lat":29.5257125},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"7","entryText":"九江","lng":116.005636,"lat":29.7044},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"8","entryText":"洪家山线路所","lng":115.932782166666,"lat":29.6514136666666},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"9","entryText":"庐山城际场","lng":115.88221,"lat":29.59794},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"10","entryText":"庐山普速场","lng":115.88221,"lat":29.59794},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"11","entryText":"K23线路所","lng":115.85352,"lat":29.5257125},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"12","entryText":"德安城际场","lng":115.76745,"lat":29.30903},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"13","entryText":"共青城城际场","lng":115.77486,"lat":29.24314},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"14","entryText":"永修城际场","lng":115.81596,"lat":29.02021},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"15","entryText":"乐化城际场","lng":115.870831,"lat":28.814361},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"2","entryIndex":"16","entryText":"南昌北","lng":115.86549,"lat":28.74062},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"3","entryIndex":"17","entryText":"乐化城际场","lng":115.870831,"lat":28.814361},
+{"bureauCode":11,"ddtId":"2","ddtName":"昌赣台","queueIndex":"3","entryIndex":"18","entryText":"农大线路所","lng":115.844816,"lat":28.7503946666666}
+   
+  ]
+}

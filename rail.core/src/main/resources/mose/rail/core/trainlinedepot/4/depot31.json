@@ -1,0 +1,10 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"31","ddtName":"大西一台","queueIndex":"1","entryIndex":"1","entryText":"樊家庄线路所","lng":112.70765,"lat":38.77248},
+{"bureauCode":4,"ddtId":"31","ddtName":"大西一台","queueIndex":"1","entryIndex":"2","entryText":"原平西","lng":112.67413,"lat":38.73908},
+{"bureauCode":4,"ddtId":"31","ddtName":"大西一台","queueIndex":"1","entryIndex":"3","entryText":"忻州西","lng":112.69413,"lat":38.44397},
+{"bureauCode":4,"ddtId":"31","ddtName":"大西一台","queueIndex":"1","entryIndex":"4","entryText":"阳曲西","lng":112.64786,"lat":38.07253},
+{"bureauCode":4,"ddtId":"31","ddtName":"大西一台","queueIndex":"1","entryIndex":"5","entryText":"西涧河线路所","lng":112.600220333333,"lat":37.9586213333333}
+   
+  ]
+}

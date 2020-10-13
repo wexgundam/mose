@@ -1,0 +1,11 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"36","ddtName":"渝万台","queueIndex":"1","entryIndex":"0","entryText":"万州北","lng":108.367147,"lat":30.862848},
+{"bureauCode":14,"ddtId":"36","ddtName":"渝万台","queueIndex":"1","entryIndex":"1","entryText":"梁平南","lng":107.770102,"lat":30.642623},
+{"bureauCode":14,"ddtId":"36","ddtName":"渝万台","queueIndex":"1","entryIndex":"2","entryText":"垫江","lng":107.37954,"lat":30.30725},
+{"bureauCode":14,"ddtId":"36","ddtName":"渝万台","queueIndex":"1","entryIndex":"3","entryText":"长寿湖","lng":107.204191,"lat":29.965179},
+{"bureauCode":14,"ddtId":"36","ddtName":"渝万台","queueIndex":"1","entryIndex":"4","entryText":"长寿北郑渝场","lng":106.877502499999,"lat":29.78719},
+{"bureauCode":14,"ddtId":"36","ddtName":"渝万台","queueIndex":"1","entryIndex":"5","entryText":"复盛郑渝场","lng":106.550814,"lat":29.609201},
+{"bureauCode":14,"ddtId":"36","ddtName":"渝万台","queueIndex":"1","entryIndex":"6","entryText":"重庆北渝万场","lng":106.550814,"lat":29.609201}   
+  ]
+}

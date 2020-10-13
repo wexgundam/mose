@@ -9,7 +9,7 @@ import mose.core.dao.BaseDao;
 import mose.core.string.StringUtil;
 import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import mose.rail.core.vo.StationSearchVo;
 import org.springframework.stereotype.Repository;
 
@@ -44,7 +44,7 @@ public class StationDao extends BaseDao<Station, StationSearchVo> {
         sql.append(" JURISDICTION_BUREAU_ID,");
         sql.append(" (select NAME from T_BUREAU where ID=JURISDICTION_BUREAU_ID) as jurisdictionBureauName,");
         sql.append(" JURISDICTION_TD_ID,");
-        sql.append(" (select NAME from T_TRAINLINE_DEPORT where ID=JURISDICTION_TD_ID) as jurisdictionTdName,");
+        sql.append(" (select NAME from T_TRAINLINE_DEPOT where ID=JURISDICTION_TD_ID) as jurisdictionTdName,");
         sql.append(" BUREAU_PARTING,");
         sql.append(" NAME_PINYIN,");
         sql.append(" NAME_INITIAL_PINYIN,");
@@ -115,9 +115,9 @@ public class StationDao extends BaseDao<Station, StationSearchVo> {
      *
      * @author 靳磊 created on 2019/9/11
      */
-    public List<Station> getMany(TrainlineDeport trainlineDeport) {
+    public List<Station> getMany(TrainlineDepot trainlineDepot) {
         StationSearchVo stationSearchVo = new StationSearchVo();
-        stationSearchVo.setJurisdictionTdIdEqual(trainlineDeport.getId());
+        stationSearchVo.setJurisdictionTdIdEqual(trainlineDepot.getId());
         return getMany(stationSearchVo);
     }
 

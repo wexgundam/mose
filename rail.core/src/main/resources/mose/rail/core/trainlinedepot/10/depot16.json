@@ -1,0 +1,23 @@
+{
+  "entries": [
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"1","entryText":"杭甬杭州南线路所","lng":120.375393333333,"lat":30.1480033333333},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"2","entryText":"绍兴北","lng":120.53894,"lat":30.09991},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"3","entryText":"绍兴东","lng":120.85303,"lat":30.05484},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"4","entryText":"余姚北","lng":121.16831,"lat":30.09856},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"5","entryText":"宁波北Ⅰ场","lng":121.52443,"lat":29.94917},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"6","entryText":"宁波北Ⅳ场","lng":121.52443,"lat":29.94917},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"7","entryText":"宁波北Ⅲ场","lng":121.52443,"lat":29.94917},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"8","entryText":"庄桥","lng":121.53572,"lat":29.92337},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"9","entryText":"孔浦","lng":121.536014999999,"lat":29.892685},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"10","entryText":"宁波","lng":121.53631,"lat":29.862},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"11","entryText":"宁波东","lng":121.586258,"lat":29.849041},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"12","entryText":"宁波客整所","lng":121.585712,"lat":29.846077},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"1","entryIndex":"13","entryText":"邱隘","lng":121.635062666666,"lat":29.8447306666666},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"2","entryIndex":"14","entryText":"衢州普速场","lng":118.88119,"lat":28.92332},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"2","entryIndex":"15","entryText":"常山","lng":118.56054,"lat":28.92281},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"2","entryIndex":"16","entryText":"辉埠","lng":118.473478,"lat":28.952222},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"2","entryIndex":"17","entryText":"开化","lng":118.36226,"lat":28.99133},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"2","entryIndex":"18","entryText":"杨林","lng":103.082999,"lat":25.235526},
+{"bureauCode":10,"ddtId":"16","ddtName":"杭甬高铁台","queueIndex":"2","entryIndex":"19","entryText":"德兴东","lng":117.958479,"lat":29.116203}    
+  ]
+}

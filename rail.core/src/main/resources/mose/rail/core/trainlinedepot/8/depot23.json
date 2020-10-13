@@ -1,0 +1,24 @@
+{
+  "entries": [
+  {"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"1","entryText":"茂陵","lng":108.65548,"lat":34.3381399999999},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"2","entryText":"南市","lng":108.65548,"lat":34.3381399999999},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"3","entryText":"胡王线路所","lng":108.53737,"lat":34.3848},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"4","entryText":"礼泉","lng":108.41926,"lat":34.43146},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"5","entryText":"灵源","lng":108.34859,"lat":34.46831},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"6","entryText":"乾县","lng":108.27792,"lat":34.50516},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"7","entryText":"漠西","lng":108.25792,"lat":34.45516},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"8","entryText":"梁山","lng":108.19497,"lat":34.55565},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"9","entryText":"阳峪","lng":108.13202,"lat":34.65614},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"10","entryText":"永寿","lng":108.15202,"lat":34.70614},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"11","entryText":"蒿店","lng":108.082405,"lat":34.76953},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"12","entryText":"太峪","lng":108.0934675,"lat":34.907595},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"13","entryText":"彬州","lng":108.10453,"lat":35.04566},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"14","entryText":"彬州西","lng":108.08453,"lat":34.99566},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"15","entryText":"大佛寺","lng":107.987685,"lat":35.103725},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"16","entryText":"上孟","lng":107.89084,"lat":35.21179},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"17","entryText":"宁县南","lng":107.91084,"lat":35.26179},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"18","entryText":"长武","lng":107.82279,"lat":35.27225},
+{"bureauCode":8,"ddtId":"23","ddtName":"西平台","queueIndex":"1","entryIndex":"19","entryText":"长庆桥","lng":107.75241,"lat":35.31386}
+  
+  ]
+}

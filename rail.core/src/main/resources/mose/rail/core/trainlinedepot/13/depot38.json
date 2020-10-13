@@ -1,0 +1,19 @@
+{
+  "entries": [
+ {"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"1","entryText":"南化","lng":108.088534333333,"lat":22.8675783333333},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"2","entryText":"南宁西","lng":107.97515,"lat":22.88803},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"3","entryText":"隆安东","lng":107.70618,"lat":23.13524},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"4","entryText":"平果高速场","lng":107.68618,"lat":23.08524},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"5","entryText":"那何北","lng":107.12201,"lat":23.63333},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"6","entryText":"田东北","lng":107.14201,"lat":23.68333},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"7","entryText":"田阳高速场","lng":106.903165,"lat":23.784525},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"8","entryText":"百色普速场","lng":106.66432,"lat":23.88572},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"9","entryText":"百色高速场","lng":106.66432,"lat":23.88572},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"10","entryText":"南角亭所","lng":106.567446666666,"lat":23.8871699999999},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"1","entryIndex":"11","entryText":"阳圩","lng":106.3737,"lat":23.89007},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"2","entryIndex":"12","entryText":"百色高速场","lng":106.66432,"lat":23.88572},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"2","entryIndex":"13","entryText":"百色普速场","lng":106.66432,"lat":23.88572},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"3","entryIndex":"14","entryText":"百色高速场","lng":106.66432,"lat":23.88572},
+{"bureauCode":13,"ddtId":"38","ddtName":"南昆客专台","queueIndex":"3","entryIndex":"15","entryText":"百色普速场","lng":106.66432,"lat":23.88572}   
+  ]
+}

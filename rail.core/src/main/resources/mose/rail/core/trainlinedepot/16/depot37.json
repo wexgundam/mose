@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"1","entryIndex":"1","entryText":"银川高速场","lng":106.19647725,"lat":38.50285325},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"1","entryIndex":"2","entryText":"银川东","lng":106.2434,"lat":38.40606},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"1","entryIndex":"3","entryText":"河东机场","lng":106.38716,"lat":38.32273},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"1","entryIndex":"4","entryText":"灵武北","lng":106.31629,"lat":38.13516},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"1","entryIndex":"5","entryText":"吴忠","lng":106.252479,"lat":37.984663},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"2","entryIndex":"6","entryText":"银川动车所","lng":106.184236,"lat":38.556667},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"2","entryIndex":"7","entryText":"银川高速场","lng":106.19647725,"lat":38.50285325},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"3","entryIndex":"8","entryText":"银川动车所","lng":106.184236,"lat":38.556667},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"3","entryIndex":"9","entryText":"银川高速场","lng":106.19647725,"lat":38.50285325},
+{"bureauCode":16,"ddtId":"37","ddtName":"西银二台","queueIndex":"3","entryIndex":"10","entryText":"银川普速场","lng":106.174037,"lat":38.492019} 
+  
+  ]
+}

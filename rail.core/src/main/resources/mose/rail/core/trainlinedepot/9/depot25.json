@@ -1,0 +1,34 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"1","entryIndex":"1","entryText":"大沽河线路所","lng":120.109047666666,"lat":36.1734443333333},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"1","entryIndex":"2","entryText":"洋河口","lng":120.067759,"lat":36.137106},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"1","entryIndex":"3","entryText":"青岛西","lng":119.954376,"lat":35.902388},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"4","entryText":"谭家坊","lng":118.67154,"lat":36.6971},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"5","entryText":"昌乐","lng":118.83886,"lat":36.71076},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"6","entryText":"潍坊西","lng":119.048132,"lat":36.714176},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"7","entryText":"潍坊","lng":119.09839,"lat":36.69727},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"8","entryText":"潍坊东","lng":119.24365,"lat":36.65111},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"9","entryText":"黄旗堡","lng":119.35827,"lat":36.57734},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"10","entryText":"岞山","lng":119.40686,"lat":36.56392},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"11","entryText":"峡山","lng":119.53381,"lat":36.52298},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"12","entryText":"高密客","lng":119.65092,"lat":36.457875},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"13","entryText":"高密","lng":119.76803,"lat":36.39277},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"14","entryText":"姚哥庄","lng":119.83711,"lat":36.35732},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"15","entryText":"芝兰庄","lng":119.87927,"lat":36.33252},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"16","entryText":"胶州","lng":119.996449,"lat":36.29934},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"17","entryText":"李小庄线路所","lng":119.996449,"lat":36.29934},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"18","entryText":"营海","lng":120.032104,"lat":36.218223},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"19","entryText":"洋河口","lng":120.067759,"lat":36.137106},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"20","entryText":"红石崖","lng":120.120579499999,"lat":36.092103},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"2","entryIndex":"21","entryText":"黄岛","lng":120.1734,"lat":36.0471},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"3","entryIndex":"22","entryText":"胶州","lng":119.996449,"lat":36.29934},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"3","entryIndex":"23","entryText":"李小庄线路所","lng":119.996449,"lat":36.29934},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"3","entryIndex":"24","entryText":"姜戈庄线路所","lng":120.077414,"lat":36.3365355},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"3","entryIndex":"25","entryText":"蓝村西上行","lng":120.158379,"lat":36.373731},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"3","entryIndex":"26","entryText":"蓝村西下行","lng":120.158379,"lat":36.373731},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"4","entryIndex":"27","entryText":"潍坊","lng":119.09839,"lat":36.69727},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"4","entryIndex":"28","entryText":"二十里堡","lng":119.13345,"lat":36.649215},
+{"bureauCode":9,"ddtId":"25","ddtName":"胶一台","queueIndex":"4","entryIndex":"29","entryText":"坊子","lng":119.16851,"lat":36.60116}
+   
+  ]
+}

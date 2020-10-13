@@ -1,0 +1,20 @@
+{
+  "entries": [
+ {"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"1","entryText":"叶集","lng":115.93713,"lat":31.83414},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"2","entryText":"固始","lng":115.66971,"lat":31.91565},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"3","entryText":"商城","lng":115.44253,"lat":31.95394},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"4","entryText":"传流店","lng":115.215989999999,"lat":32.05916},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"5","entryText":"潢川","lng":115.10272,"lat":32.11177},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"6","entryText":"潢川北","lng":115.03975,"lat":32.16482},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"7","entryText":"息县","lng":114.83263,"lat":32.17247},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"8","entryText":"罗山","lng":114.55031,"lat":32.16581},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"9","entryText":"闵岗","lng":114.33442,"lat":32.128675},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"10","entryText":"平桥","lng":114.11853,"lat":32.09154},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"11","entryText":"信阳","lng":114.08345,"lat":32.12867},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"12","entryText":"信阳北","lng":114.07395,"lat":32.18936},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"13","entryText":"信阳西","lng":114.05395,"lat":32.13936},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"14","entryText":"小林","lng":114.03395,"lat":32.08936},
+{"bureauCode":7,"ddtId":"1","ddtName":"宁西台","queueIndex":"2","entryIndex":"15","entryText":"小林","lng":114.03395,"lat":32.08936}
+   
+  ]
+}

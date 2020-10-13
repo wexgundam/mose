@@ -1,0 +1,34 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"1","entryIndex":"1","entryText":"河下","lng":114.80142,"lat":27.807595},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"1","entryIndex":"2","entryText":"新余西","lng":114.78142,"lat":27.757595},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"2","entryIndex":"3","entryText":"新余","lng":114.93929,"lat":27.8098},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"2","entryIndex":"4","entryText":"洋坊","lng":114.91929,"lat":27.7598},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"5","entryText":"罗坊","lng":115.037139999999,"lat":27.8399633333333},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"6","entryText":"新余","lng":114.93929,"lat":27.8098},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"7","entryText":"河下","lng":114.80142,"lat":27.807595},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"8","entryText":"分宜","lng":114.66355,"lat":27.80539},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"9","entryText":"彬江","lng":114.557339,"lat":27.778744},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"10","entryText":"宜春普速场","lng":114.43714,"lat":27.79007},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"11","entryText":"宜春西","lng":114.38907,"lat":27.78593},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"12","entryText":"西村","lng":114.220935,"lat":27.71894},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"13","entryText":"芦溪","lng":114.0528,"lat":27.65195},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"14","entryText":"泉江","lng":113.95847,"lat":27.66017},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"15","entryText":"白源","lng":113.90185,"lat":27.64577},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"16","entryText":"萍乡老场","lng":113.84127,"lat":27.64705},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"17","entryText":"萍乡新场","lng":113.84127,"lat":27.64705},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"18","entryText":"姚家洲","lng":113.76423,"lat":27.64114},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"3","entryIndex":"19","entryText":"灯芯桥","lng":113.74423,"lat":27.59114},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"20","entryText":"分宜","lng":114.66355,"lat":27.80539},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"21","entryText":"松山","lng":114.667241,"lat":27.635992},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"22","entryText":"石芬","lng":114.667241,"lat":27.635992},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"23","entryText":"大光山","lng":114.63143,"lat":27.37121},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"24","entryText":"安福","lng":114.63143,"lat":27.37121},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"25","entryText":"金田","lng":114.50054,"lat":27.2345666666666},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"26","entryText":"永新","lng":114.23876,"lat":26.96128},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"27","entryText":"文竹","lng":113.99434,"lat":26.99659},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"28","entryText":"莲花","lng":113.88484,"lat":26.99905},
+{"bureauCode":11,"ddtId":"9","ddtName":"新灯台","queueIndex":"4","entryIndex":"29","entryText":"茶陵","lng":113.54962,"lat":26.81022}
+   
+  ]
+}

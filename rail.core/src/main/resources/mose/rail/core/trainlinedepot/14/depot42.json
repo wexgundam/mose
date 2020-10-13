@@ -1,0 +1,26 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"1","entryIndex":"0","entryText":"黔灵山","lng":106.68127,"lat":26.58785},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"1","entryIndex":"1","entryText":"贵阳","lng":106.703179,"lat":26.556864},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"2","entryIndex":"2","entryText":"老罗堡线路所","lng":106.97109,"lat":26.4542333333333},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"2","entryIndex":"3","entryText":"龙里北","lng":106.96601,"lat":26.46826},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"3","entryIndex":"4","entryText":"贵阳北渝贵贵广场","lng":106.7009334,"lat":26.604262},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"3","entryIndex":"5","entryText":"贵阳","lng":106.703179,"lat":26.556864},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"4","entryIndex":"6","entryText":"龙里","lng":106.97363,"lat":26.44722},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"4","entryIndex":"7","entryText":"老罗堡线路所","lng":106.97109,"lat":26.4542333333333},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"4","entryIndex":"8","entryText":"秦祺村线路所","lng":106.837134499999,"lat":26.5055486666666},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"4","entryIndex":"9","entryText":"新寨线路所","lng":106.703179,"lat":26.556864},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"4","entryIndex":"10","entryText":"贵阳","lng":106.703179,"lat":26.556864},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"5","entryIndex":"11","entryText":"贵阳","lng":106.703179,"lat":26.556864},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"5","entryIndex":"12","entryText":"贵阳西","lng":106.673129,"lat":26.487053},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"6","entryIndex":"13","entryText":"贵阳东","lng":106.744499,"lat":26.665092},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"6","entryIndex":"14","entryText":"龙洞堡","lng":106.80029,"lat":26.54327},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"6","entryIndex":"15","entryText":"小碧线路所","lng":106.88315,"lat":26.505765},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"6","entryIndex":"16","entryText":"龙里北","lng":106.96601,"lat":26.46826},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"6","entryIndex":"17","entryText":"贵定县","lng":107.19193,"lat":26.35139},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"7","entryIndex":"18","entryText":"小碧线路所","lng":106.88315,"lat":26.505765},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"7","entryIndex":"19","entryText":"新寨线路所","lng":106.703179,"lat":26.556864},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"8","entryIndex":"20","entryText":"贵阳","lng":106.703179,"lat":26.556864},
+{"bureauCode":14,"ddtId":"42","ddtName":"贵阳3台","queueIndex":"8","entryIndex":"21","entryText":"贵阳南","lng":106.727614,"lat":26.503586}   
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entries": [
+  {"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"1","entryText":"三间房东场","lng":123.84372,"lat":47.09832},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"2","entryText":"三间房峰前场","lng":123.84372,"lat":47.09832},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"3","entryText":"三间房西场","lng":123.84372,"lat":47.09832},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"4","entryText":"昂峰线路所","lng":123.829095,"lat":47.130005},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"5","entryText":"昂昂溪","lng":123.81447,"lat":47.16169},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"6","entryText":"富拉尔基","lng":123.64633,"lat":47.21072},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"7","entryText":"富拉尔基西","lng":123.61415,"lat":47.22276},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"8","entryText":"虎尔虎拉","lng":123.54979,"lat":47.24684},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"9","entryText":"白山乡","lng":123.27395,"lat":47.285},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"10","entryText":"龙江","lng":123.17891,"lat":47.32965},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"11","entryText":"鲁河","lng":122.98831,"lat":47.44976},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"12","entryText":"碾子山","lng":122.88327,"lat":47.51552},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"13","entryText":"吉新河","lng":122.874382,"lat":47.588703},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"14","entryText":"成吉思汗","lng":122.83933,"lat":47.74862},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"15","entryText":"高台子","lng":122.80187,"lat":47.93687},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"16","entryText":"扎兰屯","lng":122.74401,"lat":48.01777},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"17","entryText":"卧牛河","lng":122.692351,"lat":48.080834},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"18","entryText":"哈拉苏","lng":122.42548,"lat":48.11638},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"19","entryText":"南木","lng":122.366971,"lat":48.178562},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"20","entryText":"巴林","lng":122.33349,"lat":48.31574},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"21","entryText":"喇嘛山","lng":122.26119,"lat":48.38641},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"22","entryText":"雅鲁","lng":122.14406,"lat":48.54997},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"1","entryIndex":"23","entryText":"沟口","lng":122.02648,"lat":48.68013},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"2","entryIndex":"24","entryText":"扎兰屯","lng":122.74401,"lat":48.01777},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"2","entryIndex":"25","entryText":"红部","lng":122.72401,"lat":47.96777},
+{"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","queueIndex":"2","entryIndex":"26","entryText":"阿荣旗","lng":122.70401,"lat":47.91777}
+  
+  ]
+}

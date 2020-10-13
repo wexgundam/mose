@@ -1,0 +1,22 @@
+{
+  "entries": [
+   {"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"1","entryText":"山海关","lng":119.767594,"lat":40.000128},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"2","entryText":"东戴河","lng":119.84716,"lat":40.04238},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"3","entryText":"绥中北","lng":120.3242,"lat":40.34856},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"4","entryText":"葫芦岛北","lng":120.76328,"lat":40.74345},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"5","entryText":"锦州南","lng":121.12652,"lat":41.01647},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"6","entryText":"盘锦北","lng":121.807523,"lat":41.335789},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"7","entryText":"五七","lng":121.86449,"lat":41.34292},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"8","entryText":"台安","lng":122.43066,"lat":41.44619},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"9","entryText":"辽中","lng":122.77147,"lat":41.55922},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"10","entryText":"丁香湖2号线路所","lng":122.77147,"lat":41.55922},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"11","entryText":"大二环2号线路所","lng":123.264533833333,"lat":41.8094125999999},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"12","entryText":"大二环1号线路所","lng":123.226495375,"lat":41.7107879},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"13","entryText":"沈阳北高速场","lng":123.449059,"lat":41.8200852},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"1","entryIndex":"14","entryText":"沈阳北","lng":123.435883,"lat":41.819465},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"2","entryIndex":"15","entryText":"盘锦北","lng":121.807523,"lat":41.335789},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"2","entryIndex":"16","entryText":"赵荒地线路所","lng":121.807523,"lat":41.335789},
+{"bureauCode":2,"ddtId":"28","ddtName":"秦沈客专","queueIndex":"2","entryIndex":"17","entryText":"盘锦高速场","lng":121.807523,"lat":41.335789}
+ 
+  ]
+}

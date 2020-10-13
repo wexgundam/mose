@@ -1,0 +1,31 @@
+{
+  "entries": [
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"1","entryIndex":"1","entryText":"十二里阁","lng":116.78368,"lat":36.75784},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"1","entryIndex":"2","entryText":"晏城","lng":116.75819,"lat":36.80374},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"1","entryIndex":"3","entryText":"鲍东线路所","lng":116.80357,"lat":36.797025},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"1","entryIndex":"4","entryText":"焦斌","lng":116.84895,"lat":36.79031},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"1","entryIndex":"5","entryText":"桑梓店","lng":116.91361,"lat":36.77764},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"1","entryIndex":"6","entryText":"泺口","lng":117.006624,"lat":36.71547},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"1","entryIndex":"7","entryText":"北园","lng":116.998753999999,"lat":36.6932005},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"2","entryIndex":"8","entryText":"桑梓店","lng":116.91361,"lat":36.77764},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"2","entryIndex":"9","entryText":"董家镇","lng":117.168288,"lat":36.750962},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"2","entryIndex":"10","entryText":"权庄","lng":117.422966,"lat":36.724284},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"3","entryIndex":"11","entryText":"济西","lng":116.86587,"lat":36.6579},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"3","entryIndex":"12","entryText":"桥南","lng":116.844285,"lat":36.6910927499999},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"3","entryIndex":"13","entryText":"董家庄","lng":116.86172,"lat":36.690731},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"3","entryIndex":"14","entryText":"东沙王庄","lng":116.930237,"lat":36.69196575},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"3","entryIndex":"15","entryText":"北园","lng":116.998753999999,"lat":36.6932005},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"3","entryIndex":"16","entryText":"济南","lng":116.990884,"lat":36.670931},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"3","entryIndex":"17","entryText":"大明湖","lng":117.028845,"lat":36.681217},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"18","entryText":"济南南","lng":116.939481,"lat":36.627457},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"19","entryText":"白马山","lng":116.973749666666,"lat":36.6564396666666},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"20","entryText":"济南","lng":116.990884,"lat":36.670931},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"21","entryText":"大明湖","lng":117.028845,"lat":36.681217},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"22","entryText":"黄台","lng":117.087566,"lat":36.695762},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"23","entryText":"历城","lng":117.146287,"lat":36.710307},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"24","entryText":"平陵城","lng":117.34666,"lat":36.72657},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"25","entryText":"权庄","lng":117.422966,"lat":36.724284},
+{"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","queueIndex":"4","entryIndex":"26","entryText":"章丘","lng":117.499272,"lat":36.721998}
+    
+  ]
+}

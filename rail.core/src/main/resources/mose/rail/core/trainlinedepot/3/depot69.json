@@ -1,0 +1,17 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"1","entryIndex":"0","entryText":"北京星火","lng":116.50936,"lat":39.948612},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"1","entryIndex":"1","entryText":"小井村线路所","lng":116.528799499999,"lat":39.970466},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"1","entryIndex":"2","entryText":"星火动车所","lng":116.548239,"lat":39.99232},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"3","entryText":"北京星火","lng":116.50936,"lat":39.948612},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"4","entryText":"顺义西","lng":116.48936,"lat":39.898612},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"5","entryText":"怀柔南","lng":116.831612,"lat":40.302485},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"6","entryText":"密云东","lng":116.851612,"lat":40.352485},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"7","entryText":"兴隆西","lng":117.482299,"lat":40.413759},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"8","entryText":"安匠","lng":117.720464,"lat":40.764226},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"9","entryText":"承德南","lng":117.964967,"lat":40.884586},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"10","entryText":"承德县北","lng":118.29181,"lat":40.93712},
+{"bureauCode":3,"ddtId":"69","ddtName":"京沈客专","queueIndex":"2","entryIndex":"11","entryText":"平泉北","lng":118.71247,"lat":41.03886}
+   
+  ]
+}

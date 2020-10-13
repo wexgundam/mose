@@ -1,0 +1,24 @@
+{
+  "entries": [
+  {"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"1","entryText":"海城","lng":122.74269,"lat":40.86324},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"2","entryText":"南台","lng":125.810884,"lat":44.022377},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"3","entryText":"汤岗子","lng":124.383112,"lat":42.5465435},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"4","entryText":"旧堡","lng":122.95534,"lat":41.07071},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"5","entryText":"鞍山","lng":122.98597,"lat":41.1126},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"6","entryText":"小乐屯","lng":123.017691,"lat":41.153847},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"7","entryText":"灵山到达场","lng":123.049412,"lat":41.195094},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"8","entryText":"灵山出发场","lng":123.049412,"lat":41.195094},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"9","entryText":"首山","lng":123.07222,"lat":41.2216},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"10","entryText":"辽阳","lng":123.167852,"lat":41.281776},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"11","entryText":"宝镜","lng":123.2766548,"lat":41.2638184},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"12","entryText":"张台子","lng":123.27224,"lat":41.35406},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"13","entryText":"灯塔","lng":123.31757,"lat":41.43032},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"14","entryText":"林盛堡","lng":123.362929,"lat":41.578726},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"15","entryText":"苏家屯客场","lng":123.354995,"lat":41.662598},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"16","entryText":"苏家屯上出发场","lng":123.354995,"lat":41.662598},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"17","entryText":"苏家屯下到达场","lng":123.354995,"lat":41.662598},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"18","entryText":"苏家屯下出发场","lng":123.354995,"lat":41.662598},
+{"bureauCode":2,"ddtId":"8","ddtName":"沈大一台","queueIndex":"1","entryIndex":"19","entryText":"沈阳","lng":123.393368,"lat":41.794601}
+  
+  ]
+}

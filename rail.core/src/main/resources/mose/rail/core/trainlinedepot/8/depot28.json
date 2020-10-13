@@ -1,0 +1,18 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"1","entryText":"鱼河","lng":109.92654,"lat":37.960845},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"2","entryText":"镇川","lng":110.1529,"lat":37.69805},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"3","entryText":"米脂","lng":110.1729,"lat":37.74805},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"4","entryText":"绥德","lng":110.263007,"lat":37.546711},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"5","entryText":"田庄镇","lng":110.1306735,"lat":37.3568805},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"6","entryText":"清涧县","lng":109.99834,"lat":37.16705},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"7","entryText":"子长","lng":109.74768,"lat":37.15317},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"8","entryText":"蟠龙镇","lng":109.685785,"lat":36.91143},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"9","entryText":"延安北","lng":109.62389,"lat":36.66969},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"1","entryIndex":"10","entryText":"延安","lng":109.48121,"lat":36.55745},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"2","entryIndex":"11","entryText":"义合镇","lng":110.397544666666,"lat":37.5248273333333},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"2","entryIndex":"12","entryText":"绥德","lng":110.263007,"lat":37.546711},
+{"bureauCode":8,"ddtId":"28","ddtName":"包西二台","queueIndex":"2","entryIndex":"13","entryText":"子洲","lng":109.95322,"lat":37.61131}
+   
+  ]
+}

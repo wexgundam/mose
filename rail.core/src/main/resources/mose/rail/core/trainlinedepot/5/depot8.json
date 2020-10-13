@@ -1,0 +1,28 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"1","entryIndex":"1","entryText":"包头北","lng":109.74724,"lat":40.66262},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"1","entryIndex":"2","entryText":"打拉亥","lng":109.647082333333,"lat":40.6335183333333},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"3","entryText":"包头西五场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"4","entryText":"包头西六场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"5","entryText":"包头西二场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"6","entryText":"打拉亥","lng":109.647082333333,"lat":40.6335183333333},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"7","entryText":"哈业胡同","lng":109.44246,"lat":40.62622},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"8","entryText":"白彦花","lng":109.29622,"lat":40.62808},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"9","entryText":"公庙子","lng":108.9646,"lat":40.62485},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"10","entryText":"乌拉山","lng":108.77818,"lat":40.65686},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"11","entryText":"乌拉特前旗","lng":108.65008,"lat":40.71271},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"12","entryText":"西小召","lng":108.3595,"lat":40.86336},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"13","entryText":"五原","lng":108.04956,"lat":40.9115},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"14","entryText":"四分滩","lng":107.709279,"lat":40.869807},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"15","entryText":"临河","lng":107.42914,"lat":40.74376},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"16","entryText":"头道桥","lng":107.1447,"lat":40.589494},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"17","entryText":"巴彦高勒","lng":107.02185,"lat":40.33308},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"2","entryIndex":"18","entryText":"杭锦旗","lng":107.036883,"lat":40.269445},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"3","entryIndex":"19","entryText":"西小召","lng":108.3595,"lat":40.86336},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"3","entryIndex":"20","entryText":"五原东","lng":108.426531,"lat":40.986941},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"3","entryIndex":"21","entryText":"建丰","lng":108.406531,"lat":40.936941},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"3","entryIndex":"22","entryText":"金泉南","lng":108.386531,"lat":40.886941},
+{"bureauCode":5,"ddtId":"8","ddtName":"包杭台","queueIndex":"3","entryIndex":"23","entryText":"金泉","lng":108.366531,"lat":40.836941}
+   
+  ]
+}

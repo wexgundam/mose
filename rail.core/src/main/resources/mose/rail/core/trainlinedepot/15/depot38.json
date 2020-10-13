@@ -1,0 +1,19 @@
+{
+  "entries": [
+ {"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"0","entryText":"大理","lng":100.24975,"lat":25.58919},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"1","entryText":"大理北","lng":100.28403,"lat":25.62869},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"2","entryText":"海东镇","lng":100.256185,"lat":25.73727},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"3","entryText":"挖色","lng":100.22834,"lat":25.84585},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"4","entryText":"上关","lng":100.1451,"lat":25.9688},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"5","entryText":"诸葛城","lng":100.1251,"lat":25.9188},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"6","entryText":"西邑","lng":100.1051,"lat":25.8688},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"7","entryText":"花兰箐","lng":100.17587,"lat":26.45598},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"8","entryText":"金墩","lng":100.19587,"lat":26.50598},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"9","entryText":"鹤庆","lng":100.21587,"lat":26.55598},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"10","entryText":"仁和","lng":100.253606666666,"lat":26.7449199999999},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"1","entryIndex":"11","entryText":"丽江","lng":100.25242,"lat":26.81082},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"2","entryIndex":"12","entryText":"仁和","lng":100.253606666666,"lat":26.7449199999999},
+{"bureauCode":15,"ddtId":"38","ddtName":"大丽线","queueIndex":"2","entryIndex":"13","entryText":"丽江东","lng":100.29253,"lat":26.86796}
+   
+  ]
+}

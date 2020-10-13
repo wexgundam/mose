@@ -1,0 +1,34 @@
+{
+  "entries": [
+   {"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"1","entryIndex":"1","entryText":"通辽","lng":122.271214,"lat":43.604991},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"1","entryIndex":"2","entryText":"通辽北场","lng":122.2934755,"lat":43.6111382499999},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"1","entryIndex":"3","entryText":"通辽东","lng":122.36026,"lat":43.62958},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"4","entryText":"通辽到达场","lng":122.271214,"lat":43.604991},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"5","entryText":"通辽上直通","lng":122.271214,"lat":43.604991},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"6","entryText":"通辽下直发","lng":122.271214,"lat":43.604991},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"7","entryText":"通辽东","lng":122.36026,"lat":43.62958},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"8","entryText":"五道木","lng":122.40467,"lat":43.65334},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"9","entryText":"钱家店","lng":122.51731,"lat":43.71441},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"10","entryText":"大林","lng":122.80791,"lat":43.71617},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"11","entryText":"门达","lng":123.113133,"lat":43.65111},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"12","entryText":"欧里","lng":123.23004,"lat":43.59526},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"13","entryText":"白市","lng":123.374479,"lat":43.5443365},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"2","entryIndex":"14","entryText":"双辽","lng":123.518918,"lat":43.493413},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"3","entryIndex":"15","entryText":"四平","lng":124.37313,"lat":43.16822},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"3","entryIndex":"16","entryText":"泉沟","lng":124.26395,"lat":43.18192},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"4","entryIndex":"17","entryText":"四平","lng":124.37313,"lat":43.16822},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"4","entryIndex":"18","entryText":"泉沟","lng":124.26395,"lat":43.18192},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"4","entryIndex":"19","entryText":"八面城","lng":124.060303,"lat":43.209353},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"4","entryIndex":"20","entryText":"曲家店","lng":123.934739,"lat":43.22737},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"4","entryIndex":"21","entryText":"三江口","lng":123.72039,"lat":43.3716},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"4","entryIndex":"22","entryText":"金宝屯","lng":123.57803,"lat":43.38302},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"4","entryIndex":"23","entryText":"双辽","lng":123.518918,"lat":43.493413},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"5","entryIndex":"24","entryText":"双辽","lng":123.518918,"lat":43.493413},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"5","entryIndex":"25","entryText":"山场屯","lng":123.548315,"lat":43.548151},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"5","entryIndex":"26","entryText":"卧虎屯","lng":123.4814875,"lat":43.7582155},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"5","entryIndex":"27","entryText":"茂林","lng":123.41466,"lat":43.96828},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"5","entryIndex":"28","entryText":"保康","lng":123.32607,"lat":44.12781},
+{"bureauCode":2,"ddtId":"5","ddtName":"平齐一","queueIndex":"5","entryIndex":"29","entryText":"太平川","lng":123.18477,"lat":44.39953}
+ 
+  ]
+}

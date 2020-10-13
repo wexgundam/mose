@@ -1,0 +1,11 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","queueIndex":"1","entryIndex":"1","entryText":"东都","lng":117.71695,"lat":35.84916},
+{"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","queueIndex":"1","entryIndex":"2","entryText":"汶南","lng":117.69695,"lat":35.79916},
+{"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","queueIndex":"1","entryIndex":"3","entryText":"东牛家庄","lng":117.69695,"lat":35.79916},
+{"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","queueIndex":"1","entryIndex":"4","entryText":"放城","lng":117.62382,"lat":35.46654},
+{"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","queueIndex":"1","entryIndex":"5","entryText":"仲村","lng":117.62382,"lat":35.46654},
+{"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","queueIndex":"1","entryIndex":"6","entryText":"平邑","lng":117.64382,"lat":35.51654}
+   
+  ]
+}

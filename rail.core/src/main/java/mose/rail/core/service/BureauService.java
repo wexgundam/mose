@@ -8,7 +8,7 @@ package mose.rail.core.service;
 import mose.rail.core.dao.BureauDao;
 import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import mose.rail.core.vo.BureauSearchVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -75,8 +75,8 @@ public class BureauService {
      *
      * @author 靳磊 created on 2019/9/11
      */
-    public boolean jurisdiction(Bureau bureau, TrainlineDeport trainlineDeport) {
-        return networkElementService.jurisdiction(bureau, trainlineDeport);
+    public boolean jurisdiction(Bureau bureau, TrainlineDepot trainlineDepot) {
+        return networkElementService.jurisdiction(bureau, trainlineDepot);
     }
 
     /**
@@ -172,9 +172,9 @@ public class BureauService {
      *
      * @author 靳磊 created on 2019/9/11
      */
-    public Bureau getJurisdiction(TrainlineDeport trainlineDeport) {
+    public Bureau getJurisdiction(TrainlineDepot trainlineDepot) {
         for (Bureau bureau : getAll()) {
-            if (jurisdiction(bureau, trainlineDeport)) {
+            if (jurisdiction(bureau, trainlineDepot)) {
                 return bureau;
             }
         }

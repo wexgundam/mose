@@ -1,0 +1,20 @@
+{
+  "entries": [
+ {"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"0","entryText":"吐哈","lng":90.53154,"lat":43.06075},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"1","entryText":"鄯善北","lng":90.1961,"lat":42.91874},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"2","entryText":"胜金北","lng":89.658873,"lat":43.017851},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"3","entryText":"吐鲁番北","lng":89.11118,"lat":43.02295},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"4","entryText":"大河沿","lng":88.81965,"lat":43.12062},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"5","entryText":"盐湖西","lng":88.09669,"lat":43.43849},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"6","entryText":"乌鲁木齐南高速场","lng":87.8132405,"lat":43.63966},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"1","entryIndex":"7","entryText":"乌鲁木齐","lng":87.529791,"lat":43.84083},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"2","entryIndex":"8","entryText":"乌鲁木齐","lng":87.529791,"lat":43.84083},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"2","entryIndex":"9","entryText":"动车运用所","lng":87.509791,"lat":43.79083},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"2","entryIndex":"10","entryText":"客车整备所","lng":87.489791,"lat":43.74083},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"3","entryIndex":"11","entryText":"大河沿","lng":88.81965,"lat":43.12062},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"3","entryIndex":"12","entryText":"头道河线路所","lng":88.81965,"lat":43.12062},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"4","entryIndex":"13","entryText":"乌鲁木齐南","lng":87.58621,"lat":43.78032},
+{"bureauCode":17,"ddtId":"323","ddtName":"哈乌台","queueIndex":"4","entryIndex":"14","entryText":"乌鲁木齐","lng":87.529791,"lat":43.84083}
+   
+  ]
+}

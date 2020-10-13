@@ -1,0 +1,17 @@
+{
+  "entries": [
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"1","entryIndex":"1","entryText":"永济北","lng":110.42467,"lat":35.02761},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"1","entryIndex":"2","entryText":"大荔","lng":109.92573,"lat":34.83477},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"1","entryIndex":"3","entryText":"渭南北大西场","lng":109.48128,"lat":34.53578},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"1","entryIndex":"4","entryText":"湾李线路所","lng":109.300367999999,"lat":34.4825766666666},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"1","entryIndex":"5","entryText":"西安北大西场","lng":108.938544,"lat":34.37617},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"1","entryIndex":"6","entryText":"西安北郑西场","lng":108.938544,"lat":34.37617},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"2","entryIndex":"7","entryText":"湾李线路所","lng":109.300367999999,"lat":34.4825766666666},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"2","entryIndex":"8","entryText":"临潼东","lng":109.155898285714,"lat":34.41921},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"2","entryIndex":"9","entryText":"西安北郑西场","lng":108.938544,"lat":34.37617},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"2","entryIndex":"10","entryText":"西安北大西场","lng":108.938544,"lat":34.37617},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"2","entryIndex":"11","entryText":"阿房宫","lng":108.75619,"lat":34.26978},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"3","entryIndex":"12","entryText":"西安北大西场","lng":108.938544,"lat":34.37617},
+{"bureauCode":8,"ddtId":"25","ddtName":"大西客专","queueIndex":"3","entryIndex":"13","entryText":"西安动车段","lng":108.91107075,"lat":34.3563455}    
+  ]
+}

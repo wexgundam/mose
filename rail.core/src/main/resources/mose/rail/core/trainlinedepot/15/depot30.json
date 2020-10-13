@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"1","entryIndex":"0","entryText":"玉溪西","lng":102.527,"lat":24.3529},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"1","entryIndex":"1","entryText":"玉溪南","lng":102.51588,"lat":24.27606},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"2","entryIndex":"2","entryText":"玉溪","lng":102.512147,"lat":24.339022},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"2","entryIndex":"3","entryText":"玉溪南","lng":102.51588,"lat":24.27606},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"5","entryText":"玉溪南","lng":102.51588,"lat":24.27606},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"6","entryText":"甸苴坝","lng":102.5921155,"lat":24.1960925},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"7","entryText":"通海","lng":102.668351,"lat":24.116125},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"8","entryText":"柿花树","lng":102.7569055,"lat":24.038183},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"9","entryText":"曲江","lng":102.84546,"lat":23.960241},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"10","entryText":"李浩寨","lng":102.8467,"lat":23.8416355},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"11","entryText":"建水北","lng":102.84794,"lat":23.72303},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"12","entryText":"建水","lng":102.87274,"lat":23.65796},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"13","entryText":"燕子洞","lng":103.06664,"lat":23.61647},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"14","entryText":"石岩寨","lng":103.139455,"lat":23.5666255},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"15","entryText":"鸡街","lng":103.21227,"lat":23.516781},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"3","entryIndex":"16","entryText":"蒙自北","lng":103.30214,"lat":23.46796},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"17","entryText":"蒙自北","lng":103.30214,"lat":23.46796},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"18","entryText":"长桥海","lng":103.36683,"lat":23.420895},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"19","entryText":"蒙自","lng":103.43152,"lat":23.37383},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"20","entryText":"朗敞寨","lng":103.41152,"lat":23.32383},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"21","entryText":"新现","lng":103.61727,"lat":22.96408},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"22","entryText":"屏边","lng":103.63727,"lat":23.01408},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"23","entryText":"莲花滩","lng":103.61727,"lat":22.96408},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"24","entryText":"瑶山","lng":103.7865545,"lat":22.7214104999999},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"25","entryText":"马度白","lng":103.955839,"lat":22.478741},
+{"bureauCode":15,"ddtId":"30","ddtName":"玉河台","queueIndex":"4","entryIndex":"26","entryText":"河口北","lng":103.975839,"lat":22.528741}   
+  ]
+}

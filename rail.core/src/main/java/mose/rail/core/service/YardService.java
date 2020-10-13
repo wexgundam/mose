@@ -11,7 +11,7 @@ import mose.rail.core.modal.AdjoinYards;
 import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.Link;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import mose.rail.core.modal.Yard;
 import mose.rail.core.vo.YardSearchVo;
 import org.slf4j.Logger;
@@ -174,9 +174,9 @@ public class YardService {
      *
      * @author 靳磊 created on 2019/9/11
      */
-    public List<Yard> getMany(TrainlineDeport trainlineDeport) {
+    public List<Yard> getMany(TrainlineDepot trainlineDepot) {
         //查询行车调度台管辖的车站集合，再查询每个站管辖的车场集合
-        return getMany(stationService.getMany(trainlineDeport));
+        return getMany(stationService.getMany(trainlineDepot));
     }
 
     /**

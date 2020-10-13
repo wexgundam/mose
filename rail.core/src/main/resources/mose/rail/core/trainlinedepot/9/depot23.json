@@ -1,0 +1,21 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"1","entryIndex":"1","entryText":"青岛西","lng":119.954376,"lat":35.902388},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"1","entryIndex":"2","entryText":"青岛西存车场","lng":119.954376,"lat":35.902388},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"3","entryText":"大沽河线路所","lng":120.109047666666,"lat":36.1734443333333},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"4","entryText":"洋河口","lng":120.067759,"lat":36.137106},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"5","entryText":"青岛西","lng":119.954376,"lat":35.902388},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"6","entryText":"草桥村线路所","lng":119.934376,"lat":35.852388},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"7","entryText":"李家庄线路所","lng":119.693954,"lat":35.625311},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"8","entryText":"董家口","lng":119.713954,"lat":35.675311},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"9","entryText":"两城","lng":119.547662,"lat":35.578907},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"10","entryText":"合村线路所","lng":119.483522,"lat":35.48459},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"11","entryText":"日照西青盐场","lng":119.419382,"lat":35.390273},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"12","entryText":"日照西兖石场","lng":119.419382,"lat":35.390273},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"13","entryText":"岚山西","lng":119.276217,"lat":35.187725},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"2","entryIndex":"14","entryText":"赣榆北","lng":119.201197,"lat":35.03682},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"3","entryIndex":"15","entryText":"李家庄线路所","lng":119.693954,"lat":35.625311},
+{"bureauCode":9,"ddtId":"23","ddtName":"青盐台","queueIndex":"3","entryIndex":"16","entryText":"董家口南","lng":119.673954,"lat":35.575311}
+   
+  ]
+}

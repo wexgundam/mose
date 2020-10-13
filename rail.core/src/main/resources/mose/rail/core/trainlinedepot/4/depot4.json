@@ -1,0 +1,25 @@
+{
+  "entries": [
+  {"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"1","entryIndex":"1","entryText":"大同县","lng":113.70942,"lat":40.0410466666666},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"1","entryIndex":"2","entryText":"湖东I场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"1","entryIndex":"3","entryText":"湖东II场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"2","entryIndex":"4","entryText":"湖东I场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"2","entryIndex":"5","entryText":"湖东II场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"2","entryIndex":"6","entryText":"马辛庄","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"2","entryIndex":"7","entryText":"西韩岭","lng":113.2563156,"lat":39.9757429},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"3","entryIndex":"8","entryText":"湖东I场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"3","entryIndex":"9","entryText":"湖东II场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"3","entryIndex":"10","entryText":"马辛庄","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"3","entryIndex":"11","entryText":"韩家岭","lng":113.193966,"lat":39.9371115},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"4","entryIndex":"12","entryText":"湖东I场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"4","entryIndex":"13","entryText":"湖东II场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"4","entryIndex":"14","entryText":"马辛庄","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"4","entryIndex":"15","entryText":"房子村","lng":113.46042,"lat":39.94894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"5","entryIndex":"16","entryText":"湖东I场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"5","entryIndex":"17","entryText":"湖东II场","lng":113.48042,"lat":39.99894},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"5","entryIndex":"18","entryText":"解家庄","lng":113.402366666666,"lat":40.0753799999999},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"5","entryIndex":"19","entryText":"大同东","lng":113.36334,"lat":40.1136},
+{"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","queueIndex":"5","entryIndex":"20","entryText":"燕庄","lng":113.36334,"lat":40.1136}
+  
+  ]
+}

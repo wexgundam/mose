@@ -1,0 +1,22 @@
+{
+  "entries": [
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"1","entryText":"台前北","lng":115.84344,"lat":35.91388},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"2","entryText":"梁山北","lng":116.499585,"lat":35.818584},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"3","entryText":"东平","lng":116.519585,"lat":35.868584},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"4","entryText":"宁阳东","lng":117.02951,"lat":35.92893},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"5","entryText":"天宝","lng":117.305604,"lat":36.103474},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"6","entryText":"莱芜","lng":117.581698,"lat":36.278018},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"7","entryText":"郭家沟","lng":117.561698,"lat":36.228018},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"8","entryText":"沂源","lng":118.154554,"lat":35.877484},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"9","entryText":"沂水西","lng":118.74741,"lat":35.52695},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"10","entryText":"莒县西","lng":118.76741,"lat":35.57695},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"11","entryText":"文疃","lng":119.020119999999,"lat":35.444255},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"12","entryText":"巨峰","lng":119.27283,"lat":35.31156},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"1","entryIndex":"13","entryText":"日照南","lng":119.48825,"lat":35.33455},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"2","entryIndex":"14","entryText":"台前北","lng":115.84344,"lat":35.91388},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"2","entryIndex":"15","entryText":"台前","lng":115.86344,"lat":35.96388},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"3","entryIndex":"16","entryText":"宁阳东","lng":117.02951,"lat":35.92893},
+{"bureauCode":9,"ddtId":"16","ddtName":"中南一台","queueIndex":"3","entryIndex":"17","entryText":"磁窑","lng":117.10632,"lat":35.90158}
+    
+  ]
+}

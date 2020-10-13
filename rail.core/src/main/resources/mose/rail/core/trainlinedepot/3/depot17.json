@@ -1,0 +1,24 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"167","entryIndex":"0","entryText":"黄村","lng":116.331159,"lat":39.72039},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"167","entryIndex":"1","entryText":"西枣林","lng":116.328779333333,"lat":39.6219666666666},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"167","entryIndex":"2","entryText":"固安","lng":116.32402,"lat":39.42512},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"167","entryIndex":"3","entryText":"霸州","lng":116.375585,"lat":39.122456},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"4","entryText":"北仓","lng":117.15211,"lat":39.24268},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"5","entryText":"北仓北","lng":117.205291666666,"lat":39.2554723333333},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"6","entryText":"郎园","lng":117.0428,"lat":39.27408},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"7","entryText":"双口","lng":117.0428,"lat":39.27408},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"8","entryText":"汊沽港","lng":116.95685,"lat":39.23585},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"9","entryText":"里澜城","lng":116.93685,"lat":39.18585},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"10","entryText":"永清","lng":116.355585,"lat":39.072456},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"11","entryText":"霸州","lng":116.375585,"lat":39.122456},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"12","entryText":"文安","lng":116.2603275,"lat":38.908258},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"13","entryText":"任丘","lng":116.14507,"lat":38.69406},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"14","entryText":"河间西","lng":115.955811,"lat":38.504722},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"15","entryText":"王佐","lng":115.9032635,"lat":38.4597},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"168","entryIndex":"16","entryText":"肃宁","lng":115.850716,"lat":38.414678},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"169","entryIndex":"17","entryText":"霸州","lng":116.375585,"lat":39.122456},
+{"bureauCode":3,"ddtId":"17","ddtName":"京九一台","queueIndex":"169","entryIndex":"18","entryText":"霸州西","lng":116.350506,"lat":39.093911}
+   
+  ]
+}

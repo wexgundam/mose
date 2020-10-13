@@ -1,0 +1,21 @@
+{
+  "entries": [
+ {"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"1","entryText":"马棚","lng":112.08788,"lat":32.12973},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"2","entryText":"陈家湖","lng":111.82802,"lat":32.15253},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"3","entryText":"老河口东","lng":111.74148,"lat":32.22084},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"4","entryText":"黄康","lng":111.652448,"lat":32.239261},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"5","entryText":"谷城","lng":111.60273,"lat":32.26515},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"6","entryText":"黄家营","lng":111.45172,"lat":32.327989},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"7","entryText":"浪河","lng":111.26928,"lat":32.40933},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"8","entryText":"武当山","lng":110.96631,"lat":32.5384},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"9","entryText":"白浪","lng":110.877099,"lat":32.568623},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"10","entryText":"十堰","lng":110.781757,"lat":32.603516},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"11","entryText":"花果","lng":110.6079585,"lat":32.647303},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"12","entryText":"小花果","lng":110.43416,"lat":32.69109},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"1","entryIndex":"13","entryText":"胡家营","lng":110.217093,"lat":32.807454},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"2","entryIndex":"14","entryText":"老河口东","lng":111.74148,"lat":32.22084},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"2","entryIndex":"15","entryText":"老河口","lng":111.68458,"lat":32.39145},
+{"bureauCode":7,"ddtId":"13","ddtName":"武康一台","queueIndex":"2","entryIndex":"16","entryText":"洪山咀","lng":111.65329,"lat":32.45161}
+   
+  ]
+}

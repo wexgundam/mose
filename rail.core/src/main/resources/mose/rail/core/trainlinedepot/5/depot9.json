@@ -1,0 +1,25 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"1","entryIndex":"1","entryText":"杭锦旗","lng":107.036883,"lat":40.269445},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"1","entryIndex":"2","entryText":"碱柜","lng":106.76225,"lat":39.94121},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"1","entryIndex":"3","entryText":"乌海北","lng":106.77941,"lat":39.80096},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"1","entryIndex":"4","entryText":"乌海","lng":106.80524,"lat":39.67004},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"1","entryIndex":"5","entryText":"黄白茨","lng":106.77816,"lat":39.54422},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"1","entryIndex":"6","entryText":"乌海西","lng":106.73878,"lat":39.45544},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"1","entryIndex":"7","entryText":"惠农","lng":106.727972,"lat":39.262627},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"2","entryIndex":"8","entryText":"黄白茨","lng":106.77816,"lat":39.54422},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"2","entryIndex":"9","entryText":"西桌子山","lng":106.80471,"lat":39.43963},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"2","entryIndex":"10","entryText":"拉僧庙","lng":106.83126,"lat":39.33504},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"3","entryIndex":"11","entryText":"乌海","lng":106.80524,"lat":39.67004},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"3","entryIndex":"12","entryText":"卡布其","lng":106.85237,"lat":39.63467},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"3","entryIndex":"13","entryText":"拉僧中庙","lng":106.88795,"lat":39.48055},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"3","entryIndex":"14","entryText":"老石旦","lng":106.84137,"lat":39.39212},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"3","entryIndex":"15","entryText":"拉僧庙","lng":106.83126,"lat":39.33504},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"3","entryIndex":"16","entryText":"公乌素","lng":106.91113,"lat":39.34447},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"4","entryIndex":"17","entryText":"乌海西","lng":106.73878,"lat":39.45544},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"4","entryIndex":"18","entryText":"黑沙土","lng":106.38534,"lat":39.46355},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"4","entryIndex":"19","entryText":"本井","lng":105.91493,"lat":39.40431},
+{"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","queueIndex":"4","entryIndex":"20","entryText":"吉兰泰","lng":105.7609,"lat":39.73239}
+   
+  ]
+}

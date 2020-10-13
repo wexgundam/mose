@@ -1,0 +1,30 @@
+{ 
+  "depots": [
+    {"bureauCode":7,"ddtId":"1","ddtName":"宁西台","lng":115.1017,"lat":32.11195},
+    {"bureauCode":7,"ddtId":"2","ddtName":"京广一台","lng":114.044952,"lat":33.570578},
+    {"bureauCode":7,"ddtId":"3","ddtName":"孟宝台","lng":113.305435,"lat":33.7192},
+    {"bureauCode":7,"ddtId":"4","ddtName":"京广三台","lng":114.036369,"lat":31.632045},
+    {"bureauCode":7,"ddtId":"5","ddtName":"京广二台","lng":114.036713,"lat":32.802138},
+    {"bureauCode":7,"ddtId":"6","ddtName":"京广四台","lng":113.90007,"lat":29.734868},
+    {"bureauCode":7,"ddtId":"7","ddtName":"京九一台","lng":114.964714,"lat":31.145831},
+    {"bureauCode":7,"ddtId":"8","ddtName":"武九台","lng":114.742413,"lat":30.518202},
+    {"bureauCode":7,"ddtId":"11","ddtName":"京九二台","lng":115.787659,"lat":29.891257},
+    {"bureauCode":7,"ddtId":"13","ddtName":"武康一台","lng":110.78476,"lat":32.604675},
+    {"bureauCode":7,"ddtId":"14","ddtName":"襄阳枢纽台","lng":112.156677,"lat":32.054645},
+    {"bureauCode":7,"ddtId":"15","ddtName":"武康二台","lng":113.277411,"lat":31.874168},
+    {"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","lng":111.811123,"lat":30.848595},
+    {"bureauCode":7,"ddtId":"18","ddtName":"汉宜台","lng":114.254379,"lat":30.616641},
+    {"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","lng":114.044266,"lat":32.978716},
+    {"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","lng":114.304504,"lat":29.862083},
+    {"bureauCode":7,"ddtId":"27","ddtName":"城际一台","lng":114.659801,"lat":30.490637},
+    {"bureauCode":7,"ddtId":"28","ddtName":"漯阜台","lng":115.865936,"lat":32.915909},
+    {"bureauCode":7,"ddtId":"29","ddtName":"焦柳一台","lng":112.212296,"lat":31.049404},
+    {"bureauCode":7,"ddtId":"30","ddtName":"宜万台","lng":111.371155,"lat":30.657997},
+    {"bureauCode":7,"ddtId":"36","ddtName":"合武台","lng":114.618473,"lat":31.287793},
+    {"bureauCode":7,"ddtId":"38","ddtName":"武汉枢纽台","lng":114.330339,"lat":30.643709},
+    {"bureauCode":7,"ddtId":"39","ddtName":"武西高铁台","lng":113.933716,"lat":30.953469},
+    {"bureauCode":7,"ddtId":"42","ddtName":"浩吉一台","lng":113.120728,"lat":29.373798},
+    {"bureauCode":7,"ddtId":"43","ddtName":"浩吉二台","lng":113.07978,"lat":28.431752},
+    {"bureauCode":7,"ddtId":"44","ddtName":"浩吉三台","lng":114.941025,"lat":27.808713}
+  ]
+}

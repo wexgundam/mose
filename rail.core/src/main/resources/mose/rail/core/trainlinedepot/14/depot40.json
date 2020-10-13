@@ -1,0 +1,18 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"1","entryIndex":"0","entryText":"草金线路所","lng":103.942502444444,"lat":30.6740705555555},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"1","entryIndex":"1","entryText":"九架线路所","lng":103.924160666666,"lat":30.6684233333333},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"2","entryText":"成都西","lng":103.979186,"lat":30.685365},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"3","entryText":"九架线路所","lng":103.924160666666,"lat":30.6684233333333},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"4","entryText":"温江","lng":103.81411,"lat":30.63454},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"5","entryText":"羊马","lng":103.756637,"lat":30.61731},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"6","entryText":"崇州","lng":103.68251,"lat":30.60964},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"7","entryText":"大邑","lng":103.535379,"lat":30.560057},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"8","entryText":"邛崃","lng":103.484816,"lat":30.411464},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"9","entryText":"西来","lng":103.51663,"lat":30.310086},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"10","entryText":"蒲江","lng":103.496695,"lat":30.192028},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"11","entryText":"朝阳湖城际场","lng":103.3442455,"lat":30.124219},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"12","entryText":"名山","lng":103.191796,"lat":30.05641},
+{"bureauCode":14,"ddtId":"40","ddtName":"成蒲台","queueIndex":"2","entryIndex":"13","entryText":"雅安","lng":103.05623,"lat":30.028195}   
+  ]
+}

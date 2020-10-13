@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"1","entryText":"柳州","lng":109.387779,"lat":24.310907},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"2","entryText":"拉堡线路所","lng":109.3616995,"lat":24.2623785},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"3","entryText":"进德","lng":109.33562,"lat":24.21385},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"4","entryText":"进德一场","lng":109.290129,"lat":23.9828745},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"5","entryText":"来宾北","lng":109.244638,"lat":23.751899},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"6","entryText":"和吉镇线路所","lng":109.275568999999,"lat":23.45707225},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"7","entryText":"凌村线路所","lng":109.3065,"lat":23.1622454999999},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"8","entryText":"宾阳柳南场","lng":109.2865,"lat":23.1122454999999},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"1","entryIndex":"9","entryText":"五塘柳南场","lng":108.3446385,"lat":22.78428},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"2","entryIndex":"10","entryText":"五塘南广场","lng":108.753047,"lat":23.0290625},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"2","entryIndex":"11","entryText":"宾阳南广场","lng":109.09212,"lat":23.21624},
+{"bureauCode":13,"ddtId":"35","ddtName":"柳南CTC台","queueIndex":"2","entryIndex":"12","entryText":"凌村线路所","lng":109.3065,"lat":23.1622454999999}   
+  ]
+}

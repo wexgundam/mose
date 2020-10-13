@@ -31,7 +31,7 @@ public class StationLocationVo {
     /**
      * 行调站名
      */
-    private String trainlineDeportStationName;
+    private String trainlineDepotStationName;
     /**
      * 经纬度坐标（纬度、经度）
      */
@@ -57,7 +57,7 @@ public class StationLocationVo {
         if (stationName != null ? !stationName.equals(that.stationName) : that.stationName != null) return false;
         if (tdmsStationName != null ? !tdmsStationName.equals(that.tdmsStationName) : that.tdmsStationName != null)
             return false;
-        if (trainlineDeportStationName != null ? !trainlineDeportStationName.equals(that.trainlineDeportStationName) : that.trainlineDeportStationName != null)
+        if (trainlineDepotStationName != null ? !trainlineDepotStationName.equals(that.trainlineDepotStationName) : that.trainlineDepotStationName != null)
             return false;
         if (!Arrays.equals(latLng, that.latLng)) return false;
         return administration != null ? administration.equals(that.administration) : that.administration == null;
@@ -68,7 +68,7 @@ public class StationLocationVo {
         int result = id;
         result = 31 * result + (stationName != null ? stationName.hashCode() : 0);
         result = 31 * result + (tdmsStationName != null ? tdmsStationName.hashCode() : 0);
-        result = 31 * result + (trainlineDeportStationName != null ? trainlineDeportStationName.hashCode() : 0);
+        result = 31 * result + (trainlineDepotStationName != null ? trainlineDepotStationName.hashCode() : 0);
         result = 31 * result + Arrays.hashCode(latLng);
         result = 31 * result + gridId;
         result = 31 * result + (administration != null ? administration.hashCode() : 0);
@@ -81,7 +81,7 @@ public class StationLocationVo {
                 "id=" + id +
                 ", stationName='" + stationName + '\'' +
                 ", tdmsStationName='" + tdmsStationName + '\'' +
-                ", trainlineDeportStationName='" + trainlineDeportStationName + '\'' +
+                ", trainlineDepotStationName='" + trainlineDepotStationName + '\'' +
                 ", latLng=" + Arrays.toString(latLng) +
                 ", gridId=" + gridId +
                 ", administration='" + administration + '\'' +
@@ -104,12 +104,12 @@ public class StationLocationVo {
         this.tdmsStationName = tdmsStationName;
     }
 
-    public String getTrainlineDeportStationName() {
-        return trainlineDeportStationName;
+    public String getTrainlineDepotStationName() {
+        return trainlineDepotStationName;
     }
 
-    public void setTrainlineDeportStationName(String trainlineDeportStationName) {
-        this.trainlineDeportStationName = trainlineDeportStationName;
+    public void setTrainlineDepotStationName(String trainlineDepotStationName) {
+        this.trainlineDepotStationName = trainlineDepotStationName;
     }
 
     public double[] getLatLng() {

@@ -1,0 +1,29 @@
+{
+  "entries": [
+ {"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"1","entryIndex":"1","entryText":"广通北","lng":101.76524,"lat":25.1642},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"1","entryIndex":"2","entryText":"赤木岭","lng":101.74524,"lat":25.1142},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"1","entryIndex":"3","entryText":"腰站街","lng":101.524593,"lat":25.000453},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"1","entryIndex":"4","entryText":"楚雄南","lng":101.544593,"lat":25.050453},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"1","entryIndex":"5","entryText":"楚雄西","lng":101.49312,"lat":25.0753},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"6","entryText":"楚雄西","lng":101.49312,"lat":25.0753},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"7","entryText":"钱粮桥","lng":101.388215,"lat":25.1407499999999},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"8","entryText":"南华北","lng":101.28331,"lat":25.2062},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"9","entryText":"沙桥","lng":101.14544,"lat":25.245131},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"10","entryText":"大苴","lng":101.10864,"lat":25.33806},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"11","entryText":"姚安","lng":101.06434,"lat":25.36599},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"12","entryText":"长冲","lng":100.95683,"lat":25.35375},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"13","entryText":"新哨","lng":100.86381,"lat":25.376755},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"14","entryText":"沐滂","lng":100.77079,"lat":25.39976},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"15","entryText":"水目山","lng":100.658375,"lat":25.435045},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"16","entryText":"祥云西","lng":100.54596,"lat":25.47033},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"17","entryText":"栽秧箐","lng":100.474085,"lat":25.48594},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"18","entryText":"弥渡","lng":100.40221,"lat":25.50155},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"2","entryIndex":"19","entryText":"大理东","lng":100.31644,"lat":25.57275},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"3","entryIndex":"20","entryText":"大理东","lng":100.31644,"lat":25.57275},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"3","entryIndex":"21","entryText":"大理北","lng":100.28403,"lat":25.62869},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"4","entryIndex":"22","entryText":"大理东","lng":100.31644,"lat":25.57275},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"4","entryIndex":"23","entryText":"大理","lng":100.24975,"lat":25.58919},
+{"bureauCode":15,"ddtId":"27","ddtName":"广大台","queueIndex":"4","entryIndex":"24","entryText":"大理北","lng":100.28403,"lat":25.62869}
+   
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"1","entryText":"大涧","lng":114.301573,"lat":39.479485},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"2","entryText":"灵丘","lng":114.22126,"lat":39.46162},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"3","entryText":"唐之洼","lng":114.13191,"lat":39.39308},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"4","entryText":"东河南","lng":114.04777,"lat":39.371781},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"5","entryText":"平型关","lng":113.97794,"lat":39.3267},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"6","entryText":"东淤地","lng":113.90702,"lat":39.26311},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"7","entryText":"东庄","lng":113.83024,"lat":39.26615},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"8","entryText":"大营","lng":113.7329,"lat":39.28643},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"9","entryText":"金山铺","lng":113.63936,"lat":39.29019},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"10","entryText":"五台山","lng":113.56674,"lat":39.26532},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"11","entryText":"集义庄","lng":113.47098,"lat":39.22573},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"12","entryText":"华岩","lng":113.367891,"lat":39.192302},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"13","entryText":"繁峙","lng":113.27399,"lat":39.16575},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"14","entryText":"下社","lng":113.178276,"lat":39.149839},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"15","entryText":"枣林","lng":113.09605,"lat":39.133491},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"16","entryText":"代县","lng":112.98436,"lat":39.07707},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"17","entryText":"阳明堡","lng":112.87957,"lat":39.00504},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"18","entryText":"王董堡","lng":112.81304,"lat":38.95956},
+{"bureauCode":4,"ddtId":"9","ddtName":"京原线","queueIndex":"1","entryIndex":"19","entryText":"崞阳镇","lng":112.77403,"lat":38.89933}
+   
+  ]
+}

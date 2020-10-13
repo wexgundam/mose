@@ -1,0 +1,29 @@
+{
+  "entries": [
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"1","entryIndex":"0","entryText":"荣山村所","lng":110.184654999999,"lat":20.00957},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"1","entryIndex":"1","entryText":"西秀镇所","lng":110.132654666666,"lat":19.9637033333333},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"2","entryIndex":"2","entryText":"海口","lng":110.16252,"lat":20.02736},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"2","entryIndex":"3","entryText":"西秀镇所","lng":110.132654666666,"lat":19.9637033333333},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"2","entryIndex":"4","entryText":"老城镇","lng":110.117722,"lat":19.931875},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"5","entryText":"海口","lng":110.16252,"lat":20.02736},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"6","entryText":"荣山村所","lng":110.184654999999,"lat":20.00957},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"7","entryText":"长流","lng":110.20679,"lat":19.99178},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"8","entryText":"秀英","lng":110.275977,"lat":19.996362},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"9","entryText":"城西","lng":111.300851,"lat":27.735603},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"10","entryText":"海口东","lng":110.343027,"lat":19.983397},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"11","entryText":"美兰","lng":110.461276,"lat":19.942498},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"12","entryText":"文昌","lng":110.73759,"lat":19.60647},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"13","entryText":"琼海","lng":110.49127,"lat":19.24045},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"14","entryText":"博鳌","lng":110.48654,"lat":19.13599},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"15","entryText":"和乐","lng":110.45798,"lat":18.92338},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"16","entryText":"万宁","lng":110.38129,"lat":18.8078},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"17","entryText":"神州","lng":110.30797,"lat":18.72487},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"18","entryText":"陵水","lng":110.0331,"lat":18.53607},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"19","entryText":"亚龙湾","lng":109.6023,"lat":18.30251},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"3","entryIndex":"20","entryText":"三亚","lng":109.49276,"lat":18.29627},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"4","entryIndex":"21","entryText":"天涯线路所","lng":109.471855,"lat":18.2994575},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"4","entryIndex":"22","entryText":"三亚","lng":109.49276,"lat":18.29627},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"5","entryIndex":"23","entryText":"三亚","lng":109.49276,"lat":18.29627},
+{"bureauCode":12,"ddtId":"151","ddtName":"东环台","queueIndex":"5","entryIndex":"24","entryText":"三亚动车所","lng":109.47276,"lat":18.24627}   
+  ]
+}

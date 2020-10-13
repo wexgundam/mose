@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"1","entryIndex":"1","entryText":"北京西","lng":116.321592,"lat":39.894806},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"1","entryIndex":"2","entryText":"广安门","lng":117.6619512,"lat":39.9300436},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"3","entryText":"北京西","lng":116.321592,"lat":39.894806},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"4","entryText":"杜家坎线路所","lng":116.1877685,"lat":39.6774565},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"5","entryText":"涿州东","lng":116.053945,"lat":39.460107},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"6","entryText":"高碑店东","lng":115.94506,"lat":39.28913},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"7","entryText":"徐水东","lng":115.730766666666,"lat":39.0620366666666},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"8","entryText":"保定东","lng":115.60071,"lat":38.86381},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"9","entryText":"定州东","lng":115.0758,"lat":38.50888},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"10","entryText":"正定机场","lng":114.70976,"lat":38.25193},
+{"bureauCode":3,"ddtId":"48","ddtName":"京广高速一台","queueIndex":"2","entryIndex":"11","entryText":"石家庄高速场","lng":114.36962,"lat":38.07461}
+   
+  ]
+}

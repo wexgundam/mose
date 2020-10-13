@@ -1,0 +1,25 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"1","entryIndex":"0","entryText":"石子山","lng":106.277741,"lat":29.959942},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"1","entryIndex":"1","entryText":"合川","lng":106.277741,"lat":29.959942},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"1","entryIndex":"2","entryText":"渭沱","lng":106.1917705,"lat":30.164881},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"2","entryIndex":"3","entryText":"童家溪线路所","lng":106.277741,"lat":29.959942},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"2","entryIndex":"4","entryText":"合川","lng":106.277741,"lat":29.959942},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"2","entryIndex":"5","entryText":"渭沱","lng":106.1917705,"lat":30.164881},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"2","entryIndex":"6","entryText":"武胜","lng":106.1058,"lat":30.36982},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"3","entryIndex":"7","entryText":"渭沱","lng":106.1917705,"lat":30.164881},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"3","entryIndex":"8","entryText":"下太和","lng":106.03503275,"lat":30.1921935},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"3","entryIndex":"9","entryText":"潼南","lng":105.878295,"lat":30.219506},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"3","entryIndex":"10","entryText":"三星","lng":105.7105725,"lat":30.381083},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"3","entryIndex":"11","entryText":"遂宁南","lng":105.54285,"lat":30.54266},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"3","entryIndex":"12","entryText":"新桥线路所","lng":105.455036666666,"lat":30.55107},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"4","entryIndex":"13","entryText":"遂宁南","lng":105.54285,"lat":30.54266},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"4","entryIndex":"14","entryText":"遂宁","lng":105.54285,"lat":30.54266},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"5","entryIndex":"15","entryText":"遂宁","lng":105.54285,"lat":30.54266},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"5","entryIndex":"16","entryText":"新桥线路所","lng":105.455036666666,"lat":30.55107},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"5","entryIndex":"17","entryText":"大英东","lng":105.27941,"lat":30.56789},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"5","entryIndex":"18","entryText":"积金南","lng":104.773265,"lat":30.64558},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"5","entryIndex":"19","entryText":"淮口南","lng":104.26712,"lat":30.72327},
+{"bureauCode":14,"ddtId":"12","ddtName":"遂渝台","queueIndex":"5","entryIndex":"20","entryText":"石板滩","lng":104.26712,"lat":30.72327}   
+  ]
+}

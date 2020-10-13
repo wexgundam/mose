@@ -11,7 +11,7 @@ import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.BureauPartingStation;
 import mose.rail.core.modal.Link;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import mose.rail.core.modal.Yard;
 import mose.rail.core.vo.StationSearchVo;
 import org.slf4j.Logger;
@@ -76,7 +76,7 @@ public class StationService {
      * 行车调度台服务
      */
     @Autowired
-    private TrainlineDeportService trainlineDeportService;
+    private TrainlineDepotService trainlineDepotService;
     /**
      * 车站数据获取对象
      */
@@ -308,9 +308,9 @@ public class StationService {
      *
      * @author 靳磊 created on 2019/9/11
      */
-    public List<Station> getMany(TrainlineDeport trainlineDeport) {
+    public List<Station> getMany(TrainlineDepot trainlineDepot) {
         StationSearchVo stationSearchVo = new StationSearchVo();
-        stationSearchVo.setJurisdictionTdIdEqual(trainlineDeport.getId());
+        stationSearchVo.setJurisdictionTdIdEqual(trainlineDepot.getId());
         return getMany(stationSearchVo);
     }
 
@@ -513,9 +513,9 @@ public class StationService {
             station.setJurisdictionBureauId(jurisdictionBureau.getId());
         }
         //获取行车调度台
-        TrainlineDeport trainlineDeport = trainlineDeportService.getJurisdiction(station);
-        if (trainlineDeport != null) {
-            station.setJurisdictionTdId(trainlineDeport.getId());
+        TrainlineDepot trainlineDepot = trainlineDepotService.getJurisdiction(station);
+        if (trainlineDepot != null) {
+            station.setJurisdictionTdId(trainlineDepot.getId());
         }
     }
 

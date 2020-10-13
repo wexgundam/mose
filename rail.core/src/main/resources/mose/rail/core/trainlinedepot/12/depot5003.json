@@ -1,0 +1,34 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"1","entryIndex":"1","entryText":"(腊石坝)","lng":113.58425,"lat":24.74188},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"1","entryIndex":"2","entryText":"韶关东","lng":113.60425,"lat":24.79188},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"2","entryIndex":"3","entryText":"-","lng":112.123690888888,"lat":27.2542036666666},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"2","entryIndex":"4","entryText":"坪石北","lng":113.045846666666,"lat":25.32116},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"5","entryText":"坪石北","lng":113.045846666666,"lat":25.32116},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"6","entryText":"坪石","lng":113.05394,"lat":25.2844},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"7","entryText":"罗家渡","lng":113.185055,"lat":25.206075},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"8","entryText":"张滩","lng":113.31617,"lat":25.12775},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"9","entryText":"乐昌","lng":113.35746,"lat":25.12944},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"10","entryText":"安口","lng":111.18256,"lat":21.7474155},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"11","entryText":"梅村","lng":109.00766,"lat":18.365391},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"12","entryText":"黄岗","lng":111.305955,"lat":21.5786354999999},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"3","entryIndex":"13","entryText":"韶关东","lng":113.60425,"lat":24.79188},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"4","entryIndex":"14","entryText":"韶关东","lng":113.60425,"lat":24.79188},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"4","entryIndex":"15","entryText":"韶关直通场","lng":113.60887,"lat":24.737265},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"16","entryText":"韶关直通场","lng":113.60887,"lat":24.737265},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"17","entryText":"马坝","lng":113.61349,"lat":24.68265},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"18","entryText":"乌石","lng":113.59349,"lat":24.6326499999999},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"19","entryText":"大坑口","lng":113.57349,"lat":24.5826499999999},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"20","entryText":"沙口","lng":113.4866,"lat":24.32076},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"21","entryText":"冬瓜铺","lng":113.39971,"lat":24.05887},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"22","entryText":"河头","lng":113.41971,"lat":24.10887},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"23","entryText":"英德","lng":113.43971,"lat":24.15887},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"24","entryText":"连江口","lng":113.357075,"lat":23.98798},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"25","entryText":"飞来峡","lng":113.27444,"lat":23.81709},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"26","entryText":"潖江口","lng":113.23826,"lat":23.739745},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"5","entryIndex":"27","entryText":"源潭","lng":113.20208,"lat":23.6624},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"6","entryIndex":"28","entryText":"源潭","lng":113.20208,"lat":23.6624},
+{"bureauCode":12,"ddtId":"5003","ddtName":"京广三台","queueIndex":"6","entryIndex":"29","entryText":"-.","lng":113.18208,"lat":23.6124}
+   
+  ]
+}

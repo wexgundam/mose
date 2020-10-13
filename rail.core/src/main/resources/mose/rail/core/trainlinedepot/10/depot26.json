@@ -1,0 +1,35 @@
+{
+  "entries": [
+ {"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"0","entryText":"金华普速场","lng":119.635914,"lat":29.110464},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"1","entryText":"白龙桥","lng":119.52369075,"lat":30.4462665},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"1","entryText":"董集","lng":119.236115,"lat":34.430808},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"2","entryText":"灌云","lng":119.308068,"lat":34.288699},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"2","entryText":"蒋堂","lng":119.347074,"lat":31.6818345},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"3","entryText":"汤溪","lng":119.38608,"lat":29.07497},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"3","entryText":"灌南","lng":119.280002,"lat":34.099608},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"4","entryText":"涟水","lng":119.19746,"lat":33.775929},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"4","entryText":"龙游东","lng":119.23161,"lat":29.02418},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"5","entryText":"淮安东","lng":119.18887,"lat":33.57014},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"5","entryText":"龙游普速场","lng":119.16655,"lat":29.00349},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"6","entryText":"贡兴线路所","lng":118.92406,"lat":28.9474999999999},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"6","entryText":"衢州东","lng":118.96693,"lat":28.97168},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"7","entryText":"阜宁南","lng":119.642328,"lat":33.572079},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"7","entryText":"衢州普速场","lng":118.88119,"lat":28.92332},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"8","entryText":"后溪街","lng":119.950465,"lat":33.4769579999999},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"8","entryText":"建湖徐盐场","lng":119.798285,"lat":33.505013},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"9","entryText":"江山普速场","lng":118.64385,"lat":28.77178},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"9","entryText":"盐城北","lng":120.102645,"lat":33.448903},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"10","entryText":"上铺","lng":118.58185,"lat":28.69633},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"10","entryText":"圩洋线路所","lng":119.109448333333,"lat":30.305671},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"1","entryIndex":"11","entryText":"盐城徐盐场","lng":120.184375,"lat":33.371209},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"11","entryText":"贺村","lng":111.289004,"lat":35.582445},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"1","entryIndex":"12","entryText":"新塘边","lng":118.48382,"lat":28.63557},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"2","entryIndex":"12","entryText":"淮安东","lng":119.18887,"lat":33.57014},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"2","entryIndex":"13","entryText":"淮安东存车场","lng":119.18887,"lat":33.57014},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"2","entryIndex":"13","entryText":"衢州普速场","lng":118.88119,"lat":28.92332},
+{"bureauCode":10,"ddtId":"26","ddtName":"沪昆四台","queueIndex":"2","entryIndex":"14","entryText":"常山","lng":118.56054,"lat":28.92281},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"3","entryIndex":"14","entryText":"盐城徐盐场","lng":120.184375,"lat":33.371209},
+{"bureauCode":10,"ddtId":"26","ddtName":"连镇高铁台","queueIndex":"3","entryIndex":"15","entryText":"盐城存车场","lng":120.184375,"lat":33.371209}
+   
+  ]
+}

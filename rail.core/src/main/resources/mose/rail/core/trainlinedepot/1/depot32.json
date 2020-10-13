@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"1","entryText":"哈西西场","lng":126.577897,"lat":45.706914},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"2","entryText":"哈西东场","lng":126.577897,"lat":45.706914},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"3","entryText":"哈尔滨","lng":126.631908,"lat":45.761089},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"4","entryText":"太平桥哈佳场","lng":126.687503,"lat":45.794935},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"5","entryText":"宾西北","lng":127.15007,"lat":45.79217},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"6","entryText":"宾西","lng":127.072355,"lat":45.75601},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"7","entryText":"宾西东","lng":127.072355,"lat":45.75601},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"8","entryText":"宾州","lng":127.409359999999,"lat":45.777193},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"9","entryText":"宾安","lng":127.746365,"lat":45.798376},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"10","entryText":"胜利镇","lng":127.993705,"lat":45.788956},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"11","entryText":"日兴屯","lng":128.23005,"lat":45.83792},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"12","entryText":"双龙湖","lng":128.49774,"lat":45.82997},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"13","entryText":"方正","lng":128.80708,"lat":45.86757},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"14","entryText":"得莫利","lng":129.03343,"lat":45.87771},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"15","entryText":"高楞","lng":129.27452,"lat":45.98874},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"16","entryText":"达连河","lng":129.46523,"lat":46.14856},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"17","entryText":"依兰","lng":129.60776,"lat":46.27888},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"18","entryText":"宏克力","lng":129.85907,"lat":46.51723},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"19","entryText":"兴华","lng":130.061753,"lat":46.645667},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"20","entryText":"佳木斯西","lng":130.264436,"lat":46.774104},
+{"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","queueIndex":"1","entryIndex":"21","entryText":"佳木斯","lng":130.38412,"lat":46.80471}
+
+  ]
+}

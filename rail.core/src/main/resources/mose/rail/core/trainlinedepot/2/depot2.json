@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"1","entryText":"四平","lng":124.37313,"lat":43.16822},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"2","entryText":"十家堡","lng":124.50178,"lat":43.26435},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"3","entryText":"郭家店","lng":124.57791,"lat":43.3421},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"4","entryText":"蔡家","lng":124.668608,"lat":43.41066},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"5","entryText":"大榆树","lng":124.740269,"lat":43.45985},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"6","entryText":"公主岭","lng":124.81193,"lat":43.50904},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"7","entryText":"陶家屯","lng":124.98878,"lat":43.64557},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"8","entryText":"范家屯","lng":125.07453,"lat":43.71369},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"9","entryText":"大屯","lng":125.164577,"lat":43.780402},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"10","entryText":"长春南","lng":125.258731,"lat":43.851345},
+{"bureauCode":2,"ddtId":"2","ddtName":"长平台","queueIndex":"1","entryIndex":"11","entryText":"长春","lng":125.324568,"lat":43.911206}
+
+  ]
+}

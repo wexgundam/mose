@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"1","entryText":"赣州","lng":114.963973,"lat":25.819002},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"2","entryText":"赣州南","lng":114.88517,"lat":25.75102},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"3","entryText":"南康","lng":114.79052,"lat":25.68023},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"4","entryText":"龙回","lng":114.78655,"lat":25.53077},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"5","entryText":"信丰","lng":114.90704,"lat":25.39811},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"6","entryText":"铁石口","lng":114.92473,"lat":25.17929},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"7","entryText":"小江","lng":114.901125,"lat":25.04969},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"8","entryText":"龙南","lng":114.87752,"lat":24.92009},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"9","entryText":"关西镇","lng":114.941315,"lat":24.847335},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"1","entryIndex":"10","entryText":"定南","lng":115.00511,"lat":24.77458},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"11","entryText":"南康","lng":114.79052,"lat":25.68023},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"12","entryText":"楼子下","lng":114.77052,"lat":25.63023},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"13","entryText":"旗口","lng":114.75052,"lat":25.58023},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"14","entryText":"新城","lng":114.38458,"lat":25.33929},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"15","entryText":"池江","lng":114.40458,"lat":25.38929},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"16","entryText":"大余","lng":114.42458,"lat":25.43929},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"17","entryText":"梅关","lng":114.40458,"lat":25.38929},
+{"bureauCode":11,"ddtId":"14","ddtName":"赣定台","queueIndex":"2","entryIndex":"18","entryText":"珠玑巷","lng":114.38458,"lat":25.33929}   
+  ]
+}

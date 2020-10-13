@@ -12,13 +12,13 @@ import mose.network.service.GridService;
 import mose.rail.core.dao.BureauDao;
 import mose.rail.core.dao.LinkDao;
 import mose.rail.core.dao.StationDao;
-import mose.rail.core.dao.TrainlineDeportDao;
+import mose.rail.core.dao.TrainlineDepotDao;
 import mose.rail.core.modal.AdjoinStations;
 import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.BureauPartingStation;
 import mose.rail.core.modal.Link;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import mose.rail.core.modal.Yard;
 import org.junit.Assert;
 import org.junit.Test;
@@ -60,8 +60,8 @@ import java.util.List;
                 NetworkElementService.class,
                 BureauService.class,
                 BureauDao.class,
-                TrainlineDeportService.class,
-                TrainlineDeportDao.class,
+                TrainlineDepotService.class,
+                TrainlineDepotDao.class,
                 StationService.class,
                 StationDao.class,
                 LinkService.class,
@@ -72,7 +72,7 @@ public class TestStationService {
     @Autowired
     private BureauService bureauService;
     @Autowired
-    private TrainlineDeportService trainlineDeportService;
+    private TrainlineDepotService trainlineDepotService;
     @Autowired
     private StationService stationService;
     @Autowired
@@ -382,32 +382,32 @@ public class TestStationService {
         bureauB.setAnchorPointsString("100@100;100@200;200@200;200@100");
         bureauService.addOne(bureauB);
 
-        TrainlineDeport trainlineDeportA = new TrainlineDeport();
-        trainlineDeportA.setAnchorPointsString("0@0;0@30;30@30;30@0");
-        trainlineDeportService.addOne(trainlineDeportA);
-        TrainlineDeport trainlineDeportB = new TrainlineDeport();
-        trainlineDeportB.setAnchorPointsString("105@105;105@150;150@150;150@105");
-        trainlineDeportService.addOne(trainlineDeportB);
+        TrainlineDepot trainlineDepotA = new TrainlineDepot();
+        trainlineDepotA.setAnchorPointsString("0@0;0@30;30@30;30@0");
+        trainlineDepotService.addOne(trainlineDepotA);
+        TrainlineDepot trainlineDepotB = new TrainlineDepot();
+        trainlineDepotB.setAnchorPointsString("105@105;105@150;150@150;150@105");
+        trainlineDepotService.addOne(trainlineDepotB);
 
         Station stationA = new Station();
         stationA.setAnchorPointsString("10@10");
         stationService.setJurisdiction(stationA);
         Assert.assertEquals(bureauA.getId(), stationA.getJurisdictionBureauId());
-        Assert.assertEquals(trainlineDeportA.getId(), stationA.getJurisdictionTdId());
+        Assert.assertEquals(trainlineDepotA.getId(), stationA.getJurisdictionTdId());
 
         Station stationB = new Station();
         stationB.setAnchorPointsString("110@110");
         stationService.setJurisdiction(stationB);
         Assert.assertEquals(bureauB.getId(), stationB.getJurisdictionBureauId());
-        Assert.assertEquals(trainlineDeportB.getId(), stationB.getJurisdictionTdId());
+        Assert.assertEquals(trainlineDepotB.getId(), stationB.getJurisdictionTdId());
 
         Station stationC = new Station();
         stationC.setAnchorPointsString("300@300");
         stationService.setJurisdiction(stationC);
         Assert.assertNotEquals(bureauA.getId(), stationC.getJurisdictionBureauId());
         Assert.assertNotEquals(bureauB.getId(), stationC.getJurisdictionBureauId());
-        Assert.assertNotEquals(trainlineDeportA.getId(), stationC.getJurisdictionTdId());
-        Assert.assertNotEquals(trainlineDeportB.getId(), stationC.getJurisdictionTdId());
+        Assert.assertNotEquals(trainlineDepotA.getId(), stationC.getJurisdictionTdId());
+        Assert.assertNotEquals(trainlineDepotB.getId(), stationC.getJurisdictionTdId());
     }
 
     @Test

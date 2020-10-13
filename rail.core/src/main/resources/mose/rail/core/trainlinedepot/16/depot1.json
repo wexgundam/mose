@@ -1,0 +1,24 @@
+{
+  "entries": [
+  {"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"1","entryText":"天水直通场","lng":105.87895,"lat":34.515909},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"2","entryText":"天水","lng":105.89895,"lat":34.565909},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"3","entryText":"杨家河","lng":105.83296,"lat":34.62103},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"4","entryText":"南河川","lng":105.76624,"lat":34.62339},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"5","entryText":"三阳川","lng":105.70749,"lat":34.66501},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"6","entryText":"渭南镇","lng":105.63742,"lat":34.68816},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"7","entryText":"新阳镇","lng":105.53448,"lat":34.70132},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"8","entryText":"甘谷","lng":105.33227,"lat":34.76313},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"9","entryText":"磐安镇","lng":105.178374999999,"lat":34.758205},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"10","entryText":"洛门","lng":105.02448,"lat":34.75328},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"11","entryText":"武山","lng":104.9195,"lat":34.7209},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"12","entryText":"贺家店","lng":104.83545,"lat":34.75381},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"13","entryText":"鸳鸯镇","lng":104.78137,"lat":34.79946},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"14","entryText":"陇西","lng":104.70544,"lat":34.95238},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"15","entryText":"云田乡","lng":104.71894,"lat":35.10928},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"16","entryText":"通安驿","lng":104.68775,"lat":35.29706},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"17","entryText":"唐家堡","lng":104.60267,"lat":35.47118},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"18","entryText":"景家店","lng":104.65966,"lat":35.52394},
+{"bureauCode":16,"ddtId":"1","ddtName":"天定台","queueIndex":"1","entryIndex":"19","entryText":"定西","lng":104.62503,"lat":35.59215}
+  
+  ]
+}

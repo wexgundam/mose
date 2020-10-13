@@ -1,0 +1,28 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"1","entryIndex":"1","entryText":"韩江桥线路所","lng":116.760044999999,"lat":23.62531},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"1","entryIndex":"2","entryText":"龙湖","lng":116.607966,"lat":23.565688},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"2","entryIndex":"3","entryText":"潮州动车运用所","lng":116.616495,"lat":23.582482},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"2","entryIndex":"4","entryText":"潮汕","lng":116.58744,"lat":23.53892},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"3","entryIndex":"5","entryText":"揭阳机场","lng":116.516263,"lat":23.545527},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"3","entryIndex":"6","entryText":"潮汕","lng":116.58744,"lat":23.53892},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"3","entryIndex":"7","entryText":"龙湖","lng":116.607966,"lat":23.565688},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"8","entryText":"诏安","lng":117.098102,"lat":23.771365},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"9","entryText":"饶平","lng":116.93265,"lat":23.7117},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"10","entryText":"韩江桥线路所","lng":116.760044999999,"lat":23.62531},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"11","entryText":"潮汕","lng":116.58744,"lat":23.53892},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"12","entryText":"潮阳","lng":116.42235,"lat":23.38078},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"13","entryText":"普宁","lng":116.19945,"lat":23.26664},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"14","entryText":"葵潭","lng":115.99645,"lat":23.06472},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"15","entryText":"陆丰","lng":115.7334,"lat":22.9479},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"16","entryText":"汕尾","lng":115.42863,"lat":22.81076},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"17","entryText":"鲘门","lng":115.125091,"lat":22.812701},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"18","entryText":"惠东","lng":114.79458,"lat":22.84408},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"19","entryText":"惠州南","lng":114.49285,"lat":22.78512},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"20","entryText":"深圳坪山","lng":114.327119,"lat":22.707689},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"21","entryText":"李朗线路所","lng":114.1782485,"lat":22.6585395},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"4","entryIndex":"22","entryText":"深圳北","lng":114.029378,"lat":22.60939},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"5","entryIndex":"23","entryText":"李朗线路所","lng":114.1782485,"lat":22.6585395},
+{"bureauCode":12,"ddtId":"107","ddtName":"厦深台","queueIndex":"5","entryIndex":"24","entryText":"平湖南Ⅱ场","lng":114.102718333333,"lat":22.6312493333333}   
+  ]
+}

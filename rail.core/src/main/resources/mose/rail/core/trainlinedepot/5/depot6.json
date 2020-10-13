@@ -1,0 +1,24 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"1","entryIndex":"1","entryText":"旗下营","lng":112.15278,"lat":40.97561},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"1","entryIndex":"2","entryText":"民族","lng":112.09891,"lat":40.89602},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"1","entryIndex":"3","entryText":"陶卜齐","lng":112.03394,"lat":40.88221},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"1","entryIndex":"4","entryText":"沙良","lng":111.80266,"lat":40.77842},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"1","entryIndex":"5","entryText":"呼和浩特南","lng":111.57138,"lat":40.67463},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"1","entryIndex":"6","entryText":"甲兰营","lng":111.53097,"lat":40.71146},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"2","entryIndex":"7","entryText":"呼和浩特南","lng":111.57138,"lat":40.67463},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"2","entryIndex":"8","entryText":"晋丰元","lng":111.55138,"lat":40.62463},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"3","entryIndex":"9","entryText":"呼和浩特南","lng":111.57138,"lat":40.67463},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"3","entryIndex":"10","entryText":"王气","lng":111.52019,"lat":40.6196533333333},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"11","entryText":"呼和浩特西场","lng":111.665361,"lat":40.831639},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"12","entryText":"倘不浪","lng":111.5981655,"lat":40.7715495},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"13","entryText":"甲兰营","lng":111.53097,"lat":40.71146},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"14","entryText":"王气","lng":111.52019,"lat":40.6196533333333},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"15","entryText":"永圣域","lng":111.45822,"lat":40.47287},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"16","entryText":"托克托","lng":111.398315,"lat":40.31153},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"17","entryText":"耿庆沟","lng":111.33841,"lat":40.15019},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"18","entryText":"何家塔","lng":111.30661,"lat":40.03433},
+{"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","queueIndex":"4","entryIndex":"19","entryText":"周家湾","lng":111.28661,"lat":39.98433}
+   
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"1","entryText":"迎水桥到达场","lng":105.10395,"lat":37.5105},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"2","entryText":"迎水桥上下场","lng":105.10395,"lat":37.5105},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"3","entryText":"沙坡头","lng":105.00439,"lat":37.46704},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"4","entryText":"孟家湾","lng":104.90114,"lat":37.459215},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"5","entryText":"红卫","lng":104.79789,"lat":37.45139},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"6","entryText":"干塘","lng":104.56555,"lat":37.43011},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"7","entryText":"乌兰敖包","lng":104.4129,"lat":37.53412},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"8","entryText":"郭家窑","lng":104.15127,"lat":37.6017},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"9","entryText":"大嘴子","lng":103.871815,"lat":37.596125},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"10","entryText":"谭家井","lng":103.59236,"lat":37.59055},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"11","entryText":"黑冲滩","lng":103.34281,"lat":37.64258},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"12","entryText":"土门子","lng":103.0782,"lat":37.65771},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"13","entryText":"园墩","lng":102.96656,"lat":37.71359},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"14","entryText":"上腰墩","lng":102.83293,"lat":37.77351},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"15","entryText":"武威南到达场","lng":102.761514,"lat":37.795884},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"1","entryIndex":"16","entryText":"武威南上下场","lng":102.73735,"lat":37.8154},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"2","entryIndex":"17","entryText":"干塘","lng":104.56555,"lat":37.43011},
+{"bureauCode":16,"ddtId":"2","ddtName":"迎武台","queueIndex":"2","entryIndex":"18","entryText":"乌兰敖包","lng":104.4129,"lat":37.53412}
+   
+  ]
+}

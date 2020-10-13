@@ -1,0 +1,15 @@
+{
+  "entries": [
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"1","entryIndex":"1","entryText":"武汉动车段","lng":114.404499,"lat":30.557346},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"1","entryIndex":"2","entryText":"武汉高速场","lng":114.424499,"lat":30.607346},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"1","entryIndex":"3","entryText":"武汉普速场","lng":114.424499,"lat":30.607346},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"2","entryIndex":"4","entryText":"武汉高速场","lng":114.424499,"lat":30.607346},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"2","entryIndex":"5","entryText":"武汉南线路所","lng":114.424499,"lat":30.6073459999999},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"3","entryIndex":"6","entryText":"L1L2线路所","lng":114.39545375,"lat":30.6547615},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"3","entryIndex":"7","entryText":"武汉高速场","lng":114.424499,"lat":30.607346},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"3","entryIndex":"8","entryText":"乌龙泉东","lng":114.3303,"lat":30.26509},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"3","entryIndex":"9","entryText":"咸宁北","lng":114.30138,"lat":29.89914},
+{"bureauCode":7,"ddtId":"21","ddtName":"京广高铁枢纽台","queueIndex":"3","entryIndex":"10","entryText":"赤壁北","lng":113.90002,"lat":29.7358}
+    
+  ]
+}

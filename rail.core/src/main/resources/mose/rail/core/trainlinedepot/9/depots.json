@@ -1,0 +1,28 @@
+{
+  "depots": [
+    {"bureauCode":9,"ddtId":"1","ddtName":"济德台","lng":116.631889,"lat":36.925194},
+    {"bureauCode":9,"ddtId":"3","ddtName":"济泰台","lng":117.111168,"lat":36.18749},
+    {"bureauCode":9,"ddtId":"4","ddtName":"泰兖台","lng":116.842003,"lat":35.555133},
+    {"bureauCode":9,"ddtId":"6","ddtName":"兖徐台","lng":117.155113,"lat":35.084237},
+    {"bureauCode":9,"ddtId":"9","ddtName":"兖菏台","lng":115.504074,"lat":35.229916},
+    {"bureauCode":9,"ddtId":"10","ddtName":"兖临台","lng":117.009544,"lat":35.572169},
+    {"bureauCode":9,"ddtId":"11","ddtName":"枣日台","lng":118.850098,"lat":35.184191},
+    {"bureauCode":9,"ddtId":"15","ddtName":"德龙烟一台","lng":118.383565,"lat":37.400744},
+    {"bureauCode":9,"ddtId":"16","ddtName":"中南一台","lng":118.167229,"lat":36.184165},
+    {"bureauCode":9,"ddtId":"17","ddtName":"胶济三台","lng":115.948334,"lat":36.45995},
+    {"bureauCode":9,"ddtId":"18","ddtName":"京九台","lng":115.902672,"lat":35.601206},
+    {"bureauCode":9,"ddtId":"19","ddtName":"胶新台","lng":119.996452,"lat":36.297972},
+    {"bureauCode":9,"ddtId":"20","ddtName":"新蓝烟台","lng":121.383133,"lat":37.545666},
+    {"bureauCode":9,"ddtId":"23","ddtName":"青盐台","lng":119.53331,"lat":35.403603},
+    {"bureauCode":9,"ddtId":"25","ddtName":"胶一台","lng":120.079451,"lat":36.218241},
+    {"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","lng":118.054962,"lat":36.79224},
+    {"bureauCode":9,"ddtId":"27","ddtName":"济南枢纽台","lng":116.991348,"lat":36.66952},
+    {"bureauCode":9,"ddtId":"28","ddtName":"青岛枢纽台","lng":120.315399,"lat":36.064087},
+    {"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","lng":117.498779,"lat":36.722099},
+    {"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","lng":117.777987,"lat":35.821154},
+    {"bureauCode":9,"ddtId":"30","ddtName":"辛泰台","lng":117.69207,"lat":36.228489},
+    {"bureauCode":9,"ddtId":"36","ddtName":"济青石济列调台","lng":119.100037,"lat":36.698705},
+    {"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","lng":118.66238,"lat":35.005852},
+    {"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","lng":117.306313,"lat":34.780258}
+  ]
+}

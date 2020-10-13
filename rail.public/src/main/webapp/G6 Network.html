@@ -81,8 +81,8 @@
                 bureauPolygonNodes: [],
                 loadingBureauKeyPoints: false,
                 bureauKeyPointNodes: [],
-                loadingTrainlineDeportStations: false,
-                trainlineDeportStationNodes: [],
+                loadingTrainlineDepotStations: false,
+                trainlineDepotStationNodes: [],
 
                 refresh: function () {
                     const context = this;
@@ -90,7 +90,7 @@
                     context.refreshTiles();
                     context.refreshBureauPolygons();
                     context.refreshBureauKeyPoints();
-                    context.refreshTrainlineDeportStations();
+                    context.refreshTrainlineDepotStations();
                     const backgroundRect = context.graph.findById('backgroundRect');
                     context.previousBackgroundRectXY = [backgroundRect.getModel().x, backgroundRect.getModel().y];
                 },
@@ -122,127 +122,177 @@
                             }
                         }
 
-                        if (zoomLevel >= 0 && zoomLevel < 3
-                            && (previousZoomLevel >= 3 || previousZoomLevel < 0)) {
-                            clear();
-                            group.addShape('image', {
-                                attrs: {
-                                    x: -128,
-                                    y: -128,
-                                    width: 256,
-                                    height: 256,
-                                    img: staticServer + '/image/china-map-0-0-0.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
 
-                        }
-                        if (zoomLevel >= 3 && zoomLevel < 18
-                            && (previousZoomLevel >= 18 || previousZoomLevel < 3)) {
+                        if (zoomLevel < 5) {
                             clear();
-                            var k = 256 / 4.2;
-                            var deltaX = -11;
-                            var deltaY = 13;
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - 2 * k + deltaX,
-                                    y: -128 + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-1-0-0.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - k + deltaX,
-                                    y: -128 + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-1-1-0.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - 2 * k + deltaX,
-                                    y: -128 + k + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-1-0-1.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - k + deltaX,
-                                    y: -128 + k + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-1-1-1.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
+                            const totalTiles = Math.pow(4, zoomLevel);
+                            const rows = Math.sqrt(totalTiles);
+                            const size = 256 / rows;
+                            for (var index = 0; index < totalTiles; index++) {
+                                const row = Math.floor(index / rows);
+                                const column = index % rows;
+                                if (zoomLevel < 3) {
+                                    group.addShape('image', {
+                                        attrs: {
+                                            x: -128 + column * size,
+                                            y: -128 + row * size,
+                                            width: size,
+                                            height: size,
+                                            img: staticServer + "/image/china-map-" + zoomLevel + '-' + row + "-" + column + ".png",
+                                        },
+                                        draggable: true,
+                                        name: 'backgroundCombo-background'
+                                    });
+                                }
+                                if (zoomLevel >= 4 && zoomLevel < 5
+                                    && (previousZoomLevel >= 5 || previousZoomLevel < 4)) {
+                                    var k = 256 / 4.2;
+                                    var deltaX = -11;
+                                    var deltaY = 13;
+                                    var shape = group.addShape('image', {
+                                        attrs: {
+                                            x: 128 - 2 * k + deltaX,
+                                            y: -128 + deltaY,
+                                            width: k,
+                                            height: k,
+                                            img: staticServer + '/image/china-map-4-0-0.png',
+                                        },
+                                        draggable: true,
+                                        name: 'backgroundCombo-background'
+                                    });
+                                    shape.toBack();
+                                    var shape = group.addShape('image', {
+                                        attrs: {
+                                            x: 128 - k + deltaX,
+                                            y: -128 + deltaY,
+                                            width: k,
+                                            height: k,
+                                            img: staticServer + '/image/china-map-4-1-0.png',
+                                        },
+                                        draggable: true,
+                                        name: 'backgroundCombo-background'
+                                    });
+                                    shape.toBack();
+                                    var shape = group.addShape('image', {
+                                        attrs: {
+                                            x: 128 - 2 * k + deltaX,
+                                            y: -128 + k + deltaY,
+                                            width: k,
+                                            height: k,
+                                            img: staticServer + '/image/china-map-4-0-1.png',
+                                        },
+                                        draggable: true,
+                                        name: 'backgroundCombo-background'
+                                    });
+                                    shape.toBack();
+                                    var shape = group.addShape('image', {
+                                        attrs: {
+                                            x: 128 - k + deltaX,
+                                            y: -128 + k + deltaY,
+                                            width: k,
+                                            height: k,
+                                            img: staticServer + '/image/china-map-4-1-1.png',
+                                        },
+                                        draggable: true,
+                                        name: 'backgroundCombo-background'
+                                    });
+                                    shape.toBack();
+                                }
+                                group.addShape('rect', {
+                                    attrs: {
+                                        x: -128 + column * size,
+                                        y: -128 + row * size,
+                                        width: size,
+                                        height: size,
+                                        stroke: "red",
+                                        lineWidth: 0.01,
+                                    }
+                                });
+                                group.addShape('text', {
+                                    attrs: {
+                                        x: -128 + column * size,
+                                        y: -128 + row * size,
+                                        text: zoomLevel + '-' + row + "-" + column,
+                                        fill: 'red',
+                                        fontSize: 3,
+                                        textAlign: 'left',
+                                        textBaseline: 'top',
+                                    },
+                                });
+                            }
                         }
-                        if (zoomLevel >= 18 && zoomLevel < 19
-                            && (previousZoomLevel >= 19 || previousZoomLevel < 18)) {
-                            clear();
-                            var k = 256 / 4.2;
-                            var deltaX = -11;
-                            var deltaY = 13;
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - 2 * k + deltaX,
-                                    y: -128 + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-2-0-0.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - k + deltaX,
-                                    y: -128 + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-2-1-0.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - 2 * k + deltaX,
-                                    y: -128 + k + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-2-0-1.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
-                            group.addShape('image', {
-                                attrs: {
-                                    x: 128 - k + deltaX,
-                                    y: -128 + k + deltaY,
-                                    width: k,
-                                    height: k,
-                                    img: staticServer + '/image/china-map-2-1-1.png',
-                                },
-                                draggable: true,
-                                name: 'backgroundCombo-background'
-                            });
-                        }
-                        if (zoomLevel >= 19 && previousZoomLevel < 19) {
-                            clear();
-                        }
+
+//                        if (zoomLevel >= 0 && zoomLevel < 3
+//                            && (previousZoomLevel >= 3 || previousZoomLevel < 0)) {
+//                            clear();
+//                            group.addShape('image', {
+//                                attrs: {
+//                                    x: -128,
+//                                    y: -128,
+//                                    width: 256,
+//                                    height: 256,
+//                                    img: staticServer + '/image/china-map-0-0-0.png',
+//                                },
+//                                draggable: true,
+//                                name: 'backgroundCombo-background'
+//                            });
+//
+//                        }
+//                        if (zoomLevel >= 6 && zoomLevel < 18
+//                            && (previousZoomLevel >= 18 || previousZoomLevel < 3)) {
+//                            clear();
+//                            var k = 256 / 4.2;
+//                            var deltaX = -11;
+//                            var deltaY = 13;
+//                            group.addShape('image', {
+//                                attrs: {
+//                                    x: 128 - 2 * k + deltaX,
+//                                    y: -128 + deltaY,
+//                                    width: k,
+//                                    height: k,
+//                                    img: staticServer + '/image/china-map-1-0-0.png',
+//                                },
+//                                draggable: true,
+//                                name: 'backgroundCombo-background'
+//                            });
+//                            group.addShape('image', {
+//                                attrs: {
+//                                    x: 128 - k + deltaX,
+//                                    y: -128 + deltaY,
+//                                    width: k,
+//                                    height: k,
+//                                    img: staticServer + '/image/china-map-1-1-0.png',
+//                                },
+//                                draggable: true,
+//                                name: 'backgroundCombo-background'
+//                            });
+//                            group.addShape('image', {
+//                                attrs: {
+//                                    x: 128 - 2 * k + deltaX,
+//                                    y: -128 + k + deltaY,
+//                                    width: k,
+//                                    height: k,
+//                                    img: staticServer + '/image/china-map-1-0-1.png',
+//                                },
+//                                draggable: true,
+//                                name: 'backgroundCombo-background'
+//                            });
+//                            group.addShape('image', {
+//                                attrs: {
+//                                    x: 128 - k + deltaX,
+//                                    y: -128 + k + deltaY,
+//                                    width: k,
+//                                    height: k,
+//                                    img: staticServer + '/image/china-map-1-1-1.png',
+//                                },
+//                                draggable: true,
+//                                name: 'backgroundCombo-background'
+//                            });
+//                        }
+
+//                        if (zoomLevel >= 19 && previousZoomLevel < 19) {
+//                            clear();
+//                        }
 
                         backgroundCombo.toBack();
                     };
@@ -353,10 +403,10 @@
                     };
                     doRefresh(this);
                 },
-                //加载trainline deport stations
-                refreshTrainlineDeportStations: function () {
+                //加载trainline depot stations
+                refreshTrainlineDepotStations: function () {
                     const doRefresh = async (context) => {
-                        var isloading = context.loadingTrainlineDeportStations;
+                        var isloading = context.loadingTrainlineDepotStations;
                         if (isloading) {
                             return;
                         }
@@ -368,7 +418,7 @@
                         const previousCanvasTopLeftPoint = context.previousCanvasTopLeftPoint;
                         const pointByCanvas = graph.getPointByCanvas(0, 0);
                         const canvasTopLeftPoint = [pointByCanvas.x, pointByCanvas.y];
-                        const trainlineDeportStationNodes = context.trainlineDeportStationNodes;
+                        const trainlineDepotStationNodes = context.trainlineDepotStationNodes;
 
                         const topLeftPointByCanvas = graph.getPointByCanvas(0, 0);
                         const bottomRightPointByCanvas = graph.getPointByCanvas(graph.get('width'),
@@ -382,14 +432,14 @@
                         var toClear = false;
                         var toLoad = false;
                         //时机
-                        if (zoomLevel < 18 && previousZoomLevel >= 18) {
+                        if (zoomLevel < 5 && previousZoomLevel >= 5) {
                             toClear = true;
                         }
-                        if (zoomLevel >= 18 && previousZoomLevel < 18) {
+                        if (zoomLevel >= 5 && previousZoomLevel < 5) {
                             toClear = true;
                             toLoad = true;
                         }
-                        if (zoomLevel >= 18
+                        if (zoomLevel >= 5
                             && (canvasTopLeftPoint.x != previousCanvasTopLeftPoint.x
                             || canvasTopLeftPoint.y != previousCanvasTopLeftPoint.y
                             || backgroundRectX != previousBackgroundRectXY.x
@@ -398,33 +448,33 @@
                             toLoad = true;
                         }
                         if (toClear) {
-                            trainlineDeportStationNodes.forEach(node => {
+                            trainlineDepotStationNodes.forEach(node => {
                                 backgroundCombo.removeChild(node);
                                 graph.removeItem(node);
                             });
-                            trainlineDeportStationNodes.length = 0;
+                            trainlineDepotStationNodes.length = 0;
                         }
                         if (toLoad) {
-                            const trainlineDeportStationResponse = await fetch(
-                                staticServer + '/file/trainlineDeportStationVos.json');
-                            const trainlineDeportStationData = await
-                                trainlineDeportStationResponse.json();
-                            trainlineDeportStationNodes.length = 0;
-                            trainlineDeportStationData.trainlineDeportStationVos.forEach(trainlineDeport => {
+                            const trainlineDepotStationResponse = await fetch(
+                                staticServer + '/file/trainlineDepotStationVos.json');
+                            const trainlineDepotStationData = await
+                                trainlineDepotStationResponse.json();
+                            trainlineDepotStationNodes.length = 0;
+                            trainlineDepotStationData.trainlineDepotStationVos.forEach(trainlineDepot => {
                                 const color = randomColor();
-                                trainlineDeport.forEach(trainlineDeportStationVo => {
-                                    trainlineDeportStationVo.x += backgroundRectX;
-                                    trainlineDeportStationVo.y += backgroundRectY;
-                                    if (trainlineDeportStationVo.x > topLeftPointByCanvas.x
-                                        && trainlineDeportStationVo.x < bottomRightPointByCanvas.x
-                                        && trainlineDeportStationVo.y > topLeftPointByCanvas.y
-                                        && trainlineDeportStationVo.y < bottomRightPointByCanvas.y) {
-                                        trainlineDeportStationVo.style.stroke = color;
-                                        trainlineDeportStationVo.style.fill = color;
-                                        trainlineDeportStationVo.size = 0.03;
-                                        trainlineDeportStationVo.style.lineWidth = 0.03;
-                                        const node = graph.addItem('node', trainlineDeportStationVo);
-                                        trainlineDeportStationNodes.push(node);
+                                trainlineDepot.forEach(trainlineDepotStationVo => {
+                                    trainlineDepotStationVo.x += backgroundRectX;
+                                    trainlineDepotStationVo.y += backgroundRectY;
+                                    if (trainlineDepotStationVo.x > topLeftPointByCanvas.x
+                                        && trainlineDepotStationVo.x < bottomRightPointByCanvas.x
+                                        && trainlineDepotStationVo.y > topLeftPointByCanvas.y
+                                        && trainlineDepotStationVo.y < bottomRightPointByCanvas.y) {
+                                        trainlineDepotStationVo.style.stroke = color;
+                                        trainlineDepotStationVo.style.fill = color;
+                                        trainlineDepotStationVo.size = 0.03;
+                                        trainlineDepotStationVo.style.lineWidth = 0.03;
+                                        const node = graph.addItem('node', trainlineDepotStationVo);
+                                        trainlineDepotStationNodes.push(node);
                                         backgroundCombo.addChild(node);
                                     }
                                 });
@@ -448,57 +498,60 @@
                     if (zoom >= 4) {
                         zoomLevel = 2;
                     }
-                    if (zoom >= 6) {
+                    if (zoom >= 8) {
                         zoomLevel = 3;
                     }
-                    if (zoom >= 8) {
+                    if (zoom >= 10) {
                         zoomLevel = 4;
                     }
-                    if (zoom >= 10) {
+                    if (zoom >= 100) {
                         zoomLevel = 5;
                     }
-                    if (zoom >= 12) {
-                        zoomLevel = 6;
-                    }
-                    if (zoom >= 14) {
-                        zoomLevel = 7;
-                    }
-                    if (zoom >= 16) {
-                        zoomLevel = 8;
-                    }
-                    if (zoom >= 18) {
-                        zoomLevel = 9;
-                    }
-                    if (zoom >= 20) {
-                        zoomLevel = 10;
-                    }
-                    if (zoom >= 22) {
-                        zoomLevel = 11;
-                    }
-                    if (zoom >= 24) {
-                        zoomLevel = 12;
-                    }
-                    if (zoom >= 26) {
-                        zoomLevel = 13;
-                    }
-                    if (zoom >= 28) {
-                        zoomLevel = 14;
-                    }
-                    if (zoom >= 30) {
-                        zoomLevel = 15;
-                    }
-                    if (zoom >= 32) {
-                        zoomLevel = 16;
-                    }
-                    if (zoom >= 34) {
-                        zoomLevel = 17;
-                    }
-                    if (zoom >= 100) {
-                        zoomLevel = 18;
-                    }
-                    if (zoom >= 300) {
-                        zoomLevel = 19;
-                    }
+//                    if (zoom >= 10) {
+//                        zoomLevel = 5;
+//                    }
+//                    if (zoom >= 12) {
+//                        zoomLevel = 6;
+//                    }
+//                    if (zoom >= 14) {
+//                        zoomLevel = 7;
+//                    }
+//                    if (zoom >= 16) {
+//                        zoomLevel = 8;
+//                    }
+//                    if (zoom >= 18) {
+//                        zoomLevel = 9;
+//                    }
+//                    if (zoom >= 20) {
+//                        zoomLevel = 10;
+//                    }
+//                    if (zoom >= 22) {
+//                        zoomLevel = 11;
+//                    }
+//                    if (zoom >= 24) {
+//                        zoomLevel = 12;
+//                    }
+//                    if (zoom >= 26) {
+//                        zoomLevel = 13;
+//                    }
+//                    if (zoom >= 28) {
+//                        zoomLevel = 14;
+//                    }
+//                    if (zoom >= 30) {
+//                        zoomLevel = 15;
+//                    }
+//                    if (zoom >= 32) {
+//                        zoomLevel = 16;
+//                    }
+//                    if (zoom >= 34) {
+//                        zoomLevel = 17;
+//                    }
+//                    if (zoom >= 100) {
+//                        zoomLevel = 18;
+//                    }
+//                    if (zoom >= 300) {
+//                        zoomLevel = 19;
+//                    }
 
                     if (this.zoomLevel != zoomLevel) {
                         this.zoomLevelUpdated = true;
@@ -516,7 +569,7 @@
 
             // 实例化 minimap 插件
             const minimap = new G6.Minimap({
-                size: [200, 200 * height / width],
+                size: [300, 300 * height / width],
                 className: 'minimap',
                 type: 'delegate',
             });
@@ -610,16 +663,29 @@
             graph.render();
 
             dataManager.graph = graph;
-            dataManager.refreshZoomLevel();
+//            dataManager.refreshZoomLevel();
 
             const minimapElement = document.getElementsByClassName('minimap')[0];
             minimapElement.style.position = 'fixed';
-            minimapElement.style.top = (height - 200 * height / width) + 'px';
+            minimapElement.style.top = (height - 300 * height / width) + 'px';
             minimapElement.style.left = '0px';
             minimapElement.style.border = '2px solid #c0c0c0';
             minimapElement.style.zIndex = '9999';
+
+            if (width < 512) {
+                graph.zoomTo(1, {x: width / 2, y: height / 2});
+                dataManager.refreshZoomLevel();
+            } else if (width < 1024 && width >= 512) {
+                graph.zoomTo(2, {x: width / 2, y: height / 2});
+                dataManager.refreshZoomLevel();
+            } else if (width >= 1024) {
+                graph.zoomTo(4, {x: width / 2, y: height / 2 - 30});
+                dataManager.refreshZoomLevel();
+            }
         };
         main();
+
+        //39.902802, 116.427048
     </script>
 </body>
 </html>

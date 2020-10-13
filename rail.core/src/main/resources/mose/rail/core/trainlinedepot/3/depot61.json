@@ -1,0 +1,20 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"0","entryText":"天津西高速场","lng":117.163322,"lat":39.158351},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"1","entryText":"天津普速场","lng":117.209954,"lat":39.136507},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"2","entryText":"天津津秦场","lng":117.209954,"lat":39.136507},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"3","entryText":"军粮城北","lng":117.427763,"lat":39.065996},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"4","entryText":"滨海西","lng":117.611053,"lat":39.081111},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"5","entryText":"滨海北","lng":117.761781,"lat":39.236419},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"6","entryText":"唐山津秦场","lng":118.11817,"lat":39.62536},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"7","entryText":"老庄子线路所","lng":118.395105,"lat":39.7395099999999},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"8","entryText":"滦河","lng":118.67204,"lat":39.85366},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"9","entryText":"北戴河津秦场","lng":119.42013,"lat":39.85082},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"10","entryText":"北戴河普速场","lng":119.42013,"lat":39.85082},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"11","entryText":"秦皇岛津秦场","lng":119.59234,"lat":39.96524},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"12","entryText":"龙家营","lng":119.68032,"lat":39.96212},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"13","entryText":"龙家营线路所","lng":119.709411333333,"lat":39.9747893333333},
+{"bureauCode":3,"ddtId":"61","ddtName":"津秦高铁台","queueIndex":"300","entryIndex":"14","entryText":"山海关","lng":119.767594,"lat":40.000128}
+   
+  ]
+}

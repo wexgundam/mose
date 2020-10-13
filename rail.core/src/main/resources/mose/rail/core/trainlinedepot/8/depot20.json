@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"1","entryIndex":"1","entryText":"郭家湾","lng":110.410355,"lat":38.888665},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"1","entryIndex":"2","entryText":"石窑店","lng":110.430355,"lat":38.938665},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"1","entryIndex":"3","entryText":"店塔","lng":110.450355,"lat":38.988665},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"2","entryIndex":"4","entryText":"神木北","lng":110.44581,"lat":39.03971},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"2","entryIndex":"5","entryText":"店塔","lng":110.450355,"lat":38.988665},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"2","entryIndex":"6","entryText":"神木","lng":110.4549,"lat":38.93762},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"2","entryIndex":"7","entryText":"神木南","lng":110.368069999999,"lat":38.869775},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"2","entryIndex":"8","entryText":"西沟","lng":110.28124,"lat":38.80193},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"2","entryIndex":"9","entryText":"锦界","lng":110.15469,"lat":38.72322},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"2","entryIndex":"10","entryText":"大保当","lng":110.12274,"lat":38.85513},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"3","entryIndex":"11","entryText":"神木","lng":110.4549,"lat":38.93762},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"3","entryIndex":"12","entryText":"张家峁","lng":110.4349,"lat":38.88762},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"3","entryIndex":"13","entryText":"柠条塔","lng":110.252845,"lat":38.91233},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"3","entryIndex":"14","entryText":"侯家母","lng":110.07079,"lat":38.93704},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"3","entryIndex":"15","entryText":"神木西","lng":110.09079,"lat":38.98704},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"16","entryText":"新街","lng":110.05079,"lat":38.88704},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"17","entryText":"中鸡","lng":110.07079,"lat":38.93704},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"18","entryText":"神木西","lng":110.09079,"lat":38.98704},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"19","entryText":"大保当","lng":110.12274,"lat":38.85513},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"20","entryText":"曹家伙场","lng":110.10274,"lat":38.80513},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"21","entryText":"牛家梁","lng":109.697364,"lat":38.310311},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"22","entryText":"红石峡","lng":109.717364,"lat":38.360311},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"23","entryText":"榆林","lng":109.72018,"lat":38.27364},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"24","entryText":"闫庄则","lng":109.70018,"lat":38.22364},
+{"bureauCode":8,"ddtId":"20","ddtName":"包西三台","queueIndex":"4","entryIndex":"25","entryText":"鱼河","lng":109.92654,"lat":37.960845}
+   
+  ]
+}

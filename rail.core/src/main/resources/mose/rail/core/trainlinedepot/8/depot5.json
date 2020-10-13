@@ -1,0 +1,28 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"1","entryIndex":"1","entryText":"灞桥","lng":109.06305,"lat":34.300035},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"1","entryIndex":"2","entryText":"田王","lng":109.08403,"lat":34.3144866666666},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"3","entryText":"窑村","lng":109.12599,"lat":34.34339},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"4","entryText":"灞桥","lng":109.06305,"lat":34.300035},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"5","entryText":"西安东","lng":109.06467,"lat":34.228101},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"6","entryText":"西安","lng":108.962878,"lat":34.277157},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"7","entryText":"西安西","lng":108.9184,"lat":34.27559},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"8","entryText":"三民村","lng":108.863944,"lat":34.287082},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"9","entryText":"三桥","lng":108.828651,"lat":34.296872},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"10","entryText":"黄家寨","lng":108.77055,"lat":34.32241},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"2","entryIndex":"11","entryText":"咸阳","lng":108.73481,"lat":34.34347},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"3","entryIndex":"12","entryText":"三桥","lng":108.828651,"lat":34.296872},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"3","entryIndex":"13","entryText":"西安动车段","lng":108.91107075,"lat":34.3563455},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"4","entryIndex":"14","entryText":"长陵","lng":108.8221,"lat":34.3879},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"4","entryIndex":"15","entryText":"咸阳北","lng":108.692492,"lat":34.355554},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"4","entryIndex":"16","entryText":"咸阳","lng":108.73481,"lat":34.34347},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"4","entryIndex":"17","entryText":"咸阳西","lng":108.60144925,"lat":34.328062125},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"4","entryIndex":"18","entryText":"茂陵","lng":108.65548,"lat":34.3381399999999},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"5","entryIndex":"19","entryText":"三民村","lng":108.863944,"lat":34.287082},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"5","entryIndex":"20","entryText":"新西北","lng":108.843944,"lat":34.237082},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"5","entryIndex":"21","entryText":"马王村","lng":108.59717,"lat":34.061129},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"5","entryIndex":"22","entryText":"户县","lng":108.61717,"lat":34.111129},
+{"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","queueIndex":"5","entryIndex":"23","entryText":"余下","lng":108.59717,"lat":34.061129}
+   
+  ]
+}

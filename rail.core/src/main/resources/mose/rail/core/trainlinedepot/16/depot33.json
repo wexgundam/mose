@@ -1,0 +1,15 @@
+{
+  "entries": [
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"1","entryIndex":"1","entryText":"清水北","lng":99.09807,"lat":39.37441},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"1","entryIndex":"2","entryText":"酒泉南","lng":98.53559,"lat":39.70153},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"1","entryIndex":"3","entryText":"嘉峪关南","lng":98.30937,"lat":39.71809},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"1","entryIndex":"4","entryText":"清泉南","lng":97.57965,"lat":39.97713},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"1","entryIndex":"5","entryText":"玉门高速场","lng":106.8396565,"lat":40.2099375},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"1","entryIndex":"6","entryText":"柳沟南","lng":116.099663,"lat":40.442745},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"1","entryIndex":"7","entryText":"石板墩南","lng":95.91444,"lat":40.88798},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"2","entryIndex":"8","entryText":"嘉峪关南","lng":98.30937,"lat":39.71809},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"2","entryIndex":"9","entryText":"嘉峪关","lng":98.25468,"lat":39.76465},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"3","entryIndex":"10","entryText":"柳沟南","lng":116.099663,"lat":40.442745},
+{"bureauCode":16,"ddtId":"33","ddtName":"兰新高铁二台","queueIndex":"3","entryIndex":"11","entryText":"双塔","lng":102.883401,"lat":37.588013}    
+  ]
+}

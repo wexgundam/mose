@@ -1,0 +1,17 @@
+{
+  "entries": [
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"1","entryIndex":"0","entryText":"成都南","lng":104.068544,"lat":30.606452},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"1","entryIndex":"1","entryText":"华兴村线路所","lng":104.218407666666,"lat":30.5221066666666},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"2","entryText":"成都东城际场","lng":104.166101666666,"lat":30.5758793333333},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"3","entryText":"华兴村线路所","lng":104.218407666666,"lat":30.5221066666666},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"4","entryText":"简阳南","lng":104.518135,"lat":30.353416},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"5","entryText":"资阳北","lng":104.68338,"lat":30.12654},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"6","entryText":"资中北","lng":104.87232,"lat":29.79644},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"7","entryText":"内江北","lng":105.08495,"lat":29.60954},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"8","entryText":"隆昌北","lng":105.29065,"lat":29.46535},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"9","entryText":"荣昌北","lng":105.63618,"lat":29.43319},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"10","entryText":"大足南","lng":105.74662,"lat":29.42162},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"11","entryText":"永川东","lng":105.9482,"lat":29.37109},
+{"bureauCode":14,"ddtId":"31","ddtName":"成渝客专台","queueIndex":"2","entryIndex":"12","entryText":"璧山","lng":106.22371,"lat":29.50462}    
+  ]
+}

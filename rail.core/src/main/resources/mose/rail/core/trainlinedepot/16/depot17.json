@@ -1,0 +1,25 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"1","entryIndex":"1","entryText":"长庆桥","lng":107.75241,"lat":35.31386},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"1","entryIndex":"2","entryText":"泾明","lng":107.559339999999,"lat":35.33116},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"1","entryIndex":"3","entryText":"泾川","lng":107.36627,"lat":35.34846},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"1","entryIndex":"4","entryText":"花所","lng":107.09662,"lat":35.416045},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"1","entryIndex":"5","entryText":"平凉南","lng":106.82697,"lat":35.48363},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"2","entryIndex":"6","entryText":"安口窑","lng":106.80885,"lat":35.23477},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"2","entryIndex":"7","entryText":"崇信","lng":106.89308,"lat":35.31175},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"2","entryIndex":"8","entryText":"大寨岭","lng":106.867985,"lat":35.373055},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"2","entryIndex":"9","entryText":"庙庄","lng":106.84289,"lat":35.43436},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"2","entryIndex":"10","entryText":"平凉南","lng":106.82697,"lat":35.48363},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"2","entryIndex":"11","entryText":"平凉","lng":106.70762,"lat":35.55083},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"12","entryText":"华亭","lng":106.73404,"lat":35.18451},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"13","entryText":"青林","lng":106.71404,"lat":35.13451},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"14","entryText":"麻庵河","lng":106.32291,"lat":34.91645},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"15","entryText":"张家川","lng":106.34291,"lat":34.96645},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"16","entryText":"天河","lng":106.32291,"lat":34.91645},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"17","entryText":"新城乡","lng":106.08661,"lat":34.70134},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"18","entryText":"清水县","lng":106.10661,"lat":34.75134},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"19","entryText":"周家村","lng":106.08661,"lat":34.70134},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"20","entryText":"杨家碾","lng":105.98278,"lat":34.6086245},
+{"bureauCode":16,"ddtId":"17","ddtName":"平凉地区台","queueIndex":"3","entryIndex":"21","entryText":"天水直通场","lng":105.87895,"lat":34.515909}   
+  ]
+}

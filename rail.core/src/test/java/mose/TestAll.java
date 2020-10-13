@@ -6,7 +6,6 @@
 package mose;
 
 
-import mose.rail.core.vo.LoadJsonFile;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -20,7 +19,7 @@ import org.junit.runners.Suite;
         mose.rail.core.dao.TestBureauDao.class,
         mose.rail.core.dao.TestLinkDao.class,
         mose.rail.core.dao.TestStationDao.class,
-        mose.rail.core.dao.TestTrainlineDeportDao.class,
+        mose.rail.core.dao.TestTrainlineDepotDao.class,
         mose.rail.core.dao.TestYardDao.class,
         mose.rail.core.modal.TestVector.class,
         mose.rail.core.service.TestBureauService.class,
@@ -30,7 +29,7 @@ import org.junit.runners.Suite;
         mose.rail.core.service.TestRouteService.class,
         mose.rail.core.service.TestSiteService.class,
         mose.rail.core.service.TestStationService.class,
-        mose.rail.core.service.TestTrainlineDeportService.class,
+        mose.rail.core.service.TestTrainlineDepotService.class,
         mose.rail.core.service.TestTrainlineService.class,
         mose.rail.core.service.TestYardService.class,
         mose.tile.modal.TestTileBounds.class

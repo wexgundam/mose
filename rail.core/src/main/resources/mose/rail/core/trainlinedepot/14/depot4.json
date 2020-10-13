@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"1","entryIndex":"0","entryText":"广元南","lng":105.79847,"lat":32.41791},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"1","entryIndex":"1","entryText":"广元东","lng":105.79847,"lat":32.41791},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"2","entryIndex":"2","entryText":"回龙河","lng":105.82447,"lat":32.3715125},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"2","entryIndex":"3","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"3","entryIndex":"4","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"3","entryIndex":"5","entryText":"广元兰渝宝成场","lng":105.82134,"lat":32.45035},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"4","entryIndex":"6","entryText":"冉家河","lng":105.84201,"lat":32.52365},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"4","entryIndex":"7","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"5","entryIndex":"8","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"5","entryIndex":"9","entryText":"广元南","lng":105.79847,"lat":32.41791},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"6","entryIndex":"10","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"6","entryIndex":"11","entryText":"广元兰渝宝成场","lng":105.82134,"lat":32.45035},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"6","entryIndex":"12","entryText":"广元南","lng":105.79847,"lat":32.41791},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"13","entryText":"广元南","lng":105.79847,"lat":32.41791},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"14","entryText":"走马岭","lng":105.7098,"lat":32.41035},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"15","entryText":"昭化","lng":105.64173,"lat":32.38451},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"16","entryText":"沙溪坝","lng":105.488406,"lat":32.3052885},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"17","entryText":"竹园坝","lng":105.335082,"lat":32.226067},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"18","entryText":"斑竹园","lng":105.208686,"lat":32.1556384999999},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"19","entryText":"马角坝","lng":105.08229,"lat":32.08521},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"20","entryText":"二郎庙","lng":105.10204,"lat":32.03663},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"21","entryText":"厚坝","lng":105.07082,"lat":31.97337},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"22","entryText":"小溪坝","lng":104.9743855,"lat":31.9180915},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"23","entryText":"双河口","lng":104.877951,"lat":31.862813},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"24","entryText":"江油","lng":104.76979,"lat":31.78185},
+{"bureauCode":14,"ddtId":"4","ddtName":"宝成1台","queueIndex":"7","entryIndex":"25","entryText":"三合场","lng":104.7468,"lat":31.73297}   
+  ]
+}

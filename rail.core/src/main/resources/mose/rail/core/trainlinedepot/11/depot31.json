@@ -1,0 +1,29 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"1","entryIndex":"1","entryText":"东村线路所","lng":115.931488666666,"lat":28.4038606666666},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"1","entryIndex":"2","entryText":"朴树线路所","lng":115.891404111111,"lat":28.3244807777777},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"3","entryText":"横岗","lng":115.95045,"lat":28.50145},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"4","entryText":"何家线路所","lng":115.96630575,"lat":28.4960652499999},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"5","entryText":"朴树线路所","lng":115.891404111111,"lat":28.3244807777777},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"6","entryText":"丰城东","lng":115.811235,"lat":28.165721},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"7","entryText":"樟树东高速场","lng":115.59827,"lat":27.96322},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"8","entryText":"新干东","lng":115.426882,"lat":27.743709},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"9","entryText":"峡江高速场","lng":115.33635,"lat":27.59864},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"10","entryText":"吉水西","lng":115.092749,"lat":27.280003},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"11","entryText":"吉安西","lng":114.934503,"lat":27.135721},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"12","entryText":"范家线路所","lng":114.95863575,"lat":27.04893775},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"13","entryText":"泰和高速场","lng":114.900319375,"lat":26.786091875},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"14","entryText":"万安县","lng":114.842003,"lat":26.523246},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"15","entryText":"兴国西","lng":115.279037,"lat":26.312467},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"16","entryText":"赣县北","lng":115.155593,"lat":26.006347},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"17","entryText":"赣厦线路所","lng":114.9859935,"lat":25.912821},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"2","entryIndex":"18","entryText":"赣州西","lng":114.816394,"lat":25.819295},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"3","entryIndex":"19","entryText":"赣州西","lng":114.816394,"lat":25.819295},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"3","entryIndex":"20","entryText":"赣州西动车所","lng":114.796394,"lat":25.769295},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"4","entryIndex":"21","entryText":"赣县北","lng":115.155593,"lat":26.006347},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"4","entryIndex":"22","entryText":"平江线路所","lng":115.1943972,"lat":25.9818088},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"5","entryIndex":"23","entryText":"范家线路所","lng":114.95863575,"lat":27.04893775},
+{"bureauCode":11,"ddtId":"31","ddtName":"昌赣台","queueIndex":"5","entryIndex":"24","entryText":"南街线路所","lng":114.96668,"lat":27.02001},
+   
+  ]
+}

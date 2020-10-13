@@ -1,0 +1,32 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"1","entryText":"郭磊庄","lng":114.55115,"lat":40.72036},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"2","entryText":"柴沟堡","lng":114.41604,"lat":40.67114},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"3","entryText":"西湾堡","lng":114.3617,"lat":40.57542},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"4","entryText":"永嘉堡","lng":114.22164,"lat":40.52905},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"5","entryText":"天镇","lng":114.0651,"lat":40.45209},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"6","entryText":"罗文皂","lng":113.90533,"lat":40.41105},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"7","entryText":"阳高","lng":113.73975,"lat":40.36565},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"8","entryText":"王官人屯","lng":113.65646,"lat":40.2546},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"9","entryText":"周士庄","lng":113.47401,"lat":40.11731},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"1","entryIndex":"10","entryText":"大同东","lng":113.36334,"lat":40.1136},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"11","entryText":"大同","lng":113.30312,"lat":40.12006},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"12","entryText":"大西一场","lng":113.30312,"lat":40.12006},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"13","entryText":"大西四场","lng":113.26119,"lat":40.09425},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"14","entryText":"大西二场","lng":113.21926,"lat":40.06844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"15","entryText":"二电厂","lng":113.19926,"lat":40.01844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"16","entryText":"房子村","lng":113.46042,"lat":39.94894},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"17","entryText":"小站线路所","lng":113.19926,"lat":40.01844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"18","entryText":"云冈","lng":113.17926,"lat":39.96844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"19","entryText":"云冈西","lng":113.15926,"lat":39.91844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"20","entryText":"四台沟","lng":113.13926,"lat":39.86844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"21","entryText":"新高山","lng":113.11926,"lat":39.81844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"22","entryText":"燕子山","lng":113.09926,"lat":39.76844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"23","entryText":"左云","lng":113.07926,"lat":39.71844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"24","entryText":"东碾头","lng":113.05926,"lat":39.66844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"2","entryIndex":"25","entryText":"董半川","lng":113.03926,"lat":39.61844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"3","entryIndex":"26","entryText":"东碾头","lng":113.05926,"lat":39.66844},
+{"bureauCode":4,"ddtId":"3","ddtName":"大张台","queueIndex":"3","entryIndex":"27","entryText":"马道头","lng":113.03926,"lat":39.61844}
+   
+  ]
+}

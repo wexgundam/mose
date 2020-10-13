@@ -1,0 +1,31 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"1","entryText":"平原堡","lng":100.35183,"lat":39.081},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"2","entryText":"临泽","lng":100.16009,"lat":39.15657},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"3","entryText":"新华庄","lng":100.03062,"lat":39.174061},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"4","entryText":"高台","lng":99.78935,"lat":39.26895},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"5","entryText":"梧桐泉","lng":99.599935,"lat":39.2927799999999},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"6","entryText":"许三湾","lng":99.41052,"lat":39.31661},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"7","entryText":"屯升","lng":99.21347,"lat":39.35112},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"8","entryText":"清水","lng":99.05684,"lat":39.35482},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"9","entryText":"上河清","lng":98.85543,"lat":39.45581},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"10","entryText":"红山堡","lng":98.64408,"lat":39.52343},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"11","entryText":"酒泉","lng":98.45165,"lat":39.64557},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"1","entryIndex":"12","entryText":"嘉峪关","lng":98.25468,"lat":39.76465},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"2","entryIndex":"13","entryText":"嘉峪关南","lng":98.30937,"lat":39.71809},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"2","entryIndex":"14","entryText":"嘉峪关","lng":98.25468,"lat":39.76465},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"3","entryIndex":"15","entryText":"嘉峪关","lng":98.25468,"lat":39.76465},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"3","entryIndex":"16","entryText":"嘉峪关东","lng":98.30269,"lat":39.79017},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"4","entryIndex":"17","entryText":"嘉峪关","lng":98.25468,"lat":39.76465},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"4","entryIndex":"18","entryText":"绿化","lng":98.2513,"lat":39.8014},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"4","entryIndex":"19","entryText":"嘉北","lng":98.2313,"lat":39.7514},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"5","entryIndex":"20","entryText":"绿化","lng":98.2513,"lat":39.8014},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"5","entryIndex":"21","entryText":"嘉西","lng":98.2313,"lat":39.7514},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"6","entryIndex":"22","entryText":"绿化","lng":98.2513,"lat":39.8014},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"6","entryIndex":"23","entryText":"桥西","lng":98.13719,"lat":39.7013105},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"6","entryIndex":"24","entryText":"冰沟","lng":98.02308,"lat":39.601221},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"6","entryIndex":"25","entryText":"狼尾山","lng":98.02679,"lat":39.60415},
+{"bureauCode":16,"ddtId":"12","ddtName":"平嘉台","queueIndex":"6","entryIndex":"26","entryText":"镜铁山","lng":97.97313,"lat":39.38814}
+   
+  ]
+}

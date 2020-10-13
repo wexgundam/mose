@@ -1,0 +1,11 @@
+{
+  "depots": [
+    {"bureauCode":18,"ddtId":"1","ddtName":"海宁台","lng":102.866899,"lat":36.340961},
+    {"bureauCode":18,"ddtId":"2","ddtName":"拉日台","lng":88.912163,"lat":29.222139},
+    {"bureauCode":18,"ddtId":"3","ddtName":"柯格台","lng":98.250892,"lat":36.985348},
+    {"bureauCode":18,"ddtId":"5","ddtName":"格安台","lng":94.902122,"lat":36.382944},
+    {"bureauCode":18,"ddtId":"7","ddtName":"宁柯台","lng":100.99504,"lat":36.897},
+    {"bureauCode":18,"ddtId":"9","ddtName":"安拉台","lng":91.991737,"lat":31.44253},
+    {"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","lng":101.568763,"lat":37.390961}
+  ]
+}

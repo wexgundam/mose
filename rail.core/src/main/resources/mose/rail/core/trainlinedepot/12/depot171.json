@@ -1,0 +1,24 @@
+{
+  "entries": [
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"0","entryText":"西秀镇所","lng":110.132654666666,"lat":19.9637033333333},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"1","entryText":"老城镇","lng":110.117722,"lat":19.931875},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"2","entryText":"福山镇","lng":109.918661,"lat":19.875451},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"3","entryText":"临高南","lng":109.759599,"lat":19.867218},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"4","entryText":"银滩","lng":109.48946,"lat":19.79005},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"5","entryText":"白马井","lng":109.25457,"lat":19.65857},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"6","entryText":"海头","lng":108.99483,"lat":19.49289},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"7","entryText":"棋子湾","lng":108.80721,"lat":19.33774},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"8","entryText":"东方高速场","lng":108.76178,"lat":19.058205},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"9","entryText":"金月湾","lng":108.71635,"lat":18.77867},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"10","entryText":"尖峰","lng":108.7534,"lat":18.62139},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"11","entryText":"黄流","lng":108.830906,"lat":18.528463},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"12","entryText":"乐东","lng":108.93871,"lat":18.44498},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"13","entryText":"崖州高速场","lng":109.173925,"lat":18.377},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"14","entryText":"凤凰机场","lng":109.40914,"lat":18.30902},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"15","entryText":"天涯线路所","lng":109.471855,"lat":18.2994575},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"1","entryIndex":"16","entryText":"三亚","lng":109.49276,"lat":18.29627},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"2","entryIndex":"17","entryText":"天涯线路所","lng":109.471855,"lat":18.2994575},
+{"bureauCode":12,"ddtId":"171","ddtName":"西环台","queueIndex":"2","entryIndex":"18","entryText":"(天涯)","lng":109.451855,"lat":18.2494575}
+    
+  ]
+}

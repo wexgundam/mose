@@ -29,7 +29,7 @@ public interface INetworkElement extends IAudit {
     /**
      * 路网元素类型——行车调度台
      */
-    static final int TYPE_TRAINLINE_DEPORT = 1;
+    static final int TYPE_TRAINLINE_DEPOT = 1;
     /**
      * 路网元素类型——车站
      */

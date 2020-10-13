@@ -1,0 +1,16 @@
+{
+  "entries": [
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"1","entryIndex":"1","entryText":"民和南","lng":102.84993,"lat":36.30607},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"1","entryIndex":"2","entryText":"乐都南","lng":102.39105,"lat":36.46788},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"1","entryIndex":"3","entryText":"海东西","lng":102.05537,"lat":36.509148},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"1","entryIndex":"4","entryText":"西宁高速场","lng":101.8457724,"lat":36.6555724},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"1","entryIndex":"5","entryText":"西宁普速场","lng":101.81348,"lat":36.6195},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"2","entryIndex":"6","entryText":"西宁货","lng":101.833427333333,"lat":36.6008546666666},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"2","entryIndex":"7","entryText":"西宁动车所","lng":101.843401,"lat":36.591532},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"2","entryIndex":"8","entryText":"西宁高速场","lng":101.8457724,"lat":36.6555724},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"2","entryIndex":"9","entryText":"大通西","lng":101.67321,"lat":36.96615},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"2","entryIndex":"10","entryText":"门源","lng":101.52807,"lat":37.42686},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰新客专台","queueIndex":"2","entryIndex":"11","entryText":"浩门","lng":101.50807,"lat":37.37686}
+    
+  ]
+}

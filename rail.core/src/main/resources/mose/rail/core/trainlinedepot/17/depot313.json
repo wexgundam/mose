@@ -1,0 +1,23 @@
+{
+  "entries": [
+ {"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"1","entryIndex":"0","entryText":"石板墩南","lng":95.91444,"lat":40.88798},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"1","entryText":"石板墩南","lng":95.91444,"lat":40.88798},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"2","entryText":"柳园南","lng":95.47213,"lat":41.10188},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"3","entryText":"大泉南","lng":95.08491,"lat":41.316155},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"4","entryText":"红柳河南","lng":94.69769,"lat":41.53043},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"5","entryText":"思甜南","lng":94.36684,"lat":41.90698},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"6","entryText":"烟墩东","lng":94.03599,"lat":42.28353},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"7","entryText":"盐泉北","lng":93.77105,"lat":42.566635},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"2","entryIndex":"8","entryText":"哈密","lng":93.50611,"lat":42.84974},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"3","entryIndex":"9","entryText":"哈密","lng":93.50611,"lat":42.84974},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"3","entryIndex":"10","entryText":"柳树泉南","lng":92.8557,"lat":43.05248},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"3","entryIndex":"11","entryText":"了墩北","lng":92.46073,"lat":43.090465},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"3","entryIndex":"12","entryText":"红层南","lng":92.06576,"lat":43.12845},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"3","entryIndex":"13","entryText":"小草湖西","lng":91.29865,"lat":43.0946},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"3","entryIndex":"14","entryText":"吐哈","lng":90.53154,"lat":43.06075},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"4","entryIndex":"15","entryText":"红光西","lng":93.50611,"lat":42.84974},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"4","entryIndex":"16","entryText":"哈密","lng":93.50611,"lat":42.84974},
+{"bureauCode":17,"ddtId":"313","ddtName":"石哈台","queueIndex":"4","entryIndex":"17","entryText":"火石泉","lng":93.377848,"lat":42.911404}
+   
+  ]
+}

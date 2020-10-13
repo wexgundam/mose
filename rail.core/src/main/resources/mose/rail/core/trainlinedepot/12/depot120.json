@@ -1,0 +1,19 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"1","entryIndex":"1","entryText":"韩江桥线路所","lng":116.760044999999,"lat":23.62531},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"1","entryIndex":"2","entryText":"龙湖","lng":116.607966,"lat":23.565688},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"2","entryIndex":"3","entryText":"潮州","lng":116.58425,"lat":23.63841},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"2","entryIndex":"4","entryText":"龙湖","lng":116.607966,"lat":23.565688},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"5","entryText":"梅州西","lng":116.04543,"lat":24.25049},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"6","entryText":"畲江北","lng":116.02147,"lat":24.06006},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"7","entryText":"建桥","lng":116.112381,"lat":23.928741},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"8","entryText":"丰顺东","lng":116.190188,"lat":23.802723},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"9","entryText":"揭阳","lng":116.334848,"lat":23.609477},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"10","entryText":"揭阳机场","lng":116.516263,"lat":23.545527},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"11","entryText":"潮汕","lng":116.58744,"lat":23.53892},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"12","entryText":"龙湖","lng":116.607966,"lat":23.565688},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"13","entryText":"潮安","lng":116.69645,"lat":23.47378},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"14","entryText":"汕头北","lng":116.71997,"lat":23.42728},
+{"bureauCode":12,"ddtId":"120","ddtName":"梅汕台","queueIndex":"3","entryIndex":"15","entryText":"汕头","lng":116.75498,"lat":23.37228}   
+  ]
+}

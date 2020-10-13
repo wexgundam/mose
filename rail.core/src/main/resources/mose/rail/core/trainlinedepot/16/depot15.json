@@ -1,0 +1,19 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"1","entryText":"定边","lng":107.57768,"lat":37.56197},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"2","entryText":"板窑","lng":107.55768,"lat":37.51197},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"3","entryText":"红柳沟","lng":107.53768,"lat":37.46197},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"4","entryText":"红井子","lng":107.51768,"lat":37.41197},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"5","entryText":"大水坑","lng":106.50875,"lat":37.30227},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"6","entryText":"汪水塘","lng":106.52875,"lat":37.35227},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"7","entryText":"老盐池线路所","lng":106.54875,"lat":37.40227},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"8","entryText":"太阳山","lng":106.56875,"lat":37.45227},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"9","entryText":"红沟窑","lng":106.54875,"lat":37.40227},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"10","entryText":"水套","lng":106.04649,"lat":37.39809},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"11","entryText":"红寺堡","lng":106.06649,"lat":37.44809},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"12","entryText":"双井子","lng":106.04649,"lat":37.39809},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"13","entryText":"中宁东普速场","lng":105.50316,"lat":37.46196},
+{"bureauCode":16,"ddtId":"15","ddtName":"定黄台","queueIndex":"1","entryIndex":"14","entryText":"黄羊湾","lng":105.52316,"lat":37.51196}
+   
+  ]
+}

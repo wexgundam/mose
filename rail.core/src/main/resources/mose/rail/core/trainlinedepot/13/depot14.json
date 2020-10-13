@@ -1,0 +1,14 @@
+{
+  "entries": [
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"1","entryText":"玉林二场","lng":110.190103333333,"lat":22.53243},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"2","entryText":"沙田镇","lng":110.157755,"lat":22.4808299999999},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"3","entryText":"博白","lng":109.9938,"lat":22.23145},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"4","entryText":"顿谷","lng":109.9738,"lat":22.1814499999999},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"5","entryText":"沙河东","lng":109.543171,"lat":21.817222},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"6","entryText":"曲樟","lng":109.563171,"lat":21.867222},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"7","entryText":"闸口镇","lng":109.543171,"lat":21.817222},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"8","entryText":"伞塘","lng":109.514767,"lat":21.4769109999999},
+{"bureauCode":13,"ddtId":"14","ddtName":"沿海三台","queueIndex":"1","entryIndex":"9","entryText":"铁山港","lng":109.534767,"lat":21.526911}
+    
+  ]
+}

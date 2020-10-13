@@ -1,0 +1,23 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"1","entryText":"福临堡","lng":107.09644,"lat":34.38376},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"2","entryText":"坊塘铺","lng":107.00013,"lat":34.39435},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"3","entryText":"固川","lng":106.97042,"lat":34.40896},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"4","entryText":"晁峪","lng":106.95042,"lat":34.35896},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"5","entryText":"坪头","lng":106.77567,"lat":34.32675},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"6","entryText":"颜家河","lng":106.79567,"lat":34.37675},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"7","entryText":"东口","lng":106.70264,"lat":34.372191},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"8","entryText":"马家湾","lng":106.64896,"lat":34.4201805},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"9","entryText":"石家滩","lng":106.59528,"lat":34.46817},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"10","entryText":"拓石","lng":106.53024,"lat":34.49669},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"11","entryText":"新拓石","lng":106.48943,"lat":34.5143149999999},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"12","entryText":"凤阁岭","lng":106.44862,"lat":34.53194},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"13","entryText":"建河","lng":106.35124,"lat":34.523121},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"14","entryText":"新建河","lng":106.25801,"lat":34.5261855},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"15","entryText":"元龙","lng":106.16478,"lat":34.52925},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"16","entryText":"伯阳","lng":106.04984,"lat":34.55811},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"17","entryText":"社棠","lng":105.98868,"lat":34.55164},
+{"bureauCode":8,"ddtId":"2","ddtName":"宝天台","queueIndex":"1","entryIndex":"18","entryText":"天水","lng":105.89895,"lat":34.565909}
+   
+  ]
+}

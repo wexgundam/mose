@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"1","entryText":"定边","lng":107.57768,"lat":37.56197},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"2","entryText":"盐池","lng":107.34844,"lat":37.7346},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"3","entryText":"牛毛井","lng":107.32844,"lat":37.6846},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"4","entryText":"高沙窝","lng":107.30844,"lat":37.6346},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"5","entryText":"梅花井","lng":106.5076,"lat":38.04633},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"6","entryText":"宁东南","lng":106.5276,"lat":38.09633},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"7","entryText":"宁东","lng":106.5476,"lat":38.14633},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"8","entryText":"灵武","lng":106.365669,"lat":38.158233},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"9","entryText":"永宁县","lng":106.2421545,"lat":38.2808715},
+{"bureauCode":16,"ddtId":"14","ddtName":"定银台","queueIndex":"1","entryIndex":"10","entryText":"银川南","lng":106.11864,"lat":38.40351}
+   
+  ]
+}

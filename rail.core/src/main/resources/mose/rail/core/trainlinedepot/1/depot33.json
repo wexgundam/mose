@@ -1,0 +1,20 @@
+{
+  "entries": [
+   {"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"1","entryText":"哈西西场","lng":126.577897,"lat":45.706914},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"2","entryText":"哈西东场","lng":126.577897,"lat":45.706914},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"3","entryText":"哈尔滨客整场","lng":126.6049025,"lat":45.7340014999999},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"4","entryText":"哈尔滨","lng":126.631908,"lat":45.761089},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"5","entryText":"太平桥哈牡场","lng":126.687503,"lat":45.794935},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"6","entryText":"新香坊北","lng":126.905616,"lat":45.738869},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"7","entryText":"阿城北","lng":127.023475,"lat":45.589434},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"8","entryText":"帽儿山西","lng":127.47794,"lat":45.28023},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"9","entryText":"尚志南","lng":127.95282,"lat":45.19574},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"10","entryText":"一面坡北","lng":128.086177,"lat":45.08543},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"11","entryText":"苇河西","lng":128.36421,"lat":44.93392},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"12","entryText":"亚布力西","lng":128.58623,"lat":44.91055},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"13","entryText":"横道河子东","lng":129.10765,"lat":44.79076},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"14","entryText":"海林北","lng":129.37342,"lat":44.61102},
+{"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","queueIndex":"1","entryIndex":"15","entryText":"牡丹江","lng":129.612842,"lat":44.590847}
+ 
+  ]
+}

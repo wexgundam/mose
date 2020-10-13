@@ -1,0 +1,26 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"1","entryIndex":"0","entryText":"昌平","lng":116.19459,"lat":40.189527},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"1","entryIndex":"1","entryText":"七间房线路所","lng":116.188429111111,"lat":40.2099565555555},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"1","entryIndex":"2","entryText":"昌平北","lng":116.23177,"lat":40.231228},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"3","entryText":"望京","lng":116.43663,"lat":40.0092609999999},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"4","entryText":"黄土店","lng":116.3639,"lat":40.06991},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"5","entryText":"二拨子线路所","lng":116.302105,"lat":40.0905045},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"6","entryText":"沙河","lng":116.265093,"lat":40.125342},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"7","entryText":"昌平","lng":116.19459,"lat":40.189527},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"8","entryText":"七间房线路所","lng":116.188429111111,"lat":40.2099565555555},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"9","entryText":"南口","lng":116.129686,"lat":40.239759},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"10","entryText":"东园","lng":116.09307,"lat":40.27735},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"11","entryText":"居庸关","lng":116.066651,"lat":40.300664},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"12","entryText":"三堡","lng":116.0457235,"lat":40.325627},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"13","entryText":"青龙桥","lng":116.024796,"lat":40.35059},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"14","entryText":"八达岭","lng":116.001506,"lat":40.360072},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"15","entryText":"延庆","lng":115.983391,"lat":40.435902},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"16","entryText":"康庄","lng":115.895766,"lat":40.379082},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"17","entryText":"东花园","lng":115.792303,"lat":40.365931},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"18","entryText":"狼山","lng":115.68884,"lat":40.35278},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"19","entryText":"土木","lng":115.59308,"lat":40.36626},
+{"bureauCode":3,"ddtId":"14","ddtName":"S2台","queueIndex":"2","entryIndex":"20","entryText":"沙城","lng":115.516114,"lat":40.397207}
+   
+  ]
+}

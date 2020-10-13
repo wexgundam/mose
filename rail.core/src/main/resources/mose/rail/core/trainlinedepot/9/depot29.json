@@ -1,0 +1,18 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"1","entryText":"大明湖","lng":117.028845,"lat":36.681217},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"2","entryText":"五里堂线路所","lng":117.225218,"lat":36.7441749999999},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"3","entryText":"章丘客","lng":117.571219,"lat":36.7557124999999},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"4","entryText":"周村东","lng":117.91722,"lat":36.76725},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"5","entryText":"淄博客","lng":117.89722,"lat":36.71725},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"6","entryText":"临淄客","lng":118.483618,"lat":36.72121},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"7","entryText":"青州市","lng":118.503618,"lat":36.77121},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"8","entryText":"昌乐客","lng":118.483618,"lat":36.72121},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"9","entryText":"潍坊客","lng":119.057269,"lat":36.5645425},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"10","entryText":"峡山客","lng":119.63092,"lat":36.407875},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"11","entryText":"高密客","lng":119.65092,"lat":36.457875},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"12","entryText":"马店线路所","lng":119.996449,"lat":36.29934},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"13","entryText":"胶州北客专场","lng":119.996449,"lat":36.29934},
+{"bureauCode":9,"ddtId":"29","ddtName":"胶济客专台","queueIndex":"1","entryIndex":"14","entryText":"胶州北济青场","lng":119.996449,"lat":36.29934}   
+  ]
+}

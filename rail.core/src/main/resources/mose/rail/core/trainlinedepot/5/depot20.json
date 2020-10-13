@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"1","entryText":"怀安","lng":113.826817,"lat":40.838698},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"2","entryText":"兴和北","lng":113.846817,"lat":40.888698},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"3","entryText":"乌兰察布","lng":113.15976,"lat":40.96387},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"4","entryText":"卓资东高速场","lng":112.61719,"lat":40.92388},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"5","entryText":"旗下营南","lng":112.19486,"lat":40.930071},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"6","entryText":"呼和浩特东高速场","lng":111.765876,"lat":40.849341},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"7","entryText":"呼和浩特东普速场","lng":111.765876,"lat":40.849341},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"1","entryIndex":"8","entryText":"动车所","lng":111.745876,"lat":40.799341},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"2","entryIndex":"9","entryText":"白塔","lng":111.844631,"lat":40.869407},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"2","entryIndex":"10","entryText":"呼和浩特东高速场","lng":111.765876,"lat":40.849341},
+{"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","queueIndex":"2","entryIndex":"11","entryText":"呼和浩特呼准场","lng":111.665361,"lat":40.831639}
+   
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"1","entryIndex":"0","entryText":"回龙河","lng":105.82447,"lat":32.3715125},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"1","entryIndex":"1","entryText":"广元西成场","lng":105.68168,"lat":32.460085},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"2","entryText":"朝天","lng":105.8783,"lat":32.63859},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"3","entryText":"广元西成场","lng":105.68168,"lat":32.460085},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"4","entryText":"剑门关","lng":105.48506,"lat":32.28158},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"5","entryText":"青川","lng":105.33389,"lat":32.18534},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"6","entryText":"江油北","lng":105.075842,"lat":31.983117},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"7","entryText":"江油城际场","lng":104.888226,"lat":31.8271235},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"8","entryText":"青莲","lng":104.70061,"lat":31.67113},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"9","entryText":"绵阳城际场","lng":104.6177,"lat":31.487565},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"10","entryText":"罗江东","lng":104.53479,"lat":31.304},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"11","entryText":"德阳城际场","lng":104.462425,"lat":31.23499},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"12","entryText":"旌阳","lng":104.39006,"lat":31.16598},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"13","entryText":"广汉北","lng":104.27579,"lat":31.00913},
+{"bureauCode":14,"ddtId":"29","ddtName":"西成台","queueIndex":"2","entryIndex":"14","entryText":"青白江东","lng":104.22558,"lat":30.89469}   
+  ]
+}

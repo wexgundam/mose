@@ -1,0 +1,16 @@
+{
+  "entries": [
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"1","entryText":"武夷山北","lng":118.045001,"lat":27.77775},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"2","entryText":"南平市","lng":118.094064,"lat":27.472916},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"3","entryText":"建瓯西","lng":118.279545,"lat":27.048053},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"4","entryText":"红星线路所","lng":118.274825666666,"lat":26.7433643333333},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"5","entryText":"延平","lng":118.272466,"lat":26.59102},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"6","entryText":"古田北","lng":118.6649,"lat":26.46194},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"7","entryText":"闽清北","lng":118.87229,"lat":26.29335},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"1","entryIndex":"8","entryText":"福州","lng":119.320117,"lat":26.113859},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"2","entryIndex":"9","entryText":"红星线路所","lng":118.274825666666,"lat":26.7433643333333},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"2","entryIndex":"10","entryText":"延平","lng":118.272466,"lat":26.59102},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"2","entryIndex":"11","entryText":"后岭线路所","lng":118.166535333333,"lat":26.57538},
+{"bureauCode":11,"ddtId":"28","ddtName":"武福台","queueIndex":"2","entryIndex":"12","entryText":"延平西南龙场","lng":118.11357,"lat":26.56756}    
+  ]
+}

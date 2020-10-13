@@ -1,0 +1,20 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"1","entryText":"大路","lng":103.42605,"lat":36.277451},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"2","entryText":"龙泉寺","lng":103.38827,"lat":36.485},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"3","entryText":"马家坪","lng":103.364451,"lat":36.603933},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"4","entryText":"永登","lng":103.273977,"lat":36.720265},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"5","entryText":"中堡","lng":103.21036,"lat":36.816451},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"6","entryText":"富强堡","lng":103.14543,"lat":36.92428},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"7","entryText":"天祝","lng":103.13663,"lat":36.98052},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"8","entryText":"打柴沟","lng":102.999,"lat":37.09011},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"9","entryText":"龙沟","lng":102.900853,"lat":37.317854},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"10","entryText":"柳家台","lng":102.9236,"lat":37.36809},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"11","entryText":"古浪","lng":102.91768,"lat":37.48005},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"12","entryText":"黄羊镇","lng":102.83779,"lat":37.65685},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"13","entryText":"头坝河","lng":102.76259,"lat":37.75971},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"14","entryText":"武威南到达场","lng":102.761514,"lat":37.795884},
+{"bureauCode":16,"ddtId":"5","ddtName":"河武台","queueIndex":"1","entryIndex":"15","entryText":"武威南上下场","lng":102.73735,"lat":37.8154}
+   
+  ]
+}

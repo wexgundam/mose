@@ -1,0 +1,26 @@
+{
+  "entries": [
+ {"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"50","entryIndex":"1","entryText":"长子南","lng":112.88889,"lat":36.03413},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"50","entryIndex":"2","entryText":"长子","lng":112.95357,"lat":36.04473},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"3","entryText":"长子南","lng":112.88889,"lat":36.03413},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"4","entryText":"壶关","lng":113.22367,"lat":36.17007},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"5","entryText":"平顺","lng":113.53485,"lat":36.174815},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"6","entryText":"红旗渠","lng":113.84603,"lat":36.17956},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"7","entryText":"水冶南","lng":114.040675,"lat":36.074045},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"8","entryText":"鹤壁时丰","lng":114.23532,"lat":35.96853},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"9","entryText":"汤阴东","lng":114.29068,"lat":35.941625},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"10","entryText":"胡庄","lng":114.27068,"lat":35.891625},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"11","entryText":"井店南","lng":114.63752,"lat":35.7913975},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"12","entryText":"濮阳西","lng":115.00436,"lat":35.69117},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"13","entryText":"濮阳","lng":115.02436,"lat":35.74117},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"14","entryText":"濮阳东","lng":115.150257,"lat":35.765425},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"15","entryText":"范县","lng":115.130257,"lat":35.715425},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"51","entryIndex":"16","entryText":"台前北","lng":115.110257,"lat":35.665425},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"52","entryIndex":"17","entryText":"鹤壁北","lng":114.17515,"lat":35.96514},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"52","entryIndex":"18","entryText":"鹤壁时丰","lng":114.23532,"lat":35.96853},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"52","entryIndex":"19","entryText":"汤阴","lng":114.34604,"lat":35.91472},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"53","entryIndex":"20","entryText":"汤阴","lng":114.34604,"lat":35.91472},
+{"bureauCode":6,"ddtId":"26","ddtName":"中南台","queueIndex":"53","entryIndex":"21","entryText":"汤阴东","lng":114.29068,"lat":35.941625}
+   
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"1","entryIndex":"0","entryText":"沙坝","lng":102.12838,"lat":26.95249},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"1","entryIndex":"1","entryText":"米易东","lng":102.120995,"lat":26.91393},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"1","entryIndex":"2","entryText":"米易","lng":102.11361,"lat":26.87537},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"2","entryIndex":"3","entryText":"米易东","lng":102.120995,"lat":26.91393},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"2","entryIndex":"4","entryText":"丙谷东","lng":102.100995,"lat":26.86393},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"2","entryIndex":"5","entryText":"盐边","lng":101.780017,"lat":26.456055},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"2","entryIndex":"6","entryText":"普达","lng":101.800017,"lat":26.506055},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"2","entryIndex":"7","entryText":"攀枝花南","lng":101.748654,"lat":26.46873},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"2","entryIndex":"8","entryText":"先锋营","lng":101.729652,"lat":26.25884},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"2","entryIndex":"9","entryText":"永仁","lng":101.71065,"lat":26.04895},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"3","entryIndex":"10","entryText":"攀枝花","lng":101.85138,"lat":26.54338},
+{"bureauCode":14,"ddtId":"44","ddtName":"西攀台","queueIndex":"3","entryIndex":"11","entryText":"普达","lng":101.800017,"lat":26.506055}   
+  ]
+}

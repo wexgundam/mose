@@ -1,0 +1,23 @@
+{
+  "entries": [
+ {"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"4","entryIndex":"0","entryText":"新郑","lng":113.774551,"lat":34.380947},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"4","entryIndex":"1","entryText":"新郑北","lng":113.754551,"lat":34.330947},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"4","entryIndex":"2","entryText":"尚庄","lng":113.52782,"lat":34.44831},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"4","entryIndex":"3","entryText":"宋寨","lng":113.54782,"lat":34.49831},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"4","entryIndex":"4","entryText":"裴沟","lng":113.475495999999,"lat":34.5148425},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"4","entryIndex":"5","entryText":"新密","lng":113.403172,"lat":34.531375},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"6","entryText":"五里堡","lng":113.683647,"lat":34.710722},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"7","entryText":"小李庄","lng":113.74619,"lat":34.65451},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"8","entryText":"谢庄","lng":113.80556,"lat":34.59185},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"9","entryText":"薛店","lng":113.79667,"lat":34.49563},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"10","entryText":"新郑","lng":113.774551,"lat":34.380947},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"11","entryText":"官亭","lng":113.771729,"lat":34.292487},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"12","entryText":"长葛","lng":113.77887,"lat":34.21371},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"13","entryText":"苏桥","lng":113.799659999999,"lat":34.116303},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"14","entryText":"许昌","lng":113.82045,"lat":34.018896},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"15","entryText":"临颍","lng":113.92024,"lat":33.80648},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"16","entryText":"小商桥","lng":113.96694,"lat":33.70423},
+{"bureauCode":6,"ddtId":"8","ddtName":"京广南台","queueIndex":"5","entryIndex":"17","entryText":"孟庙","lng":114.01668,"lat":33.62716}
+   
+  ]
+}

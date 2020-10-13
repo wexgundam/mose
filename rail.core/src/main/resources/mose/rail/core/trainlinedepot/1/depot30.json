@@ -1,0 +1,23 @@
+{
+  "entries": [
+ {"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"1","entryText":"哈西西场","lng":126.577897,"lat":45.706914},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"2","entryText":"哈西东场","lng":126.577897,"lat":45.706914},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"3","entryText":"哈尔滨","lng":126.631908,"lat":45.761089},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"4","entryText":"庙台子","lng":126.583927499999,"lat":45.805919},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"5","entryText":"哈北站综合场","lng":126.535947,"lat":45.850749},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"6","entryText":"哈北站客专场","lng":126.535947,"lat":45.850749},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"7","entryText":"裕民线路所","lng":126.2673435,"lat":45.9641845},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"8","entryText":"肇东客专场","lng":125.99874,"lat":46.07762},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"9","entryText":"安达客专场","lng":125.32167,"lat":46.40272},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"10","entryText":"大庆东客专场","lng":125.124365,"lat":46.533894},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"11","entryText":"大庆西客专场","lng":124.88645,"lat":46.65705},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"12","entryText":"杜尔伯特客专场","lng":124.447508,"lat":46.870471},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"13","entryText":"红旗营东","lng":123.98719,"lat":47.08749},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"14","entryText":"齐齐哈尔南","lng":123.972052,"lat":47.284527},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"15","entryText":"齐齐哈尔南场","lng":123.99609,"lat":47.34063},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"1","entryIndex":"16","entryText":"齐齐哈尔","lng":123.99609,"lat":47.34063},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"2","entryIndex":"17","entryText":"齐齐哈尔南","lng":123.972052,"lat":47.284527},
+{"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","queueIndex":"2","entryIndex":"18","entryText":"齐南站动车存车场","lng":123.972052,"lat":47.284527}
+   
+  ]
+}

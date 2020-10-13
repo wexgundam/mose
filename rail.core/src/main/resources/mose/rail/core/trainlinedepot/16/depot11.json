@@ -1,0 +1,28 @@
+{
+  "entries": [
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"1","entryIndex":"1","entryText":"水源","lng":103.88145,"lat":36.14007},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"1","entryIndex":"2","entryText":"青白石","lng":103.90981,"lat":36.07456},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"1","entryIndex":"3","entryText":"兰州东","lng":103.892431,"lat":36.029948},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"2","entryIndex":"4","entryText":"水源","lng":103.88145,"lat":36.14007},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"2","entryIndex":"5","entryText":"大沙坪","lng":103.810848,"lat":36.119964},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"6","entryText":"定西","lng":104.62503,"lat":35.59215},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"7","entryText":"梁家坪","lng":104.47357,"lat":35.70974},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"8","entryText":"李家坪","lng":104.32758,"lat":35.66073},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"9","entryText":"甘草店","lng":104.29067,"lat":35.7939},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"10","entryText":"王家湾","lng":104.25561,"lat":35.84314},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"11","entryText":"许家台","lng":104.20885,"lat":35.90657},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"12","entryText":"夏官营陇海场","lng":104.119706833333,"lat":35.9625196666666},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"13","entryText":"夏货线路所","lng":104.1141425,"lat":35.9896175},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"14","entryText":"骆驼巷","lng":104.04846,"lat":36.02644},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"15","entryText":"桑园子","lng":103.97664,"lat":36.05499},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"16","entryText":"青白石","lng":103.90981,"lat":36.07456},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"17","entryText":"大沙坪","lng":103.810848,"lat":36.119964},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"18","entryText":"兰州北下到场","lng":103.733629,"lat":36.1304425},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"19","entryText":"兰州北下发场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"20","entryText":"兰州北上到场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"3","entryIndex":"21","entryText":"兰州北上发场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"4","entryIndex":"22","entryText":"夏官营陇海场","lng":104.119706833333,"lat":35.9625196666666},
+{"bureauCode":16,"ddtId":"11","ddtName":"定兰台","queueIndex":"4","entryIndex":"23","entryText":"夏客线路所","lng":104.036127999999,"lat":35.9913715}
+    
+  ]
+}

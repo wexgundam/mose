@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"1","entryText":"漳河","lng":112.09098,"lat":30.96491},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"2","entryText":"小烟墩","lng":111.85511,"lat":30.88309},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"3","entryText":"当阳","lng":111.8119,"lat":30.84724},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"4","entryText":"岩屋庙","lng":111.74098,"lat":30.84077},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"5","entryText":"玉泉寺","lng":111.69586,"lat":30.7763},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"6","entryText":"鸦雀岭","lng":111.6202,"lat":30.661451},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"7","entryText":"安福寺","lng":111.58841,"lat":30.51215},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"8","entryText":"枝江","lng":111.57725,"lat":30.45765},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"9","entryText":"枝城","lng":111.50953,"lat":30.27138},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"10","entryText":"桃子岭","lng":111.55001,"lat":30.23394},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"11","entryText":"松滋","lng":111.60688,"lat":30.17256},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"1","entryIndex":"12","entryText":"西斋","lng":111.58688,"lat":30.12256},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"2","entryIndex":"13","entryText":"鸦雀岭","lng":111.6202,"lat":30.661451},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"2","entryIndex":"14","entryText":"红土","lng":111.58806,"lat":30.649531},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"2","entryIndex":"15","entryText":"新昌","lng":111.479295,"lat":30.6538605},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"2","entryIndex":"16","entryText":"宜昌东一场","lng":111.37053,"lat":30.65819},
+{"bureauCode":7,"ddtId":"16","ddtName":"焦柳二台","queueIndex":"2","entryIndex":"17","entryText":"宜昌东二场","lng":111.37053,"lat":30.65819}
+   
+  ]
+}

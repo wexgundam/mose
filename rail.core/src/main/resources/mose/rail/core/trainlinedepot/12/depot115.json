@@ -1,0 +1,26 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"1","entryText":"东莞西广惠场","lng":113.64097625,"lat":22.99966175},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"2","entryText":"道滘","lng":113.65907,"lat":22.99092},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"3","entryText":"西平西","lng":113.63907,"lat":22.94092},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"4","entryText":"东城南","lng":113.831476,"lat":22.938762},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"5","entryText":"寮步","lng":113.851476,"lat":22.988762},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"6","entryText":"松山湖北","lng":113.89731,"lat":22.95775},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"7","entryText":"大朗镇","lng":113.94717,"lat":22.95369},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"8","entryText":"常平南","lng":114.00652,"lat":22.97516},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"9","entryText":"常平东","lng":114.04129,"lat":22.96222},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"10","entryText":"樟木头东","lng":114.10549,"lat":22.95817},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"11","entryText":"银瓶","lng":114.15659,"lat":22.96666},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"12","entryText":"沥林北","lng":114.229837,"lat":22.978624},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"13","entryText":"仲恺","lng":114.32641,"lat":23.00611},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"14","entryText":"惠环","lng":114.36558,"lat":23.03052},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"15","entryText":"龙丰","lng":114.39435,"lat":23.06386},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"16","entryText":"西湖东","lng":114.40075,"lat":23.08782},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"17","entryText":"云山","lng":114.41741,"lat":23.10997},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"1","entryIndex":"18","entryText":"小金口","lng":114.41865,"lat":23.15198},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"2","entryIndex":"19","entryText":"惠州北动车所","lng":114.39865,"lat":23.1019799999999},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"2","entryIndex":"20","entryText":"小金口","lng":114.41865,"lat":23.15198},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"3","entryIndex":"21","entryText":"沥林北","lng":114.229837,"lat":22.978624},
+{"bureauCode":12,"ddtId":"115","ddtName":"莞惠台","queueIndex":"3","entryIndex":"22","entryText":"谢岗","lng":114.166260666666,"lat":22.974969}   
+  ]
+}

@@ -1,0 +1,33 @@
+{ 
+  "depots": [
+    {"bureauCode":8,"ddtId":"1","ddtName":"宁西台","lng":110.900116,"lat":33.5268},
+    {"bureauCode":8,"ddtId":"2","ddtName":"宝天台","lng":105.978069,"lat":34.552377},
+    {"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","lng":107.157211,"lat":34.372912},
+    {"bureauCode":8,"ddtId":"4","ddtName":"西宝台","lng":108.353004,"lat":34.265445},
+    {"bureauCode":8,"ddtId":"5","ddtName":"西安地区台","lng":108.936996,"lat":34.328127},
+    {"bureauCode":8,"ddtId":"6","ddtName":"新丰镇地区台","lng":109.214573,"lat":34.366394},
+    {"bureauCode":8,"ddtId":"7","ddtName":"东台","lng":110.249176,"lat":34.535975},
+    {"bureauCode":8,"ddtId":"8","ddtName":"西康台","lng":109.354477,"lat":32.837337},
+    {"bureauCode":8,"ddtId":"9","ddtName":"宝中台","lng":106.861267,"lat":34.891563},
+    {"bureauCode":8,"ddtId":"10","ddtName":"宝成台","lng":106.525369,"lat":33.912345},
+    {"bureauCode":8,"ddtId":"11","ddtName":"太中银台","lng":110.666313,"lat":37.481942},
+    {"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","lng":108.969612,"lat":34.908458},
+    {"bureauCode":8,"ddtId":"13","ddtName":"西韩台","lng":110.329857,"lat":35.365816},
+    {"bureauCode":8,"ddtId":"13","ddtName":"西韩台","lng":109.016647,"lat":32.712489},
+    {"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","lng":108.042641,"lat":32.083738},
+    {"bureauCode":8,"ddtId":"16","ddtName":"甘钟台","lng":109.353662,"lat":36.258532},
+    {"bureauCode":8,"ddtId":"17","ddtName":"阳安一台","lng":108.506126,"lat":32.878434},
+    {"bureauCode":8,"ddtId":"18","ddtName":"阳安二台","lng":106.056733,"lat":32.968923},
+    {"bureauCode":8,"ddtId":"19","ddtName":"包西一台","lng":109.481163,"lat":36.557085},
+    {"bureauCode":8,"ddtId":"20","ddtName":"包西三台","lng":110.49448,"lat":38.843719},
+    {"bureauCode":8,"ddtId":"21","ddtName":"郑西高铁","lng":109.320316,"lat":34.497644},
+    {"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","lng":108.733749,"lat":34.342302},
+    {"bureauCode":8,"ddtId":"23","ddtName":"西平台","lng":108.081779,"lat":35.047425},
+    {"bureauCode":8,"ddtId":"25","ddtName":"大西客专","lng":109.925938,"lat":34.834659},
+    {"bureauCode":8,"ddtId":"27","ddtName":"西成客专","lng":107.030182,"lat":33.089816},
+    {"bureauCode":8,"ddtId":"28","ddtName":"包西二台","lng":110.265827,"lat":37.503394},
+    {"bureauCode":8,"ddtId":"30","ddtName":"浩吉一台","lng":108.998795,"lat":39.358989},
+    {"bureauCode":8,"ddtId":"31","ddtName":"浩吉二台","lng":110.838146,"lat":35.416195},
+    {"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","lng":111.653709,"lat":34.389204}
+  ]
+}

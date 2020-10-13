@@ -1,0 +1,29 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"1","entryIndex":"1","entryText":"(花桥镇)","lng":110.07951,"lat":27.54912},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"1","entryIndex":"2","entryText":"泸阳","lng":110.09951,"lat":27.59912},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"2","entryIndex":"3","entryText":"泸阳","lng":110.09951,"lat":27.59912},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"2","entryIndex":"4","entryText":"怀化东","lng":110.044786,"lat":27.568179},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"3","entryIndex":"5","entryText":"怀化东","lng":110.044786,"lat":27.568179},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"3","entryIndex":"6","entryText":"怀化西到达场","lng":109.96767,"lat":27.52605},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"3","entryIndex":"7","entryText":"怀化西编发场","lng":109.94767,"lat":27.47605},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"4","entryIndex":"8","entryText":"怀化西编发场","lng":109.94767,"lat":27.47605},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"4","entryIndex":"9","entryText":"鸭嘴岩","lng":109.92793,"lat":27.34696},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"4","entryIndex":"10","entryText":"中方","lng":109.94793,"lat":27.39696},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"5","entryIndex":"11","entryText":"(同田湾)","lng":109.94733,"lat":27.50724},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"5","entryIndex":"12","entryText":"怀化","lng":109.96733,"lat":27.55724},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"6","entryIndex":"13","entryText":"象鼻子","lng":109.961326666666,"lat":27.5703066666666},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"6","entryIndex":"14","entryText":"怀化西到达场","lng":109.96767,"lat":27.52605},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"6","entryIndex":"15","entryText":"怀化","lng":109.96733,"lat":27.55724},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"7","entryIndex":"16","entryText":"怀化","lng":109.96733,"lat":27.55724},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"7","entryIndex":"17","entryText":"公坪","lng":109.8775,"lat":27.54591},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"7","entryIndex":"18","entryText":"芷江西","lng":109.664621,"lat":27.448683},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"7","entryIndex":"19","entryText":"冷水铺","lng":109.50541,"lat":27.42196},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"7","entryIndex":"20","entryText":"波州","lng":109.350611,"lat":27.385401},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"7","entryIndex":"21","entryText":"新晃","lng":109.195812,"lat":27.348842},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"7","entryIndex":"22","entryText":"大龙","lng":110.659751444444,"lat":27.3015228333333},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"8","entryIndex":"23","entryText":"大龙","lng":110.659751444444,"lat":27.3015228333333},
+{"bureauCode":12,"ddtId":"7005","ddtName":"怀化地区台","queueIndex":"8","entryIndex":"24","entryText":"-","lng":112.123690888888,"lat":27.2542036666666}
+   
+  ]
+}

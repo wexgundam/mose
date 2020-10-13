@@ -1,0 +1,11 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"28","ddtName":"贵广台","queueIndex":"1","entryIndex":"0","entryText":"龙里北","lng":106.96601,"lat":26.46826},
+{"bureauCode":14,"ddtId":"28","ddtName":"贵广台","queueIndex":"1","entryIndex":"1","entryText":"贵定县","lng":107.19193,"lat":26.35139},
+{"bureauCode":14,"ddtId":"28","ddtName":"贵广台","queueIndex":"1","entryIndex":"2","entryText":"都匀东","lng":107.58758,"lat":26.16685},
+{"bureauCode":14,"ddtId":"28","ddtName":"贵广台","queueIndex":"1","entryIndex":"3","entryText":"三都县","lng":107.81711,"lat":26.077708},
+{"bureauCode":14,"ddtId":"28","ddtName":"贵广台","queueIndex":"1","entryIndex":"4","entryText":"榕江","lng":108.55559,"lat":25.98782},
+{"bureauCode":14,"ddtId":"28","ddtName":"贵广台","queueIndex":"1","entryIndex":"5","entryText":"从江","lng":109.11483,"lat":25.90887},
+{"bureauCode":14,"ddtId":"28","ddtName":"贵广台","queueIndex":"1","entryIndex":"6","entryText":"三江南","lng":109.576179,"lat":25.725669}   
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "entries": [
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "1",
+      "entryText": "齐齐哈尔",
+      "lng": 123.99609,
+      "lat": 47.34063
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "2",
+      "entryText": "高头",
+      "lng": 124.07158,
+      "lat": 47.41355
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "3",
+      "entryText": "冯屯",
+      "lng": 124.13184,
+      "lat": 47.46514
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "4",
+      "entryText": "塔哈",
+      "lng": 124.23331,
+      "lat": 47.55242
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "5",
+      "entryText": "中和",
+      "lng": 124.382013,
+      "lat": 47.68018
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "6",
+      "entryText": "富裕",
+      "lng": 124.46065,
+      "lat": 47.79733
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "7",
+      "entryText": "小榆树",
+      "lng": 124.50104,
+      "lat": 47.86254
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "8",
+      "entryText": "二道湾",
+      "lng": 124.546882,
+      "lat": 47.961114
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "9",
+      "entryText": "青水山",
+      "lng": 124.581886,
+      "lat": 48.032442
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "10",
+      "entryText": "团结",
+      "lng": 124.61689,
+      "lat": 48.10377
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "11",
+      "entryText": "拉哈",
+      "lng": 124.63061,
+      "lat": 48.20552
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "12",
+      "entryText": "光明",
+      "lng": 124.635328,
+      "lat": 48.2797
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "13",
+      "entryText": "六合镇",
+      "lng": 124.69738,
+      "lat": 48.35077
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "14",
+      "entryText": "八方",
+      "lng": 124.7865,
+      "lat": 48.40917
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "15",
+      "entryText": "讷河",
+      "lng": 124.84837,
+      "lat": 48.48135
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "16",
+      "entryText": "恒地营",
+      "lng": 124.96366,
+      "lat": 48.56174
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "17",
+      "entryText": "老莱",
+      "lng": 125.00642,
+      "lat": 48.65098
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "18",
+      "entryText": "伊拉哈",
+      "lng": 125.13612,
+      "lat": 48.80758
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "19",
+      "entryText": "九三",
+      "lng": 125.256614,
+      "lat": 48.881831
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "20",
+      "entryText": "弯道",
+      "lng": 125.27259,
+      "lat": 48.90271
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "21",
+      "entryText": "鹤山",
+      "lng": 125.24242,
+      "lat": 49.01576
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "22",
+      "entryText": "新高峰",
+      "lng": 125.28252,
+      "lat": 49.06912
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "23",
+      "entryText": "新彦",
+      "lng": 125.254816,
+      "lat": 49.107998
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "24",
+      "entryText": "嫩江",
+      "lng": 125.24987,
+      "lat": 49.17795
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "25",
+      "entryText": "哈达阳",
+      "lng": 125.21666,
+      "lat": 49.30222
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "26",
+      "entryText": "哈力图",
+      "lng": 125.15532,
+      "lat": 49.42164
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "27",
+      "entryText": "红彦",
+      "lng": 124.98218,
+      "lat": 49.51356
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "28",
+      "entryText": "杨木山",
+      "lng": 124.89396,
+      "lat": 49.56732
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "29",
+      "entryText": "达拉滨",
+      "lng": 124.78928,
+      "lat": 49.66596
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "30",
+      "entryText": "大杨树东",
+      "lng": 124.66093,
+      "lat": 49.71214
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "31",
+      "entryText": "大杨树",
+      "lng": 124.609543,
+      "lat": 49.748792
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "32",
+      "entryText": "春亭阁",
+      "lng": 124.49806,
+      "lat": 49.78974
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "33",
+      "entryText": "乌鲁布铁",
+      "lng": 124.374837,
+      "lat": 49.889119
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "34",
+      "entryText": "朝阳村",
+      "lng": 124.3291,
+      "lat": 50.02592
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "35",
+      "entryText": "讷尔克气",
+      "lng": 124.25113,
+      "lat": 50.15425
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "36",
+      "entryText": "白桦排",
+      "lng": 124.19497,
+      "lat": 50.24729
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "37",
+      "entryText": "加南",
+      "lng": 124.16335,
+      "lat": 50.32429
+    },
+    {
+      "bureauCode": 1,
+      "ddtId": "1",
+      "ddtName": "齐加台",
+      "queueIndex": "1",
+      "entryIndex": "38",
+      "entryText": "加格达奇",
+      "lng": 124.126412,
+      "lat": 50.420295
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "depots": [
+{"bureauCode":18,"ddtId":"113","ddtName":"安哈台","lng":94.358299,"lat":41.788019},
+{"bureauCode":18,"ddtId":"123","ddtName":"雅煤台","lng":90.20938,"lat":42.876224},
+{"bureauCode":18,"ddtId":"133","ddtName":"乌枢纽台","lng":87.530456,"lat":43.841589},
+{"bureauCode":18,"ddtId":"141","ddtName":"乌准台","lng":87.98738,"lat":44.15706},
+{"bureauCode":18,"ddtId":"151","ddtName":"乐阿台","lng":84.90167,"lat":44.42689},
+{"bureauCode":18,"ddtId":"161","ddtName":"奎塔台","lng":84.902984,"lat":45.560466},
+{"bureauCode":18,"ddtId":"182","ddtName":"鱼焉台","lng":86.57425,"lat":42.0591},
+{"bureauCode":18,"ddtId":"183","ddtName":"阿喀台","lng":80.299392,"lat":41.155527},
+{"bureauCode":18,"ddtId":"201","ddtName":"精霍台","lng":82.89417,"lat":44.60055},
+{"bureauCode":18,"ddtId":"211","ddtName":"喀和台","lng":76.041503,"lat":39.490931},
+{"bureauCode":18,"ddtId":"221","ddtName":"库俄台","lng":82.96212,"lat":41.71741},
+{"bureauCode":18,"ddtId":"231","ddtName":"哈密枢纽台","lng":93.500839,"lat":42.856466},
+{"bureauCode":18,"ddtId":"261","ddtName":"梧哈台","lng":94.977058,"lat":43.760836},
+{"bureauCode":18,"ddtId":"323","ddtName":"哈乌台","lng":88.81398,"lat":43.116588},
+{"bureauCode":18,"ddtId":"471","ddtName":"珍库台","lng":88.65384,"lat":42.79181},
+{"bureauCode":18,"ddtId":"481","ddtName":"库阿台","lng":84.25191,"lat":41.77763},
+{"bureauCode":18,"ddtId":"491","ddtName":"吐枢纽台","lng":88.875313,"lat":43.151489},
+{"bureauCode":18,"ddtId":"501","ddtName":"巴准台","lng":88.094414,"lat":47.718658}
+  ]
+}

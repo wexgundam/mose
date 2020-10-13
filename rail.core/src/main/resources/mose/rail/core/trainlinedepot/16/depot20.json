@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"1","entryText":"羊木","lng":105.7799,"lat":32.59455},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"2","entryText":"姚渡","lng":105.497553,"lat":32.803512},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"3","entryText":"枫相院","lng":105.284911,"lat":32.951675},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"4","entryText":"桔柑","lng":105.10318,"lat":33.28833},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"5","entryText":"陇南","lng":104.96009,"lat":33.37595},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"6","entryText":"陇南西","lng":104.85011,"lat":33.41015},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"7","entryText":"雅园","lng":104.55521,"lat":33.616603},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"8","entryText":"临江铺","lng":104.395005,"lat":33.9187115},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"9","entryText":"哈达铺","lng":104.2348,"lat":34.22082},
+{"bureauCode":16,"ddtId":"20","ddtName":"兰渝二台","queueIndex":"1","entryIndex":"10","entryText":"岷县","lng":104.06994,"lat":34.39201}
+   
+  ]
+}

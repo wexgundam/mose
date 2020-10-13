@@ -1,0 +1,25 @@
+{
+  "entries": [
+ {"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"1","entryIndex":"1","entryText":"大连动车所","lng":121.6639038,"lat":39.0436504},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"1","entryIndex":"2","entryText":"大连北高速场","lng":121.6839038,"lat":39.0936504},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"1","entryIndex":"3","entryText":"金州客场","lng":121.727289,"lat":39.08793},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"4","entryText":"大连北高速场","lng":121.6839038,"lat":39.0936504},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"5","entryText":"普湾","lng":121.81327,"lat":39.33012},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"6","entryText":"瓦房店西","lng":121.837941,"lat":39.656879},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"7","entryText":"鲅鱼圈","lng":122.09452,"lat":40.18793},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"8","entryText":"盖州西","lng":122.27396,"lat":40.40433},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"9","entryText":"营口东","lng":122.42816,"lat":40.62548},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"10","entryText":"下夹河线路所","lng":122.582333333333,"lat":40.8180599999999},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"11","entryText":"海城西","lng":122.65942,"lat":40.91435},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"12","entryText":"鞍山西","lng":122.91534,"lat":41.11899},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"2","entryIndex":"13","entryText":"辽阳高速场","lng":123.167852,"lat":41.281776},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"3","entryIndex":"14","entryText":"盘锦北","lng":121.807523,"lat":41.335789},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"3","entryIndex":"15","entryText":"赵荒地线路所","lng":121.807523,"lat":41.335789},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"3","entryIndex":"16","entryText":"盘锦高速场","lng":121.807523,"lat":41.335789},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"3","entryIndex":"17","entryText":"中小线路所","lng":122.194928166666,"lat":41.0769245},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"3","entryIndex":"18","entryText":"下夹河线路所","lng":122.582333333333,"lat":40.8180599999999},
+{"bureauCode":2,"ddtId":"32","ddtName":"哈大三台","queueIndex":"3","entryIndex":"19","entryText":"海城西","lng":122.65942,"lat":40.91435}
+
+   
+  ]
+}

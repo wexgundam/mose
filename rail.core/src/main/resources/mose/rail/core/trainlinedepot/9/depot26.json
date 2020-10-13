@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"1","entryText":"章丘","lng":117.499272,"lat":36.721998},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"2","entryText":"王村","lng":117.6801955,"lat":36.756686},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"3","entryText":"周村","lng":117.861119,"lat":36.791374},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"4","entryText":"马尚","lng":117.99976,"lat":36.79601},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"5","entryText":"淄博","lng":118.057342,"lat":36.78883},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"6","entryText":"湖田","lng":118.136067,"lat":36.781651},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"7","entryText":"金岭镇","lng":118.18875,"lat":36.79311},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"8","entryText":"东风","lng":118.229581,"lat":36.795821},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"9","entryText":"临淄","lng":118.30855,"lat":36.80527},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"10","entryText":"普通","lng":118.402538499999,"lat":36.7558235},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"11","entryText":"青州市南","lng":118.496527,"lat":36.706377},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"1","entryIndex":"12","entryText":"谭家坊","lng":118.67154,"lat":36.6971},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"2","entryIndex":"13","entryText":"淄博","lng":118.057342,"lat":36.78883},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"2","entryIndex":"14","entryText":"金岭镇","lng":118.18875,"lat":36.79311},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"2","entryIndex":"15","entryText":"杜科","lng":118.08508,"lat":36.80229},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"2","entryIndex":"16","entryText":"农中","lng":118.09406,"lat":36.87553},
+{"bureauCode":9,"ddtId":"26","ddtName":"胶济二台","queueIndex":"2","entryIndex":"17","entryText":"桓台","lng":118.123884,"lat":36.947383}
+   
+  ]
+}

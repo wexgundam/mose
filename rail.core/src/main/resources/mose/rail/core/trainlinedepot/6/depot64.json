@@ -1,0 +1,26 @@
+{
+  "entries": [
+ {"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"1","entryIndex":"1","entryText":"郑州南郑万场","lng":113.68401,"lat":34.710991},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"1","entryIndex":"2","entryText":"郑州南郑阜场","lng":113.68401,"lat":34.710991},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"1","entryIndex":"3","entryText":"郑州南国铁动车所","lng":113.68401,"lat":34.710991},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"2","entryIndex":"4","entryText":"郑州东徐兰场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"2","entryIndex":"5","entryText":"郑州东京广场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"2","entryIndex":"6","entryText":"曹古寺线路所","lng":113.694254833333,"lat":34.7582673333333},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"2","entryIndex":"7","entryText":"阎块线路所","lng":113.689132416666,"lat":34.7346291666666},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"2","entryIndex":"8","entryText":"郑州南郑万场","lng":113.68401,"lat":34.710991},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"3","entryIndex":"9","entryText":"郑州南郑万场","lng":113.68401,"lat":34.710991},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"3","entryIndex":"10","entryText":"郑州南郑阜场","lng":113.68401,"lat":34.710991},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"3","entryIndex":"11","entryText":"郑州南城际场","lng":113.68401,"lat":34.710991},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"3","entryIndex":"12","entryText":"寺后线路所","lng":113.783006333333,"lat":34.3690316666666},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"13","entryText":"寺后线路所","lng":113.783006333333,"lat":34.3690316666666},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"14","entryText":"长葛北","lng":113.7353,"lat":34.25361},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"15","entryText":"禹州","lng":113.46947,"lat":34.13334},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"16","entryText":"郏县","lng":113.271043,"lat":33.945549},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"17","entryText":"平顶山西","lng":113.08793,"lat":33.816565},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"18","entryText":"拐河北","lng":113.0188785,"lat":33.5275365},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"19","entryText":"方城","lng":112.949827,"lat":33.238508},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"20","entryText":"南阳东","lng":112.661613,"lat":32.951748},
+{"bureauCode":6,"ddtId":"64","ddtName":"郑万台郑州段","queueIndex":"4","entryIndex":"21","entryText":"邓州东","lng":112.266677,"lat":32.596089}
+   
+  ]
+}

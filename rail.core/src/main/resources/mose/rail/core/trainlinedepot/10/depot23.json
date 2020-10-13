@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"0","entryText":"杭州南普速场","lng":120.29362,"lat":30.17205},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"1","entryText":"萧山西","lng":120.257143,"lat":30.169799},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"2","entryText":"萧山","lng":120.230155714285,"lat":30.2939541428571},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"3","entryText":"湄池","lng":120.215647357142,"lat":30.0313450714285},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"4","entryText":"诸暨东","lng":120.201139,"lat":29.768736},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"5","entryText":"诸暨普速场","lng":120.18507,"lat":29.72718},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"6","entryText":"牌头","lng":120.144368,"lat":29.597943},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"7","entryText":"浦江","lng":120.0983,"lat":29.50146},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"8","entryText":"义乌普速场","lng":120.0433,"lat":29.37833},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"9","entryText":"义乌西","lng":119.976968,"lat":29.309886},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"10","entryText":"塘雅","lng":119.77191,"lat":29.14802},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"11","entryText":"金华南线路所","lng":119.755366,"lat":29.1311254999999},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"12","entryText":"金华南","lng":119.738822,"lat":29.114231},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"13","entryText":"东孝","lng":119.738822,"lat":29.114231},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"14","entryText":"东孝线路所","lng":119.646581666666,"lat":29.1118546666666},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"15","entryText":"金华东下行场","lng":119.667917,"lat":29.114636},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"16","entryText":"金华东上行场","lng":119.667917,"lat":29.114636},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"17","entryText":"金华普速场","lng":119.635914,"lat":29.110464},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"1","entryIndex":"18","entryText":"白龙桥","lng":119.52369075,"lat":30.4462665},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"2","entryIndex":"19","entryText":"金华东下行场","lng":119.667917,"lat":29.114636},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"2","entryIndex":"20","entryText":"金华东上行场","lng":119.667917,"lat":29.114636},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"2","entryIndex":"21","entryText":"金华普速场","lng":119.635914,"lat":29.110464},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"2","entryIndex":"22","entryText":"金华西","lng":119.769006,"lat":29.4379484999999},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"2","entryIndex":"23","entryText":"竹马馆","lng":119.58682,"lat":29.13333},
+{"bureauCode":10,"ddtId":"23","ddtName":"沪昆三台","queueIndex":"2","entryIndex":"24","entryText":"白龙桥","lng":119.52369075,"lat":30.4462665}
+   
+  ]
+}

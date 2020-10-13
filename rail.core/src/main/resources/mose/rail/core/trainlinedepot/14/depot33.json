@@ -1,0 +1,30 @@
+{
+  "entries": [
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"1","entryIndex":"0","entryText":"南充西","lng":106.014444,"lat":30.804022},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"1","entryIndex":"1","entryText":"南充北","lng":106.07069,"lat":30.85704},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"2","entryIndex":"2","entryText":"南充东","lng":106.17118,"lat":30.84467},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"2","entryIndex":"3","entryText":"南充北","lng":106.07069,"lat":30.85704},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"4","entryText":"渭沱","lng":106.1917705,"lat":30.164881},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"5","entryText":"武胜","lng":106.1058,"lat":30.36982},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"6","entryText":"南充南","lng":106.053575,"lat":30.578722},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"7","entryText":"南充北","lng":106.07069,"lat":30.85704},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"8","entryText":"龙桂","lng":106.10098,"lat":31.06558},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"9","entryText":"南部","lng":106.014127,"lat":31.371448},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"10","entryText":"阆中","lng":105.9572,"lat":31.55765},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"11","entryText":"苍溪","lng":105.915767,"lat":31.760184},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"12","entryText":"太公","lng":105.82858,"lat":32.10418},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"13","entryText":"回龙河","lng":105.82447,"lat":32.3715125},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"14","entryText":"广元兰渝宝成场","lng":105.82134,"lat":32.45035},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"3","entryIndex":"15","entryText":"羊木","lng":105.7799,"lat":32.59455},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"4","entryIndex":"16","entryText":"回龙河","lng":105.82447,"lat":32.3715125},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"4","entryIndex":"17","entryText":"广元西成场","lng":105.68168,"lat":32.460085},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"5","entryIndex":"18","entryText":"回龙河","lng":105.82447,"lat":32.3715125},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"5","entryIndex":"19","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"6","entryIndex":"20","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"6","entryIndex":"21","entryText":"广元兰渝宝成场","lng":105.82134,"lat":32.45035},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"6","entryIndex":"22","entryText":"羊木","lng":105.7799,"lat":32.59455},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"7","entryIndex":"23","entryText":"广元西","lng":105.82398,"lat":32.46576},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"7","entryIndex":"24","entryText":"广元兰渝宝成场","lng":105.82134,"lat":32.45035},
+{"bureauCode":14,"ddtId":"33","ddtName":"兰渝台","queueIndex":"7","entryIndex":"25","entryText":"广元南","lng":105.79847,"lat":32.41791}    
+  ]
+}

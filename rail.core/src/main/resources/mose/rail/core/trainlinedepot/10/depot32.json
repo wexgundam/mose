@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"1","entryIndex":"1","entryText":"徐州东京沪场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"1","entryIndex":"2","entryText":"徐州东徐兰场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"1","entryIndex":"3","entryText":"徐州东动车存车场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"1","entryIndex":"4","entryText":"徐州东动车运用所","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"5","entryText":"大湖","lng":117.29074,"lat":34.24744},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"6","entryText":"徐州东京沪场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"7","entryText":"后马庄","lng":117.319204,"lat":34.219051},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"8","entryText":"宿州东","lng":117.25173,"lat":33.67572},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"9","entryText":"蚌埠","lng":117.37847,"lat":32.94317},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"10","entryText":"蚌埠南","lng":117.44162,"lat":32.90204},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"11","entryText":"定远","lng":117.842355,"lat":32.575409},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"12","entryText":"滁州","lng":118.32046,"lat":32.19806},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"13","entryText":"扬州线路所","lng":118.638933999999,"lat":32.0451733333333},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"2","entryIndex":"14","entryText":"南京南京沪场","lng":118.798171,"lat":31.96873},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"15","entryText":"徐州东京沪场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"16","entryText":"徐州东徐兰场","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"17","entryText":"徐州东线路所","lng":117.30386,"lat":34.26747},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"18","entryText":"铜山","lng":117.117774,"lat":34.283542},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"19","entryText":"铜山线路所","lng":117.029649,"lat":34.2600275},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"20","entryText":"萧县北","lng":116.941524,"lat":34.236513},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"21","entryText":"永城北","lng":116.520118,"lat":34.215069},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"3","entryIndex":"22","entryText":"砀山南","lng":116.30392,"lat":34.3866},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"4","entryIndex":"23","entryText":"萧县北","lng":116.941524,"lat":34.236513},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"4","entryIndex":"24","entryText":"淮北北高速场","lng":116.80308,"lat":33.96724},
+{"bureauCode":10,"ddtId":"32","ddtName":"京沪高铁一台","queueIndex":"4","entryIndex":"25","entryText":"岱河","lng":116.83313,"lat":33.99395}
+   
+  ]
+}

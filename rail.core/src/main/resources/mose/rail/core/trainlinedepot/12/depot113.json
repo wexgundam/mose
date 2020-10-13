@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"1","entryIndex":"1","entryText":"肇庆东贵广场","lng":112.5445305,"lat":23.3995605},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"1","entryIndex":"2","entryText":"肇庆东南广场","lng":112.66307,"lat":23.21396},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"2","entryIndex":"3","entryText":"郁南","lng":111.46995,"lat":23.24581},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"2","entryIndex":"4","entryText":"南江口","lng":111.78823,"lat":23.11932},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"2","entryIndex":"5","entryText":"云浮东","lng":112.138728,"lat":23.012548},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"2","entryIndex":"6","entryText":"肇庆西","lng":112.333159,"lat":23.071453},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"2","entryIndex":"7","entryText":"肇庆东南广场","lng":112.66307,"lat":23.21396},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"2","entryIndex":"8","entryText":"三水南南广场","lng":112.87154,"lat":23.11371},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"2","entryIndex":"9","entryText":"佛山西","lng":113.03358,"lat":23.079469},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"3","entryIndex":"10","entryText":"横江线路所","lng":112.880653333333,"lat":23.0804866666666},
+{"bureauCode":12,"ddtId":"113","ddtName":"南广台","queueIndex":"3","entryIndex":"11","entryText":"三水南南广场","lng":112.87154,"lat":23.11371}   
+  ]
+}

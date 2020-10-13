@@ -1,0 +1,37 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"1","entryText":"银川南","lng":106.11864,"lat":38.40351},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"2","entryText":"西干","lng":106.06187,"lat":38.322591},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"3","entryText":"黄羊滩","lng":106.01889,"lat":38.26042},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"4","entryText":"西邵","lng":105.9911205,"lat":38.1994615},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"5","entryText":"玉泉营","lng":105.963351,"lat":38.138503},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"6","entryText":"银光","lng":105.946199,"lat":38.069399},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"7","entryText":"大坝","lng":105.93429,"lat":38.02442},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"8","entryText":"小坝","lng":105.936621,"lat":37.955092},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"9","entryText":"青铜峡","lng":105.93183,"lat":37.91864},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"10","entryText":"青分","lng":105.90283,"lat":37.872375},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"11","entryText":"分守岭","lng":105.87383,"lat":37.82611},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"12","entryText":"广武","lng":113.553,"lat":34.89667},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"13","entryText":"渠口堡","lng":105.8403,"lat":37.7081},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"14","entryText":"铁桶堡","lng":105.80962,"lat":37.65019},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"15","entryText":"枣园堡","lng":105.77894,"lat":37.59228},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"16","entryText":"新市沟","lng":105.723175,"lat":37.57391},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"17","entryText":"中宁","lng":105.66741,"lat":37.55554},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"18","entryText":"余丁","lng":105.595285,"lat":37.53375},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"19","entryText":"黄羊湾","lng":105.52316,"lat":37.51196},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"20","entryText":"柳家庄","lng":105.41135,"lat":37.51828},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"21","entryText":"中卫","lng":105.19003,"lat":37.52199},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"22","entryText":"迎水桥上下场","lng":105.10395,"lat":37.5105},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"1","entryIndex":"23","entryText":"迎水桥到达场","lng":105.10395,"lat":37.5105},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"24","entryText":"大坝","lng":105.93429,"lat":38.02442},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"25","entryText":"永丰","lng":105.91429,"lat":37.97442},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"26","entryText":"新华桥","lng":106.345669,"lat":38.108233},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"27","entryText":"灵武站","lng":106.365669,"lat":38.158233},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"28","entryText":"横沟","lng":106.345669,"lat":38.108233},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"29","entryText":"黄羊墩","lng":106.325669,"lat":38.058233},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"30","entryText":"古窑子","lng":106.305669,"lat":38.008233},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"31","entryText":"羊场湾","lng":106.285669,"lat":37.958233},
+{"bureauCode":16,"ddtId":"8","ddtName":"银迎台","queueIndex":"2","entryIndex":"32","entryText":"枣泉","lng":106.265669,"lat":37.908233}
+   
+  ]
+}

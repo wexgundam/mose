@@ -1,0 +1,30 @@
+{ 
+  "depots": [
+    {"bureauCode":4,"ddtId":"1","ddtName":"大同枢纽台","lng":113.474133,"lat":40.118024},
+    {"bureauCode":4,"ddtId":"3","ddtName":"大张台","lng":112.570155,"lat":39.785794},
+    {"bureauCode":4,"ddtId":"4","ddtName":"湖东枢纽台","lng":113.245417,"lat":40.016392},
+    {"bureauCode":4,"ddtId":"5","ddtName":"太吴台","lng":110.992425,"lat":37.952219},
+    {"bureauCode":4,"ddtId":"6","ddtName":"太北枢纽台","lng":112.319539,"lat":39.007747},
+    {"bureauCode":4,"ddtId":"8","ddtName":"同蒲一台","lng":113.094247,"lat":39.827952},
+    {"bureauCode":4,"ddtId":"9","ddtName":"京原线","lng":114.300295,"lat":39.478674},
+    {"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","lng":112.39245,"lat":39.228865},
+    {"bureauCode":4,"ddtId":"12","ddtName":"同蒲四台","lng":111.918665,"lat":37.017976},
+    {"bureauCode":4,"ddtId":"14","ddtName":"同蒲五台","lng":111.407801,"lat":35.716206},
+    {"bureauCode":4,"ddtId":"16","ddtName":"同蒲六台","lng":111.331822,"lat":35.507584},
+    {"bureauCode":4,"ddtId":"17","ddtName":"侯北枢纽台","lng":111.473872,"lat":35.642528},
+    {"bureauCode":4,"ddtId":"19","ddtName":"大秦台","lng":118.693453,"lat":39.92613},
+    {"bureauCode":4,"ddtId":"20","ddtName":"唐港台","lng":118.683758,"lat":39.519403},
+    {"bureauCode":4,"ddtId":"21","ddtName":"列调一台（呼局）","lng":113.305972,"lat":40.173725},
+    {"bureauCode":4,"ddtId":"25","ddtName":"榆次枢纽台","lng":112.731915,"lat":37.696589},
+    {"bureauCode":4,"ddtId":"26","ddtName":"石太台","lng":112.830513,"lat":37.691597},
+    {"bureauCode":4,"ddtId":"27","ddtName":"韩原台","lng":112.741292,"lat":38.806674},
+    {"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","lng":111.066027,"lat":38.137662},
+    {"bureauCode":4,"ddtId":"29","ddtName":"瓦日二台","lng":110.822096,"lat":37.00502},
+    {"bureauCode":4,"ddtId":"31","ddtName":"大西一台","lng":112.728481,"lat":38.719001},
+    {"bureauCode":4,"ddtId":"33","ddtName":"大西三台","lng":110.993156,"lat":35.024374},
+    {"bureauCode":4,"ddtId":"35","ddtName":"太北枢纽台","lng":112.572173,"lat":37.965617},
+    {"bureauCode":4,"ddtId":"36","ddtName":"同蒲三台","lng":112.743416,"lat":38.422394},
+    {"bureauCode":4,"ddtId":"37","ddtName":"朔准台","lng":111.593843,"lat":38.748594},
+    {"bureauCode":4,"ddtId":"39","ddtName":"张大客专","lng":113.740597,"lat":40.366689}
+  ]
+}

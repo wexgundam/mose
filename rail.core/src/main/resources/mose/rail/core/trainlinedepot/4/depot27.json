@@ -1,0 +1,17 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"1","entryIndex":"1","entryText":"太善村线路所","lng":113.26074,"lat":39.97737},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"1","entryIndex":"2","entryText":"大路辛庄线路所","lng":113.201964,"lat":39.86679},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"3","entryText":"韩家岭","lng":113.193966,"lat":39.9371115},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"4","entryText":"大路辛庄线路所","lng":113.201964,"lat":39.86679},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"5","entryText":"怀仁东","lng":113.16278,"lat":39.79307},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"6","entryText":"应县","lng":113.06367,"lat":39.62488},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"7","entryText":"山阴","lng":112.941279,"lat":39.466397},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"8","entryText":"下官院","lng":112.8412245,"lat":39.1361385},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"9","entryText":"岗上线路所","lng":112.74117,"lat":38.80588},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"2","entryIndex":"10","entryText":"薛孤","lng":112.74117,"lat":38.80588},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"3","entryIndex":"11","entryText":"岗上线路所","lng":112.74117,"lat":38.80588},
+{"bureauCode":4,"ddtId":"27","ddtName":"韩原台","queueIndex":"3","entryIndex":"12","entryText":"樊家庄线路所","lng":112.70765,"lat":38.77248}
+   
+  ]
+}

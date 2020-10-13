@@ -1,0 +1,14 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"1","entryIndex":"0","entryText":"铜仁铜玉场","lng":109.20459,"lat":27.74022},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"1","entryIndex":"1","entryText":"朱砂古镇","lng":109.138034,"lat":27.517478},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"1","entryIndex":"2","entryText":"大宗坪","lng":109.063945,"lat":27.349324},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"2","entryIndex":"3","entryText":"新晃西","lng":109.12628,"lat":27.37983},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"2","entryIndex":"4","entryText":"大宗坪","lng":109.063945,"lat":27.349324},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"2","entryIndex":"5","entryText":"铜仁南","lng":108.97589,"lat":27.27939},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"2","entryIndex":"6","entryText":"三穗","lng":108.65178,"lat":26.96359},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"2","entryIndex":"7","entryText":"凯里南","lng":107.88808,"lat":26.51428},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"2","entryIndex":"8","entryText":"贵定北","lng":107.23287,"lat":26.59316},
+{"bureauCode":14,"ddtId":"30","ddtName":"长昆1台","queueIndex":"2","entryIndex":"9","entryText":"贵阳东","lng":106.744499,"lat":26.665092}   
+  ]
+}

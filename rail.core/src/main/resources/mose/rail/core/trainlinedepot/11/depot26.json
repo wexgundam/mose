@@ -1,0 +1,10 @@
+{
+  "entries": [
+  {"bureauCode":11,"ddtId":"26","ddtName":"南醴台","queueIndex":"1","entryIndex":"1","entryText":"向莆线路所","lng":115.589413,"lat":28.546191},
+{"bureauCode":11,"ddtId":"26","ddtName":"南醴台","queueIndex":"1","entryIndex":"2","entryText":"高安","lng":115.38604,"lat":28.46992},
+{"bureauCode":11,"ddtId":"26","ddtName":"南醴台","queueIndex":"1","entryIndex":"3","entryText":"新余北","lng":114.89612,"lat":27.91154},
+{"bureauCode":11,"ddtId":"26","ddtName":"南醴台","queueIndex":"1","entryIndex":"4","entryText":"宜春高速场","lng":114.43714,"lat":27.79007},
+{"bureauCode":11,"ddtId":"26","ddtName":"南醴台","queueIndex":"1","entryIndex":"5","entryText":"萍乡北","lng":113.84765,"lat":27.68412},
+{"bureauCode":11,"ddtId":"26","ddtName":"南醴台","queueIndex":"1","entryIndex":"6","entryText":"醴陵东","lng":113.57795,"lat":27.71517}  
+  ]
+}

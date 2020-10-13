@@ -1,0 +1,17 @@
+{
+  "entries": [
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"1","entryText":"西安北大西场","lng":108.938544,"lat":34.37617},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"2","entryText":"三桥","lng":108.828651,"lat":34.296872},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"3","entryText":"阿房宫","lng":108.75619,"lat":34.26978},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"4","entryText":"鄠邑","lng":108.679612,"lat":34.080297},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"5","entryText":"新场街","lng":108.33963,"lat":33.74142},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"6","entryText":"佛坪","lng":107.98641,"lat":33.50151},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"7","entryText":"洋县西","lng":107.52358,"lat":33.22671},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"8","entryText":"城固北","lng":107.30596,"lat":33.18406},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"9","entryText":"汉中高速场","lng":107.02932,"lat":33.09015},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"10","entryText":"新集","lng":106.80487,"lat":33.02419},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"11","entryText":"宁强南","lng":106.28932,"lat":32.82153},
+{"bureauCode":8,"ddtId":"27","ddtName":"西成客专","queueIndex":"1","entryIndex":"12","entryText":"朝天","lng":105.8783,"lat":32.63859}
+    
+  ]
+}

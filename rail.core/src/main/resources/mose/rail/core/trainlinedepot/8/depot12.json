@@ -1,0 +1,32 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"1","entryText":"前河镇","lng":108.92512,"lat":35.30785},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"2","entryText":"安子沟","lng":108.87527,"lat":35.23965},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"3","entryText":"瑶曲","lng":108.88022,"lat":35.20826},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"4","entryText":"田家咀","lng":108.8128,"lat":35.10722},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"5","entryText":"柳林镇","lng":108.85602,"lat":35.051635},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"6","entryText":"吕渠河","lng":108.89924,"lat":34.99605},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"7","entryText":"寺沟","lng":108.938251,"lat":34.938151},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"8","entryText":"耀县西","lng":108.96559,"lat":34.91033},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"1","entryIndex":"9","entryText":"梅家坪","lng":109.0078,"lat":34.87031},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"2","entryIndex":"10","entryText":"铜川","lng":109.095362,"lat":35.078301},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"2","entryIndex":"11","entryText":"铜川南","lng":109.07462,"lat":35.06154},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"2","entryIndex":"12","entryText":"黄堡","lng":109.041159999999,"lat":35.0052},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"2","entryIndex":"13","entryText":"孝北堡","lng":109.0077,"lat":34.94886},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"2","entryIndex":"14","entryText":"耀县","lng":108.98784,"lat":34.90886},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"2","entryIndex":"15","entryText":"梅家坪","lng":109.0078,"lat":34.87031},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"16","entryText":"梅家坪","lng":109.0078,"lat":34.87031},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"17","entryText":"庄里","lng":109.072191,"lat":34.822752},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"18","entryText":"卜家沟","lng":109.107505,"lat":34.775513},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"19","entryText":"富平","lng":109.17396,"lat":34.744},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"20","entryText":"八里店","lng":109.23904,"lat":34.704981},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"21","entryText":"阎良","lng":109.22903,"lat":34.66842},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"22","entryText":"大程","lng":109.16961,"lat":34.65375},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"23","entryText":"独李村","lng":109.08284,"lat":34.63302},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"24","entryText":"三原","lng":108.94759,"lat":34.60503},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"25","entryText":"永乐店","lng":108.961605,"lat":34.541765},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"26","entryText":"泾河","lng":108.97562,"lat":34.4785},
+{"bureauCode":8,"ddtId":"12","ddtName":"咸铜台","queueIndex":"3","entryIndex":"27","entryText":"萧家村","lng":108.953146666666,"lat":34.42633}
+   
+  ]
+}

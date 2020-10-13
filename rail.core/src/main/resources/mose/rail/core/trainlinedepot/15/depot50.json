@@ -1,0 +1,32 @@
+{
+  "entries": [
+ {"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"0","entryText":"石咀","lng":102.62933,"lat":25.01698},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"1","entryText":"麻园","lng":102.68597,"lat":25.0525},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"2","entryText":"昆明北","lng":102.721289,"lat":25.057048},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"3","entryText":"黑土凹线路所","lng":102.701289,"lat":25.007048},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"4","entryText":"呈贡线路所","lng":102.823179,"lat":24.873493},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"5","entryText":"王家营","lng":102.843179,"lat":24.923493},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"6","entryText":"水塘","lng":102.969341,"lat":24.951361},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"7","entryText":"宜良","lng":103.13594,"lat":24.914},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"8","entryText":"禄丰村线路所","lng":103.123475,"lat":24.575605},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"9","entryText":"盘溪","lng":103.11101,"lat":24.23721},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"10","entryText":"巡检司","lng":103.1811055,"lat":23.995941},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"11","entryText":"十里村","lng":103.251201,"lat":23.754672},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"1","entryIndex":"12","entryText":"开远北场","lng":103.24879,"lat":23.71274},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"2","entryIndex":"13","entryText":"开远北场","lng":103.24879,"lat":23.71274},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"2","entryIndex":"14","entryText":"开远南场","lng":103.26513,"lat":23.691135},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"2","entryIndex":"15","entryText":"玉林山","lng":103.28147,"lat":23.66953},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"2","entryIndex":"16","entryText":"大塔","lng":103.29377,"lat":23.64355},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"2","entryIndex":"17","entryText":"驻马哨","lng":103.350705,"lat":23.58017},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"2","entryIndex":"18","entryText":"草坝","lng":103.40764,"lat":23.51679},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"2","entryIndex":"19","entryText":"雨过铺","lng":103.32046,"lat":23.46372},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"3","entryIndex":"20","entryText":"草坝","lng":103.40764,"lat":23.51679},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"3","entryIndex":"21","entryText":"芷村","lng":103.53926,"lat":23.34342},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"3","entryIndex":"22","entryText":"湾塘线路所","lng":103.67251,"lat":23.1477799999999},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"3","entryIndex":"23","entryText":"腊哈地","lng":103.80576,"lat":22.95214},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"3","entryIndex":"24","entryText":"山腰","lng":104.01161,"lat":22.52146},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"3","entryIndex":"25","entryText":"河口北","lng":103.975839,"lat":22.528741},
+{"bureauCode":15,"ddtId":"50","ddtName":"米轨台","queueIndex":"3","entryIndex":"26","entryText":"河口","lng":103.975839,"lat":22.528741}
+   
+  ]
+}

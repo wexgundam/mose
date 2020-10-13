@@ -1,0 +1,20 @@
+{
+  "entries": [
+ {"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"1","entryIndex":"0","entryText":"雅子泉","lng":92.534335,"lat":43.09851},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"1","entryText":"雅子泉","lng":92.534335,"lat":43.09851},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"2","entryText":"了墩","lng":92.21913,"lat":43.14407},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"3","entryText":"十三间房","lng":91.74552,"lat":43.21158},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"4","entryText":"大步","lng":91.52715,"lat":43.1801399999999},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"5","entryText":"红台","lng":91.30878,"lat":43.1487},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"6","entryText":"小草湖","lng":91.16946,"lat":43.1749},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"7","entryText":"红旗坎","lng":90.82257,"lat":43.16709},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"2","entryIndex":"8","entryText":"鄯善","lng":90.48372,"lat":43.09763},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"3","entryIndex":"9","entryText":"鄯善","lng":90.48372,"lat":43.09763},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"3","entryIndex":"10","entryText":"红山口","lng":90.3411,"lat":43.09911},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"3","entryIndex":"11","entryText":"巴哥","lng":90.02217,"lat":43.08292},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"3","entryIndex":"12","entryText":"火焰山","lng":89.84065,"lat":43.08152},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"3","entryIndex":"13","entryText":"七泉湖","lng":89.580801,"lat":43.1186395},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"3","entryIndex":"14","entryText":"煤窑沟","lng":89.320952,"lat":43.155759},
+{"bureauCode":17,"ddtId":"123","ddtName":"雅煤台","queueIndex":"4","entryIndex":"15","entryText":"煤窑沟","lng":89.320952,"lat":43.155759}   
+  ]
+}

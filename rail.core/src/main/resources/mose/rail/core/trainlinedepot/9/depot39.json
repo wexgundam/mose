@@ -1,0 +1,18 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"1","entryIndex":"1","entryText":"临沂北动车所","lng":118.360706,"lat":35.144741},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"1","entryIndex":"2","entryText":"临沂北","lng":118.380706,"lat":35.194741},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"3","entryText":"日照西青盐场","lng":119.419382,"lat":35.390273},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"4","entryText":"厉家寨","lng":119.132037,"lat":35.282858},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"5","entryText":"莒南北","lng":118.802852,"lat":35.275387},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"6","entryText":"临沂北","lng":118.380706,"lat":35.194741},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"7","entryText":"费县北","lng":117.929332,"lat":35.321516},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"8","entryText":"蒙山","lng":117.673934,"lat":35.448653},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"9","entryText":"泗水南","lng":117.281133,"lat":35.535365},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"10","entryText":"大王庄线路所","lng":117.261133,"lat":35.485365},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"11","entryText":"南夏宋线路所","lng":117.04901,"lat":35.50643},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"12","entryText":"曲阜东日兰场","lng":117.06901,"lat":35.55643},
+{"bureauCode":9,"ddtId":"39","ddtName":"鲁南高铁台","queueIndex":"2","entryIndex":"13","entryText":"曲阜东京沪场","lng":117.06901,"lat":35.55643}
+   
+  ]
+}

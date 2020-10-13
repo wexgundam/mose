@@ -1,0 +1,25 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"1","entryText":"大竹园","lng":108.72695,"lat":32.56004},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"2","entryText":"紫阳","lng":108.54945,"lat":32.52549},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"3","entryText":"向阳镇","lng":108.474511,"lat":32.501543},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"4","entryText":"高滩","lng":108.32746,"lat":32.41445},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"5","entryText":"毛坝关","lng":108.249791,"lat":32.341186},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"6","entryText":"麻柳","lng":108.19497,"lat":32.29817},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"7","entryText":"新麻柳","lng":108.176294,"lat":32.320317},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"8","entryText":"巴山","lng":108.11859,"lat":32.25685},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"9","entryText":"官渡","lng":108.09859,"lat":32.20685},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"10","entryText":"新官渡","lng":108.02294,"lat":32.03345},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"11","entryText":"万源","lng":108.04294,"lat":32.08345},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"12","entryText":"青花","lng":108.003502,"lat":31.97915},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"13","entryText":"花楼坝","lng":107.86344,"lat":31.79145},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"14","entryText":"新毛坝","lng":107.804225,"lat":31.70395},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"15","entryText":"毛坝","lng":107.74501,"lat":31.61645},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"16","entryText":"宣汉","lng":107.6584,"lat":31.54233},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"17","entryText":"石柱槽","lng":107.59882,"lat":31.4546},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"18","entryText":"蒲家","lng":107.51232,"lat":31.38507},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"19","entryText":"双龙","lng":107.48274,"lat":31.2918099999999},
+{"bureauCode":8,"ddtId":"15","ddtName":"襄渝台","queueIndex":"1","entryIndex":"20","entryText":"达州","lng":107.45316,"lat":31.19855}
+   
+  ]
+}

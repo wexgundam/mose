@@ -1,0 +1,10 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"7","ddtName":"响四台","queueIndex":"1","entryIndex":"1","entryText":"响沙湾","lng":109.87121,"lat":40.33106},
+{"bureauCode":5,"ddtId":"7","ddtName":"响四台","queueIndex":"1","entryIndex":"2","entryText":"吴四圪堵","lng":109.85121,"lat":40.28106},
+{"bureauCode":5,"ddtId":"7","ddtName":"响四台","queueIndex":"1","entryIndex":"3","entryText":"高头窑","lng":109.83121,"lat":40.23106},
+{"bureauCode":5,"ddtId":"7","ddtName":"响四台","queueIndex":"2","entryIndex":"4","entryText":"吴四圪堵","lng":109.85121,"lat":40.28106},
+{"bureauCode":5,"ddtId":"7","ddtName":"响四台","queueIndex":"2","entryIndex":"5","entryText":"元宝湾","lng":109.83121,"lat":40.23106}
+   
+  ]
+}

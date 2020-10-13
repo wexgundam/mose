@@ -1,0 +1,33 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"1","entryIndex":"1","entryText":"井亭","lng":117.22393,"lat":34.85763},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"1","entryIndex":"2","entryText":"洪洼","lng":117.282516666666,"lat":34.8326533333333},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"3","entryText":"枣庄西","lng":117.25517,"lat":34.79351},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"4","entryText":"洪洼","lng":117.282516666666,"lat":34.8326533333333},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"5","entryText":"山家林","lng":117.36845,"lat":34.84682},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"6","entryText":"邹坞","lng":117.440643,"lat":34.849593},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"7","entryText":"枣庄东","lng":117.54878,"lat":34.86677},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"8","entryText":"税郭","lng":117.71154,"lat":34.82872},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"9","entryText":"兰陵西","lng":117.861955,"lat":34.86228},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"10","entryText":"兰陵北","lng":118.01237,"lat":34.89584},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"11","entryText":"大仲村","lng":118.0992955,"lat":35.0119035},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"2","entryIndex":"12","entryText":"朱保","lng":118.186221,"lat":35.127967},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"13","entryText":"费县","lng":117.98086,"lat":35.278},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"14","entryText":"朱保","lng":118.186221,"lat":35.127967},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"15","entryText":"红埠寺","lng":118.271933,"lat":35.059827},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"16","entryText":"临沂","lng":118.3441,"lat":35.03651},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"17","entryText":"沭埠岭","lng":118.4083,"lat":35.06682},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"18","entryText":"郑旺","lng":118.624275,"lat":35.174797},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"19","entryText":"莒南","lng":118.8471,"lat":35.18315},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"20","entryText":"坪上","lng":119.070225,"lat":35.178485},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"21","entryText":"铁牛庙","lng":119.109132,"lat":35.209046},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"22","entryText":"巨峰","lng":119.27283,"lat":35.31156},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"23","entryText":"日照西兖石场","lng":119.419382,"lat":35.390273},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"3","entryIndex":"24","entryText":"日照","lng":119.53246,"lat":35.40361},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"4","entryIndex":"24","entryText":"铁牛庙","lng":119.109132,"lat":35.209046},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"4","entryIndex":"25","entryText":"铁牛庙","lng":119.109132,"lat":35.209046},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"4","entryIndex":"26","entryText":"汾水镇","lng":119.242831,"lat":35.165898},
+{"bureauCode":9,"ddtId":"11","ddtName":"枣日台","queueIndex":"4","entryIndex":"27","entryText":"岚山","lng":119.37653,"lat":35.12275}
+   
+  ]
+}

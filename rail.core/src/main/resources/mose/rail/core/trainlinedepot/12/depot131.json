@@ -1,0 +1,25 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"1","entryIndex":"1","entryText":"新塘","lng":113.603923,"lat":23.133932},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"1","entryIndex":"2","entryText":"新塘南","lng":113.603923,"lat":23.133932},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"3","entryText":"新塘南","lng":113.603923,"lat":23.133932},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"4","entryText":"中堂","lng":113.621338,"lat":23.077304},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"5","entryText":"望牛墩","lng":113.628043,"lat":23.036484},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"6","entryText":"东莞西穗深场","lng":113.6228825,"lat":23.0084035},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"7","entryText":"洪梅","lng":113.617722,"lat":22.980323},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"8","entryText":"东莞港","lng":113.611392,"lat":22.907685},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"9","entryText":"厚街","lng":113.652493,"lat":22.896922},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"10","entryText":"虎门北","lng":113.672837,"lat":22.8623455},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"11","entryText":"虎门东","lng":113.693181,"lat":22.827769},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"12","entryText":"长安西","lng":113.729322,"lat":22.785193},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"13","entryText":"长安","lng":113.764196,"lat":22.77905},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"14","entryText":"沙井西","lng":113.793611,"lat":22.733215},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"15","entryText":"福海西","lng":113.789896,"lat":22.689839},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"16","entryText":"深圳机场北","lng":113.797545,"lat":22.650535},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"2","entryIndex":"17","entryText":"深圳机场","lng":113.777545,"lat":22.600535},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"3","entryIndex":"18","entryText":"中堂动车运用所","lng":113.601338,"lat":23.027304},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"3","entryIndex":"19","entryText":"中堂","lng":113.621338,"lat":23.077304},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"4","entryIndex":"20","entryText":"东莞西广惠场","lng":113.64097625,"lat":22.99966175},
+{"bureauCode":12,"ddtId":"131","ddtName":"穗深台","queueIndex":"4","entryIndex":"21","entryText":"东莞西穗深场","lng":113.6228825,"lat":23.0084035}   
+  ]
+}

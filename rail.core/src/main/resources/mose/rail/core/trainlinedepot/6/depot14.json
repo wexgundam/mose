@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"0","entryText":"铁炉","lng":113.54081,"lat":34.77704},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"1","entryText":"关帝庙","lng":113.47402,"lat":34.79297},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"2","entryText":"荥阳","lng":113.385483,"lat":34.798431},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"3","entryText":"上街","lng":113.27806,"lat":34.825147},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"4","entryText":"穆沟","lng":113.17007,"lat":34.81526},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"5","entryText":"巩义东","lng":113.075859,"lat":34.787642},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"6","entryText":"巩义","lng":112.981648,"lat":34.760024},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"7","entryText":"黑石关","lng":112.94124,"lat":34.7283},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"8","entryText":"偃师","lng":112.79451,"lat":34.72882},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"9","entryText":"首阳山","lng":112.717539,"lat":34.731532},
+{"bureauCode":6,"ddtId":"14","ddtName":"陇海西一台","queueIndex":"18","entryIndex":"10","entryText":"白马寺","lng":112.59512,"lat":34.71601}
+   
+  ]
+}

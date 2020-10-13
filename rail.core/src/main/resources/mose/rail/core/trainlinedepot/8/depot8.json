@@ -1,0 +1,18 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"1","entryText":"灞桥","lng":109.06305,"lat":34.300035},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"2","entryText":"田王","lng":109.08403,"lat":34.3144866666666},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"3","entryText":"纺织城","lng":109.09285,"lat":34.2036188333333},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"4","entryText":"西安南","lng":109.10167,"lat":34.092751},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"5","entryText":"青岔","lng":109.08167,"lat":34.042751},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"6","entryText":"营镇","lng":109.12672,"lat":33.58916},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"7","entryText":"柞水","lng":109.14672,"lat":33.63916},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"8","entryText":"镇安","lng":109.1695,"lat":33.42107},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"9","entryText":"长哨","lng":109.163045,"lat":33.2663299999999},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"10","entryText":"小河镇","lng":109.15659,"lat":33.11159},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"11","entryText":"大岭铺","lng":109.227229999999,"lat":32.97597},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"12","entryText":"旬阳北","lng":109.29787,"lat":32.84035},
+{"bureauCode":8,"ddtId":"8","ddtName":"西康台","queueIndex":"1","entryIndex":"13","entryText":"旬阳","lng":109.3532,"lat":32.83685}
+   
+  ]
+}

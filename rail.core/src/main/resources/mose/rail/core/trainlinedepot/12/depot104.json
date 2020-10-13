@@ -1,0 +1,33 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"1","entryIndex":"1","entryText":"长沙动车所沪昆场","lng":113.088353375,"lat":28.0794489791666},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"1","entryIndex":"2","entryText":"长沙动车所武广场","lng":113.06805,"lat":28.096421},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"1","entryIndex":"3","entryText":"长沙南武广场","lng":113.065296,"lat":28.146841},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"1","entryIndex":"4","entryText":"长沙南沪昆场","lng":113.10865675,"lat":28.0624769583333},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"2","entryIndex":"5","entryText":"长沙动车所沪昆场","lng":113.088353375,"lat":28.0794489791666},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"2","entryIndex":"6","entryText":"长沙南沪昆场","lng":113.10865675,"lat":28.0624769583333},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"3","entryIndex":"7","entryText":"醴陵东","lng":113.57795,"lat":27.71517},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"3","entryIndex":"8","entryText":"长沙东南线路所","lng":113.321623,"lat":27.9310054999999},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"3","entryIndex":"9","entryText":"长沙南沪昆场","lng":113.10865675,"lat":28.0624769583333},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"3","entryIndex":"10","entryText":"长沙西北线路所","lng":113.023853999999,"lat":28.0860306666666},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"4","entryIndex":"11","entryText":"长沙东南线路所","lng":113.321623,"lat":27.9310054999999},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"4","entryIndex":"12","entryText":"长沙南武广场","lng":113.065296,"lat":28.146841},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"4","entryIndex":"13","entryText":"长沙西北线路所","lng":113.023853999999,"lat":28.0860306666666},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"14","entryText":"赤壁北","lng":113.90002,"lat":29.7358},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"15","entryText":"岳阳东","lng":113.20765,"lat":29.36659},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"16","entryText":"汨罗东","lng":113.14423,"lat":28.74578},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"17","entryText":"长沙南武广场","lng":113.065296,"lat":28.146841},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"18","entryText":"株洲北线路所","lng":113.068092,"lat":27.9988803333333},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"19","entryText":"株洲南线路所","lng":113.049516666666,"lat":27.8494866666666},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"20","entryText":"株洲西","lng":113.06855,"lat":27.79086},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"21","entryText":"衡山西","lng":112.78919,"lat":27.24781},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"22","entryText":"衡阳东","lng":112.709496,"lat":26.896363},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"5","entryIndex":"23","entryText":"耒阳西","lng":112.78827,"lat":26.41432},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"6","entryIndex":"24","entryText":"衡阳东","lng":112.709496,"lat":26.896363},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"6","entryIndex":"25","entryText":"太山所","lng":113.1828848,"lat":25.3510314},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"7","entryIndex":"26","entryText":"株洲北线路所","lng":113.068092,"lat":27.9988803333333},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"7","entryIndex":"27","entryText":"白马垅","lng":113.06949,"lat":27.9249},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"8","entryIndex":"28","entryText":"十里冲","lng":113.04,"lat":27.8788},
+{"bureauCode":12,"ddtId":"104","ddtName":"武广二台","queueIndex":"8","entryIndex":"29","entryText":"株洲南线路所","lng":113.049516666666,"lat":27.8494866666666}   
+  ]
+}

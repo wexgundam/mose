@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"1","entryText":"江山杭长场","lng":118.64385,"lat":28.77178},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"2","entryText":"玉山南","lng":118.29321,"lat":28.6472},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"3","entryText":"京福线路所","lng":118.102163333333,"lat":28.5428333333333},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"4","entryText":"上饶高速场","lng":118.00664,"lat":28.49065},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"5","entryText":"弋阳高速场","lng":117.44483,"lat":28.41079},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"6","entryText":"鹰潭北","lng":117.039467,"lat":28.305229},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"7","entryText":"抚州东","lng":116.61633,"lat":28.26038},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"1","entryIndex":"8","entryText":"进贤南","lng":116.23496,"lat":28.33736},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"2","entryIndex":"9","entryText":"京福线路所","lng":118.102163333333,"lat":28.5428333333333},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"2","entryIndex":"10","entryText":"上饶高速场","lng":118.00664,"lat":28.49065},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"2","entryIndex":"11","entryText":"上饶线路所","lng":118.00664,"lat":28.49065},
+{"bureauCode":11,"ddtId":"24","ddtName":"玉南台","queueIndex":"2","entryIndex":"12","entryText":"上饶合福场","lng":118.00664,"lat":28.49065}   
+  ]
+}

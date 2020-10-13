@@ -1,0 +1,30 @@
+{
+  "depots": [
+    {"bureauCode":13,"ddtId":"9","ddtName":"平南台","lng":113.9206,"lat":22.48638},
+    {"bureauCode":13,"ddtId":"105","ddtName":"广深主调二","lng":114.005688,"lat":22.984279},
+    {"bureauCode":13,"ddtId":"151","ddtName":"东环台","lng":110.73759,"lat":19.60647},
+    {"bureauCode":13,"ddtId":"171","ddtName":"西环台","lng":109.49276,"lat":18.29627},
+    {"bureauCode":13,"ddtId":"4002","ddtName":"株洲地区台","lng":113.15673,"lat":27.83548},
+    {"bureauCode":13,"ddtId":"4005","ddtName":"湘桂台","lng":111.832251,"lat":26.607762},
+    {"bureauCode":13,"ddtId":"5003","ddtName":"京广三台","lng":113.51457,"lat":24.75044},
+    {"bureauCode":13,"ddtId":"6005","ddtName":"衡阳地区台","lng":112.63134,"lat":26.88922},
+    {"bureauCode":13,"ddtId":"6007","ddtName":"京广二台","lng":113.03317,"lat":25.80823},
+    {"bureauCode":13,"ddtId":"6010","ddtName":"京广一台","lng":113.0757,"lat":28.81377},
+    {"bureauCode":13,"ddtId":"6012","ddtName":"沪昆二台","lng":111.10057,"lat":28.0343},
+    {"bureauCode":13,"ddtId":"7005","ddtName":"怀化地区台","lng":110.09951,"lat":27.59912},
+    {"bureauCode":13,"ddtId":"7006","ddtName":"焦柳一台","lng":110.4861,"lat":29.1046},
+    {"bureauCode":13,"ddtId":"7008","ddtName":"焦柳二台","lng":109.73538,"lat":28.32488},
+    {"bureauCode":13,"ddtId":"8002","ddtName":"广茂二台","lng":110.9279,"lat":21.64305},
+    {"bureauCode":13,"ddtId":"8103","ddtName":"广珠赣韶台","lng":113.10425,"lat":22.56141},
+    {"bureauCode":13,"ddtId":"9002","ddtName":"粤东台","lng":115.72874,"lat":24.10228},
+    {"bureauCode":13,"ddtId":"9006","ddtName":"京九台","lng":114.41647,"lat":23.15179},
+    {"bureauCode":13,"ddtId":"9008","ddtName":"石长台","lng":112.34213,"lat":28.53866},
+    {"bureauCode":13,"ddtId":"9009","ddtName":"广州地区台","lng":113.25834,"lat":23.149135},
+    {"bureauCode":13,"ddtId":"9010","ddtName":"粤海台","lng":110.16252,"lat":20.02736},
+    {"bureauCode":13,"ddtId":"9013","ddtName":"沪昆一台","lng":112.91305,"lat":27.87512},
+    {"bureauCode":13,"ddtId":"9205","ddtName":"长沙地区台","lng":113.013206,"lat":28.194104},
+    {"bureauCode":13,"ddtId":"9206","ddtName":"广茂一台","lng":113.103827,"lat":23.047441},
+    {"bureauCode":13,"ddtId":"9207","ddtName":"渝怀台","lng":109.96733,"lat":27.55724},
+    {"bureauCode":13,"ddtId":"9208","ddtName":"焦柳三台","lng":109.94462,"lat":27.43999}
+  ]
+}

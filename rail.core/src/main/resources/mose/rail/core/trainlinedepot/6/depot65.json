@@ -1,0 +1,14 @@
+{
+  "entries": [
+ {"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"1","entryText":"寺后线路所","lng":113.783006333333,"lat":34.3690316666666},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"2","entryText":"许昌北","lng":113.929709,"lat":34.142494},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"3","entryText":"鄢陵","lng":114.140183,"lat":34.063903},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"4","entryText":"扶沟南","lng":114.388056,"lat":33.996208},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"5","entryText":"西华","lng":114.609733,"lat":33.793372},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"6","entryText":"周口东","lng":114.747285,"lat":33.645456},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"7","entryText":"淮阳南","lng":114.901372,"lat":33.503341},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"8","entryText":"沈丘北","lng":115.106831,"lat":33.422039},
+{"bureauCode":6,"ddtId":"65","ddtName":"郑阜台郑州段","queueIndex":"1","entryIndex":"9","entryText":"界首南","lng":115.329302,"lat":33.219639}
+   
+  ]
+}

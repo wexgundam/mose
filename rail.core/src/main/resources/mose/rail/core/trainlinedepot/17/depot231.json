@@ -1,0 +1,28 @@
+{
+  "entries": [
+ {"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"1","entryIndex":"0","entryText":"哈密东III场","lng":93.54353,"lat":42.74630875},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"1","entryIndex":"1","entryText":"哈密东I场","lng":93.48137,"lat":42.8110049999999},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"1","entryIndex":"2","entryText":"哈密东IV场","lng":93.48137,"lat":42.8110049999999},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"1","entryIndex":"3","entryText":"红光西","lng":93.50611,"lat":42.84974},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"1","entryIndex":"4","entryText":"哈密","lng":93.50611,"lat":42.84974},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"2","entryIndex":"5","entryText":"哈密","lng":93.50611,"lat":42.84974},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"2","entryIndex":"6","entryText":"火石泉","lng":93.377848,"lat":42.911404},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"3","entryIndex":"7","entryText":"哈密南","lng":93.45663,"lat":42.77227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"4","entryIndex":"8","entryText":"哈密南","lng":93.45663,"lat":42.77227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"4","entryIndex":"9","entryText":"火石泉","lng":93.377848,"lat":42.911404},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"4","entryIndex":"10","entryText":"头堡","lng":93.113694,"lat":42.982177},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"4","entryIndex":"11","entryText":"柳树泉","lng":92.84954,"lat":43.05295},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"4","entryIndex":"12","entryText":"雅子泉","lng":92.534335,"lat":43.09851},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"5","entryIndex":"13","entryText":"雅子泉","lng":92.534335,"lat":43.09851},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"14","entryText":"哈密南","lng":93.45663,"lat":42.77227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"15","entryText":"花园子","lng":93.43663,"lat":42.72227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"16","entryText":"大南湖","lng":93.41663,"lat":42.67227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"17","entryText":"沙哈","lng":93.39663,"lat":42.62227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"18","entryText":"巴特","lng":93.37663,"lat":42.57227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"19","entryText":"鲢鱼山","lng":93.35663,"lat":42.52227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"20","entryText":"黑龙峰","lng":93.33663,"lat":42.47227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"21","entryText":"多头山","lng":93.31663,"lat":42.42227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"22","entryText":"东台地","lng":93.29663,"lat":42.37227},
+{"bureauCode":17,"ddtId":"231","ddtName":"哈密枢纽台","queueIndex":"6","entryIndex":"23","entryText":"罗中","lng":93.27663,"lat":42.32227}
+  ]
+}

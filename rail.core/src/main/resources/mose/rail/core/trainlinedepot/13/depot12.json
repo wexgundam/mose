@@ -1,0 +1,18 @@
+{
+  "entries": [
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"1","entryIndex":"1","entryText":"来宾","lng":109.24121,"lat":23.73054},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"1","entryIndex":"2","entryText":"古瓦","lng":109.16442,"lat":23.76131},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"1","entryIndex":"3","entryText":"白鹤隘","lng":109.01068,"lat":23.670971},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"1","entryIndex":"4","entryText":"合山","lng":108.99068,"lat":23.620971},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"2","entryIndex":"5","entryText":"柳城","lng":108.87864,"lat":24.43225},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"2","entryIndex":"6","entryText":"查岩","lng":108.82689,"lat":24.708191},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"2","entryIndex":"7","entryText":"新印","lng":108.84689,"lat":24.758191},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"2","entryIndex":"8","entryText":"罗城西","lng":108.82689,"lat":24.708191},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"3","entryIndex":"9","entryText":"金城江","lng":108.06508,"lat":24.69948},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"3","entryIndex":"10","entryText":"金城江西","lng":108.04289,"lat":24.71065},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"3","entryIndex":"11","entryText":"普洛","lng":108.19959,"lat":24.980561},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"3","entryIndex":"12","entryText":"雅脉","lng":108.243,"lat":25.17308},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"4","entryIndex":"13","entryText":"普洛","lng":108.19959,"lat":24.980561},
+{"bureauCode":13,"ddtId":"12","ddtName":"支线台","queueIndex":"4","entryIndex":"14","entryText":"平寨","lng":108.17959,"lat":24.930561},
+
+}

@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"0","entryText":"曹庄北线路所","lng":116.75937,"lat":39.13883},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"1","entryText":"胜芳","lng":116.75937,"lat":39.13883},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"2","entryText":"霸州南","lng":116.5674775,"lat":39.130643},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"3","entryText":"霸州","lng":116.375585,"lat":39.122456},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"4","entryText":"霸州西","lng":116.350506,"lat":39.093911},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"5","entryText":"白沟","lng":116.09276,"lat":39.0871},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"6","entryText":"白洋淀","lng":115.87433,"lat":39.06934},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"7","entryText":"北张庄线路所","lng":115.798396666666,"lat":39.0572833333333},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"8","entryText":"徐水东","lng":115.730766666666,"lat":39.0620366666666},
+{"bureauCode":3,"ddtId":"68","ddtName":"津保客专","queueIndex":"1","entryIndex":"9","entryText":"徐水","lng":115.64653,"lat":39.03317}
+   
+  ]
+}

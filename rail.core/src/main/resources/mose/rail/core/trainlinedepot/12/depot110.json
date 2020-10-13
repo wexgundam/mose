@@ -1,0 +1,19 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"1","entryIndex":"1","entryText":"广州北","lng":113.204444,"lat":23.377048},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"1","entryIndex":"2","entryText":"郭塘","lng":113.204444,"lat":23.377048},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"2","entryIndex":"3","entryText":"(贵阳方向)","lng":113.249323,"lat":22.938558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"2","entryIndex":"4","entryText":"广州南","lng":113.269323,"lat":22.988558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"3","entryIndex":"5","entryText":"(南宁方向)","lng":113.249323,"lat":22.938558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"3","entryIndex":"6","entryText":"广州南","lng":113.269323,"lat":22.988558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"4","entryIndex":"7","entryText":"广州北","lng":113.204444,"lat":23.377048},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"4","entryIndex":"8","entryText":"广州南","lng":113.269323,"lat":22.988558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"4","entryIndex":"9","entryText":"庆盛","lng":113.49159,"lat":22.86663},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"5","entryIndex":"10","entryText":"广州南","lng":113.269323,"lat":22.988558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"5","entryIndex":"11","entryText":"(碧江)","lng":113.249323,"lat":22.938558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"6","entryIndex":"12","entryText":"广州南","lng":113.269323,"lat":22.988558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"6","entryIndex":"13","entryText":"广州动车段","lng":113.249323,"lat":22.938558},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"7","entryIndex":"14","entryText":"广珠动车所","lng":113.266068,"lat":23.017792},
+{"bureauCode":12,"ddtId":"110","ddtName":"广州南枢纽台","queueIndex":"7","entryIndex":"15","entryText":"广州南","lng":113.269323,"lat":22.988558}   
+  ]
+}

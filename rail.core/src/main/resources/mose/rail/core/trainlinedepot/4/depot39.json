@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"1","entryIndex":"1","entryText":"怀安","lng":114.40093,"lat":40.68496},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"1","entryIndex":"2","entryText":"天镇高速场","lng":114.0651,"lat":40.45209},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"1","entryIndex":"3","entryText":"阳高南","lng":113.802184,"lat":40.315325},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"1","entryIndex":"4","entryText":"大同南","lng":113.365687,"lat":40.045659},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"2","entryIndex":"5","entryText":"大同南","lng":113.365687,"lat":40.045659},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"2","entryIndex":"6","entryText":"太善村线路所","lng":113.26074,"lat":39.97737},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"2","entryIndex":"7","entryText":"大路辛庄线路所","lng":113.201964,"lat":39.86679},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"2","entryIndex":"8","entryText":"怀仁东","lng":113.16278,"lat":39.79307},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"3","entryIndex":"9","entryText":"大同南","lng":113.365687,"lat":40.045659},
+{"bureauCode":4,"ddtId":"39","ddtName":"张大客专","queueIndex":"3","entryIndex":"10","entryText":"大同南存车场","lng":113.365687,"lat":40.045659}
+   
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"1","entryIndex":"1","entryText":"合肥南合福场","lng":117.290361,"lat":31.798881},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"1","entryIndex":"2","entryText":"合肥南沪蓉场","lng":117.290361,"lat":31.798881},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"1","entryIndex":"3","entryText":"合肥南动车所","lng":117.290361,"lat":31.798881},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"2","entryIndex":"4","entryText":"蚌埠南","lng":117.44162,"lat":32.90204},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"2","entryIndex":"5","entryText":"淮南东","lng":117.15075,"lat":32.64613},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"2","entryIndex":"6","entryText":"水家湖(高速)","lng":117.169023,"lat":32.483299},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"2","entryIndex":"7","entryText":"合肥北城","lng":117.25296,"lat":32.06331},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"2","entryIndex":"8","entryText":"合肥","lng":117.317327,"lat":31.885665},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"9","entryText":"合肥北城","lng":117.25296,"lat":32.06331},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"10","entryText":"合肥西宁西场","lng":117.216851,"lat":31.831998},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"11","entryText":"合肥西合福场","lng":117.216851,"lat":31.831998},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"12","entryText":"合肥南线路所","lng":117.290361,"lat":31.798881},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"13","entryText":"合肥南沪蓉场","lng":117.290361,"lat":31.798881},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"14","entryText":"合肥南合福场","lng":117.290361,"lat":31.798881},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"15","entryText":"长临河","lng":117.48344,"lat":31.69819},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"16","entryText":"巢湖东合福场","lng":117.924901,"lat":31.617781},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"17","entryText":"无为","lng":117.968433,"lat":31.304037},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"18","entryText":"铜陵北","lng":118.02137,"lat":31.01351},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"19","entryText":"铜陵北线路所","lng":118.159705,"lat":30.92472},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"20","entryText":"南陵","lng":118.29804,"lat":30.83593},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"21","entryText":"泾县","lng":118.38877,"lat":30.65842},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"22","entryText":"旌德","lng":118.52907,"lat":30.29205},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"23","entryText":"绩溪北合福场","lng":118.571478,"lat":30.07191},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"24","entryText":"歙县北合福场","lng":118.4118,"lat":29.86659},
+{"bureauCode":11,"ddtId":"60","ddtName":"上海局合福高铁台","queueIndex":"3","entryIndex":"25","entryText":"黄山北合福场","lng":118.27388,"lat":29.81557},
+   
+  ]
+}

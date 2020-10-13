@@ -1,0 +1,34 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"1","entryIndex":"1","entryText":"大新I场","lng":112.86092,"lat":36.53513},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"1","entryIndex":"2","entryText":"大新II场","lng":112.86092,"lat":36.53513},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"1","entryIndex":"3","entryText":"朔州","lng":112.4486,"lat":39.31597},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"1","entryIndex":"4","entryText":"朔州西","lng":112.40681,"lat":39.29862},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"2","entryIndex":"5","entryText":"前寨","lng":112.393885,"lat":39.206265},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"2","entryIndex":"6","entryText":"梵王寺","lng":112.373885,"lat":39.156265},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"2","entryIndex":"7","entryText":"麻家梁","lng":112.353885,"lat":39.106265},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"3","entryIndex":"8","entryText":"大新I场","lng":112.86092,"lat":36.53513},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"3","entryIndex":"9","entryText":"大新II场","lng":112.86092,"lat":36.53513},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"3","entryIndex":"10","entryText":"朔州","lng":112.4486,"lat":39.31597},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"3","entryIndex":"11","entryText":"前寨","lng":112.393885,"lat":39.206265},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"3","entryIndex":"12","entryText":"阳方口","lng":112.33917,"lat":39.09656},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"3","entryIndex":"13","entryText":"宁武","lng":112.3193,"lat":39.0063},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"3","entryIndex":"14","entryText":"凤凰村","lng":112.31818,"lat":38.97717},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"15","entryText":"宁武","lng":112.3193,"lat":39.0063},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"16","entryText":"陈家沟","lng":112.259307,"lat":39.0447325},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"17","entryText":"神池","lng":112.199314,"lat":39.083165},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"18","entryText":"长城梁","lng":112.101952,"lat":39.0578775},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"19","entryText":"庄儿上","lng":112.00459,"lat":39.03259},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"20","entryText":"李家平","lng":111.919289999999,"lat":38.974925},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"21","entryText":"五寨","lng":111.83399,"lat":38.91726},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"22","entryText":"安塘","lng":111.7082,"lat":38.81582},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"23","entryText":"秦家庄I场","lng":111.652689,"lat":38.805134},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"24","entryText":"秦家庄II场","lng":111.652689,"lat":38.805134},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"25","entryText":"岢岚","lng":111.581113,"lat":38.718573},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"26","entryText":"阳坪","lng":111.561113,"lat":38.668573},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"27","entryText":"吕家沟","lng":110.99654,"lat":38.56989},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"28","entryText":"魏家滩","lng":111.01654,"lat":38.61989},
+{"bureauCode":4,"ddtId":"10","ddtName":"同蒲二台","queueIndex":"4","entryIndex":"29","entryText":"瓦塘","lng":111.01654,"lat":38.61989}
+   
+  ]
+}

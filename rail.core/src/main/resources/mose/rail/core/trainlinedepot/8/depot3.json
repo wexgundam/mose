@@ -1,0 +1,13 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"1","entryIndex":"1","entryText":"虢镇","lng":107.363625,"lat":34.363123},
+{"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"1","entryIndex":"2","entryText":"千河","lng":107.3038,"lat":34.39112},
+{"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"2","entryIndex":"3","entryText":"千河","lng":107.3038,"lat":34.39112},
+{"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"2","entryIndex":"4","entryText":"卧龙寺","lng":107.26243,"lat":34.36384},
+{"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"2","entryIndex":"5","entryText":"宝鸡东","lng":107.18868,"lat":34.36778},
+{"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"2","entryIndex":"6","entryText":"宝鸡","lng":107.1532,"lat":34.37297},
+{"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"3","entryIndex":"7","entryText":"宝鸡","lng":107.1532,"lat":34.37297},
+{"bureauCode":8,"ddtId":"3","ddtName":"宝鸡地区台","queueIndex":"3","entryIndex":"8","entryText":"福临堡","lng":107.09644,"lat":34.38376}
+   
+  ]
+}

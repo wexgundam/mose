@@ -1,0 +1,24 @@
+{
+  "entries": [
+ {"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"1","entryIndex":"1","entryText":"阜阳西存车场","lng":115.857001,"lat":32.964022},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"1","entryIndex":"2","entryText":"阜阳西京港场","lng":115.857001,"lat":32.964022},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"1","entryIndex":"3","entryText":"阜阳西郑阜场","lng":115.857001,"lat":32.964022},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"2","entryIndex":"4","entryText":"界首南","lng":115.329302,"lat":33.219639},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"2","entryIndex":"5","entryText":"临泉","lng":115.377823,"lat":33.022697},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"2","entryIndex":"6","entryText":"阜阳西郑阜场","lng":115.857001,"lat":32.964022},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"2","entryIndex":"7","entryText":"阜阳西线路所","lng":115.975177333333,"lat":32.8691236666666},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"8","entryText":"芦庙","lng":115.787045,"lat":34.040053},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"9","entryText":"亳州南","lng":115.799592,"lat":33.794959},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"10","entryText":"古城东","lng":115.811683,"lat":33.527097},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"11","entryText":"太和东","lng":115.726508,"lat":33.156531},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"12","entryText":"阜阳西京港场","lng":115.857001,"lat":32.964022},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"13","entryText":"阜阳西线路所","lng":115.975177333333,"lat":32.8691236666666},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"14","entryText":"颍上北","lng":116.21153,"lat":32.679327},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"15","entryText":"凤台南","lng":116.622491,"lat":32.636616},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"16","entryText":"寿县","lng":116.806728,"lat":32.59423},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"17","entryText":"淮南南","lng":117.041016,"lat":32.543521},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"18","entryText":"水家湖京港场","lng":117.169023,"lat":32.483299},
+{"bureauCode":10,"ddtId":"30","ddtName":"商合高铁台","queueIndex":"3","entryIndex":"19","entryText":"合肥北城","lng":117.25296,"lat":32.06331}
+   
+  ]
+}

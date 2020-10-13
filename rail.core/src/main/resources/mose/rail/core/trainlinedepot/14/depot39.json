@@ -1,0 +1,31 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"1","entryIndex":"0","entryText":"珞璜","lng":106.43601,"lat":29.33093},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"1","entryIndex":"1","entryText":"珞璜南","lng":106.442029,"lat":29.299621},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"1","entryIndex":"2","entryText":"小南垭","lng":106.43873,"lat":29.26421},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"2","entryIndex":"3","entryText":"珞璜南","lng":106.442029,"lat":29.299621},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"2","entryIndex":"4","entryText":"珞璜东","lng":106.422029,"lat":29.2496209999999},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"5","entryText":"重庆西渝贵场","lng":106.440391666666,"lat":29.366545},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"6","entryText":"珞璜南","lng":106.442029,"lat":29.299621},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"7","entryText":"綦江东","lng":106.66247,"lat":29.02317},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"8","entryText":"赶水东","lng":106.706837,"lat":28.762129},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"9","entryText":"桐梓北","lng":106.831145,"lat":28.38549},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"10","entryText":"桐梓东","lng":106.83487,"lat":28.11496},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"11","entryText":"娄山关南","lng":106.928667,"lat":27.932408},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"12","entryText":"遵义渝贵场","lng":106.9089865,"lat":27.7469249999999},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"13","entryText":"龙坑","lng":106.889306,"lat":27.561442},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"14","entryText":"遵义南","lng":106.83994,"lat":27.44626},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"15","entryText":"息烽渝贵场","lng":106.79616,"lat":27.14871},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"16","entryText":"修文县","lng":106.75238,"lat":26.85116},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"17","entryText":"上水村线路所","lng":106.726306666666,"lat":26.7452466666666},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"18","entryText":"长田湾线路所","lng":106.709391155555,"lat":26.6512568888888},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"3","entryIndex":"19","entryText":"贵阳北渝贵贵广场","lng":106.7009334,"lat":26.604262},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"4","entryIndex":"20","entryText":"长田湾线路所","lng":106.709391155555,"lat":26.6512568888888},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"4","entryIndex":"21","entryText":"马夫田线路所","lng":106.7066625,"lat":26.6631225},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"5","entryIndex":"22","entryText":"上水村线路所","lng":106.726306666666,"lat":26.7452466666666},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"5","entryIndex":"23","entryText":"都拉营","lng":106.71327,"lat":26.69229},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"6","entryIndex":"24","entryText":"遵义川黔场","lng":106.948346,"lat":27.664182},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"6","entryIndex":"25","entryText":"龙坑","lng":106.889306,"lat":27.561442},
+{"bureauCode":14,"ddtId":"39","ddtName":"渝贵台","queueIndex":"6","entryIndex":"26","entryText":"南白镇","lng":106.862640666666,"lat":27.5208413333333}   
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"1","entryIndex":"1","entryText":"新化南","lng":111.16103,"lat":27.65578},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"1","entryIndex":"2","entryText":"溆浦南","lng":110.59339,"lat":27.60509},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"1","entryIndex":"3","entryText":"怀化南沪昆场","lng":110.126255,"lat":27.530405},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"1","entryIndex":"4","entryText":"芷江","lng":109.65912,"lat":27.45572},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"1","entryIndex":"5","entryText":"新晃西","lng":109.12628,"lat":27.37983},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"2","entryIndex":"6","entryText":"怀化南沪昆场","lng":110.126255,"lat":27.530405},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"2","entryIndex":"7","entryText":"杨村所","lng":110.0787535,"lat":27.42561},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"3","entryIndex":"8","entryText":"铜仁铜玉场","lng":109.171312,"lat":27.628849},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"3","entryIndex":"9","entryText":"朱砂古镇","lng":109.138034,"lat":27.517478},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"4","entryIndex":"10","entryText":"铜仁渝怀场","lng":109.20459,"lat":27.74022},
+{"bureauCode":12,"ddtId":"112","ddtName":"长昆二台","queueIndex":"4","entryIndex":"11","entryText":"铜仁铜玉场","lng":109.171312,"lat":27.628849}   
+  ]
+}

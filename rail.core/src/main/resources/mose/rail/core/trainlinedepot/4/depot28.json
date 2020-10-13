@@ -1,0 +1,31 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"1","entryIndex":"1","entryText":"肖家洼装车站","lng":111.039455,"lat":38.273615},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"1","entryIndex":"2","entryText":"兴县","lng":111.059455,"lat":38.323615},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"2","entryIndex":"3","entryText":"豫能装车站","lng":111.039455,"lat":38.273615},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"2","entryIndex":"4","entryText":"兴县","lng":111.059455,"lat":38.323615},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"3","entryIndex":"5","entryText":"冯家川","lng":110.99654,"lat":38.56989},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"3","entryIndex":"6","entryText":"瓦塘","lng":111.01654,"lat":38.61989},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"4","entryIndex":"7","entryText":"白文北线路所","lng":111.09714,"lat":38.15339},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"4","entryIndex":"8","entryText":"白文东","lng":111.09714,"lat":38.15339},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"4","entryIndex":"9","entryText":"白文","lng":111.086614,"lat":38.1159221},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"5","entryIndex":"10","entryText":"庞庞塔装车站","lng":111.09345,"lat":38.042191},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"5","entryIndex":"11","entryText":"临县北","lng":111.04451,"lat":37.9660505},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"12","entryText":"魏家滩","lng":111.01654,"lat":38.61989},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"13","entryText":"瓦塘","lng":111.01654,"lat":38.61989},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"14","entryText":"蔡家崖","lng":111.02177,"lat":38.49384},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"15","entryText":"兴县","lng":111.059455,"lat":38.323615},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"16","entryText":"白文北线路所","lng":111.09714,"lat":38.15339},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"17","entryText":"白文","lng":111.086614,"lat":38.1159221},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"18","entryText":"临县北","lng":111.04451,"lat":37.9660505},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"19","entryText":"临县","lng":110.99557,"lat":37.88991},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"20","entryText":"三交疏解区","lng":110.99557,"lat":37.88991},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"21","entryText":"林家坪","lng":110.99557,"lat":37.88991},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"22","entryText":"孟门","lng":110.97557,"lat":37.83991},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"23","entryText":"留誉","lng":110.92961,"lat":37.0134166666666},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"6","entryIndex":"24","entryText":"石楼县","lng":110.90663,"lat":36.60017},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"7","entryIndex":"25","entryText":"三交东","lng":110.99557,"lat":37.88991},
+{"bureauCode":4,"ddtId":"28","ddtName":"瓦日一台","queueIndex":"7","entryIndex":"26","entryText":"三交疏解区","lng":110.99557,"lat":37.88991}
+   
+  ]
+}

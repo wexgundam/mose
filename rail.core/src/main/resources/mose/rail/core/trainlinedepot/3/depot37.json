@@ -1,0 +1,18 @@
+{
+  "entries": [
+  {"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"1","entryIndex":"0","entryText":"滦平东","lng":117.37268,"lat":40.99119},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"1","entryIndex":"1","entryText":"张百湾","lng":117.48238,"lat":40.99949},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"2","entryText":"承德西","lng":117.37268,"lat":40.99119},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"3","entryText":"滦平东","lng":117.37268,"lat":40.99119},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"4","entryText":"塔黄旗东","lng":116.92424,"lat":41.09814},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"5","entryText":"丰宁","lng":116.63887,"lat":41.16582},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"6","entryText":"杨木栅子","lng":116.40341,"lat":40.97466},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"7","entryText":"赤城","lng":115.88032,"lat":40.8471},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"8","entryText":"龙门","lng":115.380936999999,"lat":40.7756009999999},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"9","entryText":"赵川北","lng":114.881554,"lat":40.704102},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"2","entryIndex":"10","entryText":"张家口南","lng":114.881554,"lat":40.704102},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"3","entryIndex":"11","entryText":"塔黄旗东","lng":116.92424,"lat":41.09814},
+{"bureauCode":3,"ddtId":"37","ddtName":"唐张二台","queueIndex":"3","entryIndex":"12","entryText":"塔黄旗","lng":116.87433,"lat":41.11103}
+  
+  ]
+}

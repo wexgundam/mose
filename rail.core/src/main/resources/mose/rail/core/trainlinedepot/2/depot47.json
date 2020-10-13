@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {"bureauCode":2,"ddtId":"47","ddtName":"京沈一台","queueIndex":"1","entryIndex":"1","entryText":"平泉北","lng":118.71247,"lat":41.03886},
+{"bureauCode":2,"ddtId":"47","ddtName":"京沈一台","queueIndex":"1","entryIndex":"2","entryText":"牛河梁","lng":119.39932,"lat":41.19579},
+{"bureauCode":2,"ddtId":"47","ddtName":"京沈一台","queueIndex":"1","entryIndex":"3","entryText":"孙家沟线路所","lng":119.6026105,"lat":41.209896},
+{"bureauCode":2,"ddtId":"47","ddtName":"京沈一台","queueIndex":"1","entryIndex":"4","entryText":"喀左","lng":119.805901,"lat":41.224002},
+{"bureauCode":2,"ddtId":"47","ddtName":"京沈一台","queueIndex":"1","entryIndex":"5","entryText":"奈林皋","lng":120.068506,"lat":41.401719},
+{"bureauCode":2,"ddtId":"47","ddtName":"京沈一台","queueIndex":"1","entryIndex":"6","entryText":"朝阳","lng":120.40939,"lat":41.59983},
+{"bureauCode":2,"ddtId":"47","ddtName":"京沈一台","queueIndex":"1","entryIndex":"7","entryText":"北票","lng":120.77827,"lat":41.76183}
+
+  ]
+}

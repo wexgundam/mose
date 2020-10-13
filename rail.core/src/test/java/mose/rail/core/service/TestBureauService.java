@@ -11,7 +11,7 @@ import mose.network.service.GridService;
 import mose.rail.core.dao.BureauDao;
 import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -91,19 +91,19 @@ public class TestBureauService {
         bureauB.setAnchorPointsString("100@100;100@200;200@200;200@100");
         bureauService.addOne(bureauB);
 
-        TrainlineDeport trainlineDeportA = new TrainlineDeport();
-        trainlineDeportA.setAnchorPointsString("10@10;10@20;20@20;20@10");
+        TrainlineDepot trainlineDepotA = new TrainlineDepot();
+        trainlineDepotA.setAnchorPointsString("10@10;10@20;20@20;20@10");
 
-        TrainlineDeport trainlineDeportB = new TrainlineDeport();
-        trainlineDeportB.setAnchorPointsString("70@70;70@80;80@80;80@70");
+        TrainlineDepot trainlineDepotB = new TrainlineDepot();
+        trainlineDepotB.setAnchorPointsString("70@70;70@80;80@80;80@70");
 
-        boolean result = bureauService.jurisdiction(bureauA, trainlineDeportA);
+        boolean result = bureauService.jurisdiction(bureauA, trainlineDepotA);
         Assert.assertTrue(result);
-        result = bureauService.jurisdiction(bureauA, trainlineDeportB);
+        result = bureauService.jurisdiction(bureauA, trainlineDepotB);
         Assert.assertTrue(result);
-        result = bureauService.jurisdiction(bureauB, trainlineDeportA);
+        result = bureauService.jurisdiction(bureauB, trainlineDepotA);
         Assert.assertFalse(result);
-        result = bureauService.jurisdiction(bureauB, trainlineDeportB);
+        result = bureauService.jurisdiction(bureauB, trainlineDepotB);
         Assert.assertFalse(result);
 
         Station stationA = new Station();
@@ -201,21 +201,21 @@ public class TestBureauService {
         bureauD.setAnchorPointsString("-100@-100;-100@0;0@0;0@-100");
         bureauService.addOne(bureauD);
 
-        TrainlineDeport trainlineDeportA = new TrainlineDeport();
-        trainlineDeportA.setAnchorPointsString("90@90;90@95;95@95;95@90");
-        Bureau jurisdiction = bureauService.getJurisdiction(trainlineDeportA);
+        TrainlineDepot trainlineDepotA = new TrainlineDepot();
+        trainlineDepotA.setAnchorPointsString("90@90;90@95;95@95;95@90");
+        Bureau jurisdiction = bureauService.getJurisdiction(trainlineDepotA);
         Assert.assertNotNull(jurisdiction);
         Assert.assertEquals(bureauA, jurisdiction);
 
-        TrainlineDeport trainlineDeportB = new TrainlineDeport();
-        trainlineDeportB.setAnchorPointsString("130@130;130@140;140@140;140@130");
-        jurisdiction = bureauService.getJurisdiction(trainlineDeportB);
+        TrainlineDepot trainlineDepotB = new TrainlineDepot();
+        trainlineDepotB.setAnchorPointsString("130@130;130@140;140@140;140@130");
+        jurisdiction = bureauService.getJurisdiction(trainlineDepotB);
         Assert.assertNotNull(jurisdiction);
         Assert.assertEquals(bureauB, jurisdiction);
 
-        TrainlineDeport trainlineDeportC = new TrainlineDeport();
-        trainlineDeportC.setAnchorPointsString("-500@-500;-400@-500;-400@-400;-500@-400");
-        jurisdiction = bureauService.getJurisdiction(trainlineDeportC);
+        TrainlineDepot trainlineDepotC = new TrainlineDepot();
+        trainlineDepotC.setAnchorPointsString("-500@-500;-400@-500;-400@-400;-500@-400");
+        jurisdiction = bureauService.getJurisdiction(trainlineDepotC);
         Assert.assertNull(jurisdiction);
 
         Station stationA = new Station();

@@ -1,0 +1,14 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"1","entryIndex":"1","entryText":"友谊水库","lng":113.999027,"lat":40.850864},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"1","entryIndex":"2","entryText":"兴和西","lng":113.8134,"lat":40.84928},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"1","entryIndex":"3","entryText":"乌兰察布园区中心","lng":113.730095,"lat":40.8372855},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"1","entryIndex":"4","entryText":"庙梁","lng":113.64679,"lat":40.825291},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"1","entryIndex":"6","entryText":"巴彦塔拉线路所","lng":113.08573,"lat":40.89509},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"1","entryIndex":"7","entryText":"古营盘","lng":113.10573,"lat":40.94509},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"1","entryIndex":"8","entryText":"葫芦","lng":113.010792,"lat":41.043129},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"2","entryIndex":"9","entryText":"古营盘","lng":113.10573,"lat":40.94509},
+{"bureauCode":5,"ddtId":"14","ddtName":"张集台","queueIndex":"2","entryIndex":"10","entryText":"集宁南","lng":113.09919,"lat":41.03145}
+   
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"1","entryText":"兖州北","lng":116.835568,"lat":35.593953},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"2","entryText":"兖州","lng":116.8409,"lat":35.55579},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"3","entryText":"程家庄","lng":116.885781,"lat":35.489213},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"4","entryText":"白马厂","lng":116.921720499999,"lat":35.4836465},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"5","entryText":"凫村","lng":116.95766,"lat":35.47808},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"6","entryText":"阮家村","lng":117.001271,"lat":35.544302},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"7","entryText":"曲阜","lng":117.0305,"lat":35.58314},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"1","entryIndex":"8","entryText":"南陶洛","lng":117.09289,"lat":35.6159},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"9","entryText":"兖州北","lng":116.835568,"lat":35.593953},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"10","entryText":"白家店","lng":116.86129,"lat":35.63407},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"11","entryText":"南陶洛","lng":117.09289,"lat":35.6159},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"12","entryText":"泗水","lng":117.26188,"lat":35.6363},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"13","entryText":"鲁舒","lng":117.32188,"lat":35.63475},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"14","entryText":"泉林","lng":117.52162,"lat":35.60017},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"15","entryText":"平邑","lng":117.64382,"lat":35.51654},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"16","entryText":"地方","lng":117.85296,"lat":35.33666},
+{"bureauCode":9,"ddtId":"10","ddtName":"兖临台","queueIndex":"2","entryIndex":"17","entryText":"费县","lng":117.98086,"lat":35.278}
+   
+  ]
+}

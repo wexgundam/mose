@@ -1,0 +1,32 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"1","entryIndex":"1","entryText":"包头西五场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"1","entryIndex":"2","entryText":"包头西一场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"1","entryIndex":"3","entryText":"包头西六场","lng":109.751547,"lat":40.611715},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"1","entryIndex":"4","entryText":"包头南","lng":109.77969,"lat":40.55966},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"5","entryText":"包头","lng":109.83669,"lat":40.605222},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"6","entryText":"包头南","lng":109.77969,"lat":40.55966},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"7","entryText":"达拉特西","lng":109.89121,"lat":40.38106},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"8","entryText":"响沙湾","lng":109.87121,"lat":40.33106},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"9","entryText":"罕台川北","lng":109.864215,"lat":40.002525},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"10","entryText":"罕台川","lng":109.85722,"lat":39.67399},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"11","entryText":"东胜西","lng":109.87722,"lat":39.72399},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"12","entryText":"鄂尔多斯","lng":109.84267,"lat":39.56128},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"2","entryIndex":"13","entryText":"新街","lng":109.840581,"lat":39.277082},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"3","entryIndex":"14","entryText":"东胜西","lng":109.87722,"lat":39.72399},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"3","entryIndex":"15","entryText":"王家塔","lng":109.85722,"lat":39.67399},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"3","entryIndex":"16","entryText":"铜匠川","lng":109.83722,"lat":39.62399},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"17","entryText":"新街","lng":109.840581,"lat":39.277082},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"18","entryText":"新街西","lng":109.6843255,"lat":39.206781},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"19","entryText":"台格庙","lng":109.52807,"lat":39.13648},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"20","entryText":"查汗淖","lng":107.849312,"lat":37.894281},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"21","entryText":"图克","lng":109.49871,"lat":39.05453},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"22","entryText":"大牛地","lng":109.341045,"lat":38.86992},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"23","entryText":"乌兰陶勒盖","lng":109.18338,"lat":38.68531},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"4","entryIndex":"24","entryText":"乌审旗","lng":108.8759,"lat":38.54488},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"5","entryIndex":"25","entryText":"大牛地","lng":109.341045,"lat":38.86992},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"5","entryIndex":"26","entryText":"沙母巴","lng":109.321045,"lat":38.81992},
+{"bureauCode":5,"ddtId":"13","ddtName":"包新台","queueIndex":"5","entryIndex":"27","entryText":"巴矿装车站","lng":109.301045,"lat":38.76992}
+   
+  ]
+}

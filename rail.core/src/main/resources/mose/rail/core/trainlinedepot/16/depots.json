@@ -1,0 +1,27 @@
+{
+  "depots": [
+{"bureauCode":18,"ddtId":"1","ddtName":"天定台","lng":104.61093,"lat":35.57934},
+{"bureauCode":18,"ddtId":"2","ddtName":"迎武台","lng":105.102161,"lat":37.510987},
+{"bureauCode":18,"ddtId":"3","ddtName":"干兰台","lng":104.687,"lat":36.56529},
+{"bureauCode":18,"ddtId":"4","ddtName":"西枢纽台","lng":103.633163,"lat":36.128796},
+{"bureauCode":18,"ddtId":"5","ddtName":"河武台","lng":103.257385,"lat":36.751131},
+{"bureauCode":18,"ddtId":"6","ddtName":"武平台","lng":100.519157,"lat":38.973549},
+{"bureauCode":18,"ddtId":"7","ddtName":"嘉安台","lng":98.254631,"lat":39.764832},
+{"bureauCode":18,"ddtId":"8","ddtName":"银迎台","lng":106.172195,"lat":38.488671},
+{"bureauCode":18,"ddtId":"9","ddtName":"柳平台","lng":106.301971,"lat":36.020924},
+{"bureauCode":18,"ddtId":"10","ddtName":"惠银台","lng":106.425567,"lat":38.920559},
+{"bureauCode":18,"ddtId":"11","ddtName":"定兰台","lng":104.288566,"lat":35.793661},
+{"bureauCode":18,"ddtId":"12","ddtName":"平嘉台","lng":98.451653,"lat":39.645569},
+{"bureauCode":18,"ddtId":"14","ddtName":"定银台","lng":107.347229,"lat":37.736311},
+{"bureauCode":18,"ddtId":"16","ddtName":"兰渝一台","lng":104.03697,"lat":34.43811},
+{"bureauCode":18,"ddtId":"17","ddtName":"平凉地区台","lng":106.67477,"lat":35.54258},
+{"bureauCode":18,"ddtId":"18","ddtName":"敦格台","lng":94.66197,"lat":40.14219},
+{"bureauCode":18,"ddtId":"20","ddtName":"兰渝二台","lng":104.960091,"lat":33.37595},
+{"bureauCode":18,"ddtId":"31","ddtName":"高铁兰州枢纽台","lng":104.11261,"lat":35.84327},
+{"bureauCode":18,"ddtId":"32","ddtName":"兰新高铁一台","lng":97.045829,"lat":40.271211},
+{"bureauCode":18,"ddtId":"34","ddtName":"中川台","lng":103.6281,"lat":36.08842},
+{"bureauCode":18,"ddtId":"35","ddtName":"宝兰台","lng":105.25914,"lat":35.194926},
+{"bureauCode":18,"ddtId":"35","ddtName":"宝兰台","lng":106.367992,"lat":38.160241},
+{"bureauCode":18,"ddtId":"38","ddtName":"银兰一台","lng":105.190033,"lat":37.521992}
+  ]
+}

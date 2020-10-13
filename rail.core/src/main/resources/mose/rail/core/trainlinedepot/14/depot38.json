@@ -1,0 +1,21 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"0","entryText":"成都南","lng":104.068544,"lat":30.606452},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"1","entryText":"双流机场","lng":103.9566,"lat":30.56944},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"2","entryText":"双流西","lng":103.91897,"lat":30.5428},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"3","entryText":"新津","lng":103.87065,"lat":30.46539},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"4","entryText":"新津南","lng":103.85648,"lat":30.34844},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"5","entryText":"彭山北","lng":103.86086,"lat":30.2078},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"6","entryText":"眉山东","lng":103.82365,"lat":30.06622},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"7","entryText":"青神","lng":103.77063,"lat":29.84852},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"8","entryText":"乐山成贵场","lng":103.813859999999,"lat":29.59954},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"9","entryText":"犍为","lng":103.95879,"lat":29.34845},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"10","entryText":"泥溪","lng":104.275007,"lat":29.006104},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"11","entryText":"屏山","lng":104.360104,"lat":28.848463},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"1","entryIndex":"12","entryText":"宜宾西","lng":104.605607,"lat":28.723043},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"2","entryIndex":"13","entryText":"乐山成贵场","lng":103.813859999999,"lat":29.59954},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"2","entryIndex":"14","entryText":"乐山峨眉场","lng":103.71216,"lat":29.60165},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"2","entryIndex":"15","entryText":"峨眉城际场","lng":103.589445,"lat":29.588935},
+{"bureauCode":14,"ddtId":"38","ddtName":"成贵1台","queueIndex":"2","entryIndex":"16","entryText":"峨眉山","lng":103.46673,"lat":29.57622}   
+  ]
+}

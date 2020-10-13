@@ -1,0 +1,9 @@
+{
+  "entries": [
+ {"bureauCode":15,"ddtId":"101","ddtName":"长昆台","queueIndex":"1","entryIndex":"0","entryText":"富源北","lng":104.2707,"lat":25.713166},
+{"bureauCode":15,"ddtId":"101","ddtName":"长昆台","queueIndex":"1","entryIndex":"5","entryText":"曲靖北","lng":103.783462,"lat":25.5894},
+{"bureauCode":15,"ddtId":"101","ddtName":"长昆台","queueIndex":"1","entryIndex":"7","entryText":"嵩明","lng":103.13947,"lat":25.24035},
+{"bureauCode":15,"ddtId":"101","ddtName":"长昆台","queueIndex":"1","entryIndex":"9","entryText":"小团山线路所","lng":102.98865,"lat":25.087975}
+   
+  ]
+}

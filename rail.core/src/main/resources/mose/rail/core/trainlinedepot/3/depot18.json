@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"25","entryIndex":"0","entryText":"肃宁","lng":115.850716,"lat":38.414678},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"25","entryIndex":"1","entryText":"饶阳","lng":115.71698,"lat":38.23746},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"25","entryIndex":"2","entryText":"深州","lng":115.61368,"lat":38.01144},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"25","entryIndex":"3","entryText":"邢家村","lng":115.729672,"lat":37.797276},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"25","entryIndex":"4","entryText":"衡水二场","lng":115.94448,"lat":37.71775},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"25","entryIndex":"5","entryText":"衡水一场","lng":115.94448,"lat":37.71775},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"26","entryIndex":"6","entryText":"邢家村","lng":115.729672,"lat":37.797276},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"26","entryIndex":"7","entryText":"贡家台","lng":115.57286,"lat":37.76972},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"8","entryText":"衡水二场","lng":115.94448,"lat":37.71775},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"9","entryText":"衡水一场","lng":115.94448,"lat":37.71775},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"10","entryText":"大葛村","lng":115.876096666666,"lat":37.64675},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"11","entryText":"枣强","lng":115.73933,"lat":37.50475},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"12","entryText":"大营镇","lng":115.73616,"lat":37.31835},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"13","entryText":"南宫东","lng":115.69585,"lat":37.16929},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"14","entryText":"清河城","lng":115.68718,"lat":37.0637},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"15","entryText":"临西","lng":115.7139,"lat":36.92838},
+{"bureauCode":3,"ddtId":"18","ddtName":"京九二台","queueIndex":"27","entryIndex":"16","entryText":"临清","lng":115.737604,"lat":36.841981}
+   
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"37","ddtName":"长昆2台","queueIndex":"1","entryIndex":"0","entryText":"贵安","lng":106.48476,"lat":26.46698},
+{"bureauCode":14,"ddtId":"37","ddtName":"长昆2台","queueIndex":"1","entryIndex":"1","entryText":"平坝南","lng":106.25677,"lat":26.38369},
+{"bureauCode":14,"ddtId":"37","ddtName":"长昆2台","queueIndex":"1","entryIndex":"2","entryText":"安顺西","lng":105.87557,"lat":26.19865},
+{"bureauCode":14,"ddtId":"37","ddtName":"长昆2台","queueIndex":"1","entryIndex":"3","entryText":"关岭","lng":105.529155,"lat":25.963292},
+{"bureauCode":14,"ddtId":"37","ddtName":"长昆2台","queueIndex":"1","entryIndex":"4","entryText":"普安县","lng":104.87017,"lat":25.80261},
+{"bureauCode":14,"ddtId":"37","ddtName":"长昆2台","queueIndex":"1","entryIndex":"5","entryText":"盘州","lng":104.56799,"lat":25.7919},
+{"bureauCode":14,"ddtId":"37","ddtName":"长昆2台","queueIndex":"1","entryIndex":"6","entryText":"富源北","lng":104.2707,"lat":25.713166}   
+  ]
+}

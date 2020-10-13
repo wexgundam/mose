@@ -1,0 +1,18 @@
+{
+  "entries": [
+ {"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"1","entryText":"确山","lng":114.03637,"lat":32.80163},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"2","entryText":"新安店","lng":114.04307,"lat":32.61785},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"3","entryText":"李新店","lng":114.04762,"lat":32.53735},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"4","entryText":"明港","lng":114.04969,"lat":32.4648},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"5","entryText":"长台关","lng":114.06237,"lat":32.321},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"6","entryText":"彭家湾","lng":114.08141,"lat":32.24138},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"7","entryText":"信阳北","lng":114.07395,"lat":32.18936},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"8","entryText":"信阳","lng":114.08345,"lat":32.12867},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"9","entryText":"信阳上行场","lng":114.08345,"lat":32.12867},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"10","entryText":"信阳下行场","lng":114.08345,"lat":32.12867},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"11","entryText":"东双河","lng":114.0962,"lat":32.03298},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"12","entryText":"柳林","lng":114.09832,"lat":31.954471},
+{"bureauCode":7,"ddtId":"5","ddtName":"京广二台","queueIndex":"1","entryIndex":"13","entryText":"李家寨","lng":114.0643325,"lat":31.829563}
+   
+  ]
+}

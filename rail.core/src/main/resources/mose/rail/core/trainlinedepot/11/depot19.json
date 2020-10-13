@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"1","entryIndex":"1","entryText":"向塘西Ⅶ场","lng":115.961041,"lat":28.426253},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"1","entryIndex":"2","entryText":"三江镇","lng":116.00084,"lat":28.29456},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"1","entryIndex":"3","entryText":"张巷","lng":115.932909,"lat":28.14306},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"4","entryText":"东村线路所","lng":115.931488666666,"lat":28.4038606666666},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"5","entryText":"三江镇","lng":116.00084,"lat":28.29456},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"6","entryText":"大岗","lng":116.14934,"lat":28.16821},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"7","entryText":"抚州北","lng":116.296569,"lat":28.002576},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"8","entryText":"抚州","lng":116.35412,"lat":27.92001},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"9","entryText":"腾桥","lng":116.49862,"lat":27.776492},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"10","entryText":"南城","lng":116.61593,"lat":27.56391},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"11","entryText":"南丰","lng":116.59961,"lat":27.28627},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"2","entryIndex":"12","entryText":"建宁县北","lng":116.87109,"lat":26.91597},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"3","entryIndex":"13","entryText":"抚州北","lng":116.296569,"lat":28.002576},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"3","entryIndex":"14","entryText":"临川","lng":116.2542,"lat":27.95922},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"3","entryIndex":"15","entryText":"崇仁","lng":116.05847,"lat":27.77406},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"3","entryIndex":"16","entryText":"江边村","lng":115.91199,"lat":27.67704},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"4","entryIndex":"17","entryText":"腾桥","lng":116.49862,"lat":27.776492},
+{"bureauCode":11,"ddtId":"19","ddtName":"昌建台","queueIndex":"4","entryIndex":"18","entryText":"腾桥电厂","lng":116.47862,"lat":27.726492}   
+  ]
+}

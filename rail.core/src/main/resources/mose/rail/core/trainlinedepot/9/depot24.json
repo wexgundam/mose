@@ -1,0 +1,25 @@
+{
+  "entries": [
+ {"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"1","entryText":"青岛北","lng":120.374528,"lat":36.169556},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"2","entryText":"刘家线路所","lng":120.3709332,"lat":36.2213576},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"3","entryText":"城阳青荣场","lng":120.365541,"lat":36.29906},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"4","entryText":"即墨","lng":120.269957,"lat":36.368192},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"5","entryText":"柘车河线路所","lng":120.32484575,"lat":36.359916},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"6","entryText":"即墨北","lng":120.393928,"lat":36.40422},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"7","entryText":"夏格庄","lng":120.44627,"lat":36.65215},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"8","entryText":"莱西北","lng":120.530292,"lat":36.823473},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"9","entryText":"莱阳站Ⅰ场","lng":120.70991,"lat":36.92833},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"10","entryText":"海阳北","lng":120.96084,"lat":37.06961},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"11","entryText":"桃村北","lng":121.14666,"lat":37.21172},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"12","entryText":"西陌堂线路所","lng":121.244475,"lat":37.3385399999999},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"13","entryText":"芝罘","lng":121.34229,"lat":37.46536},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"14","entryText":"烟台","lng":121.38265,"lat":37.54797},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"15","entryText":"烟台南","lng":121.39231,"lat":37.43202},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"16","entryText":"牟平","lng":121.65099,"lat":37.42362},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"17","entryText":"威海北","lng":122.04857,"lat":37.4957},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"18","entryText":"威海","lng":122.14463,"lat":37.42463},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"19","entryText":"文登东","lng":122.2583,"lat":37.24116},
+{"bureauCode":9,"ddtId":"24","ddtName":"青荣城际台","queueIndex":"1","entryIndex":"20","entryText":"荣成","lng":122.40752,"lat":37.14568}
+   
+  ]
+}

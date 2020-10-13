@@ -1,0 +1,28 @@
+{
+  "entries": [
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"1","entryIndex":"1","entryText":"郑州东动车所II场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"1","entryIndex":"2","entryText":"郑州东动车所I场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"1","entryIndex":"3","entryText":"郑州东徐兰场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"2","entryIndex":"4","entryText":"商丘商合杭场","lng":115.65679,"lat":34.44345},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"2","entryIndex":"5","entryText":"商丘东","lng":115.732699,"lat":34.330279},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"2","entryIndex":"6","entryText":"芦庙","lng":115.787045,"lat":34.040053},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"7","entryText":"砀山南","lng":116.30392,"lat":34.3866},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"8","entryText":"商丘郑徐场","lng":115.65679,"lat":34.44345},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"9","entryText":"商丘商合杭场","lng":115.65679,"lat":34.44345},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"10","entryText":"商丘西线路所","lng":115.418505,"lat":34.551325},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"11","entryText":"民权北","lng":115.18022,"lat":34.6592},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"12","entryText":"兰考南","lng":114.823883,"lat":34.770974},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"13","entryText":"开封北","lng":114.26229,"lat":34.8378},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"14","entryText":"鸿宝线路所","lng":113.940194666666,"lat":34.7854513333333},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"3","entryIndex":"15","entryText":"郑州东徐兰场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"4","entryIndex":"16","entryText":"马头岗线路所","lng":113.845767999999,"lat":34.9442746666666},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"4","entryIndex":"17","entryText":"郑州东徐兰场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"4","entryIndex":"18","entryText":"曹古寺线路所","lng":113.694254833333,"lat":34.7582673333333},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"4","entryIndex":"19","entryText":"郑州西","lng":113.425471,"lat":34.744866},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"5","entryIndex":"20","entryText":"鸿宝线路所","lng":113.940194666666,"lat":34.7854513333333},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"5","entryIndex":"21","entryText":"郑州东徐兰场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"5","entryIndex":"22","entryText":"郑州东站城际场","lng":113.779147,"lat":34.759277},
+{"bureauCode":6,"ddtId":"61","ddtName":"郑州郑徐高铁台","queueIndex":"5","entryIndex":"23","entryText":"郑州东京广场","lng":113.779147,"lat":34.759277}
+    
+  ]
+}

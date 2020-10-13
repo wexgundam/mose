@@ -1,0 +1,23 @@
+{ 
+  "depots": [
+    {"bureauCode":5,"ddtId":"1","ddtName":"集大台","lng":113.331356,"lat":40.226597},
+    {"bureauCode":5,"ddtId":"2","ddtName":"额梧台","lng":100.925217,"lat":42.013591},
+    {"bureauCode":5,"ddtId":"3","ddtName":"集呼台","lng":113.101673,"lat":41.029643},
+    {"bureauCode":5,"ddtId":"4","ddtName":"京包客专呼包台","lng":111.481233,"lat":40.746997},
+    {"bureauCode":5,"ddtId":"5","ddtName":"呼东台","lng":110.880075,"lat":40.631803},
+    {"bureauCode":5,"ddtId":"6","ddtName":"旗呼台","lng":111.250643,"lat":40.58549},
+    {"bureauCode":5,"ddtId":"7","ddtName":"响四台","lng":109.972887,"lat":40.232626},
+    {"bureauCode":5,"ddtId":"8","ddtName":"包杭台","lng":108.723106,"lat":39.832268},
+    {"bureauCode":5,"ddtId":"9","ddtName":"杭惠台","lng":106.844487,"lat":39.323675},
+    {"bureauCode":5,"ddtId":"12","ddtName":"临策台","lng":107.429981,"lat":40.745956},
+    {"bureauCode":5,"ddtId":"13","ddtName":"包新台","lng":109.840107,"lat":39.276916},
+    {"bureauCode":5,"ddtId":"14","ddtName":"张集台","lng":113.106136,"lat":40.944639},
+    {"bureauCode":5,"ddtId":"15","ddtName":"包环台","lng":110.19536,"lat":40.557113},
+    {"bureauCode":5,"ddtId":"16","ddtName":"包满台","lng":109.966707,"lat":41.756075},
+    {"bureauCode":5,"ddtId":"17","ddtName":"呼鄂台","lng":109.845772,"lat":39.560177},
+    {"bureauCode":5,"ddtId":"18","ddtName":"赛二台","lng":112.666994,"lat":42.750715},
+    {"bureauCode":5,"ddtId":"19","ddtName":"集赛台","lng":112.899467,"lat":42.396761},
+    {"bureauCode":5,"ddtId":"20","ddtName":"京包客专张呼台","lng":114.388533,"lat":40.675561},
+    {"bureauCode":5,"ddtId":"21","ddtName":"集旗台","lng":117.718666,"lat":41.292062}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "entries": [
+  {"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"1","entryIndex":"1","entryText":"可门","lng":119.55183,"lat":26.274845},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"1","entryIndex":"2","entryText":"透堡","lng":119.57183,"lat":26.324845},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"3","entryText":"苍南","lng":120.412338,"lat":27.527887},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"4","entryText":"福鼎","lng":120.18963,"lat":27.28213},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"5","entryText":"太姥山","lng":120.22448,"lat":27.12691},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"6","entryText":"霞浦","lng":120.03285,"lat":26.90934},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"7","entryText":"福安","lng":119.71728,"lat":26.83413},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"8","entryText":"宁德","lng":119.58332,"lat":26.66931},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"9","entryText":"罗源","lng":119.57662,"lat":26.45562},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"10","entryText":"透堡","lng":119.57183,"lat":26.324845},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"11","entryText":"连江","lng":119.56704,"lat":26.19407},
+{"bureauCode":11,"ddtId":"21","ddtName":"温福台","queueIndex":"2","entryIndex":"12","entryText":"温福线路所","lng":119.56704,"lat":26.19407}  
+  ]
+}

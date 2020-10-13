@@ -1,0 +1,32 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"1","entryIndex":"1","entryText":"长沙南武广场","lng":113.065296,"lat":28.146841},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"1","entryIndex":"2","entryText":"长沙西北线路所","lng":113.023853999999,"lat":28.0860306666666},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"2","entryIndex":"3","entryText":"长沙南沪昆场","lng":113.10865675,"lat":28.0624769583333},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"2","entryIndex":"4","entryText":"长沙西北线路所","lng":113.023853999999,"lat":28.0860306666666},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"2","entryIndex":"5","entryText":"湘潭北","lng":112.94097,"lat":27.96441},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"2","entryIndex":"6","entryText":"韶山南","lng":112.54808,"lat":27.88816},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"2","entryIndex":"7","entryText":"娄底南","lng":112.01392,"lat":27.66294},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"2","entryIndex":"8","entryText":"邵阳北","lng":111.50445,"lat":27.57428},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"2","entryIndex":"9","entryText":"新化南","lng":111.16103,"lat":27.65578},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"3","entryIndex":"10","entryText":"娄底南","lng":112.01392,"lat":27.66294},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"3","entryIndex":"11","entryText":"DK16线路所","lng":112.0138705,"lat":27.610704},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"12","entryText":"娄底西","lng":111.98008525,"lat":27.6604669999999},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"13","entryText":"DK16线路所","lng":112.0138705,"lat":27.610704},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"14","entryText":"双峰北","lng":112.013821,"lat":27.558468},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"15","entryText":"廉桥","lng":111.85084,"lat":27.30887},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"16","entryText":"邵东娄邵场","lng":111.74825,"lat":27.27431},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"17","entryText":"邵阳东娄邵场","lng":111.58194,"lat":27.22932},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"18","entryText":"邵阳娄邵场","lng":111.46108,"lat":27.21339},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"4","entryIndex":"19","entryText":"李家冲","lng":111.421436666666,"lat":27.1497399999999},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"5","entryIndex":"20","entryText":"双清","lng":111.534461,"lat":27.261422},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"5","entryIndex":"21","entryText":"邵阳娄邵场","lng":111.46108,"lat":27.21339},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"6","entryIndex":"22","entryText":"邵阳娄邵场","lng":111.46108,"lat":27.21339},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"6","entryIndex":"23","entryText":"邵阳怀邵衡场","lng":111.389643666666,"lat":27.212056},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"7","entryIndex":"24","entryText":"邵阳东娄邵场","lng":111.58194,"lat":27.22932},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"7","entryIndex":"25","entryText":"邵阳东怀邵衡场","lng":111.58194,"lat":27.22932},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"8","entryIndex":"26","entryText":"邵东娄邵场","lng":111.74825,"lat":27.27431},
+{"bureauCode":12,"ddtId":"111","ddtName":"长昆一台","queueIndex":"8","entryIndex":"27","entryText":"邵东怀邵衡场","lng":112.156439999999,"lat":27.6655633333333}
+   
+  ]
+}

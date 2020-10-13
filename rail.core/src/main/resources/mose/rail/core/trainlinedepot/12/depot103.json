@@ -1,0 +1,15 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"1","entryIndex":"1","entryText":"庆盛","lng":113.49159,"lat":22.86663},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"1","entryIndex":"2","entryText":"虎门","lng":113.672662,"lat":22.861477},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"1","entryIndex":"3","entryText":"光明城","lng":113.954517,"lat":22.732743},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"1","entryIndex":"4","entryText":"深圳北","lng":114.029378,"lat":22.60939},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"1","entryIndex":"5","entryText":"福田","lng":114.05696,"lat":22.538261},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"1","entryIndex":"6","entryText":"(香港方向)","lng":114.03696,"lat":22.4882609999999},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"2","entryIndex":"7","entryText":"(厦门方向)","lng":114.009378,"lat":22.55939},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"2","entryIndex":"8","entryText":"深圳北","lng":114.029378,"lat":22.60939},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"3","entryIndex":"9","entryText":"深圳北","lng":114.029378,"lat":22.60939},
+{"bureauCode":12,"ddtId":"103","ddtName":"深圳北枢纽台","queueIndex":"3","entryIndex":"10","entryText":"深圳动车运用所","lng":113.998298,"lat":22.635201}
+   
+  ]
+}

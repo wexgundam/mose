@@ -52,7 +52,7 @@ public class Station implements INetworkElement {
      */
     private String jurisdictionBureauName;
     /**
-     * 管辖行车调度台id Trainline Deport
+     * 管辖行车调度台id Trainline Depot
      */
     private int jurisdictionTdId;
     /**

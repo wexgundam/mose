@@ -1,0 +1,14 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"1","entryText":"太原南大西场","lng":112.60902,"lat":37.791051},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"2","entryText":"晋中","lng":112.64335,"lat":37.687},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"3","entryText":"太谷西","lng":112.50956,"lat":37.44812},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"4","entryText":"祁县东","lng":112.35699,"lat":37.32415},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"5","entryText":"平遥古城","lng":112.15017,"lat":37.15554},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"6","entryText":"介休东","lng":111.98742,"lat":37.05336},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"7","entryText":"灵石东","lng":111.91438,"lat":36.87985},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"8","entryText":"霍州东","lng":111.83734,"lat":36.56426},
+{"bureauCode":4,"ddtId":"32","ddtName":"大西二台","queueIndex":"1","entryIndex":"9","entryText":"洪洞西","lng":111.58187,"lat":36.25411}
+   
+  ]
+}

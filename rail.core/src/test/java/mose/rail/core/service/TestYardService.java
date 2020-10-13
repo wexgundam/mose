@@ -11,14 +11,14 @@ import mose.network.service.GridService;
 import mose.rail.core.dao.BureauDao;
 import mose.rail.core.dao.LinkDao;
 import mose.rail.core.dao.StationDao;
-import mose.rail.core.dao.TrainlineDeportDao;
+import mose.rail.core.dao.TrainlineDepotDao;
 import mose.rail.core.dao.YardDao;
 import mose.rail.core.modal.AdjoinStationYard;
 import mose.rail.core.modal.AdjoinYards;
 import mose.rail.core.modal.Bureau;
 import mose.rail.core.modal.Link;
 import mose.rail.core.modal.Station;
-import mose.rail.core.modal.TrainlineDeport;
+import mose.rail.core.modal.TrainlineDepot;
 import mose.rail.core.modal.Yard;
 import org.junit.Assert;
 import org.junit.Test;
@@ -60,8 +60,8 @@ import java.util.List;
                 NetworkElementService.class,
                 BureauService.class,
                 BureauDao.class,
-                TrainlineDeportService.class,
-                TrainlineDeportDao.class,
+                TrainlineDepotService.class,
+                TrainlineDepotDao.class,
                 StationService.class,
                 StationDao.class,
                 LinkService.class,
@@ -74,7 +74,7 @@ public class TestYardService {
     @Autowired
     private BureauService bureauService;
     @Autowired
-    private TrainlineDeportService trainlineDeportService;
+    private TrainlineDepotService trainlineDepotService;
     @Autowired
     private StationService stationService;
     @Autowired
@@ -184,14 +184,14 @@ public class TestYardService {
         bureauB.setAnchorPointsString("200@200;200@400;400@400;400@200");
         bureauService.addOne(bureauB);
 
-        TrainlineDeport trainlineDeportA = new TrainlineDeport();
-        trainlineDeportA.setAnchorPointsString("00@0;0@100;100@100;100@0");
-        trainlineDeportService.setJurisdiction(trainlineDeportA);
-        trainlineDeportService.addOne(trainlineDeportA);
-        TrainlineDeport trainlineDeportB = new TrainlineDeport();
-        trainlineDeportB.setAnchorPointsString("200@200;200@300;300@300;300@200");
-        trainlineDeportService.setJurisdiction(trainlineDeportB);
-        trainlineDeportService.addOne(trainlineDeportB);
+        TrainlineDepot trainlineDepotA = new TrainlineDepot();
+        trainlineDepotA.setAnchorPointsString("00@0;0@100;100@100;100@0");
+        trainlineDepotService.setJurisdiction(trainlineDepotA);
+        trainlineDepotService.addOne(trainlineDepotA);
+        TrainlineDepot trainlineDepotB = new TrainlineDepot();
+        trainlineDepotB.setAnchorPointsString("200@200;200@300;300@300;300@200");
+        trainlineDepotService.setJurisdiction(trainlineDepotB);
+        trainlineDepotService.addOne(trainlineDepotB);
 
         Station stationA = new Station();
         stationA.setGridGeometryType(Grid.GEOMETRY_TYPE_POLYGON);
@@ -226,12 +226,12 @@ public class TestYardService {
             Assert.assertEquals(1, yards.size());
             Assert.assertEquals(yardB, yards.get(0));
 
-            yards = yardService.getMany(trainlineDeportA);
+            yards = yardService.getMany(trainlineDepotA);
             Assert.assertFalse(yards.isEmpty());
             Assert.assertEquals(1, yards.size());
             Assert.assertEquals(yardA, yards.get(0));
 
-            yards = yardService.getMany(trainlineDeportB);
+            yards = yardService.getMany(trainlineDepotB);
             Assert.assertFalse(yards.isEmpty());
             Assert.assertEquals(1, yards.size());
             Assert.assertEquals(yardB, yards.get(0));
@@ -250,8 +250,8 @@ public class TestYardService {
             yardService.deleteOne(yardB);
             stationService.deleteOne(stationA);
             stationService.deleteOne(stationB);
-            trainlineDeportService.deleteOne(trainlineDeportA);
-            trainlineDeportService.deleteOne(trainlineDeportB);
+            trainlineDepotService.deleteOne(trainlineDepotA);
+            trainlineDepotService.deleteOne(trainlineDepotB);
             bureauService.deleteOne(bureauA);
             bureauService.deleteOne(bureauB);
         }

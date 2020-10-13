@@ -1,0 +1,28 @@
+{
+  "depots": [
+    {"bureauCode":1,"ddtId":"1","ddtName":"齐加台","lng":125.22094,"lat":49.18572},
+    {"bureauCode":1,"ddtId":"2","ddtName":"绥北台","lng":124.47387,"lat":47.77533},
+    {"bureauCode":1,"ddtId":"3","ddtName":"林东台","lng":130.28315,"lat":45.27782},
+    {"bureauCode":1,"ddtId":"4","ddtName":"牡佳台","lng":130.59144,"lat":45.75506},
+    {"bureauCode":1,"ddtId":"5","ddtName":"塔河台","lng":124.13846,"lat":50.41869},
+    {"bureauCode":1,"ddtId":"6","ddtName":"兰五台","lng":126.18603,"lat":45.21893},
+    {"bureauCode":1,"ddtId":"7","ddtName":"哈牡台","lng":128.591687,"lat":44.930492},
+    {"bureauCode":1,"ddtId":"8","ddtName":"佳富台","lng":134.402059,"lat":48.3443},
+    {"bureauCode":1,"ddtId":"9","ddtName":"滨洲四台","lng":119.742304,"lat":49.230436},
+    {"bureauCode":1,"ddtId":"10","ddtName":"滨洲二台","lng":121.343128,"lat":48.323048},
+    {"bureauCode":1,"ddtId":"12","ddtName":"哈佳一台","lng":127.017567,"lat":46.645316},
+    {"bureauCode":1,"ddtId":"13","ddtName":"平通台","lng":125.011871,"lat":46.598679},
+    {"bureauCode":1,"ddtId":"14","ddtName":"滨洲一台","lng":125.999018,"lat":46.078055},
+    {"bureauCode":1,"ddtId":"15","ddtName":"哈枢纽一台","lng":126.545804,"lat":45.671195},
+    {"bureauCode":1,"ddtId":"16","ddtName":"哈枢纽二台","lng":126.63112,"lat":45.760728},
+    {"bureauCode":1,"ddtId":"17","ddtName":"滨洲三台","lng":121.204389,"lat":47.984322},
+    {"bureauCode":1,"ddtId":"18","ddtName":"哈枢纽台","lng":126.31227,"lat":45.38355},
+    {"bureauCode":1,"ddtId":"25","ddtName":"牡绥台","lng":129.255165,"lat":43.946616},
+    {"bureauCode":1,"ddtId":"26","ddtName":"哈佳二台","lng":129.28365,"lat":47.13799},
+    {"bureauCode":1,"ddtId":"27","ddtName":"齐枢纽台","lng":123.82234,"lat":47.15517},
+    {"bureauCode":1,"ddtId":"30","ddtName":"哈齐客专台","lng":123.99564,"lat":47.340804},
+    {"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","lng":131.15012,"lat":44.4132},
+    {"bureauCode":1,"ddtId":"32","ddtName":"哈佳客专台","lng":130.40368,"lat":46.82252},
+    {"bureauCode":1,"ddtId":"33","ddtName":"哈牡客专台","lng":129.59176,"lat":44.59608}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entries": [
+ {"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"1","entryIndex":"1","entryText":"洪洞西","lng":111.58187,"lat":36.25411},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"1","entryIndex":"2","entryText":"临汾西","lng":111.46567,"lat":36.10204},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"1","entryIndex":"3","entryText":"襄汾西","lng":111.33741,"lat":35.83836},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"1","entryIndex":"4","entryText":"侯马西","lng":111.28822,"lat":35.60192},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"1","entryIndex":"5","entryText":"闻喜西","lng":111.17957,"lat":35.33672},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"1","entryIndex":"6","entryText":"运城北","lng":110.98401,"lat":35.09908},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"1","entryIndex":"7","entryText":"永济北","lng":110.42467,"lat":35.02761},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"2","entryIndex":"8","entryText":"运城北","lng":110.98401,"lat":35.09908},
+{"bureauCode":4,"ddtId":"33","ddtName":"大西三台","queueIndex":"2","entryIndex":"9","entryText":"运城北存车场","lng":110.98401,"lat":35.09908}
+   
+  ]
+}

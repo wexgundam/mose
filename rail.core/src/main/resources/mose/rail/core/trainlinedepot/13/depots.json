@@ -1,0 +1,26 @@
+{
+  "depots": [
+    {"bureauCode":15,"ddtId":"1","ddtName":"滩桂台","lng":111.04492,"lat":25.95531},
+    {"bureauCode":15,"ddtId":"2","ddtName":"牙洛台","lng":109.19028,"lat":24.40653},
+    {"bureauCode":15,"ddtId":"3","ddtName":"桂柳台","lng":109.85358,"lat":24.66831},
+    {"bureauCode":15,"ddtId":"4","ddtName":"柳金台","lng":109.244622,"lat":24.650066},
+    {"bureauCode":15,"ddtId":"5","ddtName":"柳黎台","lng":109.132936,"lat":23.194588},
+    {"bureauCode":15,"ddtId":"6","ddtName":"黎凭台","lng":106.7421,"lat":22.08025},
+    {"bureauCode":15,"ddtId":"7","ddtName":"陆湛茂台","lng":110.25807,"lat":22.30988},
+    {"bureauCode":15,"ddtId":"8","ddtName":"江百台","lng":106.65429,"lat":23.35299},
+    {"bureauCode":15,"ddtId":"9","ddtName":"百威台","lng":106.66432,"lat":23.88572},
+    {"bureauCode":15,"ddtId":"10","ddtName":"金麻台","lng":107.55816,"lat":24.9759},
+    {"bureauCode":15,"ddtId":"11","ddtName":"玉楠台","lng":111.33202,"lat":24.55242},
+    {"bureauCode":15,"ddtId":"12","ddtName":"支线台","lng":109.24121,"lat":23.73054},
+    {"bureauCode":15,"ddtId":"13","ddtName":"沿海一台","lng":108.61977,"lat":21.98388},
+    {"bureauCode":15,"ddtId":"14","ddtName":"沿海三台","lng":109.9938,"lat":22.23145},
+    {"bureauCode":15,"ddtId":"15","ddtName":"玉林枢纽台","lng":110.15707,"lat":22.59747},
+    {"bureauCode":15,"ddtId":"31","ddtName":"沿海二台","lng":109.12814,"lat":21.45288},
+    {"bureauCode":15,"ddtId":"32","ddtName":"永柳台","lng":110.28256,"lat":25.26107},
+    {"bureauCode":15,"ddtId":"33","ddtName":"柳州枢纽台","lng":109.387779,"lat":24.310907},
+    {"bureauCode":15,"ddtId":"34","ddtName":"南广CTC台","lng":111.46995,"lat":23.24581},
+    {"bureauCode":15,"ddtId":"35","ddtName":"柳南CTC台","lng":109.09212,"lat":23.21624},
+    {"bureauCode":15,"ddtId":"36","ddtName":"贵广台","lng":110.56798,"lat":24.95967},
+    {"bureauCode":15,"ddtId":"38","ddtName":"南昆客专台","lng":107.682508,"lat":23.174392}
+  ]
+}

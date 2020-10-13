@@ -1,0 +1,17 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"1","entryText":"商南","lng":110.90104,"lat":33.52628},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"2","entryText":"清油河","lng":110.88104,"lat":33.47628},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"3","entryText":"铁峪铺","lng":110.33422,"lat":33.63013},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"4","entryText":"丹凤","lng":110.35422,"lat":33.68013},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"5","entryText":"商镇","lng":110.1865,"lat":33.7508},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"6","entryText":"商洛","lng":110.01878,"lat":33.82147},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"7","entryText":"砚川","lng":109.84785,"lat":34.05817},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"8","entryText":"灞源","lng":109.67968,"lat":34.146159},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"9","entryText":"蔡家河","lng":109.63934,"lat":34.2440645},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"10","entryText":"桥南镇","lng":109.599,"lat":34.34197},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"11","entryText":"渭南西","lng":109.44113,"lat":34.4783},
+{"bureauCode":8,"ddtId":"1","ddtName":"宁西台","queueIndex":"1","entryIndex":"12","entryText":"零口","lng":109.35793,"lat":34.47566}
+   
+  ]
+}

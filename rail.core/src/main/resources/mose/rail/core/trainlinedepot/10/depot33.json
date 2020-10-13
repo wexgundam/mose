@@ -1,0 +1,10 @@
+{
+  "entries": [
+{"bureauCode":10,"ddtId":"33","ddtName":"合蚌高铁台","queueIndex":"1","entryIndex":"1","entryText":"蚌埠南","lng":117.44162,"lat":32.90204},
+{"bureauCode":10,"ddtId":"33","ddtName":"合蚌高铁台","queueIndex":"1","entryIndex":"2","entryText":"淮南东","lng":117.15075,"lat":32.64613},
+{"bureauCode":10,"ddtId":"33","ddtName":"合蚌高铁台","queueIndex":"1","entryIndex":"3","entryText":"水家湖(高速)","lng":117.169023,"lat":32.483299},
+{"bureauCode":10,"ddtId":"33","ddtName":"合蚌高铁台","queueIndex":"1","entryIndex":"4","entryText":"合肥北城","lng":117.25296,"lat":32.06331},
+{"bureauCode":10,"ddtId":"33","ddtName":"合蚌高铁台","queueIndex":"1","entryIndex":"5","entryText":"合肥","lng":117.317327,"lat":31.885665}
+    
+  ]
+}

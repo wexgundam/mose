@@ -1,0 +1,31 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"1","entryIndex":"1","entryText":"陈官营","lng":103.65965,"lat":36.08656},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"1","entryIndex":"2","entryText":"颖川堡","lng":103.62646,"lat":36.13119},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"1","entryIndex":"3","entryText":"石岗","lng":103.59325,"lat":36.12254},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"1","entryIndex":"4","entryText":"西固城","lng":103.59729,"lat":36.10841},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"2","entryIndex":"5","entryText":"兰州北下发场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"2","entryIndex":"6","entryText":"兰州北上发场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"2","entryIndex":"7","entryText":"兰州北上到场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"2","entryIndex":"8","entryText":"石岗","lng":103.59325,"lat":36.12254},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"2","entryIndex":"9","entryText":"西固城","lng":103.59729,"lat":36.10841},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"10","entryText":"福利区","lng":103.629651,"lat":36.095632},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"11","entryText":"西固城","lng":103.59729,"lat":36.10841},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"12","entryText":"坡底下","lng":103.51522,"lat":36.13715},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"13","entryText":"河口南","lng":103.4564,"lat":36.16352},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"14","entryText":"八盘峡","lng":103.41772,"lat":36.13915},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"15","entryText":"张家祠","lng":103.28292,"lat":36.16068},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"16","entryText":"花庄","lng":103.1673,"lat":36.19034},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"17","entryText":"水车湾","lng":102.9569,"lat":36.29029},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"3","entryIndex":"18","entryText":"海石湾","lng":102.864979,"lat":36.341029},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"4","entryIndex":"19","entryText":"坡底下","lng":103.51522,"lat":36.13715},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"4","entryIndex":"20","entryText":"兰州东川","lng":103.48581,"lat":36.150335},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"4","entryIndex":"21","entryText":"河口南","lng":103.4564,"lat":36.16352},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"4","entryIndex":"22","entryText":"周家庄线路所","lng":103.512953333333,"lat":36.193964},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"5","entryIndex":"23","entryText":"兰州北下发场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"5","entryIndex":"24","entryText":"兰州北上发场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"5","entryIndex":"25","entryText":"兰州北上到场","lng":103.65641,"lat":36.140921},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"5","entryIndex":"26","entryText":"周家庄线路所","lng":103.512953333333,"lat":36.193964},
+{"bureauCode":16,"ddtId":"4","ddtName":"西枢纽台","queueIndex":"5","entryIndex":"27","entryText":"大路","lng":103.42605,"lat":36.277451}   
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "entries": [
+ {"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"1","entryIndex":"1","entryText":"传流店","lng":115.215989999999,"lat":32.05916},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"1","entryIndex":"2","entryText":"潢川","lng":115.10272,"lat":32.11177},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"1","entryIndex":"3","entryText":"潢川北","lng":115.03975,"lat":32.16482},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"4","entryText":"淮滨","lng":115.41209,"lat":32.50148},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"5","entryText":"台头","lng":115.320296,"lat":32.3795115},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"6","entryText":"吕店","lng":115.228502,"lat":32.257543},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"7","entryText":"潢川","lng":115.10272,"lat":32.11177},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"8","entryText":"光山","lng":114.96538,"lat":31.97729},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"9","entryText":"泼河","lng":114.9271305,"lat":31.810065},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"10","entryText":"新县","lng":114.888881,"lat":31.64284},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"11","entryText":"泗店","lng":114.868881,"lat":31.59284},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"12","entryText":"西张店","lng":114.9060305,"lat":31.344625},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"13","entryText":"罗铺","lng":114.94318,"lat":31.09641},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"14","entryText":"麻城","lng":114.96318,"lat":31.14641},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"2","entryIndex":"15","entryText":"周铁岗","lng":114.96318,"lat":31.14641},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"16","entryText":"麻城","lng":114.96318,"lat":31.14641},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"17","entryText":"中驿","lng":114.96318,"lat":31.14641},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"18","entryText":"宋埠","lng":114.94318,"lat":31.09641},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"19","entryText":"红安","lng":114.61191,"lat":30.9538899999999},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"20","entryText":"甘露山","lng":114.32056,"lat":30.83708},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"21","entryText":"黄陂","lng":114.34056,"lat":30.88708},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"22","entryText":"姜家线路所","lng":114.324439,"lat":30.842044},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"23","entryText":"武汉北一场","lng":114.3383095,"lat":30.784042},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"24","entryText":"武汉北六场","lng":114.34524475,"lat":30.755041},
+{"bureauCode":7,"ddtId":"7","ddtName":"京九一台","queueIndex":"3","entryIndex":"25","entryText":"武汉北三场","lng":114.3383095,"lat":30.784042}   
+  ]
+}

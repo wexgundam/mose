@@ -1,0 +1,38 @@
+{
+  "entries": [
+  {"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"1","entryText":"长春高速场","lng":125.4748728,"lat":43.9438995999999},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"2","entryText":"长春","lng":125.324568,"lat":43.911206},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"3","entryText":"长春北站一场","lng":125.34824,"lat":43.96131},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"4","entryText":"长春北站二场","lng":125.34824,"lat":43.96131},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"5","entryText":"长春北站三场","lng":125.34824,"lat":43.96131},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"6","entryText":"长春北站五场","lng":125.34824,"lat":43.96131},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"7","entryText":"小合隆","lng":125.268894,"lat":44.034647},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"8","entryText":"开安","lng":125.20538,"lat":44.16616},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"9","entryText":"华家","lng":125.14644,"lat":44.29228},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"10","entryText":"农安","lng":125.161237,"lat":44.435009},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"11","entryText":"哈拉海","lng":125.08829,"lat":44.67526},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"12","entryText":"王府","lng":125.00719,"lat":44.87387},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"13","entryText":"七家子","lng":124.93665,"lat":45.04805},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"14","entryText":"松原","lng":124.81726,"lat":45.10941},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"15","entryText":"松西","lng":124.68268,"lat":45.1989449999999},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"16","entryText":"查干湖","lng":124.5481,"lat":45.28848},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"17","entryText":"长山屯","lng":124.46922,"lat":45.31402},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"18","entryText":"大安","lng":124.28254,"lat":45.48358},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"19","entryText":"大安北","lng":124.23854,"lat":45.51711},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"20","entryText":"大安西","lng":124.092625,"lat":45.52252},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"21","entryText":"两家","lng":123.94671,"lat":45.52793},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"22","entryText":"安广","lng":123.77855,"lat":45.57531},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"23","entryText":"舍力","lng":123.475055,"lat":45.586925},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"24","entryText":"到保","lng":123.17156,"lat":45.59854},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"1","entryIndex":"25","entryText":"白城","lng":122.86238,"lat":45.61722},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"26","entryText":"白城","lng":122.86238,"lat":45.61722},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"27","entryText":"白城北","lng":122.794943333333,"lat":45.65113},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"28","entryText":"平台","lng":122.66007,"lat":45.71895},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"29","entryText":"镇西","lng":122.40783,"lat":45.84173},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"30","entryText":"葛根庙","lng":122.28865,"lat":45.90549},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"31","entryText":"宁家","lng":122.175985,"lat":45.98825},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"32","entryText":"乌兰浩特","lng":122.06332,"lat":46.07101},
+{"bureauCode":2,"ddtId":"4","ddtName":"长白乌台","queueIndex":"2","entryIndex":"33","entryText":"乌兰浩特北","lng":121.89655,"lat":46.1359099999999}
+  
+  ]
+}

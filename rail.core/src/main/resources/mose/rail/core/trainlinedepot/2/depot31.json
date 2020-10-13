@@ -1,0 +1,22 @@
+{
+  "entries": [
+ {"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"1","entryText":"铁岭西","lng":123.67363,"lat":42.23258},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"2","entryText":"开原西","lng":123.91957,"lat":42.54967},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"3","entryText":"昌图西","lng":124.0674,"lat":42.7777},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"4","entryText":"四平东","lng":124.438031,"lat":43.138769},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"5","entryText":"公主岭南","lng":124.81621,"lat":43.47328},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"6","entryText":"长春西","lng":125.201111,"lat":43.876484},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"7","entryText":"崔家营子线路所","lng":125.359616,"lat":44.099469},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"8","entryText":"德惠西","lng":125.676626,"lat":44.545439},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"1","entryIndex":"9","entryText":"扶余北","lng":126.00262,"lat":45.00862},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"2","entryIndex":"10","entryText":"长春动车所","lng":125.181111,"lat":43.826484},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"2","entryIndex":"11","entryText":"长春西","lng":125.201111,"lat":43.876484},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"2","entryIndex":"12","entryText":"崔家营子线路所","lng":125.359616,"lat":44.099469},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"2","entryIndex":"13","entryText":"杨家粉坊线路所","lng":125.4172444,"lat":44.0216843},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"2","entryIndex":"14","entryText":"长春高速场","lng":125.4748728,"lat":43.9438995999999},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"2","entryIndex":"15","entryText":"龙嘉","lng":125.70033,"lat":43.99294},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"3","entryIndex":"16","entryText":"长春高速场","lng":125.4748728,"lat":43.9438995999999},
+{"bureauCode":2,"ddtId":"31","ddtName":"哈大一台","queueIndex":"3","entryIndex":"17","entryText":"长春","lng":125.324568,"lat":43.911206}
+   
+  ]
+}

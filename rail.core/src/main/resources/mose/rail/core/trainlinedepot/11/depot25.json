@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"1","entryIndex":"1","entryText":"南昌西动车二所","lng":115.742203,"lat":28.653946},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"1","entryIndex":"2","entryText":"南昌西动车一所","lng":115.742203,"lat":28.653946},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"1","entryIndex":"3","entryText":"南昌西城际场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"1","entryIndex":"4","entryText":"南昌西高速场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"2","entryIndex":"5","entryText":"南昌西动车二所","lng":115.742203,"lat":28.653946},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"2","entryIndex":"6","entryText":"南昌西动车一所","lng":115.742203,"lat":28.653946},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"2","entryIndex":"7","entryText":"南昌西高速场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"3","entryIndex":"8","entryText":"乐化城际场","lng":115.870831,"lat":28.814361},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"3","entryIndex":"9","entryText":"农大线路所","lng":115.844816,"lat":28.7503946666666},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"3","entryIndex":"10","entryText":"南昌西城际场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"3","entryIndex":"11","entryText":"东村线路所","lng":115.931488666666,"lat":28.4038606666666},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"3","entryIndex":"12","entryText":"三江镇","lng":116.00084,"lat":28.29456},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"4","entryIndex":"13","entryText":"东村线路所","lng":115.931488666666,"lat":28.4038606666666},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"4","entryIndex":"14","entryText":"朴树线路所","lng":115.891404111111,"lat":28.3244807777777},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"5","entryIndex":"15","entryText":"南昌西城际场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"5","entryIndex":"16","entryText":"南昌西高速场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"6","entryIndex":"17","entryText":"南昌西城际场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"6","entryIndex":"18","entryText":"向莆线路所","lng":115.589413,"lat":28.546191},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"7","entryIndex":"19","entryText":"抚州东","lng":116.61633,"lat":28.26038},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"7","entryIndex":"20","entryText":"进贤南","lng":116.23496,"lat":28.33736},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"7","entryIndex":"21","entryText":"横岗线路所","lng":115.9821615,"lat":28.4906804999999},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"7","entryIndex":"22","entryText":"南昌西高速场","lng":115.792786,"lat":28.622462},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"7","entryIndex":"23","entryText":"向莆线路所","lng":115.589413,"lat":28.546191},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"7","entryIndex":"24","entryText":"高安","lng":115.38604,"lat":28.46992},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"8","entryIndex":"25","entryText":"横岗线路所","lng":115.9821615,"lat":28.4906804999999},
+{"bureauCode":11,"ddtId":"25","ddtName":"南昌西枢纽台","queueIndex":"8","entryIndex":"26","entryText":"横岗","lng":115.95045,"lat":28.50145}   
+  ]
+}

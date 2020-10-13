@@ -1,0 +1,31 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"1","entryIndex":"0","entryText":"独流","lng":116.95711,"lat":39.0199},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"1","entryIndex":"1","entryText":"张家窝","lng":116.977524999999,"lat":39.042255},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"2","entryText":"周李庄","lng":116.99794,"lat":39.06461},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"3","entryText":"张家窝","lng":116.977524999999,"lat":39.042255},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"4","entryText":"青凝侯","lng":116.957524999999,"lat":38.992255},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"6","entryText":"万家码头","lng":117.38305,"lat":38.8328},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"7","entryText":"新北大港","lng":117.471506666666,"lat":38.9170433333333},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"8","entryText":"咸水沽","lng":117.46406,"lat":38.9772},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"9","entryText":"民生村","lng":117.46181,"lat":39.1199475},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"10","entryText":"金耀线路所","lng":117.46106,"lat":39.16753},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"2","entryIndex":"11","entryText":"北塘西","lng":117.116389333333,"lat":39.4126206666666},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"3","entryIndex":"12","entryText":"山岭子","lng":117.46106,"lat":39.16753},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"3","entryIndex":"13","entryText":"胡张庄线路所","lng":117.46106,"lat":39.16753},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"3","entryIndex":"14","entryText":"金耀线路所","lng":117.46106,"lat":39.16753},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"3","entryIndex":"15","entryText":"民生村","lng":117.46181,"lat":39.1199475},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"3","entryIndex":"16","entryText":"十三冶线路所","lng":117.521739,"lat":39.0891133333333},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"3","entryIndex":"17","entryText":"军粮城","lng":117.47287425,"lat":39.0911174999999},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"4","entryIndex":"18","entryText":"新北大港","lng":117.471506666666,"lat":38.9170433333333},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"4","entryIndex":"19","entryText":"官港","lng":117.56741,"lat":38.94113},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"4","entryIndex":"20","entryText":"咸水沽","lng":117.46406,"lat":38.9772},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"4","entryIndex":"21","entryText":"邓善沽","lng":117.61089,"lat":38.97558},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"4","entryIndex":"22","entryText":"东大沽","lng":117.67177,"lat":38.97216},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"4","entryIndex":"23","entryText":"南疆港","lng":117.65177,"lat":38.92216},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"5","entryIndex":"24","entryText":"东大沽","lng":117.67177,"lat":38.97216},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"5","entryIndex":"25","entryText":"南疆港线路所","lng":117.65177,"lat":38.92216},
+{"bureauCode":3,"ddtId":"23","ddtName":"南环列调","queueIndex":"5","entryIndex":"26","entryText":"南疆港","lng":117.65177,"lat":38.92216}
+   
+  ]
+}

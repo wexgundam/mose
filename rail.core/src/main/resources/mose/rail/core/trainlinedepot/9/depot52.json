@@ -1,0 +1,21 @@
+{
+  "entries": [
+  {"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"1","entryIndex":"1","entryText":"济南动车所","lng":116.87292,"lat":36.6189},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"1","entryIndex":"2","entryText":"济南西","lng":116.89292,"lat":36.6689},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"3","entryText":"德州东","lng":116.46214,"lat":37.4097},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"4","entryText":"黄河南线路所","lng":116.749326666666,"lat":36.9158333333333},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"5","entryText":"济南西","lng":116.89292,"lat":36.6689},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"6","entryText":"崔马庄","lng":116.940226666666,"lat":36.5032166666666},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"7","entryText":"泰安","lng":117.03484,"lat":36.17185},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"8","entryText":"曲阜东京沪场","lng":117.06901,"lat":35.55643},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"9","entryText":"滕州东","lng":117.25768,"lat":35.09054},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"10","entryText":"枣庄","lng":117.30631,"lat":34.78026},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"2","entryIndex":"11","entryText":"徐州东京沪场","lng":117.30386,"lat":34.26747},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"3","entryIndex":"11","entryText":"济南","lng":116.990884,"lat":36.670931},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"3","entryIndex":"12","entryText":"济南","lng":116.990884,"lat":36.670931},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"3","entryIndex":"13","entryText":"白马山","lng":116.973749666666,"lat":36.6564396666666},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"3","entryIndex":"14","entryText":"崔马庄","lng":116.940226666666,"lat":36.5032166666666},
+{"bureauCode":9,"ddtId":"52","ddtName":"京沪高铁列调台","queueIndex":"3","entryIndex":"15","entryText":"济南西","lng":116.89292,"lat":36.6689}
+  
+  ]
+}

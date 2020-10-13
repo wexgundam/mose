@@ -1,0 +1,16 @@
+{
+  "entries": [
+ {"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"1","entryText":"古店","lng":113.305915,"lat":40.173869},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"2","entryText":"孤山","lng":113.33133,"lat":40.22698},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"3","entryText":"堡子湾","lng":113.27711,"lat":40.36041},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"4","entryText":"丰镇","lng":113.16337,"lat":40.43518},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"5","entryText":"新安庄","lng":113.23084,"lat":40.531526},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"6","entryText":"红砂坝","lng":113.210639,"lat":40.682799},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"7","entryText":"土贵乌拉","lng":113.20541,"lat":40.78584},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"8","entryText":"苏集","lng":113.11406,"lat":40.90018},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"9","entryText":"古营盘","lng":113.10573,"lat":40.94509},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"10","entryText":"集宁南","lng":113.09919,"lat":41.03145},
+{"bureauCode":5,"ddtId":"1","ddtName":"集大台","queueIndex":"1","entryIndex":"11","entryText":"集宁","lng":113.105598,"lat":41.043085}
+   
+  ]
+}

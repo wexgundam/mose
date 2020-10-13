@@ -1,0 +1,29 @@
+{
+  "entries": [
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"1","entryText":"南京","lng":118.797697,"lat":32.086866},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"2","entryText":"兴卫村","lng":118.858079,"lat":32.104513},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"3","entryText":"南京动车所","lng":118.817824333333,"lat":32.0927483333333},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"4","entryText":"南京城际场","lng":118.797697,"lat":32.086866},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"5","entryText":"仙林线路所","lng":118.8554915,"lat":32.1048825},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"6","entryText":"仙林","lng":118.913286,"lat":32.122899},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"7","entryText":"宝华山","lng":119.05559,"lat":32.14888},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"8","entryText":"镇江城际场","lng":119.43297,"lat":32.19852},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"9","entryText":"丹徒","lng":119.52097,"lat":32.11552},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"10","entryText":"丹阳城际场","lng":119.59209,"lat":32.00191},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"11","entryText":"常州城际场","lng":119.97314,"lat":31.785143},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"12","entryText":"常州存车场","lng":119.97314,"lat":31.785143},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"13","entryText":"戚墅堰城际场","lng":120.067887,"lat":31.722827},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"14","entryText":"惠山","lng":120.20186,"lat":31.670721},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"15","entryText":"无锡城际场","lng":120.30669,"lat":31.58792},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"16","entryText":"无锡新区","lng":120.392182,"lat":31.497837},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"17","entryText":"苏州新区","lng":120.52456,"lat":31.37207},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"18","entryText":"苏州城际场","lng":120.86315,"lat":31.38126},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"19","entryText":"苏州存车场","lng":120.610815,"lat":31.329503},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"20","entryText":"苏州园区","lng":120.710863,"lat":31.340933},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"21","entryText":"阳澄湖","lng":120.86185,"lat":31.38015},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"22","entryText":"昆山南城际场","lng":120.957464,"lat":31.36591},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"23","entryText":"花桥","lng":121.046559,"lat":31.335905},
+{"bureauCode":10,"ddtId":"12","ddtName":"沪宁城际","queueIndex":"1","entryIndex":"24","entryText":"安亭北","lng":121.158331,"lat":31.314398}
+    
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "entries": [
+ {"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"0","entryText":"马头","lng":114.42707,"lat":36.47638},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"1","entryText":"七公里","lng":114.364105,"lat":36.47371},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"2","entryText":"新坡","lng":114.30114,"lat":36.47104},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"3","entryText":"峰峰","lng":114.22458,"lat":36.47188},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"4","entryText":"临水","lng":114.24275,"lat":36.4337},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"5","entryText":"彭城","lng":114.17981,"lat":36.43333},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"6","entryText":"义井","lng":114.1546905,"lat":36.495141},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"7","entryText":"和村","lng":114.129571,"lat":36.556952},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"1","entryIndex":"8","entryText":"磁山","lng":114.11815,"lat":36.59751},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"9","entryText":"邯郸南一场","lng":114.4561,"lat":36.55524},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"10","entryText":"邯郸南二场","lng":114.4561,"lat":36.55524},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"11","entryText":"邯郸南四场","lng":114.4561,"lat":36.55524},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"12","entryText":"邯郸","lng":114.47623,"lat":36.60308},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"13","entryText":"邯郸西场","lng":114.47623,"lat":36.60308},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"14","entryText":"林村","lng":114.41277,"lat":36.620281},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"15","entryText":"康城","lng":114.28951,"lat":36.66153},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"16","entryText":"武安","lng":114.212121,"lat":36.676482},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"17","entryText":"午汲","lng":114.1542,"lat":36.65247},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"18","entryText":"磁山","lng":114.11815,"lat":36.59751},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"2","entryIndex":"19","entryText":"徘徊北","lng":114.0419,"lat":36.618222},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"3","entryIndex":"20","entryText":"上水头","lng":114.1456465,"lat":36.787192},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"3","entryIndex":"21","entryText":"南营井","lng":114.106231,"lat":36.745461},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"3","entryIndex":"22","entryText":"上泉","lng":114.130215499999,"lat":36.6989655},
+{"bureauCode":3,"ddtId":"16","ddtName":"邯长一台","queueIndex":"3","entryIndex":"23","entryText":"午汲","lng":114.1542,"lat":36.65247}
+   
+  ]
+}

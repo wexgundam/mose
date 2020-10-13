@@ -1,0 +1,17 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"1","entryIndex":"1","entryText":"柳家营","lng":103.63965,"lat":36.03656},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"1","entryIndex":"2","entryText":"陈官营","lng":103.65965,"lat":36.08656},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"3","entryText":"兰州","lng":103.851122,"lat":36.034804},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"4","entryText":"兰州西普速场","lng":103.752453,"lat":36.068717},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"5","entryText":"陈官营","lng":103.65965,"lat":36.08656},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"6","entryText":"福利区","lng":103.629651,"lat":36.095632},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"7","entryText":"西固","lng":103.60599,"lat":36.10345},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"8","entryText":"黄羊头线路所","lng":103.61236,"lat":36.286465},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"9","entryText":"兰州新区","lng":103.61873,"lat":36.46948},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"2","entryIndex":"10","entryText":"中川机场","lng":103.616369,"lat":36.504108},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"3","entryIndex":"11","entryText":"兰州西普速场","lng":103.752453,"lat":36.068717},
+{"bureauCode":16,"ddtId":"34","ddtName":"中川台","queueIndex":"3","entryIndex":"12","entryText":"兰州西动车所","lng":103.690853,"lat":36.066366}
+   
+  ]
+}

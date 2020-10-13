@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"1","entryText":"牡中信号","lng":129.604956666666,"lat":44.5845508333333},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"2","entryText":"牡丹江","lng":129.612842,"lat":44.590847},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"3","entryText":"爱河","lng":129.69943,"lat":44.58086},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"4","entryText":"磨刀石","lng":129.86868,"lat":44.56205},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"5","entryText":"穆棱","lng":130.36073,"lat":44.61306},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"6","entryText":"下城子","lng":130.448107,"lat":44.671641},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"7","entryText":"细鳞河","lng":130.75827,"lat":44.493},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"8","entryText":"绥阳","lng":130.900126,"lat":44.427743},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"9","entryText":"绥阳南","lng":131.020478,"lat":44.4168715},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"10","entryText":"绥芬河北场","lng":131.14083,"lat":44.406},
+{"bureauCode":1,"ddtId":"31","ddtName":"牡绥客专台","queueIndex":"1","entryIndex":"11","entryText":"绥芬河南场","lng":131.14083,"lat":44.406}
+
+  ]
+}

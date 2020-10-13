@@ -1,0 +1,36 @@
+{
+  "entries": [
+   {"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"1","entryIndex":"1","entryText":"金州下编发场","lng":121.727289,"lat":39.08793},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"1","entryIndex":"2","entryText":"金州上到达场","lng":121.727289,"lat":39.08793},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"1","entryIndex":"3","entryText":"金州客场","lng":121.727289,"lat":39.08793},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"1","entryIndex":"4","entryText":"金州东门","lng":121.726458,"lat":39.112535},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"1","entryIndex":"5","entryText":"闫家楼线路所","lng":121.757071,"lat":39.1377},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"6","entryText":"大连北高速场","lng":121.6839038,"lat":39.0936504},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"7","entryText":"金州客场","lng":121.727289,"lat":39.08793},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"8","entryText":"闫家楼线路所","lng":121.757071,"lat":39.1377},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"9","entryText":"广宁寺","lng":121.84782,"lat":39.17928},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"10","entryText":"登沙河","lng":122.06891,"lat":39.22227},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"11","entryText":"杏树屯","lng":122.155489,"lat":39.264436},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"12","entryText":"皮口","lng":122.33994,"lat":39.43124},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"13","entryText":"城子坦","lng":122.47783,"lat":39.49546},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"14","entryText":"花园口","lng":122.6173,"lat":39.55222},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"15","entryText":"庄河西","lng":122.86163,"lat":39.66293},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"16","entryText":"庄河北","lng":122.93718,"lat":39.72844},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"17","entryText":"兰店","lng":123.02474,"lat":39.76954},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"18","entryText":"青堆","lng":123.22743,"lat":39.84347},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"19","entryText":"大孤山","lng":123.58743,"lat":39.93408},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"20","entryText":"北井子","lng":123.90702,"lat":39.9003},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"21","entryText":"东港北","lng":124.13079,"lat":39.9104},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"22","entryText":"前阳南","lng":124.21911,"lat":39.969},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"23","entryText":"丹东西","lng":124.26327,"lat":39.9983},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"24","entryText":"同兴","lng":124.331485833333,"lat":40.123295},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"25","entryText":"金山湾","lng":124.358215,"lat":40.20627},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"2","entryIndex":"26","entryText":"丹东","lng":124.38773,"lat":40.12436},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"3","entryIndex":"27","entryText":"东港分区车场","lng":124.21911,"lat":39.969},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"3","entryIndex":"28","entryText":"石佛河线路所","lng":124.21911,"lat":39.969},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"3","entryIndex":"29","entryText":"前阳南","lng":124.21911,"lat":39.969},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"4","entryIndex":"30","entryText":"登沙河","lng":122.06891,"lat":39.22227},
+{"bureauCode":2,"ddtId":"46","ddtName":"丹大台","queueIndex":"4","entryIndex":"31","entryText":"杏树屯","lng":122.155489,"lat":39.264436}
+ 
+  ]
+}

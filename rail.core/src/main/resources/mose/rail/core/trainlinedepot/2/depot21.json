@@ -1,0 +1,24 @@
+{
+  "entries": [
+ {"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"1","entryIndex":"1","entryText":"天桥","lng":120.98239,"lat":40.8728333333333},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"1","entryIndex":"2","entryText":"高桥镇","lng":121.00562,"lat":40.89884},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"3","entryText":"葫芦岛","lng":120.86776,"lat":40.75452},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"4","entryText":"塔山","lng":120.93593,"lat":40.82082},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"5","entryText":"高桥镇","lng":121.00562,"lat":40.89884},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"6","entryText":"女儿河","lng":121.044262,"lat":41.067684},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"7","entryText":"桃园","lng":121.08616,"lat":41.102864},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"8","entryText":"锦州","lng":121.140855,"lat":41.125142},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"9","entryText":"锦州下直通场","lng":121.140855,"lat":41.125142},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"10","entryText":"锦州上直通场","lng":121.140855,"lat":41.125142},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"11","entryText":"双羊店","lng":121.27394,"lat":41.1128},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"12","entryText":"凌海","lng":121.362579,"lat":41.181458},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"13","entryText":"红旗","lng":121.4489245,"lat":41.207049},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"2","entryIndex":"14","entryText":"石山","lng":121.53527,"lat":41.23264},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"3","entryIndex":"15","entryText":"锦州","lng":121.140855,"lat":41.125142},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"3","entryIndex":"16","entryText":"薛家","lng":121.1626846,"lat":41.1578605999999},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"4","entryIndex":"17","entryText":"南票","lng":120.73545,"lat":41.12112},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"4","entryIndex":"18","entryText":"何三家","lng":120.9759,"lat":41.0561},
+{"bureauCode":2,"ddtId":"21","ddtName":"沈山二台","queueIndex":"4","entryIndex":"19","entryText":"女儿河","lng":121.044262,"lat":41.067684}
+   
+  ]
+}

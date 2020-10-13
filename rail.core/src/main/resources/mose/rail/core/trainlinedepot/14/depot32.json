@@ -1,0 +1,30 @@
+{
+  "entries": [
+ {"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"1","entryIndex":"0","entryText":"石子山","lng":106.277741,"lat":29.959942},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"1","entryIndex":"1","entryText":"东阳","lng":106.45227,"lat":29.826199},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"2","entryIndex":"2","entryText":"三汇坝","lng":106.5818,"lat":30.058},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"2","entryIndex":"3","entryText":"磨心坡","lng":106.47258,"lat":29.85006},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"2","entryIndex":"4","entryText":"黄桷线路所","lng":106.47258,"lat":29.85006},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"3","entryIndex":"5","entryText":"磨心坡","lng":106.47258,"lat":29.85006},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"3","entryIndex":"6","entryText":"东阳","lng":106.45227,"lat":29.826199},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"3","entryIndex":"7","entryText":"北碚","lng":106.43196,"lat":29.802338},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"3","entryIndex":"8","entryText":"兴隆场","lng":106.386641,"lat":29.701082},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"4","entryIndex":"9","entryText":"兴隆场","lng":106.386641,"lat":29.701082},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"4","entryIndex":"10","entryText":"团结村","lng":106.37934,"lat":29.63956},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"4","entryIndex":"11","entryText":"白市驿","lng":106.37765,"lat":29.48306},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"5","entryIndex":"12","entryText":"兴隆场","lng":106.386641,"lat":29.701082},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"5","entryIndex":"13","entryText":"唐家沱","lng":106.638828,"lat":29.610926},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"5","entryIndex":"14","entryText":"胡豆堡","lng":106.673335333333,"lat":29.623851},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"15","entryText":"重庆北渝怀场","lng":106.60949,"lat":29.6103509999999},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"16","entryText":"唐家沱","lng":106.638828,"lat":29.610926},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"17","entryText":"鱼嘴","lng":106.736117,"lat":29.616097},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"18","entryText":"洛碛","lng":106.923935,"lat":29.721966},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"19","entryText":"长寿","lng":106.966398,"lat":29.78911},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"20","entryText":"王家坝","lng":107.073999,"lat":29.728135},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"21","entryText":"蔺市","lng":107.1816,"lat":29.66716},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"22","entryText":"涪陵西","lng":107.2751,"lat":29.70162},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"6","entryIndex":"23","entryText":"涪陵","lng":107.333917,"lat":29.699366},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"7","entryIndex":"24","entryText":"鱼嘴","lng":106.736117,"lat":29.616097},
+{"bureauCode":14,"ddtId":"32","ddtName":"重庆3台","queueIndex":"7","entryIndex":"25","entryText":"果园港区","lng":106.716117,"lat":29.566097}   
+  ]
+}

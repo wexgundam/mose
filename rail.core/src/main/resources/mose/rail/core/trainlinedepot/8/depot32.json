@@ -1,0 +1,20 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"1","entryIndex":"1","entryText":"西峡所","lng":111.49207,"lat":33.22116},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"1","entryIndex":"2","entryText":"西峡","lng":111.51207,"lat":33.27116},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"2","entryIndex":"3","entryText":"屈原岗","lng":111.6324165,"lat":32.930895},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"2","entryIndex":"4","entryText":"西峡东","lng":111.6524165,"lat":32.980895},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"5","entryText":"灵宝东","lng":110.993098,"lat":34.642713},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"6","entryText":"洛宁西","lng":110.973098,"lat":34.592713},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"7","entryText":"卢氏","lng":111.43207,"lat":33.07116},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"8","entryText":"五里川","lng":111.45207,"lat":33.12116},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"9","entryText":"重阳西","lng":111.47207,"lat":33.17116},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"10","entryText":"西峡所","lng":111.49207,"lat":33.22116},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"11","entryText":"西峡东","lng":111.6524165,"lat":32.980895},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"12","entryText":"内乡西","lng":111.812763,"lat":32.74063},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"13","entryText":"淅川东","lng":111.832763,"lat":32.79063},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"14","entryText":"邓州西","lng":112.032146,"lat":32.609769},
+{"bureauCode":8,"ddtId":"32","ddtName":"浩吉三台","queueIndex":"3","entryIndex":"15","entryText":"构林南","lng":112.012146,"lat":32.559769}
+   
+  ]
+}

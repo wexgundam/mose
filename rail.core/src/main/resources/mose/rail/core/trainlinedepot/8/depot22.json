@@ -1,0 +1,14 @@
+{
+  "entries": [
+ {"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"1","entryIndex":"1","entryText":"咸阳西","lng":108.60144925,"lat":34.328062125},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"1","entryIndex":"2","entryText":"茂陵东辅助所","lng":108.360027,"lat":34.2924984999999},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"2","entryIndex":"3","entryText":"西安北郑西场","lng":108.938544,"lat":34.37617},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"2","entryIndex":"4","entryText":"咸阳秦都","lng":108.66685,"lat":34.33163},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"2","entryIndex":"5","entryText":"茂陵东辅助所","lng":108.360027,"lat":34.2924984999999},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"2","entryIndex":"6","entryText":"杨陵南","lng":108.053204,"lat":34.253367},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"2","entryIndex":"7","entryText":"岐山","lng":107.61281,"lat":34.27406},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"2","entryIndex":"8","entryText":"宝鸡南","lng":107.2323,"lat":34.33403},
+{"bureauCode":8,"ddtId":"22","ddtName":"西宝客专","queueIndex":"2","entryIndex":"9","entryText":"东岔","lng":106.53936,"lat":34.442455}
+   
+  ]
+}

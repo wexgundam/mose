@@ -1,0 +1,27 @@
+{
+  "entries": [
+ {"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"1","entryIndex":"1","entryText":"闽清北","lng":118.87229,"lat":26.29335},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"1","entryIndex":"2","entryText":"福州","lng":119.320117,"lat":26.113859},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"2","entryIndex":"3","entryText":"连江","lng":119.56704,"lat":26.19407},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"2","entryIndex":"4","entryText":"温福线路所","lng":119.56704,"lat":26.19407},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"2","entryIndex":"5","entryText":"樟林线路所","lng":119.500306666666,"lat":26.15625},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"3","entryIndex":"6","entryText":"江坂","lng":119.204811333333,"lat":26.1299933333333},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"3","entryIndex":"7","entryText":"杜坞","lng":119.240372,"lat":26.118065},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"4","entryIndex":"8","entryText":"永泰","lng":118.93366,"lat":25.84821},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"4","entryIndex":"9","entryText":"杜坞","lng":119.240372,"lat":26.118065},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"4","entryIndex":"10","entryText":"福州","lng":119.320117,"lat":26.113859},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"4","entryIndex":"11","entryText":"樟林Ⅰ场","lng":119.36684,"lat":26.08061},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"4","entryIndex":"12","entryText":"樟林Ⅲ场","lng":119.36684,"lat":26.08061},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"4","entryIndex":"13","entryText":"樟林线路所","lng":119.500306666666,"lat":26.15625},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"5","entryIndex":"14","entryText":"温福线路所","lng":119.56704,"lat":26.19407},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"5","entryIndex":"15","entryText":"樟林线路所","lng":119.500306666666,"lat":26.15625},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"5","entryIndex":"16","entryText":"福厦线路所","lng":119.445435333333,"lat":26.071095},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"5","entryIndex":"17","entryText":"福州南","lng":119.390564,"lat":25.98594},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"5","entryIndex":"18","entryText":"福清","lng":119.385389,"lat":25.675477},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"6","entryIndex":"19","entryText":"福州","lng":119.320117,"lat":26.113859},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"6","entryIndex":"20","entryText":"福州东","lng":119.33976,"lat":26.10149},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"6","entryIndex":"21","entryText":"樟林Ⅰ场","lng":119.36684,"lat":26.08061},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"6","entryIndex":"22","entryText":"魁岐","lng":119.37711,"lat":26.03193},
+{"bureauCode":11,"ddtId":"23","ddtName":"福州枢纽台","queueIndex":"6","entryIndex":"23","entryText":"马尾","lng":119.46059,"lat":25.98964}   
+  ]
+}

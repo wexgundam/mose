@@ -1,0 +1,32 @@
+{
+  "entries": [
+ {"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"1","entryIndex":"1","entryText":"邕宁","lng":108.53078,"lat":22.81843},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"1","entryIndex":"2","entryText":"五象南","lng":108.46442,"lat":22.8332099999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"1","entryIndex":"3","entryText":"那花线路所","lng":108.46442,"lat":22.8332099999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"1","entryIndex":"4","entryText":"玉洞","lng":108.36732,"lat":22.772145},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"5","entryText":"南宁东南钦场","lng":108.42049125,"lat":22.835081},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"6","entryText":"杨屋线路所","lng":108.442455625,"lat":22.8341454999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"7","entryText":"五象南","lng":108.46442,"lat":22.8332099999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"8","entryText":"那花线路所","lng":108.46442,"lat":22.8332099999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"9","entryText":"大塘","lng":108.52387,"lat":22.518405},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"10","entryText":"小董西","lng":108.58332,"lat":22.2036},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"11","entryText":"104线路所","lng":108.66347,"lat":22.1397233333333},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"12","entryText":"钦州北","lng":108.641392666666,"lat":22.0444544444444},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"13","entryText":"钦州普速","lng":108.630353999999,"lat":21.9968199999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"14","entryText":"钦州高速","lng":108.500171999999,"lat":21.881625},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"15","entryText":"防城","lng":108.36999,"lat":21.76643},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"16","entryText":"防城港北","lng":108.3763,"lat":21.71392},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"2","entryIndex":"17","entryText":"防城港","lng":108.36131,"lat":21.62694},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"18","entryText":"钦州北","lng":108.641392666666,"lat":22.0444544444444},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"19","entryText":"钦州普速","lng":108.630353999999,"lat":21.9968199999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"20","entryText":"钦州东普速","lng":108.66913,"lat":21.97938},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"21","entryText":"钦州东高速","lng":108.64913,"lat":21.92938},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"22","entryText":"大马","lng":109.167701,"lat":21.5723719999999},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"23","entryText":"旺乡岭","lng":109.187701,"lat":21.622372},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"24","entryText":"合浦","lng":109.187701,"lat":21.622372},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"25","entryText":"北海","lng":109.12814,"lat":21.45288},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"3","entryIndex":"26","entryText":"北海港前站","lng":109.10814,"lat":21.40288},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"4","entryIndex":"27","entryText":"防城港北","lng":108.3763,"lat":21.71392},
+{"bureauCode":13,"ddtId":"31","ddtName":"沿海二台","queueIndex":"4","entryIndex":"28","entryText":"皇城坳","lng":108.3763,"lat":21.71392}   
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"38","ddtName":"银兰一台","queueIndex":"1","entryIndex":"1","entryText":"吴忠","lng":106.252479,"lat":37.984663},
+{"bureauCode":16,"ddtId":"38","ddtName":"银兰一台","queueIndex":"1","entryIndex":"2","entryText":"红寺堡北","lng":106.062353,"lat":37.600473},
+{"bureauCode":16,"ddtId":"38","ddtName":"银兰一台","queueIndex":"1","entryIndex":"3","entryText":"中宁东高速场","lng":105.6208015,"lat":37.5364694999999},
+{"bureauCode":16,"ddtId":"38","ddtName":"银兰一台","queueIndex":"1","entryIndex":"4","entryText":"中卫南","lng":105.17925,"lat":37.472466},
+{"bureauCode":16,"ddtId":"38","ddtName":"银兰一台","queueIndex":"1","entryIndex":"5","entryText":"中卫南存车场","lng":105.15925,"lat":37.422466}
+  ]
+}

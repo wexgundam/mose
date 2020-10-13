@@ -1,0 +1,11 @@
+{
+  "entries": [
+ {"bureauCode":16,"ddtId":"32","ddtName":"兰新高铁一台","queueIndex":"1","entryIndex":"1","entryText":"浩门","lng":100.7989,"lat":38.3737},
+{"bureauCode":16,"ddtId":"32","ddtName":"兰新高铁一台","queueIndex":"1","entryIndex":"2","entryText":"军马场","lng":100.8189,"lat":38.4237},
+{"bureauCode":16,"ddtId":"32","ddtName":"兰新高铁一台","queueIndex":"1","entryIndex":"3","entryText":"民乐","lng":100.8389,"lat":38.4737},
+{"bureauCode":16,"ddtId":"32","ddtName":"兰新高铁一台","queueIndex":"1","entryIndex":"4","entryText":"张掖西","lng":100.42849,"lat":38.92347},
+{"bureauCode":16,"ddtId":"32","ddtName":"兰新高铁一台","queueIndex":"1","entryIndex":"5","entryText":"临泽南","lng":100.12437,"lat":39.13394},
+{"bureauCode":16,"ddtId":"32","ddtName":"兰新高铁一台","queueIndex":"1","entryIndex":"6","entryText":"高台南","lng":99.76947,"lat":39.29511},
+{"bureauCode":16,"ddtId":"32","ddtName":"兰新高铁一台","queueIndex":"1","entryIndex":"7","entryText":"清水北","lng":99.09807,"lat":39.37441}   
+  ]
+}

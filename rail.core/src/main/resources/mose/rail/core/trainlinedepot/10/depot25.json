@@ -1,0 +1,19 @@
+{
+  "entries": [
+ {"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"1","entryText":"杭长杭州南线路所","lng":120.188378571428,"lat":29.8933628571428},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"2","entryText":"富阳","lng":119.99113,"lat":30.00072},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"3","entryText":"桐庐","lng":119.732549,"lat":29.789007},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"4","entryText":"杨村桥线路所","lng":119.580115,"lat":29.6810135},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"5","entryText":"建德杭黄场","lng":119.427681,"lat":29.57302},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"6","entryText":"千岛湖","lng":119.19228,"lat":29.73553},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"7","entryText":"三阳","lng":118.80741,"lat":30.02711},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"8","entryText":"绩溪北杭黄场","lng":118.571478,"lat":30.07191},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"9","entryText":"绩溪北合福场","lng":118.571478,"lat":30.07191},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"10","entryText":"歙县北杭黄场","lng":118.41067,"lat":29.92216},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"11","entryText":"黄山北合福场","lng":118.27388,"lat":29.81557},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"1","entryIndex":"12","entryText":"黄山北杭黄场","lng":118.27388,"lat":29.81557},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"2","entryIndex":"13","entryText":"黄山北合福场","lng":118.27388,"lat":29.81557},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"2","entryIndex":"14","entryText":"黄山北杭黄场","lng":118.27388,"lat":29.81557},
+{"bureauCode":10,"ddtId":"25","ddtName":"杭黄高铁台","queueIndex":"2","entryIndex":"15","entryText":"黄山北动车存车场","lng":118.27388,"lat":29.81557}   
+  ]
+}

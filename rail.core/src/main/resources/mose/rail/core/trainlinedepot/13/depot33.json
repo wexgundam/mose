@@ -1,0 +1,22 @@
+{
+  "entries": [
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"1","entryIndex":"1","entryText":"鹧鸪江","lng":109.466725,"lat":24.3821799999999},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"1","entryIndex":"2","entryText":"青茅","lng":109.559753333333,"lat":24.5427599999999},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"2","entryIndex":"3","entryText":"鹿寨北","lng":109.65438,"lat":24.64032},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"2","entryIndex":"4","entryText":"青茅","lng":109.559753333333,"lat":24.5427599999999},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"2","entryIndex":"5","entryText":"柳州西","lng":109.3705,"lat":24.34764},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"2","entryIndex":"6","entryText":"柳州","lng":109.387779,"lat":24.310907},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"2","entryIndex":"7","entryText":"拉堡线路所","lng":109.3616995,"lat":24.2623785},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"3","entryIndex":"8","entryText":"太阳村","lng":109.27083,"lat":24.3642},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"3","entryIndex":"9","entryText":"柳州西","lng":109.3705,"lat":24.34764},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"3","entryIndex":"10","entryText":"柳州","lng":109.387779,"lat":24.310907},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"4","entryIndex":"11","entryText":"鹧鸪江","lng":109.466725,"lat":24.3821799999999},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"4","entryIndex":"12","entryText":"柳州北","lng":109.40841,"lat":24.32913},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"4","entryIndex":"13","entryText":"柳州","lng":109.387779,"lat":24.310907},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"4","entryIndex":"14","entryText":"柳州南一场","lng":109.3656,"lat":24.27814},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"4","entryIndex":"15","entryText":"柳州南五场","lng":109.347783166666,"lat":24.2675795},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"5","entryIndex":"16","entryText":"柳州","lng":109.387779,"lat":24.310907},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"5","entryIndex":"17","entryText":"柳州南六场","lng":109.363326875,"lat":24.286603125},
+{"bureauCode":13,"ddtId":"33","ddtName":"柳州枢纽台","queueIndex":"5","entryIndex":"18","entryText":"柳州南二场","lng":109.33887475,"lat":24.26229925}    
+  ]
+}

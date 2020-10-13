@@ -1,0 +1,26 @@
+{
+  "entries": [
+ {"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"1","entryIndex":"1","entryText":".","lng":112.47159,"lat":26.811},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"1","entryIndex":"2","entryText":"三塘","lng":112.49159,"lat":26.861},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"3","entryText":"三塘","lng":112.49159,"lat":26.861},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"4","entryText":"谭子山","lng":112.47159,"lat":26.811},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"5","entryText":"鸡笼街","lng":112.2888095,"lat":26.771152},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"6","entryText":"白鹤铺","lng":112.106029,"lat":26.7313039999999},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"7","entryText":"祁东北","lng":112.126029,"lat":26.781304},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"8","entryText":"祁东西","lng":112.00366,"lat":26.7963},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"9","entryText":"白地市","lng":111.93773,"lat":26.77785},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"10","entryText":"祁阳北","lng":111.82397,"lat":26.70038},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"11","entryText":"大村甸","lng":111.764815,"lat":26.64784},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"12","entryText":"黄阳司","lng":111.70566,"lat":26.5953},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"2","entryIndex":"13","entryText":"高溪市","lng":111.65772,"lat":26.51675},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"3","entryIndex":"14","entryText":"高溪市","lng":111.65772,"lat":26.51675},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"3","entryIndex":"15","entryText":"-","lng":112.123690888888,"lat":27.2542036666666},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"4","entryIndex":"16","entryText":"邵阳娄邵场","lng":111.46108,"lat":27.21339},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"4","entryIndex":"17","entryText":"李家冲","lng":111.421436666666,"lat":27.1497399999999},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"4","entryIndex":"18","entryText":"塘渡口","lng":111.34215,"lat":27.02244},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"4","entryIndex":"19","entryText":"白仓","lng":111.31767,"lat":26.89801},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"4","entryIndex":"20","entryText":"易江桥","lng":111.40136,"lat":26.757835},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"4","entryIndex":"21","entryText":"芦洪市","lng":111.48505,"lat":26.61766},
+{"bureauCode":12,"ddtId":"4005","ddtName":"湘桂台","queueIndex":"4","entryIndex":"22","entryText":"永州","lng":111.57182,"lat":26.45407}   
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "entries": [
+   {"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"1","entryIndex":"0","entryText":"北京北","lng":116.353227,"lat":39.945179},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"1","entryIndex":"1","entryText":"清河","lng":116.314334,"lat":40.041424},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"1","entryIndex":"2","entryText":"二拨子线路所","lng":116.302105,"lat":40.0905045},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"1","entryIndex":"3","entryText":"沙河","lng":116.265093,"lat":40.125342},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"1","entryIndex":"4","entryText":"昌平","lng":116.19459,"lat":40.189527},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"5","entryText":"昌平","lng":116.19459,"lat":40.189527},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"6","entryText":"八达岭长城","lng":116.010849,"lat":40.358968},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"7","entryText":"八达岭西线路所","lng":115.929809333333,"lat":40.37946},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"8","entryText":"东花园北","lng":115.795188,"lat":40.34351},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"9","entryText":"怀来","lng":115.565097,"lat":40.37792},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"10","entryText":"下花园北","lng":115.301228,"lat":40.503018},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"11","entryText":"宣化北","lng":115.048791,"lat":40.632646},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"12","entryText":"张家口高速场","lng":114.880615,"lat":40.751528},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"2","entryIndex":"13","entryText":"怀安","lng":114.40093,"lat":40.68496},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"3","entryIndex":"14","entryText":"怀安","lng":114.40093,"lat":40.68496},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"3","entryIndex":"15","entryText":"天镇高速场","lng":114.0651,"lat":40.45209},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"4","entryIndex":"16","entryText":"下花园北","lng":115.301228,"lat":40.503018},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"4","entryIndex":"17","entryText":"太子城","lng":115.446249,"lat":40.916443},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"5","entryIndex":"18","entryText":"八达岭西线路所","lng":115.929809333333,"lat":40.37946},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"5","entryIndex":"19","entryText":"延庆","lng":115.983391,"lat":40.435902},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"6","entryIndex":"20","entryText":"八达岭","lng":116.001506,"lat":40.360072},
+{"bureauCode":3,"ddtId":"71","ddtName":"京包客专","queueIndex":"6","entryIndex":"21","entryText":"延庆","lng":115.983391,"lat":40.435902}
+ 
+  ]
+}

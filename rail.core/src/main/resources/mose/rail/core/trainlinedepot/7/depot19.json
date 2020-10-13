@@ -1,0 +1,21 @@
+{
+  "entries": [
+ {"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"1","entryText":"许昌东","lng":113.88765,"lat":34.04806},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"2","entryText":"漯河西","lng":113.96334,"lat":33.57271},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"3","entryText":"驻马店西","lng":113.97868,"lat":33.00048},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"4","entryText":"明港东","lng":114.06496,"lat":32.48718},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"5","entryText":"信阳东","lng":114.160967,"lat":32.143899},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"6","entryText":"孝感北","lng":114.22161,"lat":31.58654},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"7","entryText":"横店东","lng":114.308318,"lat":30.797008},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"8","entryText":"L1L2线路所","lng":114.39545375,"lat":30.6547615},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"1","entryIndex":"9","entryText":"武汉高速场","lng":114.424499,"lat":30.607346},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"2","entryIndex":"10","entryText":"喻家线路所","lng":114.470114,"lat":30.900449},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"2","entryIndex":"11","entryText":"横店东","lng":114.308318,"lat":30.797008},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"2","entryIndex":"12","entryText":"汉口","lng":114.254585,"lat":30.618919},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"3","entryIndex":"13","entryText":"谌家矶线路所","lng":114.3786325,"lat":30.6552243333333},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"3","entryIndex":"14","entryText":"滠口线路所","lng":114.39545375,"lat":30.6547615},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"3","entryIndex":"15","entryText":"L1L2线路所","lng":114.39545375,"lat":30.6547615},
+{"bureauCode":7,"ddtId":"19","ddtName":"京广高铁一台","queueIndex":"3","entryIndex":"16","entryText":"武汉高速场","lng":114.424499,"lat":30.607346}
+   
+  ]
+}
