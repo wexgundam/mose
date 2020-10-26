@@ -23,24 +23,6 @@
             background-color: black;
         }
 
-        #toolbar {
-            position: absolute;
-            top: 50px;
-            right: 10px;
-            text-align: center;
-            z-index: 100;
-            border-radius: 4px;
-        }
-
-        #toolbar2 {
-            position: absolute;
-            top: 100px;
-            right: 10px;
-            text-align: center;
-            z-index: 100;
-            border-radius: 4px;
-        }
-
         .smControlPanZoomBar {
             position: absolute;
             right: 100px;
@@ -59,9 +41,9 @@
     <div style="position:absolute;left: 0px;top: 20px;width:auto;z-index:2;">
         <div style="position: absolute;left:20px;top: 0px;height: auto;">
             <div>
-                <input id="searchKeyWordInput" type="text" autocomplete="off" maxlength="256" placeholder="搜车务段、行调台、车站、车场、找径路" value="" style="position:absolute;left: 0px;width: 250px;height: 30px">
-                <button class="fa fa-random" style="position:absolute;left: 254px;width: 36px;height: 36px" title="找径路"></button>
-                <button class="fa fa-search" style="position:absolute;left: 290px;width: 36px;height: 36px" title="搜索" onclick="searchOnClick(event)"></button>
+                <input id="searchKeyWordInput" type="text" autocomplete="off" maxlength="256" placeholder="搜车站、车务段等" value="" style="position:absolute;left: 0px;width: 150px;height: 30px">
+                <button class="fa fa-random" style="position:absolute;left: 154px;width: 36px;height: 36px" title="找径路"></button>
+                <button class="fa fa-search" style="position:absolute;left: 190px;width: 36px;height: 36px" title="搜索" onclick="searchOnClick(event)"></button>
             </div>
             <div id="searchResultDiv" style="margin-top: 40px;width:326px;background-color: #ffffff;display: none;" data-visible="false">
                 <div style="padding-bottom: 25px">
@@ -75,53 +57,93 @@
             </div>
         </div>
     </div>
-    <div style="position:absolute;right: 320px;top: 20px;width:auto;z-index:2;">
+    <div style="position:absolute;right: 250px;top: 20px;width:auto;z-index:2;">
         <div style="position: absolute;top: 0px;height: auto;">
             <div>
-                <button id="locationButton" onclick="setLocationDivVisible(event)" class="" style="position:absolute;left: 0px;width: 170px;height: 36px">
+                <button id="locationButton" class="" style="position:absolute;left: 0px;width: 134px;height: 36px">
                     全路
                 </button>
-                <button class="fa fa-times" style="position:absolute;left: 170px;width: 30px;height: 36px" title="清除" onclick="clearAllOnclick(event)"></button>
-                <button class="fa fa-briefcase" onclick="setSettingDivVisible(event)" style="position:absolute;left: 200px;width: 100px;height: 36px" onclick="setSettingDivVisible(event)">
-                    工具箱
+                <button id="highlightButton" class="fa fa-star-o" style="position:absolute;left: 134px;width: 30px;height: 36px" title="高亮路局车务段" onclick="highlightOnclick(event)"></button>
+                <button id="locationBarButton" onclick="setLocationDivVisible(event)" class="fa fa-bars" style="position:absolute;left: 164px;width: 30px;height: 36px" onclick="highlightOnclick(event)"></button>
+                <button class="fa fa-briefcase" onclick="setSettingDivVisible(event)" style="position:absolute;left: 194px;width: 36px;height: 36px" onclick="setSettingDivVisible(event)">
                 </button>
             </div>
             <div id="locationDiv" style="background-color: #ffffff;display: none;" data-visible="false">
                 <div style="margin-top: 40px;margin-bottom: 0px">
                     <button style="position:absolute;right: 0px" class="fa fa-times" onclick="setLocationDivInvisible(event)"></button>
                 </div>
-                <div style="padding-top: 15px">
+                <div style="padding-top: 15px;">
                     <hr />
                 </div>
-                <div style="margin: 5px 5px 5px 18px;" onclick="bureauSelectOnchange(event)">
-                    <button class="bureauButton" value="1">哈</button>
-                    <button class="bureauButton" value="2">沈</button>
-                    <button class="bureauButton" value="3">京</button>
-                    <button class="bureauButton" value="4">太</button>
-                    <button class="bureauButton" value="5">呼</button>
-                    <button class="bureauButton" value="6">郑</button>
-                    <button class="bureauButton" value="7">武</button>
-                    <button class="bureauButton" value="8">西</button>
-                    <button class="bureauButton" value="9">济</button>
-                    <button class="bureauButton" value="10">上</button>
-                    <button class="bureauButton" value="11">南</button>
-                    <button class="bureauButton" value="12">广</button>
-                    <button class="bureauButton" value="13">宁</button>
-                    <button class="bureauButton" value="14">成</button>
-                    <button class="bureauButton" value="15">昆</button>
-                    <button class="bureauButton" value="16">兰</button>
-                    <button class="bureauButton" value="17">乌</button>
-                    <button class="bureauButton" value="18">青</button>
+                <div style="margin: 5px 5px 5px 0px;height:50px;" onclick="bureauSelectOnchange(event)">
+                    <div>
+                        <button style="position:absolute;left:0px;margin-left: 4px;width: 25px;height:25px;" class="bureauButton" value="1">
+                            哈
+                        </button>
+                        <button style="position:absolute;left:25px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="2">
+                            沈
+                        </button>
+                        <button style="position:absolute;left:50px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="3">
+                            京
+                        </button>
+                        <button style="position:absolute;left:75px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="4">
+                            太
+                        </button>
+                        <button style="position:absolute;left:100px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="5">
+                            呼
+                        </button>
+                        <button style="position:absolute;left:125px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="6">
+                            郑
+                        </button>
+                        <button style="position:absolute;left:150px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="7">
+                            武
+                        </button>
+                        <button style="position:absolute;left:175px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="8">
+                            西
+                        </button>
+                        <button style="position:absolute;left:200px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="9">
+                            济
+                        </button>
+                    </div>
+                    <div style="padding-top:30px">
+                        <button style="position:absolute;left:0px;margin-left: 4px;width: 25px;height:25px;" class="bureauButton" value="10">
+                            上
+                        </button>
+                        <button style="position:absolute;left:25px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="11">
+                            南
+                        </button>
+                        <button style="position:absolute;left:50px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="12">
+                            广
+                        </button>
+                        <button style="position:absolute;left:75px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="13">
+                            宁
+                        </button>
+                        <button style="position:absolute;left:100px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="14">
+                            成
+                        </button>
+                        <button style="position:absolute;left:125px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="15">
+                            昆
+                        </button>
+                        <button style="position:absolute;left:150px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="16">
+                            兰
+                        </button>
+                        <button style="position:absolute;left:175px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="17">
+                            乌
+                        </button>
+                        <button style="position:absolute;left:200px;margin-left: 0px;width: 25px;height:25px;" class="bureauButton" value="18">
+                            青
+                        </button>
+                    </div>
                 </div>
                 <div style="padding-top: 0px">
                     <hr />
                 </div>
                 <div>
-                    <select id="trainlineDepotSelect" size="10" onchange="trainlineDepotSelectOnchange(event)" style="border:none;outline: none;margin: 0px 20px 0px 20px;width:260px;height:200px;z-index:2;">
+                    <select id="trainlineDepotSelect" size="10" onchange="trainlineDepotSelectOnchange(event)" style="border:none;outline: none;margin: 0px 0px 0px 10px;width:220px;height:200px;z-index:2;">
                     </select>
                 </div>
             </div>
-            <div id="settingDiv" style="width:300px;background-color: #ffffff;display: none;" data-visible="false">
+            <div id="settingDiv" style="width:220px;background-color: #ffffff;display: none;" data-visible="false">
                 <div style="margin-top: 40px;margin-bottom: 40px">
                     <button style="position:absolute;right: 0px" class="fa fa-times" onclick="setSettingDivInvisible(event)"></button>
                 </div>
@@ -129,10 +151,10 @@
                     <hr />
                 </div>
                 <div style="margin:10px;padding-bottom: 10px">
-                    <input type="button" style="width:65px;height: 50px;padding-right: 5px;" class="btn btn-default" value="新增地物" onclick="activateAddFeature()" />
-                    <input type="button" style="width:65px;height: 50px;padding-right: 5px;" class="btn btn-default" value="选择地物" onclick="activateSelectedFeature()" />
-                    <input type="button" style="width:65px;height: 50px;padding-right: 5px;" class="btn btn-default" value="编辑地物" onclick="editselectedFeature()" />
-                    <input type="button" style="width:65px;height: 50px;" class="btn btn-default" value="删除地物" onclick="deleteSelectedFeature()" />
+                    <input type="button" style="width:45px;height: 45px;padding-right: 5px;" class="btn btn-default" value="新增" onclick="activateAddFeature()" />
+                    <input type="button" style="width:45px;height: 45px;padding-right: 5px;" class="btn btn-default" value="选择" onclick="activateSelectedFeature()" />
+                    <input type="button" style="width:45px;height: 45px;padding-right: 5px;" class="btn btn-default" value="编辑" onclick="editselectedFeature()" />
+                    <input type="button" style="width:45px;height: 45px;" class="btn btn-default" value="删除" onclick="deleteSelectedFeature()" />
                 </div>
             </div>
         </div>
@@ -140,20 +162,12 @@
     <div id="map" style="background-color: black"></div>
     <script type="text/javascript" src="assets/iclient8c/libs/SuperMap.Include.js"></script>
     <script type="text/javascript">
-        function selectFocus() {
-            document.getElementById("bureauSelect").setAttribute("size", "10");
-        }
-        //点击添加size属性baidu
-        function selectClick() {
-            document.getElementById("select").removeAttribute("size");
-            document.getElementById("select").blur();
-            this.setAttribute("selected", "");
-        }
-
         var host = window.location.hostname === '39.155.169.121' ? 'http://39.155.169.121:9998' : 'http://10.9.3.111:8090';
         var host = "http://39.155.169.121:9998";
         //        var host = "http://localhost:8090";
-        var map, local, layer, markerLayer, vectorLayer, drawPoint, drawPolygon, dataUrl, ids, modifyFeature,
+        var map, local, layer, markerLayer, vectorLayer,
+            bureauVectorLayer, trainOperationDepotVectorLayer, trainlineDepotVectorLayer,
+            drawPoint, drawPolygon, dataUrl, ids, modifyFeature,
 //            staticServer = 'http://39.155.169.121:9998',
             staticServer = 'http://10.1.117.43',
             style = {
@@ -166,24 +180,21 @@
             },
             mapUrl = host + "/iserver/services/map-rail/rest/maps/map_simple",
             mapRestUrl = host + "/iserver/services/map-rail/rest/maps/map_simple",
-            url2 = host + "/iserver/services/data-jingjin/rest/data/datasources/name/Jingjin/datasets/name/BaseMap_R/",
-            url3 = host + "/iserver/services/data-jingjin/rest/data/",
-            url2 = host + "/iserver/services/data-test/rest/data/datasources/test/datasets/polygon",
-            url3 = host + "/iserver/services/data-test/rest/data/",
+//            mapRestUrl = host + "/iserver/services/map-world/rest/maps/World",
             mapDataUrl = host + "/iserver/services/data-rail/rest/data/",
             mapDataRestUrl = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/polygon";
         init();
 
         function init() {
             layer = new SuperMap.Layer.TiledDynamicRESTLayer("铁路", mapUrl, {
-//                transparent: true,
                 cacheEnabled: false
             }, {maxResolution: "auto", bufferImgCount: 0}); //将bufferImgCount设置为0，不使用缓存，编辑后，刷新图层，永远请求最新的图片
             layer.events.on({"layerInitialized": addLayer});
 
-            markerLayer = new SuperMap.Layer.Markers("markerLayer");
+            markerLayer = new SuperMap.Layer.Markers("MarkerL ayer");
             vectorLayer = new SuperMap.Layer.Vector("Vector Layer");
             vectorLayer.events.on({"afterfeaturemodified": editFeatureCompleted});
+            bureauVectorLayer = new SuperMap.Layer.Vector("Bureau Vector Layer");
 
             drawPoint = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Point);
             drawPoint.events.on({"featureadded": selectedFeatureCompleted});
@@ -193,7 +204,6 @@
 
             map = new SuperMap.Map("map", {
                 minZoom: 3,
-                projection: "EPSG:4326",
                 controls: [
                     new SuperMap.Control.ScaleLine(),
                     new SuperMap.Control.Navigation({
@@ -233,33 +243,24 @@
 
             map.events.on({
                 "moveend": function (event) {
-                    console.log("123");
+                    queryNeareastLocation();
                 }
             });  //添加click事件
             map.events.on({
                 "zoomend": function (event) {
-                    console.log("321");
+                    queryNeareastLocation();
                 }
             });  //添加click事件
         }
 
         function addLayer() {
-            map.addLayers([layer, markerLayer, vectorLayer]);
+            map.addLayers([layer, markerLayer, vectorLayer, bureauVectorLayer]);
             map.setCenter(new SuperMap.LonLat("11589611.5396656", "4737184.82796693"), 4);
-//            readDataToVectorLayer();
-        }
-
-        //每次操作后，更新VectorLayer上的要素
-        function readDataToVectorLayer() {
-
         }
 
         //激活添加地物
         function activateAddFeature() {
-//            widgets.alert.clearAlert();
-            console.log("activateAddFeature");
             //先清除上次的显示结果
-//        vectorLayer.removeAllFeatures();
             clearAllDeactivate();
             drawPolygon.activate();
         }
@@ -302,29 +303,21 @@
             if (addResultIds === null && resourceInfo === null) return;
 
             if ((addResultIds && addResultIds.length > 0) || (resourceInfo && resourceInfo.succeed)) {
-//                widgets.alert.showAlert(resources.msg_addFeatureSuccess, true, 240);
-                console.log("addFeaturesProcessCompleted true");
                 vectorLayer.removeAllFeatures();
-                readDataToVectorLayer();
                 //重新加载图层
                 layer.redraw();
             } else {
-//                widgets.alert.showAlert(resources.msg_addFeatureFailed, false, 240);
                 console.log("addFeaturesProcessCompleted false");
-
             }
 
         }
 
         function processFailed(e) {
-//            widgets.alert.showAlert(e.error.errorMsg, false);
             console.log("processFailed");
         }
 
         //激活选择地物
         function activateSelectedFeature() {
-//            widgets.alert.clearAlert();
-            console.log("activateSelectedFeature");
             clearAllDeactivate();
             drawPoint.activate();
         }
@@ -360,15 +353,12 @@
             vectorLayer.removeAllFeatures();
 
             if (originFeatures === null || originFeatures.length === 0) {
-//                widgets.alert.showAlert(resources.msg_queryFeatureEmpty, false, 240);
-//                console.log("selectedFeatureProcessCompleted true");
                 return;
             }
             ids = new Array();
             //将当前选择的地物的ID保存起来，以备删除地物使用,并在编辑地物中使之为null，以免编辑地物后在不选择地物时将所编辑的地物删除
             for (i = 0, len = originFeatures.length; i < len; i++) {
                 ids.push(originFeatures[i].ID);
-                console.log("selectedFeatureProcessCompleted true" + originFeatures[i].ID);
             }
             if (result && result.features) {
                 features = result.features;
@@ -381,24 +371,17 @@
                     vectorLayer.addFeatures(feature);
                 }
             }
-            readDataToVectorLayer();
 
             drawPoint.activate();
         }
 
         //激活编辑地物
         function editselectedFeature() {
-//            widgets.alert.clearAlert();
-            console.log("editselectedFeature");
             clearAllDeactivate();
             if (ids == null) {
-//                widgets.alert.showAlert(resources.msg_selectFeatureFirstly, false, 260);
-                console.log("editselectedFeature true");
-            }
-            else {
+            } else {
                 modifyFeature.activate();
             }
-
         }
 
         //执行地物编辑
@@ -440,31 +423,21 @@
         //更新地物完成
         function updateFeaturesProcessCompleted(editFeaturesEventArgs) {
             if (editFeaturesEventArgs.result.resourceInfo.succeed) {
-//                widgets.alert.showAlert(resources.msg_updateFeatureSuccess, true, 240);
-                console.log("updateFeaturesProcessCompleted true");
                 //重新加载图层
                 vectorLayer.removeAllFeatures();
                 layer.redraw();
                 //使Ids为空，以免编辑地物后在不选择地物时将所编辑的地物删除
                 ids = null;
-            }
-            else {
-//                widgets.alert.showAlert(resources.msg_updateFeatureFailed, false, 240);
+            } else {
                 console.log("updateFeaturesProcessCompleted false");
             }
-            readDataToVectorLayer();
         }
 
         //删除选中地物
         function deleteSelectedFeature() {
-//            widgets.alert.clearAlert();
-            console.log("deleteSelectedFeature");
             clearAllDeactivate();
             if (ids == null) {
-//                widgets.alert.showAlert(resources.msg_selectFeatureFirstly, false, 240);
-                console.log("deleteSelectedFeature true");
-            }
-            else {
+            } else {
                 var editFeatureParameter,
                     editFeatureService;
                 editFeatureParameter = new SuperMap.REST.EditFeaturesParameters({
@@ -485,15 +458,12 @@
         //删除地物完成
         function deleteFeaturesProcessCompleted(editFeaturesEventArgs) {
             if (editFeaturesEventArgs.result.resourceInfo.succeed) {
-//                widgets.alert.showAlert(resources.msg_deleteFeatureSuccess, true, 240);
                 console.log("deleteFeaturesProcessCompleted true");
                 //重新加载图层
                 vectorLayer.removeAllFeatures();
-                readDataToVectorLayer();
                 layer.redraw();
             }
             else {
-//                widgets.alert.showAlert(resources.msg_deleteFeatureFailed, false, 240);
                 console.log("deleteFeaturesProcessCompleted false");
             }
         }
@@ -619,7 +589,6 @@
         }
 
         function searchResultSelectOnchange(event) {
-            console.log(event);
             clearVectors(event);
 
             const selectedOption = event.target.selectedOptions[0];
@@ -651,6 +620,7 @@
 
 
         function setLocationDivInvisible(event) {
+            clearVectors(event);
             const div = document.getElementById("locationDiv");
             div.style.display = 'none';
             div.dataset.visible = "false";
@@ -670,8 +640,211 @@
         }
 
 
-        function clearAllOnclick(event) {
-            clearVectors(event);
+        function highlightOnclick(event) {
+            const classList = event.target.classList;
+            if (classList.contains("fa-star-o")) {
+                classList.remove('fa-star-o');
+                classList.add('fa-star');
+            }
+            else if (classList.contains("fa-star")) {
+                classList.remove('fa-star');
+                classList.add('fa-star-o');
+            }
+            event.target.dataset.bureauCode = 0;
+            event.target.dataset.trainlindeDepotId = 0;
+            queryNeareastLocation();
+        }
+
+        //查询最近地物
+        function queryNeareastLocation() {
+            const locationButton = document.getElementById("locationButton");
+
+            const highlightButton = document.getElementById("highlightButton");
+            const highlight = highlightButton.classList.contains("fa-star");
+
+
+            if (map.getZoom() < 7) {
+                locationButton.textContent = "全路";
+                highlightButton.dataset.bureauCode = 0;
+                highlightButton.dataset.trainlindeDepotId = 0;
+                bureauVectorLayer.removeAllFeatures();
+                return;
+            }
+
+            if (!highlight) {
+                highlightButton.dataset.bureauCode = 0;
+                highlightButton.dataset.trainlindeDepotId = 0;
+                bureauVectorLayer.removeAllFeatures();
+                return;
+            }
+
+            if (map.getZoom() < 9) {
+                queryNeareastFeature("bureau@rail", function (queryEventArgs) {
+                    const recordsets = queryEventArgs.result.recordsets;
+                    if (recordsets.length == 1 && recordsets[0].features.length) {
+                        locationButton.textContent = recordsets[0].features[0].attributes["NAME"];
+
+                        if (highlightButton.dataset.trainlineDepotId != 0) {
+                            highlightButton.dataset.bureauCode = 0;
+                            highlightButton.dataset.trainlineDepotId = 0;
+                            bureauVectorLayer.removeAllFeatures();
+                        }
+
+                        const bureauCode = recordsets[0].features[0].attributes["CODE"];
+                        if (highlightButton.dataset.bureauCode != bureauCode) {
+                            highlightButton.dataset.bureauCode = bureauCode;
+
+                            bureauVectorLayer.removeAllFeatures();
+                            highlightTrainOperationDepot();
+                        }
+                    }
+                });
+                return;
+            }
+
+            queryNeareastFeature("trainlineDepot@rail", function (trainlineDepotQueryEventArgs) {
+                const trainlineDepotRecordsets = trainlineDepotQueryEventArgs.result.recordsets;
+                if (trainlineDepotRecordsets.length == 1 && trainlineDepotRecordsets[0].features.length) {
+                    const bureauCode = trainlineDepotRecordsets[0].features[0].attributes["BUREAU_CODE"];
+                    const bureauButtons = document.getElementsByClassName("bureauButton");
+                    var bureauShortName = "";
+                    for (var index = 0; index < bureauButtons.length; index++) {
+                        if (bureauButtons[index].value == bureauCode) {
+                            bureauShortName = bureauButtons[index].textContent;
+                            const bureauCode = trainlineDepotRecordsets[0].features[0].attributes["BUREAU_CODE"];
+                            const trainlineDepotId = trainlineDepotRecordsets[0].features[0].attributes["DDT_ID"];
+                            const trainlineDepotName = trainlineDepotRecordsets[0].features[0].attributes["DDT_NAME"];
+
+                            locationButton.textContent = bureauShortName + " - " + trainlineDepotName;
+
+                            if (highlightButton.dataset.bureauCode != bureauCode
+                                || highlightButton.dataset.trainlineDepotId != trainlineDepotId) {
+                                highlightButton.dataset.bureauCode = bureauCode;
+                                highlightButton.dataset.trainlineDepotId = trainlineDepotId;
+
+                                bureauVectorLayer.removeAllFeatures();
+                                highlightTrainlineDepot();
+                            }
+                            return;
+                        }
+                    }
+                }
+            });
+
+            function queryNeareastFeature(dataset, queryCompletedFunction, queryFailedFunction) {
+                const lngLat = map.getCenter().transform(new SuperMap.Projection("EPSG:3857"),
+                    new SuperMap.Projection("EPSG:4326"));
+
+                var centerPoint = new SuperMap.Geometry.Point(lngLat.lon, lngLat.lat);
+                centerPoint.SRID = 4326;
+
+                var queryByDistanceParams = new SuperMap.REST.QueryByDistanceParameters({
+                    queryParams: [{name: dataset}],
+                    returnContent: true,
+                    expectCount: 1,
+                    isNearest: true,
+                    prjCoordSys: {"epsgCode": 4326},
+                    distance: 50,//10度范围
+                    geometry: centerPoint
+                });
+
+                var queryByDistanceService = new SuperMap.REST.QueryByDistanceService(mapRestUrl);
+                queryByDistanceService.events.on({
+                    "processCompleted": queryCompletedFunction,
+                    "processFailed": queryFailedFunction
+                });
+
+                queryByDistanceService.processAsync(queryByDistanceParams);
+            }
+        }
+
+        //高亮车务段
+        function highlightTrainOperationDepot() {
+            const highlightButton = document.getElementById("highlightButton");
+
+            const bureauCode = highlightButton.dataset.bureauCode;
+
+            // 查询路局
+            var queryParam, queryBySQLParams, queryBySQLService;
+            // 初始化查询参数
+            queryParam = new SuperMap.REST.FilterParameter({
+                name: "trainoperationdepot@rail",
+                attributeFilter: "BUREAU_CODE = " + bureauCode + ""
+            });
+            // 初始化sql查询参数
+            queryBySQLParams = new SuperMap.REST.QueryBySQLParameters({
+                queryParams: [queryParam]
+            });
+            // SQL查询服务
+            queryBySQLService = new SuperMap.REST.QueryBySQLService(mapRestUrl, {
+                eventListeners: {
+                    "processCompleted": function (queryEventArgs) {
+                        const searchResultSelect = document.getElementById("searchResultSelect");
+
+                        var i, j, feature,
+                            result = queryEventArgs.result;
+                        if (result && result.recordsets) {
+                            for (i = 0; i < result.recordsets.length; i++) {
+                                if (result.recordsets[i].features) {
+                                    for (j = 0; j < result.recordsets[i].features.length; j++) {
+                                        feature = result.recordsets[i].features[j];
+                                        bureauVectorLayer.addFeatures(createVectorFeature(feature));
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "processFailed": function (e) {
+                        console.log("highlightTrainOperationDepot error");
+                    }
+                }
+            });
+            queryBySQLService.processAsync(queryBySQLParams);
+
+            function createVectorFeature(feature) {
+                //点对象
+                var lonLat = new SuperMap.LonLat(feature.geometry.x, feature.geometry.y);
+                var point = new SuperMap.Geometry.Point(lonLat.lon, lonLat.lat);
+                var pointVector = new SuperMap.Feature.Vector(point);
+                pointVector.style = {
+                    fillColor: "#13FF41",
+                    strokeColor: "#13FF41",
+                    pointRadius: 4
+                };
+                return pointVector;
+            }
+        }
+
+        //高亮行调台
+        function highlightTrainlineDepot() {
+            const main = async () => {
+
+                const highlightButton = document.getElementById("highlightButton");
+
+                const bureauCode = highlightButton.dataset.bureauCode;
+                const trainlineDeportId = highlightButton.dataset.trainlineDepotId;
+
+                const trainlineDepotEntryResponse = await fetch(
+                    staticServer + '/file/trainlinedepot/' + bureauCode + "/depot" + trainlineDeportId + '.json');
+                const trainlineDepotEntryData = await trainlineDepotEntryResponse.json();
+
+                trainlineDepotEntryData.entries.forEach(entry => {
+                    //点对象
+                    var lonLat = new SuperMap.LonLat(entry.lng, entry.lat).transform(
+                        new SuperMap.Projection("EPSG:4326"),
+                        new SuperMap.Projection("EPSG:3857")
+                    );
+                    var point = new SuperMap.Geometry.Point(lonLat.lon, lonLat.lat);
+                    var pointVector = new SuperMap.Feature.Vector(point);
+                    pointVector.style = {
+                        fillColor: "#13FF41",
+                        strokeColor: "#13FF41",
+                        pointRadius: 2
+                    };
+                    bureauVectorLayer.addFeatures([pointVector]);
+                });
+            };
+            main();
         }
 
         function bureauSelectOnchange(event) {
@@ -681,15 +854,15 @@
 
             const main = async () => {
                 document.getElementById("locationButton").textContent = event.target.textContent;
-                const bureauId = event.target.value;
+                const bureauCode = event.target.value;
                 const trainlineDepotSelect = document.getElementById("trainlineDepotSelect");
                 trainlineDepotSelect.options.length = 0;
 
                 const trainlineDepotResponse = await fetch(
-                    staticServer + '/file/trainlinedepot/' + bureauId + '/depots.json');
+                    staticServer + '/file/trainlinedepot/' + bureauCode + '/depots.json');
                 const trainlineDepotData = await trainlineDepotResponse.json();
 
-                trainlineDepotSelect.dataset.bureauId = bureauId;
+                trainlineDepotSelect.dataset.bureauCode = bureauCode;
                 trainlineDepotSelect.dataset.bureauShortName = event.target.textContent;
 
                 trainlineDepotData.depots.forEach(depot => {
@@ -706,14 +879,14 @@
             const main = async () => {
                 clearVectors(event);
 
-                const bureauId = event.target.dataset.bureauId;
+                const bureauCode = event.target.dataset.bureauCode;
                 const selectedOption = event.target.selectedOptions[0];
-                document.getElementById(
-                    "locationButton").textContent = event.target.dataset.bureauShortName + " - " + selectedOption.textContent;
+                const locationButton = document.getElementById("locationButton");
+                locationButton.textContent = event.target.dataset.bureauShortName + " - " + selectedOption.textContent;
                 const depotId = selectedOption.value;
 
                 const trainlineDepotEntryResponse = await fetch(
-                    staticServer + '/file/trainlinedepot/' + bureauId + "/depot" + depotId + '.json');
+                    staticServer + '/file/trainlinedepot/' + bureauCode + "/depot" + depotId + '.json');
                 const trainlineDepotEntryData = await trainlineDepotEntryResponse.json();
 
                 var lon = 0;
@@ -739,7 +912,8 @@
 
                 const length = trainlineDepotEntryData.entries.length;
                 map.panTo(new SuperMap.LonLat(lon / length, lat / length));
-                map.zoomTo(6);
+                map.zoomTo(9);
+
 
             };
             main();
