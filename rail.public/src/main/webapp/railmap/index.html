@@ -167,7 +167,7 @@
         //        var host = "http://localhost:8090";
         var map, local, layer, markerLayer, vectorLayer,
             bureauVectorLayer, trainOperationDepotVectorLayer, trainlineDepotVectorLayer,
-            drawPoint, drawPolygon, dataUrl, ids, modifyFeature,
+            selectPolygon, drawPolygon, dataUrl, ids, modifyFeature,
 //            staticServer = 'http://39.155.169.121:9998',
             staticServer = 'http://10.1.117.43',
             style = {
@@ -180,7 +180,6 @@
             },
             mapUrl = host + "/iserver/services/map-rail/rest/maps/map_simple",
             mapRestUrl = host + "/iserver/services/map-rail/rest/maps/map_simple",
-//            mapRestUrl = host + "/iserver/services/map-world/rest/maps/World",
             mapDataUrl = host + "/iserver/services/data-rail/rest/data/",
             mapDataRestUrl = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/polygon";
         init();
@@ -196,8 +195,8 @@
             vectorLayer.events.on({"afterfeaturemodified": editFeatureCompleted});
             bureauVectorLayer = new SuperMap.Layer.Vector("Bureau Vector Layer");
 
-            drawPoint = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Point);
-            drawPoint.events.on({"featureadded": selectedFeatureCompleted});
+            selectPolygon = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Point);
+            selectPolygon.events.on({"featureadded": selectedFeatureCompleted});
 
             drawPolygon = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Polygon);
             drawPolygon.events.on({"featureadded": addFeatureCompleted});
@@ -211,7 +210,7 @@
                             enableKinetic: true
                         }
                     }),
-                    drawPoint, drawPolygon]
+                    selectPolygon, drawPolygon]
             });
 
             //初始化复杂缩放控件类
@@ -254,7 +253,7 @@
         }
 
         function addLayer() {
-            map.addLayers([layer, markerLayer, vectorLayer, bureauVectorLayer]);
+            map.addLayers([layer, markerLayer, bureauVectorLayer, vectorLayer]);
             map.setCenter(new SuperMap.LonLat("11589611.5396656", "4737184.82796693"), 4);
         }
 
@@ -319,12 +318,12 @@
         //激活选择地物
         function activateSelectedFeature() {
             clearAllDeactivate();
-            drawPoint.activate();
+            selectPolygon.activate();
         }
 
         //执行选择地物
         function selectedFeatureCompleted(drawGeometryArgs) {
-            drawPoint.deactivate();
+            selectPolygon.deactivate();
             var getFeaturesByGeometryParams,
                 getFeaturesByGeometryService,
                 geometry = drawGeometryArgs.feature.geometry;
@@ -372,7 +371,7 @@
                 }
             }
 
-            drawPoint.activate();
+            selectPolygon.activate();
         }
 
         //激活编辑地物
@@ -607,7 +606,7 @@
 
         function clearAllDeactivate() {
             modifyFeature.deactivate();
-            drawPoint.deactivate();
+            selectPolygon.deactivate();
             drawPolygon.deactivate();
         }
 
