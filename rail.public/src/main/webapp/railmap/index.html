@@ -192,7 +192,6 @@
 
             markerLayer = new SuperMap.Layer.Markers("MarkerL ayer");
             vectorLayer = new SuperMap.Layer.Vector("Vector Layer");
-            vectorLayer.events.on({"afterfeaturemodified": editFeatureCompleted});
             bureauVectorLayer = new SuperMap.Layer.Vector("Bureau Vector Layer");
 
             selectPolygon = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Point);
@@ -200,6 +199,9 @@
 
             drawPolygon = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Polygon);
             drawPolygon.events.on({"featureadded": addFeatureCompleted});
+
+            modifyFeature = new SuperMap.Control.ModifyFeature(vectorLayer);
+            modifyFeature.events.on({"afterfeaturemodified": editFeatureCompleted})
 
             map = new SuperMap.Map("map", {
                 minZoom: 3,
@@ -210,7 +212,7 @@
                             enableKinetic: true
                         }
                     }),
-                    selectPolygon, drawPolygon]
+                    selectPolygon, drawPolygon, modifyFeature]
             });
 
             //初始化复杂缩放控件类
@@ -234,9 +236,6 @@
             overviewmap.minRectSize = 20;
             overviewmap.minRatio = 50;
 //            map.addControl(overviewmap);
-
-            modifyFeature = new SuperMap.Control.ModifyFeature(vectorLayer);
-            map.addControl(modifyFeature);
 
 //            map.addControl(new SuperMap.Control.LayerSwitcher(), new SuperMap.Pixel(42, 80));
 
