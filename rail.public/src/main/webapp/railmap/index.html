@@ -65,7 +65,7 @@
                 </button>
                 <button id="highlightButton" class="fa fa-star-o" style="position:absolute;left: 134px;width: 30px;height: 36px" title="高亮路局车务段" onclick="highlightOnclick(event)"></button>
                 <button id="locationBarButton" onclick="setLocationDivVisible(event)" class="fa fa-bars" style="position:absolute;left: 164px;width: 30px;height: 36px" onclick="highlightOnclick(event)"></button>
-                <button class="fa fa-briefcase" onclick="setSettingDivVisible(event)" style="position:absolute;left: 194px;width: 36px;height: 36px" onclick="setSettingDivVisible(event)">
+                <button class="fa fa-pencil-square-o" onclick="setEditingState(event)" style="position:absolute;left: 194px;width: 36px;height: 36px" onclick="setEditingState(event)">
                 </button>
             </div>
             <div id="locationDiv" style="background-color: #ffffff;display: none;" data-visible="false">
@@ -143,20 +143,6 @@
                     </select>
                 </div>
             </div>
-            <div id="settingDiv" style="width:220px;background-color: #ffffff;display: none;" data-visible="false">
-                <div style="margin-top: 40px;margin-bottom: 40px">
-                    <button style="position:absolute;right: 0px" class="fa fa-times" onclick="setSettingDivInvisible(event)"></button>
-                </div>
-                <div style="padding-top: 15px">
-                    <hr />
-                </div>
-                <div style="margin:10px;padding-bottom: 10px">
-                    <input type="button" style="width:45px;height: 45px;padding-right: 5px;" class="btn btn-default" value="新增" onclick="activateAddFeature()" />
-                    <input type="button" style="width:45px;height: 45px;padding-right: 5px;" class="btn btn-default" value="选择" onclick="activateSelectedFeature()" />
-                    <input type="button" style="width:45px;height: 45px;padding-right: 5px;" class="btn btn-default" value="编辑" onclick="editselectedFeature()" />
-                    <input type="button" style="width:45px;height: 45px;" class="btn btn-default" value="删除" onclick="deleteSelectedFeature()" />
-                </div>
-            </div>
         </div>
     </div>
     <div id="map" style="background-color: black"></div>
@@ -181,7 +167,9 @@
             mapUrl = host + "/iserver/services/map-rail/rest/maps/map_simple",
             mapRestUrl = host + "/iserver/services/map-rail/rest/maps/map_simple",
             mapDataUrl = host + "/iserver/services/data-rail/rest/data/",
-            mapDataRestUrl = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/polygon";
+            mapDataRestUrl = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/polygon",
+            mapDataRestUrlStation = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/station",
+            mapDataRestUrlLine = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/line";
         init();
 
         function init() {
@@ -196,6 +184,190 @@
 
             selectPolygon = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Point);
             selectPolygon.events.on({"featureadded": selectedFeatureCompleted});
+
+            selectPolygon = new SuperMap.Control.DragFeature(vectorLayer, {
+                geometryTypes: ["SuperMap.Geometry.Point"],
+                onDrag: function (feature, pixel) {
+                    for (var index = 1; index < vectorLayer.features.length; index++) {
+                        const lineFeature = vectorLayer.features[index];
+                        lineFeature.geometry.components[lineFeature.mapping].x = feature.geometry.x;
+                        lineFeature.geometry.components[lineFeature.mapping].y = feature.geometry.y;
+                        vectorLayer.redraw(feature);
+                    }
+                },
+                onComplete: function (feature, pixel) {
+                    feature.geometry.transform(
+                        new SuperMap.Projection("EPSG:3857"),
+                        new SuperMap.Projection("EPSG:4326"));
+                    feature.geometry.SRID = 4326;
+
+                    for (var index = 1; index < vectorLayer.features.length; index++) {
+                        const lineFeature = vectorLayer.features[index];
+                        lineFeature.geometry.transform(
+                            new SuperMap.Projection("EPSG:3857"),
+                            new SuperMap.Projection("EPSG:4326"));
+                        lineFeature.geometry.SRID = 4326;
+
+                        const lineFeatureComponents = lineFeature.geometry.components;
+                        const originalLineFeatureComponents = lineFeature.originalFeature.geometry.components;
+                        if (lineFeature.mapping == 0) {
+                            lineFeatureComponents[0].x = feature.geometry.x;
+                            lineFeatureComponents[0].y = feature.geometry.y;
+                            lineFeatureComponents[lineFeatureComponents.length - 1].x = originalLineFeatureComponents[originalLineFeatureComponents.length - 1].x;
+                            lineFeatureComponents[lineFeatureComponents.length - 1].y = originalLineFeatureComponents[originalLineFeatureComponents.length - 1].y;
+                        } else {
+                            lineFeatureComponents[0].x = originalLineFeatureComponents[0].x;
+                            lineFeatureComponents[0].y = originalLineFeatureComponents[0].y;
+                            lineFeatureComponents[lineFeatureComponents.length - 1].x = feature.geometry.x;
+                            lineFeatureComponents[lineFeatureComponents.length - 1].y = feature.geometry.y;
+                        }
+                    }
+
+                    var attrNames = [];
+                    var attrValues = [];
+                    const attributes = feature.originalFeature.attributes;
+                    for (var attribute in attributes) {
+                        attrNames.push(attribute);
+                        attrValues.push(attributes[attribute]);
+                    }
+
+                    var commitFeature = {
+                        fieldNames: attrNames,
+                        fieldValues: attrValues,
+                        geometry: feature.geometry
+                    };
+                    commitFeature.geometry.id = feature.originalFeature.fid;
+
+                    const editFeatureParameter = new SuperMap.REST.EditFeaturesParameters({
+                        features: [commitFeature],
+                        editType: SuperMap.REST.EditType.UPDATE
+                    });
+                    const editFeatureService = new SuperMap.REST.EditFeaturesService(mapDataRestUrlStation, {
+                        eventListeners: {
+                            "processCompleted": updateFeaturesProcessCompleted,
+                            "processFailed": function processFailed(e) {
+                                console.log("update station processFailed");
+                                vectorLayer.removeAllFeatures();
+                            }
+                        }
+                    });
+                    editFeatureService.processAsync(editFeatureParameter);
+
+                    //更新地物完成
+                    function updateFeaturesProcessCompleted(editFeaturesEventArgs) {
+                        const commitFeatures = [];
+                        for (var index = 1; index < vectorLayer.features.length; index++) {
+                            const lineFeature = vectorLayer.features[index];
+                            var attrNames = [];
+                            var attrValues = [];
+                            const attributes = lineFeature.originalFeature.attributes;
+                            for (var attribute in attributes) {
+                                attrNames.push(attribute);
+                                attrValues.push(attributes[attribute]);
+                            }
+
+                            var commitFeature = {
+                                fieldNames: attrNames,
+                                fieldValues: attrValues,
+                                geometry: lineFeature.geometry
+                            };
+                            commitFeature.geometry.id = lineFeature.originalFeature.fid;
+                            commitFeatures.push(commitFeature);
+                        }
+                        const editFeatureParameter = new SuperMap.REST.EditFeaturesParameters({
+                            features: commitFeatures,
+                            editType: SuperMap.REST.EditType.UPDATE
+                        });
+                        const editFeatureService = new SuperMap.REST.EditFeaturesService(mapDataRestUrlLine, {
+                            eventListeners: {
+                                "processCompleted": function (editFeaturesEventArgs) {
+                                    //重新加载图层
+                                    layer.redraw();
+                                    vectorLayer.removeAllFeatures();
+                                },
+                                "processFailed": function processFailed(e) {
+                                    console.log("update lines processFailed");
+                                    vectorLayer.removeAllFeatures();
+                                }
+                            }
+                        });
+                        editFeatureService.processAsync(editFeatureParameter);
+                    }
+                }
+            });
+
+            selectPolygon.handlers.feature.click = function (event) {
+                if (event.ctrlKey) {
+                    vectorLayer.removeAllFeatures();
+                    const lngLat = map.getLonLatFromPixel(new SuperMap.Pixel(event.x, event.y)).transform(
+                        new SuperMap.Projection("EPSG:3857"),
+                        new SuperMap.Projection("EPSG:4326"));
+                    var lngLatGeometry = new SuperMap.Geometry.Point(lngLat.lon, lngLat.lat);
+                    lngLatGeometry.SRID = 4326;
+
+                    //查询最近的station
+                    queryNeareastFeatureByLngLatGeometry(lngLatGeometry, "station@rail", function (queryEventArgs) {
+                        const recordsets = queryEventArgs.result.recordsets;
+                        if (recordsets.length == 0 || recordsets[0].features.length == 0) {
+                            return;
+                        }
+
+                        const originalFeature = recordsets[0].features[0];
+
+                        const point = new SuperMap.Geometry.Point(originalFeature.geometry.x,
+                            originalFeature.geometry.y);
+                        point.transform(
+                            new SuperMap.Projection("EPSG:4326"),
+                            new SuperMap.Projection("EPSG:3857"));
+                        point.SRID = 3857;
+
+                        const pointLngLat = new SuperMap.LonLat(point.x, point.y);
+
+                        const pointFeature = new SuperMap.Feature.Vector(point);
+                        pointFeature.style = {
+                            fillColor: "#ffcc05",
+                            strokeColor: "red",
+                            pointRadius: 6
+                        };
+                        pointFeature.originalFeature = originalFeature;
+
+                        vectorLayer.addFeatures(pointFeature);
+                        map.setCenter(pointLngLat, map.getZoom() > 9 ? map.getZoom() : 10);
+
+                        var getFeaturesByGeometryParams = new SuperMap.REST.GetFeaturesByGeometryParameters({
+                            datasetNames: ["rail:line"],
+                            spatialQueryMode: SuperMap.REST.SpatialQueryMode.INTERSECT,
+                            geometry: originalFeature.geometry
+                        });
+                        var getFeaturesByGeometryService = new SuperMap.REST.GetFeaturesByGeometryService(mapDataUrl, {
+                            eventListeners: {
+                                "processCompleted": function (getFeaturesEventArgs) {
+                                    for (var index = 0; index < getFeaturesEventArgs.result.featureCount; index++) {
+                                        const originalFeature = getFeaturesEventArgs.result.features[index];
+                                        const lineFeature = new SuperMap.Feature.Vector(
+                                            originalFeature.geometry.clone());
+                                        lineFeature.geometry.transform(
+                                            new SuperMap.Projection("EPSG:4326"),
+                                            new SuperMap.Projection("EPSG:3857"));
+                                        lineFeature.style = {
+                                            strokeColor: "red",
+                                            strokeWidth: 2
+                                        };
+                                        lineFeature.originalFeature = originalFeature;
+                                        lineFeature.mapping = vectorLayer.features[0].originalFeature.geometry.equals(
+                                            originalFeature.geometry.components[0]) ? 0 : (lineFeature.geometry.components.length - 1);
+                                        vectorLayer.addFeatures(lineFeature);
+                                    }
+                                },
+                                "processFailed": function (getFeaturesEventArgs) {
+                                    console.log("query lines by station error.")
+                                }
+                            }
+                        });
+                        getFeaturesByGeometryService.processAsync(getFeaturesByGeometryParams);
+                    });
+                }
+            };
 
             drawPolygon = new SuperMap.Control.DrawFeature(vectorLayer, SuperMap.Handler.Polygon);
             drawPolygon.events.on({"featureadded": addFeatureCompleted});
@@ -235,9 +407,9 @@
             //属性minRectSize：鹰眼范围矩形边框的最小的宽度和高度。默认为8pixels
             overviewmap.minRectSize = 20;
             overviewmap.minRatio = 50;
-//            map.addControl(overviewmap);
+            //            map.addControl(overviewmap);
 
-//            map.addControl(new SuperMap.Control.LayerSwitcher(), new SuperMap.Pixel(42, 80));
+            //            map.addControl(new SuperMap.Control.LayerSwitcher(), new SuperMap.Pixel(42, 80));
 
             map.events.on({
                 "moveend": function (event) {
@@ -624,11 +796,14 @@
             div.dataset.visible = "false";
         }
 
-        function setSettingDivVisible(event) {
+        function setEditingState(event) {
             setLocationDivInvisible(event);
-            const div = document.getElementById("settingDiv");
-            div.style.display = 'block';
-            div.dataset.visible = "true";
+            if (selectPolygon.active) {
+                selectPolygon.deactivate();
+                vectorLayer.removeAllFeatures();
+            } else {
+                selectPolygon.activate();
+            }
         }
 
         function setSettingDivInvisible(event) {
@@ -676,8 +851,13 @@
                 return;
             }
 
+            const lngLat = map.getCenter().transform(new SuperMap.Projection("EPSG:3857"),
+                new SuperMap.Projection("EPSG:4326"));
+            var lngLatgeometry = new SuperMap.Geometry.Point(lngLat.lon, lngLat.lat);
+            lngLatgeometry.SRID = 4326;
+
             if (map.getZoom() < 9) {
-                queryNeareastFeature("bureau@rail", function (queryEventArgs) {
+                queryNeareastFeatureByLngLatGeometry(lngLatgeometry, "bureau@rail", function (queryEventArgs) {
                     const recordsets = queryEventArgs.result.recordsets;
                     if (recordsets.length == 1 && recordsets[0].features.length) {
                         locationButton.textContent = recordsets[0].features[0].attributes["NAME"];
@@ -700,60 +880,35 @@
                 return;
             }
 
-            queryNeareastFeature("trainlineDepot@rail", function (trainlineDepotQueryEventArgs) {
-                const trainlineDepotRecordsets = trainlineDepotQueryEventArgs.result.recordsets;
-                if (trainlineDepotRecordsets.length == 1 && trainlineDepotRecordsets[0].features.length) {
-                    const bureauCode = trainlineDepotRecordsets[0].features[0].attributes["BUREAU_CODE"];
-                    const bureauButtons = document.getElementsByClassName("bureauButton");
-                    var bureauShortName = "";
-                    for (var index = 0; index < bureauButtons.length; index++) {
-                        if (bureauButtons[index].value == bureauCode) {
-                            bureauShortName = bureauButtons[index].textContent;
-                            const bureauCode = trainlineDepotRecordsets[0].features[0].attributes["BUREAU_CODE"];
-                            const trainlineDepotId = trainlineDepotRecordsets[0].features[0].attributes["DDT_ID"];
-                            const trainlineDepotName = trainlineDepotRecordsets[0].features[0].attributes["DDT_NAME"];
+            queryNeareastFeatureByLngLatGeometry(lngLatgeometry, "trainlineDepot@rail",
+                function (trainlineDepotQueryEventArgs) {
+                    const trainlineDepotRecordsets = trainlineDepotQueryEventArgs.result.recordsets;
+                    if (trainlineDepotRecordsets.length == 1 && trainlineDepotRecordsets[0].features.length) {
+                        const bureauCode = trainlineDepotRecordsets[0].features[0].attributes["BUREAU_CODE"];
+                        const bureauButtons = document.getElementsByClassName("bureauButton");
+                        var bureauShortName = "";
+                        for (var index = 0; index < bureauButtons.length; index++) {
+                            if (bureauButtons[index].value == bureauCode) {
+                                bureauShortName = bureauButtons[index].textContent;
+                                const bureauCode = trainlineDepotRecordsets[0].features[0].attributes["BUREAU_CODE"];
+                                const trainlineDepotId = trainlineDepotRecordsets[0].features[0].attributes["DDT_ID"];
+                                const trainlineDepotName = trainlineDepotRecordsets[0].features[0].attributes["DDT_NAME"];
 
-                            locationButton.textContent = bureauShortName + " - " + trainlineDepotName;
+                                locationButton.textContent = bureauShortName + " - " + trainlineDepotName;
 
-                            if (highlightButton.dataset.bureauCode != bureauCode
-                                || highlightButton.dataset.trainlineDepotId != trainlineDepotId) {
-                                highlightButton.dataset.bureauCode = bureauCode;
-                                highlightButton.dataset.trainlineDepotId = trainlineDepotId;
+                                if (highlightButton.dataset.bureauCode != bureauCode
+                                    || highlightButton.dataset.trainlineDepotId != trainlineDepotId) {
+                                    highlightButton.dataset.bureauCode = bureauCode;
+                                    highlightButton.dataset.trainlineDepotId = trainlineDepotId;
 
-                                bureauVectorLayer.removeAllFeatures();
-                                highlightTrainlineDepot();
+                                    bureauVectorLayer.removeAllFeatures();
+                                    highlightTrainlineDepot();
+                                }
+                                return;
                             }
-                            return;
                         }
                     }
-                }
-            });
-
-            function queryNeareastFeature(dataset, queryCompletedFunction, queryFailedFunction) {
-                const lngLat = map.getCenter().transform(new SuperMap.Projection("EPSG:3857"),
-                    new SuperMap.Projection("EPSG:4326"));
-
-                var centerPoint = new SuperMap.Geometry.Point(lngLat.lon, lngLat.lat);
-                centerPoint.SRID = 4326;
-
-                var queryByDistanceParams = new SuperMap.REST.QueryByDistanceParameters({
-                    queryParams: [{name: dataset}],
-                    returnContent: true,
-                    expectCount: 1,
-                    isNearest: true,
-                    prjCoordSys: {"epsgCode": 4326},
-                    distance: 50,//10度范围
-                    geometry: centerPoint
                 });
-
-                var queryByDistanceService = new SuperMap.REST.QueryByDistanceService(mapRestUrl);
-                queryByDistanceService.events.on({
-                    "processCompleted": queryCompletedFunction,
-                    "processFailed": queryFailedFunction
-                });
-
-                queryByDistanceService.processAsync(queryByDistanceParams);
-            }
         }
 
         //高亮车务段
@@ -915,6 +1070,30 @@
 
             };
             main();
+        }
+
+        //根据给定经纬度作为的geometry查询最近地物，按距离查询
+        function queryNeareastFeatureByLngLatGeometry(lngLatGeometry,
+                                                      dataset,
+                                                      queryCompletedFunction,
+                                                      queryFailedFunction) {
+            var queryByDistanceParams = new SuperMap.REST.QueryByDistanceParameters({
+                queryParams: [{name: dataset}],
+                returnContent: true,
+                expectCount: 1,
+                isNearest: true,
+                prjCoordSys: {"epsgCode": 4326},
+                distance: 50,//10度范围
+                geometry: lngLatGeometry
+            });
+
+            var queryByDistanceService = new SuperMap.REST.QueryByDistanceService(mapRestUrl);
+            queryByDistanceService.events.on({
+                "processCompleted": queryCompletedFunction,
+                "processFailed": queryFailedFunction
+            });
+
+            queryByDistanceService.processAsync(queryByDistanceParams);
         }
     </script>
 </body>
