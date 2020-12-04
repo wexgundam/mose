@@ -102,7 +102,7 @@ public class SysUserLoginController {
 		// 获取查询总数
 		int recordCount = sysUserLoginService.count(sysUserloginSearchVO);
 		List<SysUserLogin> list = sysUserLoginService.list(sysUserloginSearchVO);
-		WebUtil.out(response, JsonUtil.createDataTablePageJson(sysUserloginSearchVO.getPageIndex(), recordCount, JsonUtil.toStr(list)));
+		WebUtil.out(response, JsonUtil.createDataTablePageJson(sysUserloginSearchVO.getPageIndex(), recordCount, JsonUtil.toString(list)));
 	}
 
 	/**
@@ -115,7 +115,7 @@ public class SysUserLoginController {
 	 */
 	@RequestMapping("/getAutoComplteList")
 	public void getAutoComplteList(HttpServletResponse response) {
-		WebUtil.out(response, JsonUtil.toStr(sysUserService.listAll()));
+		WebUtil.out(response, JsonUtil.toString(sysUserService.listAll()));
 	}
 
 	/**

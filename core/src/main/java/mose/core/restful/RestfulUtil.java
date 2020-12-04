@@ -2,7 +2,6 @@ package mose.core.restful;
 
 import org.springframework.ui.ModelMap;
 
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 

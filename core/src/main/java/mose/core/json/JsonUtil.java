@@ -17,7 +17,7 @@ public class JsonUtil {
      * @param obj 对象，可以是VO、List、HashMap等等
      * @return 返回生成的json值
      */
-    public static String toStr(Object obj) {
+    public static String toString(Object obj) {
         String json_str = "";
         try {
             json_str = objectMapper.writer().writeValueAsString(obj);
@@ -51,7 +51,7 @@ public class JsonUtil {
      * @param msg 提示消息
      * @return
      */
-    public static String createOperaStr(boolean b, String msg) {
+    public static String createOperaString(boolean b, String msg) {
         return "{\"success\":" + b + ",\"msgText\":\"" + msg + "\"}";
     }
 

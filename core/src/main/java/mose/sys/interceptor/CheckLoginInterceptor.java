@@ -43,7 +43,7 @@ public class CheckLoginInterceptor implements HandlerInterceptor {
         if (userSession == null) {
             boolean isAjaxRequest = StringUtil.checkAjaxRequest(request);
             if (isAjaxRequest) {
-                WebUtil.out(response, JsonUtil.createOperaStr(false, "连接超时，请重新登录!"));
+                WebUtil.out(response, JsonUtil.createOperaString(false, "连接超时，请重新登录!"));
             } else {
                 String str = "<script>top.location.href='" + request.getContextPath() + "/'</script>";
                 WebUtil.out(response, str);

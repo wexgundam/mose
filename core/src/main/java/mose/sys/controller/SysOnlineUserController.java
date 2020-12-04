@@ -197,7 +197,7 @@ public class SysOnlineUserController {
     public void getAutoComplteList(HttpServletRequest request, HttpServletResponse response) {
         //获取redis中所有session
         ArrayList<UserSession> userList = sysOnlineUserService.getUserSession(redisTemplate);
-        WebUtil.out(response, JsonUtil.toStr(userList));
+        WebUtil.out(response, JsonUtil.toString(userList));
     }
 
 

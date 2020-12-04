@@ -115,7 +115,7 @@ public class SysLogController {
 	 */
 	@RequestMapping("/getAutoComplteList")
 	public void getAutoComplteList(HttpServletResponse response) {
-		WebUtil.out(response, JsonUtil.toStr(sysUserService.listAll()));
+		WebUtil.out(response, JsonUtil.toString(sysUserService.listAll()));
 	}
 
 	/**
@@ -133,7 +133,7 @@ public class SysLogController {
 		// 获取查询总数
 		int recordCount = sysLogService.count(sysLogSearchVO); 
 		List<SysLog> list = sysLogService.list(sysLogSearchVO); 
-		WebUtil.out(response, JsonUtil.createDataTablePageJson(sysLogSearchVO.getPageIndex(), recordCount, JsonUtil.toStr(list))); 
+		WebUtil.out(response, JsonUtil.createDataTablePageJson(sysLogSearchVO.getPageIndex(), recordCount, JsonUtil.toString(list)));
 	}
 
 	/**

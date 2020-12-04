@@ -89,7 +89,7 @@ public class SysLoginController {
     public void checkLogin(HttpServletRequest request, HttpServletResponse response, String username, String password) {
         // 校验账号和密码是否都为空
         if (StringUtil.isNullOrEmpty(username) || StringUtil.isNullOrEmpty(password)) {
-            WebUtil.out(response, JsonUtil.createOperaStr(false, "用户名或密码为空"));
+            WebUtil.out(response, JsonUtil.createOperaString(false, "用户名或密码为空"));
             return;
         }
 //        Object obj = redisTemplate.opsForValue().get("spring:session:sessions:login:" + username);
@@ -128,7 +128,7 @@ public class SysLoginController {
                 } else {
                     //用户状态是否锁定
                     if (sysUser.getStatus() == 2) {
-                        WebUtil.out(response, JsonUtil.createOperaStr(false, "该用户已锁定"));
+                        WebUtil.out(response, JsonUtil.createOperaString(false, "该用户已锁定"));
                     } else {
                         //正确，进入系统
                         loginSuccess(request, response, sysUser);
@@ -147,7 +147,7 @@ public class SysLoginController {
             } else {
                 //用户状态是否锁定
                 if (sysUser.getStatus() == 2) {
-                    WebUtil.out(response, JsonUtil.createOperaStr(false, "该用户已锁定"));
+                    WebUtil.out(response, JsonUtil.createOperaString(false, "该用户已锁定"));
                 } else {
                     //正确，进入系统
                     loginSuccess(request, response, sysUser);
@@ -382,6 +382,6 @@ public class SysLoginController {
         sysUserLogin.setExplorerType(WebUtil.getSafeStr(request.getParameter("explorerType")));
         sysUserLogin.setExplorerVersion(WebUtil.getSafeStr(request.getParameter("explorerVersion")));
         userLoginService.add(sysUserLogin);
-        WebUtil.out(response, JsonUtil.createOperaStr(true, "登录成功"));
+        WebUtil.out(response, JsonUtil.createOperaString(true, "登录成功"));
     }
 }

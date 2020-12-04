@@ -234,6 +234,6 @@ public class SysDepartmentController {
     public void searchUser(HttpServletRequest request, HttpServletResponse response, SysUserSearchVO sysUserSearchVO) {
         int recordCount = sysUserService.countUserByDepartmentId(sysUserSearchVO.getDepartmentId());
         List<SysUser> list = sysUserService.listUserByDepartmentId(sysUserSearchVO.getDepartmentId());
-        WebUtil.out(response, JsonUtil.createDataTablePageJson(sysUserSearchVO.getPageIndex(), recordCount, JsonUtil.toStr(list)));
+        WebUtil.out(response, JsonUtil.createDataTablePageJson(sysUserSearchVO.getPageIndex(), recordCount, JsonUtil.toString(list)));
     }
 }

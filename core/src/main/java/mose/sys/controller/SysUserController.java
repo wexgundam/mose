@@ -283,7 +283,7 @@ public class SysUserController {
         int flag = sysUserService.update(sysUser);
         if (flag == 0) {
 
-            WebUtil.out(response, JsonUtil.createOperaStr(false, "/error.htm?resultCode=" + GlobalCode
+            WebUtil.out(response, JsonUtil.createOperaString(false, "/error.htm?resultCode=" + GlobalCode
                     .OPERA_FAILURE));
         } else {
             if (SessionUtil.getUserRealName(request).equals(sysUser.getRealName())) {
@@ -291,7 +291,7 @@ public class SysUserController {
                 userSession.setAvatar(sysUser.getAvatar());
                 request.getSession().setAttribute("userSession", userSession);
             }
-            WebUtil.out(response, JsonUtil.createOperaStr(true, "/success.htm?resultCode=" + GlobalCode
+            WebUtil.out(response, JsonUtil.createOperaString(true, "/success.htm?resultCode=" + GlobalCode
                     .SAVE_SUCCESS));
         }
 
@@ -462,7 +462,7 @@ public class SysUserController {
     public void searchUserLogin(HttpServletRequest request, HttpServletResponse response, SysUserLoginSearchVO sysUserloginSearchVO) {
         int recordCount = sysUserLoginService.count(sysUserloginSearchVO);// 获取查询总数
         List<SysUserLogin> list = sysUserLoginService.list(sysUserloginSearchVO);
-        WebUtil.out(response, JsonUtil.createDataTablePageJson(sysUserloginSearchVO.getPageIndex(), recordCount, JsonUtil.toStr(list)));
+        WebUtil.out(response, JsonUtil.createDataTablePageJson(sysUserloginSearchVO.getPageIndex(), recordCount, JsonUtil.toString(list)));
     }
 
     /**
@@ -518,7 +518,7 @@ public class SysUserController {
             jsonMap.put("waringSum", request.getAttribute("waringSum"));
             jsonMap.put("sumDataLine", request.getAttribute("sumDataLine"));
         }
-        WebUtil.out(response, JsonUtil.toStr(jsonMap));
+        WebUtil.out(response, JsonUtil.toString(jsonMap));
     }
 
     /**
@@ -536,11 +536,11 @@ public class SysUserController {
         Map<String, Object> map = new HashMap<>();
         map.put("status", true);
         map.put("list", list);
-        map.put("listJson", JsonUtil.toStr(list));
+        map.put("listJson", JsonUtil.toString(list));
         map.put("sumDataLine", request.getAttribute("sumDataLine"));
         map.put("sumWaringLine", request.getAttribute("sumWaringLine"));
         map.put("sumErrorLine", request.getAttribute("sumErrorLine"));
-        WebUtil.out(response, JsonUtil.toStr(map));
+        WebUtil.out(response, JsonUtil.toString(map));
     }
 
 

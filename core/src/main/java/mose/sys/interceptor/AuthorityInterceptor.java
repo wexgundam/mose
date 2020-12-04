@@ -89,7 +89,7 @@ public class AuthorityInterceptor implements HandlerInterceptor {
         } else {
             boolean isAjaxRequest = StringUtil.checkAjaxRequest(request);
             if (isAjaxRequest) {
-                WebUtil.out(response, JsonUtil.createOperaStr(false, "权限不足"));
+                WebUtil.out(response, JsonUtil.createOperaString(false, "权限不足"));
             } else {
 //                String location = pubConfig.getDynamicServer() + "/error.htm?msg=" + StringUtil.encodeUrl("权限不足");
                 String location = pubConfig.getDynamicServer() + "/error.htm?resultCode=" + GlobalCode.NO_AUTH;

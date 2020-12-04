@@ -62,7 +62,7 @@ public class PublicControllerAdvice {
 		// 获取异常的详细信息
 		if (isAjaxRequest) {
 			String msg = "{\"flag\":false,\"msg\":" + e.getMessage() + "}";
-			WebUtil.out(response, JsonUtil.toStr(msg));
+			WebUtil.out(response, JsonUtil.toString(msg));
 			return null;
 		} else {
 			// URL请求处理
