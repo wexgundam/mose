@@ -43,7 +43,7 @@ public class LocationServiceController {
             modelMap.put("message", "no such station whose name is [" + stationName + "].");
             modelMap.put("data", locationService.getLocations(stationName));
         }
-        String json = JsonUtil.toStr(modelMap);
+        String json = JsonUtil.toString(modelMap);
         WebUtil.out(response, json);
     }
 }

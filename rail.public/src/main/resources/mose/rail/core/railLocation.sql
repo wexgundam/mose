@@ -1,6 +1,6 @@
 select t.*,
 '{'
-||'"bureauCode":'||t.bureau_code||','
+||'"bureauId":'||t.bureau_code||','
 ||'"stationName":"'||t.name||'",'
 ||'"latLngString":"'||nvl(t.lat_lng,null)||'",'
 ||'"tencentText":"'||t.tencent_text||'"'
