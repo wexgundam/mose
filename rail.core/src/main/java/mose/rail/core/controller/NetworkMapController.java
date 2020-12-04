@@ -90,7 +90,7 @@ public class NetworkMapController {
         ModelMap modelMap = new ModelMap();
         modelMap.put("success", true);
         modelMap.put("data", featuresVo);
-        String json = JsonUtil.toStr(modelMap);
+        String json = JsonUtil.toString(modelMap);
         WebUtil.out(response, json);
     }
 

@@ -103,7 +103,7 @@ public class TrainlineMapController {
         ModelMap modelMap = new ModelMap();
         modelMap.put("success", true);
         modelMap.put("data", trainlineMapVo);
-        String json = JsonUtil.toStr(modelMap);
+        String json = JsonUtil.toString(modelMap);
         WebUtil.out(response, json);
     }
 
