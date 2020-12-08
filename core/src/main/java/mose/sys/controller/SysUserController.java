@@ -178,7 +178,7 @@ public class SysUserController {
     @RequestMapping("/getPinYin")
     @ResponseBody
     public String getPinYin(String realname) {
-        String pinyin = StringUtil.getPinYinHeadUpCase(realname);
+        String pinyin = StringUtil.toInitialPinyin(realname);
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("success", true);
         jsonObject.put("pinyin", pinyin);

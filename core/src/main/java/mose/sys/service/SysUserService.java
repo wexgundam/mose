@@ -74,7 +74,7 @@ public class SysUserService {
                 sysUser.setAvatar("/sys/user/avatar/male.jpg");
             }
             // 设置姓名拼音
-            sysUser.setPinyin(StringUtil.getPinYinHeadUpCase(sysUser.getRealName()));// 姓名拼音
+            sysUser.setPinyin(StringUtil.toInitialPinyin(sysUser.getRealName()));// 姓名拼音
             sysUser.setCompletion(completionCalculate(sysUser));
             flag = sysUserDao.add(sysUser);
         }
@@ -698,7 +698,7 @@ public class SysUserService {
             user.setTelephone(data[13]);// 座机
             user.setPost(data[14]);// 职务
             user.setJobTitle(data[15]);// 职称
-            user.setPinyin(StringUtil.getPinYinHeadUpCase(data[4]));// 姓名拼音
+            user.setPinyin(StringUtil.toInitialPinyin(data[4]));// 姓名拼音
             user.setStatus(1);// 账号状态
             user.setIsAdmin(0);// 是否管理员
             // user.setIsCheck(1);//是否审核，保留字段

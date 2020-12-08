@@ -22,6 +22,7 @@ public class StringUtil {
      * 把前台传过来的含中文的url字符串转换成标准中文，比如%25E5%258C%2597%25E4%25BA%25AC转换成北京
      *
      * @param url url字符串
+     *
      * @return string
      */
     public static String decodeUrl(String url) {
@@ -40,6 +41,7 @@ public class StringUtil {
      * 把比如北京转换成%25E5%258C%2597%25E4%25BA%25AC
      *
      * @param url url字符串
+     *
      * @return string
      */
     public static String encodeUrl(String url) {
@@ -58,6 +60,7 @@ public class StringUtil {
      * 取字符除最后一位的子串，比如 aaa,bbb, 返回aaa,bbb，一般用在多个字段进行拼接，要去除最后一位
      *
      * @param str 字符串
+     *
      * @return string
      */
     public static String subTract(String str) {
@@ -71,6 +74,7 @@ public class StringUtil {
      * 判断字符串是null或空，null或""都返回true
      *
      * @param str 字符串
+     *
      * @return boolean
      */
     public static boolean isNullOrEmpty(String str) {
@@ -85,6 +89,7 @@ public class StringUtil {
      * 判断字符串不是null或空
      *
      * @param str 字符串
+     *
      * @return
      */
     public static boolean isNotNullOrEmpty(String str) {
@@ -99,6 +104,7 @@ public class StringUtil {
      * 判断是否是ajax请求，用于进行权限控制或异常处理时，得判断是否是ajax请求
      *
      * @param request
+     *
      * @return
      */
     public static boolean checkAjaxRequest(HttpServletRequest request) {
@@ -114,6 +120,7 @@ public class StringUtil {
      * 获取客户端请求的ip地址，可以跳过代理等直接获取
      *
      * @param request
+     *
      * @return
      */
     public static String getIp(HttpServletRequest request) {
@@ -132,6 +139,7 @@ public class StringUtil {
      * 过滤表情，在移动开发中，有些字符是表情等特殊字符，数据库不识别，需要过滤掉， 替换为*
      *
      * @param source
+     *
      * @return
      */
     public static String filterEmoji(String source) {
@@ -146,6 +154,7 @@ public class StringUtil {
      * 获取url地址，整个请求地址，不包含?后面的参数信息，如果最后一位后缀为#，去掉
      *
      * @param request 请求
+     *
      * @return url地址
      */
     public static String getUrlPath(HttpServletRequest request) {
@@ -165,6 +174,7 @@ public class StringUtil {
      * 判断是否是手机号
      *
      * @param mobile
+     *
      * @return
      */
     public static boolean isMobile(String mobile) {
@@ -178,6 +188,7 @@ public class StringUtil {
      * 获取Request的参数，并将其"Key=Value&Key=Value"的格式返回
      *
      * @param request 请求
+     *
      * @return "Key=Value&Key=Value"格式的字符串
      */
     public static String getOperaParams(HttpServletRequest request) {
@@ -196,6 +207,7 @@ public class StringUtil {
      * 去掉小数点后面的0，导入数据的时候用到
      *
      * @param val
+     *
      * @return
      */
     public static String formatNumber(String val) {
@@ -206,13 +218,14 @@ public class StringUtil {
 
     /**
      * 生成给定字符串的拼音首字母大写形式
-     *
+     * <p>
      * 例如：北京——BJ
      *
      * @param str
+     *
      * @return
      */
-    public static String getPinYinHeadUpCase(String str) {
+    public static String toInitialPinyin(String str) {
         if (isNullOrEmpty(str)) {
             return "";
         }
@@ -229,33 +242,34 @@ public class StringUtil {
         convert = convert.trim();
         return convert.toUpperCase();
     }
+
     /**
-     * 
      * what:     将汉字转换为拼音 （不考虑多音字）
      * how:     例如：北京--->beijing
      * warning: 多音字场景下不适用
-     * 
-     * @param str  需要转换的汉字
+     *
+     * @param str 需要转换的汉字
+     *
      * @return
      *
      * @author mose created on 2017年10月26日
      */
-    public static String getPinYinAll(String str){
-    	if (isNullOrEmpty(str)) {
-    		return "";
-		}
-    	String convert ="";
-    	for (char word : str.toCharArray()) {
-			//提取汉字的拼音
-    		String[] pinYinArray = PinyinHelper.toHanyuPinyinStringArray(word);
-    		if (pinYinArray!=null) {
-    			String pinYin = pinYinArray[0];
-    			convert += pinYin.substring(0, pinYin.length()-1)+" ";
-			}else{
-				convert += word+" ";
-			}
-		}
-    	convert = convert.trim();
-    	return convert;
+    public static String toPinyin(String str) {
+        if (isNullOrEmpty(str)) {
+            return "";
+        }
+        String convert = "";
+        for (char word : str.toCharArray()) {
+            //提取汉字的拼音
+            String[] pinYinArray = PinyinHelper.toHanyuPinyinStringArray(word);
+            if (pinYinArray != null) {
+                String pinYin = pinYinArray[0];
+                convert += pinYin.substring(0, pinYin.length() - 1) + " ";
+            } else {
+                convert += word + " ";
+            }
+        }
+        convert = convert.trim();
+        return convert.toUpperCase();
     }
 }
