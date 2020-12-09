@@ -54,7 +54,7 @@ public class TestFenjiekouFeatureService {
     @Before
     public void getBeforeTest() {
         fenjiekou = new Fenjiekou();
-        fenjiekou.setId(100);
+        fenjiekou.setId(-100);
         fenjiekou.setName("测试");
         fenjiekou.setBureauId(11);
         fenjiekou.setLatitude(31.28);
@@ -72,7 +72,7 @@ public class TestFenjiekouFeatureService {
     public void testCRUD() {
         Assert.assertTrue(fenjiekouFeatureService.addOne(fenjiekou));
 
-        int smId = fenjiekouFeatureService.getSmId(0);
+        int smId = fenjiekouFeatureService.getSmId(fenjiekou.getId());
         Assert.assertNotEquals(-1, smId);
 
         fenjiekou.setName("测试 update");
@@ -83,5 +83,4 @@ public class TestFenjiekouFeatureService {
         fenjiekou.setId(-100);
         Assert.assertFalse(fenjiekouFeatureService.deleteOne(fenjiekou));
     }
-
 }

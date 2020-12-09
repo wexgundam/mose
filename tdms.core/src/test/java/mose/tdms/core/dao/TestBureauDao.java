@@ -7,6 +7,9 @@ package mose.tdms.core.dao;
 
 import mose.tdms.CommonConfiguration;
 import mose.tdms.core.modal.Bureau;
+import mose.tdms.core.modal.TrainoperationDepot;
+import mose.tdms.core.service.BureauFeatureService;
+import mose.tdms.core.service.TrainoperationDepotFeatureService;
 import mose.tdms.core.vo.BureauSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -22,6 +25,7 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -43,8 +47,9 @@ import java.util.List;
         "classpath:/spring/applicationContext-common.xml",
         "classpath:/spring/applicationContext-database.xml"
 })
-@ComponentScan(basePackages = "mose.tdms", useDefaultFilters = false, includeFilters = {
-        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {BureauDao.class})
+@ComponentScan(basePackages = "mose", useDefaultFilters = false, includeFilters = {
+        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
+                BureauDao.class})
 })
 public class TestBureauDao {
     @Autowired

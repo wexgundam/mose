@@ -53,7 +53,7 @@ public class TestBureauFeatureService {
     @Before
     public void getBeforeTest() {
         bureau = new Bureau();
-        bureau.setId(100);
+        bureau.setId(-100);
         bureau.setShortName("测试");
         bureau.setLatitude(31.28);
         bureau.setLongitude(121.60);
@@ -70,7 +70,7 @@ public class TestBureauFeatureService {
     public void testCRUD() {
         Assert.assertTrue(bureauFeatureService.addOne(bureau));
 
-        int smId = bureauFeatureService.getSmId(0);
+        int smId = bureauFeatureService.getSmId(bureau.getId());
         Assert.assertNotEquals(-1, smId);
 
         bureau.setShortName("测试 update");

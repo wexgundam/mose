@@ -54,7 +54,7 @@ public class TestStationFeatureService {
     @Before
     public void getBeforeTest() {
         station = new Station();
-        station.setId(100);
+        station.setId(-100);
         station.setName("测试");
         station.setBureauId(11);
         station.setTrainlineDepotId(10);
@@ -74,7 +74,7 @@ public class TestStationFeatureService {
     public void testCRUD() {
         Assert.assertTrue(stationFeatureService.addOne(station));
 
-        int smId = stationFeatureService.getSmId(0);
+        int smId = stationFeatureService.getSmId(station.getId());
         Assert.assertNotEquals(-1, smId);
 
         station.setName("测试 update");

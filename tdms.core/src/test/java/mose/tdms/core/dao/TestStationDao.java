@@ -5,15 +5,13 @@
  */
 package mose.tdms.core.dao;
 
-import com.alibaba.druid.support.spring.stat.annotation.Stat;
 import mose.core.json.JsonUtil;
-import mose.core.string.StringUtil;
+import mose.core.restful.RestfulTemplate;
 import mose.tdms.CommonConfiguration;
 import mose.tdms.core.modal.Bureau;
 import mose.tdms.core.modal.Station;
 import mose.tdms.core.modal.TrainlineDepot;
-import mose.tdms.core.modal.TrainoperationDepot;
-import mose.tdms.core.vo.BureauSearchVo;
+import mose.tdms.core.service.StationFeatureService;
 import mose.tdms.core.vo.StationSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -30,11 +28,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -57,7 +52,7 @@ import java.util.Map;
         "classpath:/spring/applicationContext-common.xml",
         "classpath:/spring/applicationContext-database.xml"
 })
-@ComponentScan(basePackages = "mose.tdms.core.dao", useDefaultFilters = false, includeFilters = {
+@ComponentScan(basePackages = "mose", useDefaultFilters = false, includeFilters = {
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
                 BureauDao.class,
                 TrainlineDepotDao.class,
@@ -227,85 +222,5 @@ public class TestStationDao {
         stationSearchVo.setIdEqual(id);
         getOne = stationDao.getOne(stationSearchVo);
         Assert.assertNull(getOne);
-    }
-
-    //    @Test
-    public void updateTrainlineDepot() throws IOException {
-        Map<String, TrainlineDepot> depots = new HashMap<>();
-        for (TrainlineDepot depot : trainlineDepotDao.getAll()) {
-            String key = depot.getBureauId() + Integer.toString(depot.getDdtId());
-            depots.put(key, depot);
-        }
-
-        Map<String, Station> stations = new HashMap<>();
-        for (Station station : stationDao.getAll()) {
-            String key = station.getBureauId() + station.getName();
-            stations.put(key, station);
-        }
-
-        InputStream inputStream = this.getClass().getResourceAsStream("trainlineDepotEntries.json");
-        byte[] bytes = new byte[inputStream.available()];
-        inputStream.read(bytes);
-        String json = new String(bytes);
-        TrainlineDepotEntry[] trainlineDepotEntriesJson = JsonUtil.toObject(json, TrainlineDepotEntry[].class);
-
-        for (int index = 0; index < trainlineDepotEntriesJson.length; index++) {
-            TrainlineDepotEntry trainlineDepotEntry = trainlineDepotEntriesJson[index];
-            String key1 = trainlineDepotEntry.getBureauCode() + trainlineDepotEntry.getEntryText();
-            String key2 = trainlineDepotEntry.getBureauCode() + Integer.toString(trainlineDepotEntry.getDdtId());
-            if (stations.containsKey(key1) && depots.containsKey(key2)) {
-                Station station = stations.get(key1);
-                station.setTrainlineDepotId(depots.get(key2).getId());
-                stationDao.updateOne(station);
-            }
-        }
-    }
-
-    private static class TrainlineDepotEntry {
-        private int bureauCode;
-        private int ddtId;
-        private int queueIndex;
-        private int entryIndex;
-        private String entryText;
-
-        public int getBureauCode() {
-            return bureauCode;
-        }
-
-        public void setBureauCode(int bureauCode) {
-            this.bureauCode = bureauCode;
-        }
-
-        public int getDdtId() {
-            return ddtId;
-        }
-
-        public void setDdtId(int ddtId) {
-            this.ddtId = ddtId;
-        }
-
-        public int getQueueIndex() {
-            return queueIndex;
-        }
-
-        public void setQueueIndex(int queueIndex) {
-            this.queueIndex = queueIndex;
-        }
-
-        public int getEntryIndex() {
-            return entryIndex;
-        }
-
-        public void setEntryIndex(int entryIndex) {
-            this.entryIndex = entryIndex;
-        }
-
-        public String getEntryText() {
-            return entryText;
-        }
-
-        public void setEntryText(String entryText) {
-            this.entryText = entryText;
-        }
     }
 }

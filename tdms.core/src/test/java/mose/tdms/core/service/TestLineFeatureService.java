@@ -54,7 +54,7 @@ public class TestLineFeatureService {
     @Before
     public void getBeforeTest() {
         line = new Line();
-        line.setId(100);
+        line.setId(-100);
         line.setStationALatitude(31.28);
         line.setStationALongitude(121.60);
         line.setStationBLatitude(31.28);
@@ -72,7 +72,7 @@ public class TestLineFeatureService {
     public void testCRUD() {
         Assert.assertTrue(lineFeatureService.addOne(line));
 
-        int smId = lineFeatureService.getSmId(0);
+        int smId = lineFeatureService.getSmId(line.getId());
         Assert.assertNotEquals(-1, smId);
 
         line.setStationBLatitude(31.08);

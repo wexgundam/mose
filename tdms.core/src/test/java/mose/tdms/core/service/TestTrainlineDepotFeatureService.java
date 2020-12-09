@@ -54,7 +54,7 @@ public class TestTrainlineDepotFeatureService {
     @Before
     public void getBeforeTest() {
         trainlineDepot = new TrainlineDepot();
-        trainlineDepot.setId(100);
+        trainlineDepot.setId(-100);
         trainlineDepot.setName("测试");
         trainlineDepot.setBureauId(11);
         trainlineDepot.setLatitude(31.28);
@@ -72,7 +72,7 @@ public class TestTrainlineDepotFeatureService {
     public void testCRUD() {
         Assert.assertTrue(trainlineDepotFeatureService.addOne(trainlineDepot));
 
-        int smId = trainlineDepotFeatureService.getSmId(0);
+        int smId = trainlineDepotFeatureService.getSmId(trainlineDepot.getId());
         Assert.assertNotEquals(-1, smId);
 
         trainlineDepot.setName("测试 update");

@@ -5,7 +5,6 @@
  */
 package mose.tdms.core.dao;
 
-import mose.core.string.StringUtil;
 import mose.tdms.CommonConfiguration;
 import mose.tdms.core.modal.Bureau;
 import mose.tdms.core.modal.TrainlineDepot;
@@ -45,7 +44,7 @@ import java.util.List;
         "classpath:/spring/applicationContext-common.xml",
         "classpath:/spring/applicationContext-database.xml"
 })
-@ComponentScan(basePackages = "mose.tdms.core.dao", useDefaultFilters = false, includeFilters = {
+@ComponentScan(basePackages = "mose", useDefaultFilters = false, includeFilters = {
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
                 BureauDao.class,
                 TrainlineDepotDao.class
@@ -194,14 +193,5 @@ public class TestTrainlineDepotDao {
         trainlineDepotSearchVo.setIdEqual(id);
         getOne = trainlineDepotDao.getOne(trainlineDepotSearchVo);
         Assert.assertNull(getOne);
-    }
-
-    @Test
-    public void testUpdatePinyin() {
-        for (TrainlineDepot depot : trainlineDepotDao.getAll()) {
-            depot.setNamePinyin(StringUtil.toPinyin(depot.getName()));
-            depot.setNameInitialPinyin(StringUtil.toInitialPinyin(depot.getName()));
-            trainlineDepotDao.updateOne(depot);
-        }
     }
 }

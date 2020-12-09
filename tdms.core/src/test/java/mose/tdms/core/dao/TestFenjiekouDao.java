@@ -45,7 +45,7 @@ import java.util.List;
         "classpath:/spring/applicationContext-common.xml",
         "classpath:/spring/applicationContext-database.xml"
 })
-@ComponentScan(basePackages = "mose.tdms.core.dao", useDefaultFilters = false, includeFilters = {
+@ComponentScan(basePackages = "mose", useDefaultFilters = false, includeFilters = {
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {
                 BureauDao.class,
                 TrainlineDepotDao.class,

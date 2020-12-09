@@ -123,12 +123,12 @@ public abstract class AbstractFeatureService {
     /**
      * 向Gis服务器发送更新Feature请求
      *
-     * @param station
+     * @param modal
      *
      * @return
      */
-    public boolean updateOne(Object station) {
-        Feature feature = toFeature(station);
+    public boolean updateOne(Object modal) {
+        Feature feature = toFeature(modal);
 
         List<Feature> features = new ArrayList<>();
         features.add(feature);
