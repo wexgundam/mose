@@ -9,6 +9,7 @@ import mose.tdms.CommonConfiguration;
 import mose.tdms.core.modal.Bureau;
 import mose.tdms.core.modal.Fenjiekou;
 import mose.tdms.core.modal.TrainlineDepot;
+import mose.tdms.core.vo.BureauSearchVo;
 import mose.tdms.core.vo.FenjiekouSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -74,11 +75,12 @@ public class TestFenjiekouDao {
         fenjiekou.setTelegraphCode("tc");
         fenjiekou.setLatitude(52.11111);
         fenjiekou.setLongitude(132.11111);
-        fenjiekou.setCode(1);
         fenjiekou.setCreatorId(2);
         fenjiekou.setCreatorRealName("crn");
         fenjiekou.setLastEditorId(3);
-        fenjiekou.setLastEditorRealName("lrn");
+        fenjiekou.setLastEditorRealName("lerrn");
+        fenjiekou.setLastVerifierId(4);
+        fenjiekou.setLastVerifierRealName("lvrn");
     }
 
     @Test
@@ -234,6 +236,37 @@ public class TestFenjiekouDao {
         Assert.assertEquals(fenjiekou.getLastEditorId(), getOne.getLastEditorId());
         Assert.assertEquals(fenjiekou.getLastEditorRealName(), getOne.getLastEditorRealName());
         Assert.assertNotNull(getOne.getLastEditedAt());
+
+        fenjiekouDao.verifyOne(fenjiekou);
+        fenjiekouSearchVo = new FenjiekouSearchVo();
+        fenjiekouSearchVo.setIdEqual(id);
+        fenjiekouSearchVo.setVerified(true);
+        getOne = fenjiekouDao.getOne(fenjiekouSearchVo);
+        Assert.assertNotNull(getOne);
+        Assert.assertEquals(fenjiekou.getBureauId(), getOne.getBureauId());
+        Assert.assertEquals(fenjiekou.getBureauName(), getOne.getBureauName());
+        Assert.assertEquals(fenjiekou.getTrainlineDepotId(), getOne.getTrainlineDepotId());
+        Assert.assertEquals(fenjiekou.getTrainlineDepotName(), getOne.getTrainlineDepotName());
+        Assert.assertEquals(fenjiekou.getTargetBureauId(), getOne.getTargetBureauId());
+        Assert.assertEquals(fenjiekou.getTargetBureauName(), getOne.getTargetBureauName());
+        Assert.assertEquals(fenjiekou.getTargetTrainlineDepotId(), getOne.getTargetTrainlineDepotId());
+        Assert.assertEquals(fenjiekou.getTargetTrainlineDepotName(), getOne.getTargetTrainlineDepotName());
+        Assert.assertEquals(fenjiekou.getName(), getOne.getName());
+        Assert.assertEquals(fenjiekou.getNamePinyin(), getOne.getNamePinyin());
+        Assert.assertEquals(fenjiekou.getNameInitialPinyin(), getOne.getNameInitialPinyin());
+        Assert.assertEquals(fenjiekou.getTelegraphCode(), getOne.getTelegraphCode());
+        Assert.assertEquals(fenjiekou.getLatitude(), getOne.getLatitude(), 0);
+        Assert.assertEquals(fenjiekou.getLongitude(), getOne.getLongitude(), 0);
+        Assert.assertEquals(fenjiekou.getCode(), getOne.getCode());
+        Assert.assertEquals(fenjiekou.getCreatorId(), getOne.getCreatorId());
+        Assert.assertEquals(fenjiekou.getCreatorRealName(), getOne.getCreatorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(fenjiekou.getLastEditorId(), getOne.getLastEditorId());
+        Assert.assertEquals(fenjiekou.getLastEditorRealName(), getOne.getLastEditorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(fenjiekou.getLastVerifierId(), getOne.getLastVerifierId());
+        Assert.assertEquals(fenjiekou.getLastVerifierRealName(), getOne.getLastVerifierRealName());
+        Assert.assertNotNull(getOne.getLastVerifiedAt());
 
         fenjiekouDao.deleteOne(fenjiekou);
         fenjiekouSearchVo = new FenjiekouSearchVo();

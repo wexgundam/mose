@@ -42,7 +42,10 @@ public class FenjiekouSearchVo {
      * 电报码等于
      */
     private String telegraphCodeEqual;
-
+    /**
+     * 核对状态等于true or false
+     */
+    private Boolean verified;
 
     public Integer getIdEqual() {
         return idEqual;
@@ -98,5 +101,13 @@ public class FenjiekouSearchVo {
 
     public void setTargetTrainlineDepotIdEqual(Integer targetTrainlineDepotIdEqual) {
         this.targetTrainlineDepotIdEqual = targetTrainlineDepotIdEqual;
+    }
+
+    public Boolean getVerified() {
+        return verified;
+    }
+
+    public void setVerified(Boolean verified) {
+        this.verified = verified;
     }
 }

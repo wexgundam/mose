@@ -9,6 +9,7 @@ import mose.tdms.CommonConfiguration;
 import mose.tdms.core.modal.Bureau;
 import mose.tdms.core.modal.TrainoperationDepot;
 import mose.tdms.core.service.TrainoperationDepotFeatureService;
+import mose.tdms.core.vo.BureauSearchVo;
 import mose.tdms.core.vo.TrainoperationDepotSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -71,7 +72,9 @@ public class TestTrainoperationDepotDao {
         trainoperationDepot.setCreatorId(2);
         trainoperationDepot.setCreatorRealName("crn");
         trainoperationDepot.setLastEditorId(3);
-        trainoperationDepot.setLastEditorRealName("lrn");
+        trainoperationDepot.setLastEditorRealName("lerrn");
+        trainoperationDepot.setLastVerifierId(4);
+        trainoperationDepot.setLastVerifierRealName("lvrn");
     }
 
     @Test
@@ -175,6 +178,29 @@ public class TestTrainoperationDepotDao {
         Assert.assertEquals(this.trainoperationDepot.getLastEditorId(), getOne.getLastEditorId());
         Assert.assertEquals(this.trainoperationDepot.getLastEditorRealName(), getOne.getLastEditorRealName());
         Assert.assertNotNull(getOne.getLastEditedAt());
+
+        trainoperationDepotDao.verifyOne(trainoperationDepot);
+        trainoperationDepotSearchVo = new TrainoperationDepotSearchVo();
+        trainoperationDepotSearchVo.setIdEqual(id);
+        trainoperationDepotSearchVo.setVerified(true);
+        getOne = trainoperationDepotDao.getOne(trainoperationDepotSearchVo);
+        Assert.assertNotNull(getOne);
+        Assert.assertEquals(trainoperationDepot.getBureauId(), getOne.getBureauId());
+        Assert.assertEquals(trainoperationDepot.getBureauName(), getOne.getBureauName());
+        Assert.assertEquals(trainoperationDepot.getName(), getOne.getName());
+        Assert.assertEquals(trainoperationDepot.getNamePinyin(), getOne.getNamePinyin());
+        Assert.assertEquals(trainoperationDepot.getNameInitialPinyin(), getOne.getNameInitialPinyin());
+        Assert.assertEquals(trainoperationDepot.getLatitude(), getOne.getLatitude(), 0);
+        Assert.assertEquals(trainoperationDepot.getLongitude(), getOne.getLongitude(), 0);
+        Assert.assertEquals(this.trainoperationDepot.getCreatorId(), getOne.getCreatorId());
+        Assert.assertEquals(this.trainoperationDepot.getCreatorRealName(), getOne.getCreatorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(this.trainoperationDepot.getLastEditorId(), getOne.getLastEditorId());
+        Assert.assertEquals(this.trainoperationDepot.getLastEditorRealName(), getOne.getLastEditorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(trainoperationDepot.getLastVerifierId(), getOne.getLastVerifierId());
+        Assert.assertEquals(trainoperationDepot.getLastVerifierRealName(), getOne.getLastVerifierRealName());
+        Assert.assertNotNull(getOne.getLastVerifiedAt());
 
         trainoperationDepotDao.deleteOne(this.trainoperationDepot);
         trainoperationDepotSearchVo = new TrainoperationDepotSearchVo();

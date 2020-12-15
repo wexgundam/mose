@@ -26,6 +26,11 @@ public class TrainoperationDepotSearchVo {
      * 管辖局Id等于
      */
     private Integer bureauIdEqual;
+    /**
+     * 核对状态等于true or false
+     */
+    private Boolean verified;
+
 
     public Integer getIdEqual() {
         return idEqual;
@@ -52,4 +57,11 @@ public class TrainoperationDepotSearchVo {
         this.textLike = textLike == null ? textLike : textLike.toUpperCase();
     }
 
+    public Boolean getVerified() {
+        return verified;
+    }
+
+    public void setVerified(Boolean verified) {
+        this.verified = verified;
+    }
 }

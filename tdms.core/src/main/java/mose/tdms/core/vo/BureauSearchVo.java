@@ -38,6 +38,10 @@ public class BureauSearchVo {
      * 电报码等于
      */
     private String telegraphCodeEqual;
+    /**
+     * 核对状态等于true or false
+     */
+    private Boolean verified;
 
     public String getNameEqual() {
         return nameEqual;
@@ -85,5 +89,13 @@ public class BureauSearchVo {
 
     public void setIdEqual(Integer idEqual) {
         this.idEqual = idEqual;
+    }
+
+    public Boolean getVerified() {
+        return verified;
+    }
+
+    public void setVerified(Boolean verified) {
+        this.verified = verified;
     }
 }

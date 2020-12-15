@@ -7,6 +7,7 @@ package mose.tdms.core.dao;
 
 import mose.core.dao.BaseDao;
 import mose.core.string.StringUtil;
+import mose.tdms.core.modal.Bureau;
 import mose.tdms.core.modal.Line;
 import mose.tdms.core.vo.LineSearchVo;
 import org.springframework.stereotype.Repository;
@@ -48,7 +49,13 @@ public class LineDao extends BaseDao<Line, LineSearchVo> {
         sql.append(" CREATED_AT,");
         sql.append(" LAST_EDITOR_ID,");
         sql.append(" LAST_EDITOR_REAL_NAME,");
-        sql.append(" LAST_EDITED_AT");
+        sql.append(" LAST_EDITED_AT,");
+        sql.append(" LAST_VERIFIER_ID,");
+        sql.append(" LAST_VERIFIER_REAL_NAME,");
+        sql.append(" LAST_EDITED_AT,");
+        sql.append(" LAST_VERIFIER_ID,");
+        sql.append(" LAST_VERIFIER_REAL_NAME,");
+        sql.append(" LAST_VERIFIED_AT");
         sql.append(" from");
         sql.append(" TDMS_LINE");
         sql.append(" where 1=1");
@@ -146,6 +153,14 @@ public class LineDao extends BaseDao<Line, LineSearchVo> {
 
             sql += buffer.toString();
         }
+        //已审核
+        if (lineSearchVo.getVerified() != null && lineSearchVo.getVerified()) {
+            sql += " and (LAST_VERIFIED_AT is not null and (LAST_VERIFIED_AT >= LAST_EDITED_AT or LAST_EDITED_AT is null))";
+        }
+        //未审核
+        if (lineSearchVo.getVerified() != null && !lineSearchVo.getVerified()) {
+            sql += " and (LAST_VERIFIED_AT is null or LAST_VERIFIED_AT < LAST_EDITED_AT)";
+        }
 
         return sql;
     }
@@ -205,6 +220,27 @@ public class LineDao extends BaseDao<Line, LineSearchVo> {
         sql.append(" LAST_EDITOR_ID=:lastEditorId,");
         sql.append(" LAST_EDITOR_REAL_NAME=:lastEditorRealName,");
         sql.append(" LAST_EDITED_AT=sysdate");
+        sql.append(" where ID=:id");
+
+        update(sql.substring(0), line);
+    }
+
+    /**
+     * what:    核对. <br/>
+     * when:    (这里描述这个类的适用时机 – 可选).<br/>
+     * how:     (这里描述这个类的使用方法 – 可选).<br/>
+     * warning: (这里描述这个类的注意事项 – 可选).<br/>
+     *
+     * @author 靳磊 created on 2019/9/11
+     */
+    public void verifyOne(Line line) {
+        StringBuffer sql = new StringBuffer();
+        sql.append("update");
+        sql.append(" TDMS_LINE");
+        sql.append(" set");
+        sql.append(" LAST_VERIFIER_ID=:lastVerifierId,");
+        sql.append(" LAST_VERIFIER_REAL_NAME=:lastVerifierRealName,");
+        sql.append(" LAST_VERIFIED_AT=sysdate");
         sql.append(" where ID=:id");
 
         update(sql.substring(0), line);

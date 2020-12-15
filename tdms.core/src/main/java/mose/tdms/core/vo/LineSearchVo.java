@@ -26,6 +26,10 @@ public class LineSearchVo {
      * stations id等于
      */
     private Integer[] stationsIdEqual;
+    /**
+     * 核对状态等于true or false
+     */
+    private Boolean verified;
 
     public Integer getIdEqual() {
         return idEqual;
@@ -49,5 +53,13 @@ public class LineSearchVo {
 
     public void setStationsIdEqual(Integer[] stationsIdEqual) {
         this.stationsIdEqual = stationsIdEqual;
+    }
+
+    public Boolean getVerified() {
+        return verified;
+    }
+
+    public void setVerified(Boolean verified) {
+        this.verified = verified;
     }
 }

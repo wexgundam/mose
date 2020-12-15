@@ -55,27 +55,39 @@ public class Line {
     /**
      * 创建人Id，只在保存新增数据时填写，以后不可更改
      */
-    private Integer creatorId;//创建人Id
+    private Integer creatorId;
     /**
      * 创建人实名，只在保存新增数据时填写，以后不可更改
      */
-    private String creatorRealName;//创建人Name
+    private String creatorRealName;
     /**
      * 创建时间，只在保存新增数据时填写，以后不可更改
      */
-    private Date createdAt;//创建时间
+    private Date createdAt;
     /**
      * 最后修改人Id，在新增和更新数据时填写，修改后保存时可更改
      */
-    private Integer lastEditorId;//最后修改人Id
+    private Integer lastEditorId;
     /**
      * 最后修改人实名，在新增和更新数据时填写，修改后保存时可更改
      */
-    private String lastEditorRealName;//最后修改人实名
+    private String lastEditorRealName;
     /**
      * 最后修改时间，在新增和更新数据时填写，修改后保存时可更改
      */
-    private Date lastEditedAt;//最后修改时间
+    private Date lastEditedAt;
+    /**
+     * 最后审核人Id，审核后保存时可更改
+     */
+    private Integer lastVerifierId;
+    /**
+     * 最后审核人实名，审核后保存时可更改
+     */
+    private String lastVerifierRealName;
+    /**
+     * 最后审核时间，审核后保存时可更改
+     */
+    private Date lastVerifiedAt;
 
     @Override
     public boolean equals(Object o) {
@@ -110,6 +122,9 @@ public class Line {
                 ", lastEditorId=" + lastEditorId +
                 ", lastEditorRealName='" + lastEditorRealName + '\'' +
                 ", lastEditedAt=" + lastEditedAt +
+                ", lastVerifierId=" + lastVerifierId +
+                ", lastVerifierRealName='" + lastVerifierRealName + '\'' +
+                ", lastVerifiedAt=" + lastVerifiedAt +
                 '}';
     }
 
@@ -231,5 +246,29 @@ public class Line {
 
     public void setStationBName(String stationBName) {
         this.stationBName = stationBName;
+    }
+
+    public Integer getLastVerifierId() {
+        return lastVerifierId;
+    }
+
+    public void setLastVerifierId(Integer lastVerifierId) {
+        this.lastVerifierId = lastVerifierId;
+    }
+
+    public String getLastVerifierRealName() {
+        return lastVerifierRealName;
+    }
+
+    public void setLastVerifierRealName(String lastVerifierRealName) {
+        this.lastVerifierRealName = lastVerifierRealName;
+    }
+
+    public Date getLastVerifiedAt() {
+        return lastVerifiedAt;
+    }
+
+    public void setLastVerifiedAt(Date lastVerifiedAt) {
+        this.lastVerifiedAt = lastVerifiedAt;
     }
 }

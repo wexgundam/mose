@@ -30,6 +30,11 @@ public class TrainlineDepotSearchVo {
      * ddtId等于
      */
     private Integer ddtIdEqual;
+    /**
+     * 核对状态等于true or false
+     */
+    private Boolean verified;
+
 
     public Integer getIdEqual() {
         return idEqual;
@@ -63,4 +68,11 @@ public class TrainlineDepotSearchVo {
         this.textLike = textLike == null ? textLike : textLike.toUpperCase();
     }
 
+    public Boolean getVerified() {
+        return verified;
+    }
+
+    public void setVerified(Boolean verified) {
+        this.verified = verified;
+    }
 }

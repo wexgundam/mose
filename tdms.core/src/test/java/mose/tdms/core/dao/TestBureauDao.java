@@ -7,9 +7,6 @@ package mose.tdms.core.dao;
 
 import mose.tdms.CommonConfiguration;
 import mose.tdms.core.modal.Bureau;
-import mose.tdms.core.modal.TrainoperationDepot;
-import mose.tdms.core.service.BureauFeatureService;
-import mose.tdms.core.service.TrainoperationDepotFeatureService;
 import mose.tdms.core.vo.BureauSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -25,7 +22,6 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -68,13 +64,15 @@ public class TestBureauDao {
         bureau.setCreatorId(2);
         bureau.setCreatorRealName("crn");
         bureau.setLastEditorId(3);
-        bureau.setLastEditorRealName("lrn");
+        bureau.setLastEditorRealName("lerrn");
+        bureau.setLastVerifierId(4);
+        bureau.setLastVerifierRealName("lvrn");
     }
 
     @Test
     @Transactional
     @Rollback
-    public void testCRUD() {
+    public void testCRUD() throws InterruptedException {
         int id = bureauDao.addOne(bureau);
         bureau.setId(id);
         BureauSearchVo bureauSearchVo = new BureauSearchVo();
@@ -157,6 +155,28 @@ public class TestBureauDao {
         Assert.assertEquals(bureau.getLastEditorId(), getOne.getLastEditorId());
         Assert.assertEquals(bureau.getLastEditorRealName(), getOne.getLastEditorRealName());
         Assert.assertNotNull(getOne.getLastEditedAt());
+
+        bureauDao.verifyOne(bureau);
+        bureauSearchVo = new BureauSearchVo();
+        bureauSearchVo.setIdEqual(id);
+        bureauSearchVo.setVerified(true);
+        getOne = bureauDao.getOne(bureauSearchVo);
+        Assert.assertNotNull(getOne);
+        Assert.assertEquals(bureau.getName(), getOne.getName());
+        Assert.assertEquals(bureau.getShortName(), getOne.getShortName());
+        Assert.assertEquals(bureau.getCode(), getOne.getCode());
+        Assert.assertEquals(bureau.getTelegraphCode(), getOne.getTelegraphCode());
+        Assert.assertEquals(bureau.getLatitude(), getOne.getLatitude(), 0);
+        Assert.assertEquals(bureau.getLongitude(), getOne.getLongitude(), 0);
+        Assert.assertEquals(bureau.getCreatorId(), getOne.getCreatorId());
+        Assert.assertEquals(bureau.getCreatorRealName(), getOne.getCreatorRealName());
+        Assert.assertNotNull(getOne.getCreatedAt());
+        Assert.assertEquals(bureau.getLastEditorId(), getOne.getLastEditorId());
+        Assert.assertEquals(bureau.getLastEditorRealName(), getOne.getLastEditorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(bureau.getLastVerifierId(), getOne.getLastVerifierId());
+        Assert.assertEquals(bureau.getLastVerifierRealName(), getOne.getLastVerifierRealName());
+        Assert.assertNotNull(getOne.getLastVerifiedAt());
 
         bureauDao.deleteOne(bureau);
         bureauSearchVo = new BureauSearchVo();

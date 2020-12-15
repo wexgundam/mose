@@ -34,7 +34,10 @@ public class StationSearchVo {
      * 电报码等于
      */
     private String telegraphCodeEqual;
-
+    /**
+     * 核对状态等于true or false
+     */
+    private Boolean verified;
 
     public Integer getIdEqual() {
         return idEqual;
@@ -74,5 +77,13 @@ public class StationSearchVo {
 
     public void setTelegraphCodeEqual(String telegraphCodeEqual) {
         this.telegraphCodeEqual = telegraphCodeEqual;
+    }
+
+    public Boolean getVerified() {
+        return verified;
+    }
+
+    public void setVerified(Boolean verified) {
+        this.verified = verified;
     }
 }

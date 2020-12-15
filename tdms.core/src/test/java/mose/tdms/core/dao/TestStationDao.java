@@ -5,13 +5,10 @@
  */
 package mose.tdms.core.dao;
 
-import mose.core.json.JsonUtil;
-import mose.core.restful.RestfulTemplate;
 import mose.tdms.CommonConfiguration;
 import mose.tdms.core.modal.Bureau;
 import mose.tdms.core.modal.Station;
 import mose.tdms.core.modal.TrainlineDepot;
-import mose.tdms.core.service.StationFeatureService;
 import mose.tdms.core.vo.StationSearchVo;
 import org.junit.Assert;
 import org.junit.Before;
@@ -28,11 +25,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * what:    (这里用一句话描述这个类的作用). <br/>
@@ -82,7 +75,9 @@ public class TestStationDao {
         station.setCreatorId(2);
         station.setCreatorRealName("crn");
         station.setLastEditorId(3);
-        station.setLastEditorRealName("lrn");
+        station.setLastEditorRealName("lerrn");
+        station.setLastVerifierId(4);
+        station.setLastVerifierRealName("lvrn");
     }
 
     @Test
@@ -216,6 +211,34 @@ public class TestStationDao {
         Assert.assertEquals(station.getLastEditorId(), getOne.getLastEditorId());
         Assert.assertEquals(station.getLastEditorRealName(), getOne.getLastEditorRealName());
         Assert.assertNotNull(getOne.getLastEditedAt());
+
+
+        stationDao.verifyOne(station);
+        stationSearchVo = new StationSearchVo();
+        stationSearchVo.setIdEqual(id);
+        stationSearchVo.setVerified(true);
+        getOne = stationDao.getOne(stationSearchVo);
+        Assert.assertNotNull(getOne);
+        Assert.assertEquals(station.getBureauId(), getOne.getBureauId());
+        Assert.assertEquals(station.getBureauName(), getOne.getBureauName());
+        Assert.assertEquals(station.getTrainlineDepotId(), getOne.getTrainlineDepotId());
+        Assert.assertEquals(station.getTrainlineDepotName(), getOne.getTrainlineDepotName());
+        Assert.assertEquals(station.getName(), getOne.getName());
+        Assert.assertEquals(station.getNamePinyin(), getOne.getNamePinyin());
+        Assert.assertEquals(station.getNameInitialPinyin(), getOne.getNameInitialPinyin());
+        Assert.assertEquals(station.getTelegraphCode(), getOne.getTelegraphCode());
+        Assert.assertEquals(station.getLatitude(), getOne.getLatitude(), 0);
+        Assert.assertEquals(station.getLongitude(), getOne.getLongitude(), 0);
+        Assert.assertEquals(station.getCreatorId(), getOne.getCreatorId());
+        Assert.assertEquals(station.getCreatorRealName(), getOne.getCreatorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(station.getLastEditorId(), getOne.getLastEditorId());
+        Assert.assertEquals(station.getLastEditorRealName(), getOne.getLastEditorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(station.getLastVerifierId(), getOne.getLastVerifierId());
+        Assert.assertEquals(station.getLastVerifierRealName(), getOne.getLastVerifierRealName());
+        Assert.assertNotNull(getOne.getLastVerifiedAt());
+
 
         stationDao.deleteOne(station);
         stationSearchVo = new StationSearchVo();

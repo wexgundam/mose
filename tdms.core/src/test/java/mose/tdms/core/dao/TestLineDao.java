@@ -67,7 +67,9 @@ public class TestLineDao {
         line.setCreatorId(2);
         line.setCreatorRealName("crn");
         line.setLastEditorId(3);
-        line.setLastEditorRealName("lrn");
+        line.setLastEditorRealName("lerrn");
+        line.setLastVerifierId(4);
+        line.setLastVerifierRealName("lvrn");
     }
 
     @Test
@@ -172,6 +174,30 @@ public class TestLineDao {
         Assert.assertEquals(line.getLastEditorId(), getOne.getLastEditorId());
         Assert.assertEquals(line.getLastEditorRealName(), getOne.getLastEditorRealName());
         Assert.assertNotNull(getOne.getLastEditedAt());
+
+        lineDao.verifyOne(line);
+        lineSearchVo = new LineSearchVo();
+        lineSearchVo.setIdEqual(id);
+        lineSearchVo.setVerified(true);
+        getOne = lineDao.getOne(lineSearchVo);
+        Assert.assertNotNull(getOne);
+        Assert.assertEquals(line.getStationAId(), getOne.getStationAId());
+        Assert.assertEquals(stationA.getName(), getOne.getStationAName());
+        Assert.assertEquals(stationA.getLatitude(), getOne.getStationALatitude());
+        Assert.assertEquals(stationA.getLongitude(), getOne.getStationALongitude());
+        Assert.assertEquals(line.getStationBId(), getOne.getStationBId());
+        Assert.assertEquals(stationB.getName(), getOne.getStationBName());
+        Assert.assertEquals(stationB.getLatitude(), getOne.getStationBLatitude());
+        Assert.assertEquals(stationB.getLongitude(), getOne.getStationBLongitude());
+        Assert.assertEquals(line.getCreatorId(), getOne.getCreatorId());
+        Assert.assertEquals(line.getCreatorRealName(), getOne.getCreatorRealName());
+        Assert.assertNotNull(getOne.getCreatedAt());
+        Assert.assertEquals(line.getLastEditorId(), getOne.getLastEditorId());
+        Assert.assertEquals(line.getLastEditorRealName(), getOne.getLastEditorRealName());
+        Assert.assertNotNull(getOne.getLastEditedAt());
+        Assert.assertEquals(line.getLastVerifierId(), getOne.getLastVerifierId());
+        Assert.assertEquals(line.getLastVerifierRealName(), getOne.getLastVerifierRealName());
+        Assert.assertNotNull(getOne.getLastVerifiedAt());
 
         lineDao.deleteOne(line);
         lineSearchVo = new LineSearchVo();
