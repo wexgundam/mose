@@ -19,11 +19,17 @@ import org.junit.runners.Suite;
         mose.tdms.dao.TestTrainlineDepotDao.class,
         mose.tdms.dao.TestTrainoperationDepotDao.class,
         //mose.tdms.service
+        mose.tdms.service.TestBureauService.class,
         mose.tdms.service.TestBureauFeatureService.class,
+        mose.tdms.service.TestFenjiekouService.class,
         mose.tdms.service.TestFenjiekouFeatureService.class,
+        mose.tdms.service.TestLineService.class,
         mose.tdms.service.TestLineFeatureService.class,
+        mose.tdms.service.TestStationService.class,
         mose.tdms.service.TestStationFeatureService.class,
+        mose.tdms.service.TestTrainlineDepotService.class,
         mose.tdms.service.TestTrainlineDepotFeatureService.class,
+        mose.tdms.service.TestTrainoperationDepotService.class,
         mose.tdms.service.TestTrainoperationDepotFeatureService.class
 })
 public class TestAll {

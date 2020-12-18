@@ -5,6 +5,8 @@
  */
 package mose.tdms.modal;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Date;
 
 /**

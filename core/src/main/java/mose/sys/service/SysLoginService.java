@@ -20,7 +20,6 @@ import org.springframework.stereotype.Service;
  * @author mose created on 2017年6月13日
  */
 @Service
-@Configuration
 @EnableAsync
 public class SysLoginService {
 	/**

@@ -8,7 +8,6 @@ package mose.network.service;
 import mose.CommonConfiguration;
 import mose.core.time.DateUtil;
 import mose.network.modal.Grid;
-import mose.rail.core.service.LocationService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

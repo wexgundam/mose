@@ -27,7 +27,6 @@ import java.util.List;
  * @author mose created on 2017年6月13日
  */
 @Service
-@Configuration
 @EnableAsync
 public class SysLogService {
 	/**

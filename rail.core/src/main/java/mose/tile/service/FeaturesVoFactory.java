@@ -5,9 +5,9 @@
  */
 package mose.tile.service;
 
-import mose.rail.core.vo.LineView;
-import mose.rail.core.vo.NodeView;
-import mose.rail.core.vo.TileViews;
+import mose.rail.vo.LineView;
+import mose.rail.vo.NodeView;
+import mose.rail.vo.TileViews;
 import mose.tile.modal.Coordinate;
 import mose.tile.modal.CoordinateSystem;
 import mose.tile.modal.Figure;

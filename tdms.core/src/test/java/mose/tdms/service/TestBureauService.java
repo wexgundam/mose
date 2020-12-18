@@ -60,27 +60,7 @@ public class TestBureauService {
     @Test
     @Transactional
     @Rollback
-    public void getAll() {
-        Bureau bureau = new Bureau();
-        bureauDao.addOne(bureau);
-        bureau = new Bureau();
-        bureauDao.addOne(bureau);
-
-        List<Bureau> bureaus = bureauService.getAll();
-        Assert.assertNotNull(bureaus);
-        Assert.assertFalse(bureaus.isEmpty());
-    }
-
-    @Test
-    @Transactional
-    @Rollback
-    public void getCount() {
-        Bureau bureau = new Bureau();
-        bureauDao.addOne(bureau);
-        bureau = new Bureau();
-        bureauDao.addOne(bureau);
-
-        int count = bureauService.getCount();
-        Assert.assertTrue(count > 0);
+    public void getMany() {
+        //委托dao
     }
 }
