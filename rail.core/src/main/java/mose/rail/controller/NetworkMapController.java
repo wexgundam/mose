@@ -56,17 +56,6 @@ public class NetworkMapController {
         return mv;
     }
 
-    @RequestMapping("/index-public")
-    public ModelAndView indexPublic(HttpServletRequest request) {
-        ModelAndView mv = new ModelAndView();
-        String url = pubConfig.getDynamicServer() + "/rail/networkmap/index-public.htm";
-        // 设置返回url
-        BackUrlUtil.createBackUrl(mv, request, url);
-        // 跳转至指定页面
-        mv.setViewName("/rail/networkmap/index-public");
-        return mv;
-    }
-
     /**
      * what:    根据用户请求，返回对应的图形对象. <br/>
      * when:    (这里描述这个类的适用时机 – 可选).<br/>
@@ -93,6 +82,4 @@ public class NetworkMapController {
         String json = JsonUtil.toString(modelMap);
         WebUtil.out(response, json);
     }
-
-
 }

@@ -497,33 +497,27 @@
 
             //初始化canvas尺寸
             //必须通过这个方法设置canvas画板尺寸，其他方式只是设置css显示尺寸
-            var canvas = document.getElementById("vectorTileCanvas");
-            var pageContentParents = $(canvas).parents(".page-content");
-            pageContentParents.css("padding-top", "0px");
-            pageContentParents.css("padding-bottom", "0px");
-            pageContentParents.css("padding-left", "0px");
-            pageContentParents.css("padding-right", "0px");
-            pageContentParents.css("background-color", "#FFFFFF");
-            var actions = pageContentParents.find("#actions");
-            canvas.width = pageContentParents.width();
-            canvas.height = pageContentParents.height() - actions.outerHeight() - 4;
+            var canvas = $("#canvas");
+            canvas.width = canvas.parent().width();
+            canvas.height = canvas.parent().height();
+
 
             var vectorTile = new VectorTile();
-            vectorTile.canvasId = "vectorTileCanvas";
+            vectorTile.canvasId = "canvas";
             vectorTile.canvasWidth = canvas.width;
             vectorTile.canvasHeight = canvas.height;
             vectorTile.initialize();
 
-            canvas.addEventListener("mousedown", function (e) {
+            canvas.on("mousedown", function (e) {
                 vectorTile.actionHandler.mouseDown(e);
             });
-            canvas.addEventListener("mousemove", function (e) {
+            canvas.on("mousemove", function (e) {
                 vectorTile.actionHandler.mouseMove(e);
             });
-            canvas.addEventListener("mouseup", function (e) {
+            canvas.on("mouseup", function (e) {
                 vectorTile.actionHandler.mouseUp(e);
             });
-            canvas.addEventListener("mousewheel", function (e) {
+            canvas.on("mousewheel", function (e) {
                 vectorTile.actionHandler.mouseWheel(e);
             });
 

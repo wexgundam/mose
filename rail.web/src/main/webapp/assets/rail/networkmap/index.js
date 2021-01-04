@@ -148,15 +148,9 @@
 
         var vectorTileCanvas = $("#vectorTileCanvas");
 
-        var pageContentParents = vectorTileCanvas.parents(".page-content");
-        pageContentParents.css("padding-top", "0px");
-        pageContentParents.css("padding-bottom", "0px");
-        pageContentParents.css("padding-left", "0px");
-        pageContentParents.css("padding-right", "0px");
-
-        var actions = pageContentParents.find("#actions");
-        vectorTileCanvas.get(0).width = pageContentParents.width();
-        vectorTileCanvas.get(0).height = pageContentParents.height() - actions.outerHeight() - 4;
+        var actions = $("#actions");
+        vectorTileCanvas.get(0).width = vectorTileCanvas.parent().width();
+        vectorTileCanvas.get(0).height = vectorTileCanvas.parent().height();
 
         var vectorTile = new VectorTile();
         vectorTile.canvasId = "vectorTileCanvas";

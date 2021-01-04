@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * 
+ *
  * what: 跳转主页
  *
  * @author mose created on 2017年7月6日

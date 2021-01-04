@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #fff;
+            width: 100%;
+            height: 100%
+        }
+
+        #vectorTileCanvasDiv {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="row" style="margin-left: 0px;margin-right: 0px">
+        <div id="actions" class="col-md-12">
+            <a href="#" id="load" class="easyui-linkbutton">加载</a>
+            <a href="#" id="zoomIn" class="easyui-linkbutton">放大</a>
+            <a href="#" id="zoomOut" class="easyui-linkbutton">缩小</a>
+            <a href="#" id="moveUp" class="easyui-linkbutton">上移</a>
+            <a href="#" id="moveDown" class="easyui-linkbutton">下移</a>
+            <a href="#" id="moveLeft" class="easyui-linkbutton">左移</a>
+            <a href="#" id="moveRight" class="easyui-linkbutton">右移</a>
+            <a href="#" id="moveCenter" class="easyui-linkbutton">居中</a>
+        </div>
+        <div id="canvasDiv" class="col-md-12" style="padding-left:0px;padding-right:0px;background-color: #000000;">
+            <canvas id="canvas"></canvas>
+        </div>
+    </div>
+</body>
+
+<script src="assets/metronic4.7/global/plugins/jquery.min.js"></script>
+<script src="assets/vector-tile/easeljs.min.js"></script>
+<script src="assets/vector-tile/vector-tile.js"></script>
+
+<script>
+    jQuery.staticServer = "http://localhost:8090";
+    jQuery.dynamicServer = "http://localhost:8090";
+</script>
+<script src="assets/rail/trainlinemap/index.js"></script>
+</html>
