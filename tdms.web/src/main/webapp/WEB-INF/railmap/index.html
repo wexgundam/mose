@@ -42,10 +42,10 @@
         <div style="position: absolute;left:20px;top: 0px;height: auto;">
             <div>
                 <input id="searchKeyWordInput" type="text" autocomplete="off" maxlength="256" placeholder="搜车站、车务段等" value="" style="position:absolute;left: 0px;width: 150px;height: 30px">
-                <button class="fa fa-random" style="position:absolute;left: 154px;width: 36px;height: 36px" title="找径路"></button>
+                <button class="fa fa-random" style="position:absolute;left: 154px;width: 36px;height: 36px" title="找径路" onclick="findPath(event)"></button>
                 <button class="fa fa-search" style="position:absolute;left: 190px;width: 36px;height: 36px" title="搜索" onclick="setSearchResultDivVisible(event)"></button>
             </div>
-            <div id="searchResultDiv" style="margin-top: 40px;width:326px;background-color: #ffffff;display: none;" data-visible="false">
+            <div id="searchResultDiv" style="margin-top: 40px;width:226px;background-color: #ffffff;display: none;" data-visible="false">
                 <div style="padding-bottom: 25px">
                     <button style="position:absolute;right: 0px" class="fa fa-times" onclick="setSearchResultDivInvisible(event)"></button>
                 </div>
@@ -159,7 +159,8 @@
             mapRestUrl = host + "/iserver/services/map-rail/rest/maps/map_simple",
             mapDataUrl = host + "/iserver/services/data-rail/rest/data/",
             mapDataRestUrlStation = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/station",
-            mapDataRestUrlLine = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/line";
+            mapDataRestUrlLine = host + "/iserver/services/data-rail/rest/data/datasources/rail/datasets/line",
+            mapTransportationAnalystRestUrl = host + "/iserver/services/transportationAnalyst-rail/rest/networkanalyst/network@rail";
 
         init();
 
@@ -959,6 +960,124 @@
                 }
             );
             return lineEditControl;
+        }
+
+
+        //以动画效果显示分析结果
+        var pathIndex = 0, pathListIndex = 0, routeCompsIndex = 0, pathTime,
+            style = {
+                strokeColor: "#be17b9",
+                strokeWidth: 3,
+                pointerEvents: "visiblePainted",
+                fill: false
+            };
+
+        //查找路径
+        function findPath(event) {
+            vectorLayer.removeAllFeatures();
+            var nodes = [];
+            if (pathIndex == 0) {
+                nodes.push(new SuperMap.Geometry.Point(116.427048, 39.902802));
+                nodes.push(new SuperMap.Geometry.Point(123.396885, 41.793973));
+                window.alert("查找：北京-沈阳 径路");
+                pathIndex++;
+            } else if (pathIndex == 1) {
+                nodes.push(new SuperMap.Geometry.Point(116.321592, 39.894806));
+                nodes.push(new SuperMap.Geometry.Point(108.962878, 34.277157));
+                window.alert("查找：北京西-西安 径路");
+                pathIndex++;
+            } else if (pathIndex == 2) {
+                nodes.push(new SuperMap.Geometry.Point(113.659618, 34.746046));
+                nodes.push(new SuperMap.Geometry.Point(107.1532, 34.37297));
+                window.alert("查找：郑州-宝鸡 径路");
+                pathIndex++;
+            } else if (pathIndex == 3) {
+                nodes.push(new SuperMap.Geometry.Point(113.269323, 22.988558));
+                nodes.push(new SuperMap.Geometry.Point(112.13408, 28.57374));
+                pathIndex++;
+            } else if (pathIndex == 4) {
+                pathIndex = 0;
+                return;
+            }
+
+            map.panTo(new SuperMap.LonLat(nodes[0].x, nodes[0].y)
+                .transform(
+                    new SuperMap.Projection("EPSG:4326"),
+                    new SuperMap.Projection("EPSG:3857")
+                ));
+            map.zoomTo(5);
+
+            var findPathService, parameter, analystParameter, resultSetting;
+            resultSetting = new SuperMap.REST.TransportationAnalystResultSetting({
+                returnEdgeFeatures: true,
+                returnEdgeGeometry: true,
+                returnEdgeIDs: true,
+                returnNodeFeatures: true,
+                returnNodeGeometry: true,
+                returnNodeIDs: true,
+                returnPathGuides: true,
+                returnRoutes: true
+            });
+            analystParameter = new SuperMap.REST.TransportationAnalystParameter({
+                resultSetting: resultSetting,
+                weightFieldName: "SmLength"
+            });
+            parameter = new SuperMap.REST.FindPathParameters({
+                isAnalyzeById: false,
+                nodes: nodes,
+                hasLeastEdgeCount: false,
+                parameter: analystParameter
+            });
+            findPathService = new SuperMap.REST.FindPathService(mapTransportationAnalystRestUrl, {
+                eventListeners: {"processCompleted": processCompleted}
+            });
+            findPathService.processAsync(parameter);
+        }
+
+        function processCompleted(findPathEventArgs) {
+            var result = findPathEventArgs.result;
+            allScheme(result);
+        }
+
+        function
+        allScheme(result) {
+            if (pathListIndex < result.pathList.length) {
+                addPath(result);
+            } else {
+                pathListIndex = 0;
+                //线绘制完成后会绘制关于路径指引点的信息
+            }
+        }
+
+        function addPath(result) {
+            if (routeCompsIndex < result.pathList[pathListIndex].route.components[0].components.length) {
+                var pathFeature = new SuperMap.Feature.Vector();
+                var points = [];
+                for (var k = 0; k < 2; k++) {
+                    if (result.pathList[pathListIndex].route.components[0].components[routeCompsIndex + k]) {
+                        points.push(new SuperMap.Geometry.Point(
+                            result.pathList[pathListIndex].route.components[0].components[routeCompsIndex + k].x,
+                            result.pathList[pathListIndex].route.components[0].components[routeCompsIndex + k].y));
+                    }
+                }
+                var curLine = new SuperMap.Geometry.LinearRing(points);
+                pathFeature.geometry = curLine;
+                pathFeature.geometry.transform(
+                    new SuperMap.Projection("EPSG:4326"),
+                    new SuperMap.Projection("EPSG:3857"));
+                pathFeature.style = style;
+                vectorLayer.addFeatures(pathFeature);
+                //每隔0.001毫秒加载一条弧段
+                pathTime = setTimeout(function () {
+                    addPath(result);
+                }, 0.001);
+                routeCompsIndex++;
+            } else {
+                clearTimeout(pathTime);
+                routeCompsIndex = 0;
+                pathListIndex++;
+                allScheme(result);
+            }
         }
     </script>
 </body>
