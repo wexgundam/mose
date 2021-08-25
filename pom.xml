@@ -46,6 +46,7 @@
         <common.httpclient.version>4.5.2</common.httpclient.version>
         <common.net.version>3.6</common.net.version>
         <org.locationtech.jts.version>1.16.1</org.locationtech.jts.version>
+        <org.osgeo.proj4j.version>0.1.0</org.osgeo.proj4j.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <commons-math3.version>3.6.1</commons-math3.version>
     </properties>
@@ -318,6 +319,13 @@
                 <artifactId>jts</artifactId>
                 <version>${org.locationtech.jts.version}</version>
                 <type>pom</type>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.osgeo/proj4j -->
+            <dependency>
+                <groupId>org.osgeo</groupId>
+                <artifactId>proj4j</artifactId>
+                <version>${org.osgeo.proj4j.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,62 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.6.1/css/ol.css" type="text/css">
+    <style>
+        .map {
+            height: 400px;
+            width: 100%;
+            background-color: #000000;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.6.1/build/ol.js"></script>
+    <title>OpenLayers example</title>
+</head>
+<body>
+    <h2>My Map</h2>
+    <div id="map" class="map"></div>
+    <script type="module">
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                })
+            ],
+            view: new ol.View({
+                projection: 'EPSG:4326',
+                center: [100, 20],
+                zoom: 2
+            })
+
+        });
+
+        let style = {
+            symbol: {
+                symbolType: 'image',
+                size: 3,
+                color: '#ff0000'
+            }
+        };
+        let features = [];
+        for (let i = 0; i < 100000; i++) {
+            let ran = Math.random() * 360;
+            let ran2 = Math.random() * 360;
+            let lon = -180 + ran;
+            let lat = -90 + ran2;
+            let feature = new ol.Feature({
+                geometry: new ol.geom.Point([lon, lat])
+            })
+            features.push(feature);
+        }
+        let vectorSource = new ol.source.Vector({
+            features: features
+        });
+        let layer = new ol.layer.WebGLPoints({
+            source: vectorSource,
+            style: style
+        })
+        map.addLayer(layer);
+    </script>
+</body>
+</html>
