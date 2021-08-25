@@ -17,7 +17,8 @@
             height: 100%;
             right: 0;
             left: 0;
-            background-color: black; <!-- 地图底色、背景色 -->
+            background-color: black;
+        <!-- 地图底色、背景色 -->
         }
 
         .menuBar {
@@ -45,17 +46,17 @@
             zoom: 15,
             preferCanvas: true //使用canvas模式渲染矢量图形 
         });
-           //添加底图
+        //添加底图
         //var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
-		
-		 for (var i = 0; i < 100000; i++) {
+
+        for (var i = 0; i < 100000; i++) {
             var lat = 39.905963 + (Math.random() - Math.random()) * 3;
             var lng = 116.390813 + (Math.random() - Math.random()) * 3;
-           L.circle([lat, lng], 5, {
+            L.circle([lat, lng], 5, {
                 color: 'red',
                 fillColor: '#f03',
                 fillOpacity: 0.5
-        }).addTo(map).bindPopup("I am a circle.");
+            }).addTo(map).bindPopup("I am a circle.");
         }
     </script>
 </body>
