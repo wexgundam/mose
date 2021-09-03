@@ -30,6 +30,7 @@
         let mapSouthwestExtent = [-3000000, -3000000];
         let mapNortheastExtent = [3000000, 3000000];
         let features = [];
+        let nodes = [];
 
         //测试features
         //Node A feature:范围半径500米
@@ -44,9 +45,10 @@
             fill: new ol.style.Fill({
                 color: 'rgba(255,255,255,0.5)'
             }),
-            text: new ol.style.Text({text: '北京'}),
+            text: new ol.style.Text({text: 'A'}),
         }));
         features.push(nodeAFeature);
+        nodes.push(nodeAFeature);
 
         //Node B feature:范围半径500米
         let nodeBFeature = new ol.Feature({
@@ -60,8 +62,10 @@
             fill: new ol.style.Fill({
                 color: 'rgba(255,255,255,0.5)'
             }),
+            text: new ol.style.Text({text: 'B'}),
         }));
         features.push(nodeBFeature);
+        nodes.push(nodeBFeature);
 
         //Node C feature:范围半径500米
         let nodeCFeature = new ol.Feature({
@@ -75,8 +79,10 @@
             fill: new ol.style.Fill({
                 color: 'rgba(255,255,255,0.5)'
             }),
+            text: new ol.style.Text({text: 'C'}),
         }));
         features.push(nodeCFeature);
+        nodes.push(nodeCFeature);
 
         //Node C feature:范围半径500米
         let nodeDFeature = new ol.Feature({
@@ -90,44 +96,80 @@
             fill: new ol.style.Fill({
                 color: 'rgba(255,255,255,0.5)'
             }),
+            text: new ol.style.Text({text: 'D'}),
         }));
         features.push(nodeDFeature);
+        nodes.push(nodeDFeature);
 
-        //node A和node B的line
-        let lines = test(nodeAFeature.getGeometry().getCenter(), nodeBFeature.getGeometry().getCenter(), 5);
+        /**
+         * 测试根据铁路线站顺生成铁路线拓扑
+         */
+        let railway1 = [0, 1, 2, 3];
+        let lineString = createRailwayLineString(railway1, nodes);
 
-        //node A和node C的line
-        lines.push.apply(lines,
-            test(nodeAFeature.getGeometry().getCenter(), nodeCFeature.getGeometry().getCenter(), 2));
 
-        //node A和node D的line
-        lines.push.apply(lines,
-            test(nodeAFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 1));
+        let lineStringFeature = toLineStringFeature(lineString);
+        lineStringFeature.setStyle(new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'red',
+                width: 1,
+            }),
+        }));
+        features.push(lineStringFeature);
 
-        //node C和node D的line
-        lines.push.apply(lines,
-            test(nodeCFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 2));
-
-        for (let index = 0; index < lines.length; index++) {
-            const feature = toLineStringFeature(lines[index]);
-            if (index == 0) {
-                feature.setStyle(new ol.style.Style({
-                    stroke: new ol.style.Stroke({
-                        color: 'red',
-                        width: 1,
-                    }),
-                }));
+        /**
+         *根据铁路线站顺生成铁路线拓扑
+         */
+        function createRailwayLineString(railwayNodes, nodes) {
+            let lineString = [];
+            for (let index = 0; index < railwayNodes.length - 1; index++) {
+                let nodeA = nodes[index];
+                let nodeB = nodes[index + 1];
+                let linesNodeAB = test(nodeA.getGeometry().getCenter(), nodeB.getGeometry().getCenter(), 1);
+                lineString.push.apply(lineString, linesNodeAB[linesNodeAB.length - 1]);
             }
-            if (index == 2) {
-                feature.setStyle(new ol.style.Style({
-                    stroke: new ol.style.Stroke({
-                        color: '#CC17BE',
-                        width: 1,
-                    }),
-                }));
-            }
-            features.push(feature);
+            return lineString;
         }
+
+
+        /**
+         * 测试两个Node之间连线的绘制算法
+         */
+        //        //node A和node B的line
+        //        let lines = test(nodeAFeature.getGeometry().getCenter(), nodeBFeature.getGeometry().getCenter(), 5);
+        //
+        //        //node A和node C的line
+        //        lines.push.apply(lines,
+        //            test(nodeAFeature.getGeometry().getCenter(), nodeCFeature.getGeometry().getCenter(), 2));
+        //
+        //        //node A和node D的line
+        //        lines.push.apply(lines,
+        //            test(nodeAFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 1));
+        //
+        //        //node C和node D的line
+        //        lines.push.apply(lines,
+        //            test(nodeCFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 2));
+        //
+        //        for (let index = 0; index < lines.length; index++) {
+        //            const feature = toLineStringFeature(lines[index]);
+        //            if (index == 0) {
+        //                feature.setStyle(new ol.style.Style({
+        //                    stroke: new ol.style.Stroke({
+        //                        color: 'red',
+        //                        width: 1,
+        //                    }),
+        //                }));
+        //            }
+        //            if (index == 2) {
+        //                feature.setStyle(new ol.style.Style({
+        //                    stroke: new ol.style.Stroke({
+        //                        color: '#CC17BE',
+        //                        width: 1,
+        //                    }),
+        //                }));
+        //            }
+        //            features.push(feature);
+        //        }
 
         /**
          *  生产两个node之间的连线
@@ -146,7 +188,7 @@
             let lines = [];
             for (let index = 0; index < lineCount; index++) {
                 let location = (lineCount - 1) / 2 - index;
-                let line = [nodeACenter,[nodeACenter[0] + deltaX * location, nodeACenter[1] + deltaY * location], [nodeBCenter[0] + deltaX * location, nodeBCenter[1] + deltaY * location],nodeBCenter];
+                let line = [nodeACenter, [nodeACenter[0] + deltaX * location, nodeACenter[1] + deltaY * location], [nodeBCenter[0] + deltaX * location, nodeBCenter[1] + deltaY * location], nodeBCenter];
                 lines.push(line);
             }
             return lines;
