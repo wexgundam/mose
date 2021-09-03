@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .map {
+            height: 400px;
+            width: 100%;
+            background-color: rgba(143, 184, 255, 0.5);
+        }
+    </style>
+    <title>Railway Network</title>
+
+    <link href="./assets/openlayers/ol.css" rel="stylesheet" type="text/css" />
+
+    <script src="./assets/openlayers/ol.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <h2>My Map</h2>
+    <div id="map" class="map"></div>
+    <div id="mouse-position"></div>
+    <script type="text/javascript">
+        //中国的中心和东西南北经纬度范围
+        //        let mapCenter = ol.proj.fromLonLat([108.55, 34.32]);
+        //        let mapSouthwestExtent = ol.proj.fromLonLat([70, 0]);
+        //        let mapNortheastExtent = ol.proj.fromLonLat([140, 55]);
+        //测试
+        let mapCenter = [0, 0];
+        let mapSouthwestExtent = [-3000000, -3000000];
+        let mapNortheastExtent = [3000000, 3000000];
+        let features = [];
+
+        //测试features
+        //Node A feature:范围半径500米
+        let nodeAFeature = new ol.Feature({
+            geometry: new ol.geom.Circle([0, 0], 500),
+        });
+        nodeAFeature.setStyle(new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'red',
+                width: 1,
+            }),
+            fill: new ol.style.Fill({
+                color: 'rgba(255,255,255,0.5)'
+            }),
+            text: new ol.style.Text({text: '北京'}),
+        }));
+        features.push(nodeAFeature);
+
+        //Node B feature:范围半径500米
+        let nodeBFeature = new ol.Feature({
+            geometry: new ol.geom.Circle([-3000, -3000], 500),
+        });
+        nodeBFeature.setStyle(new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'orange',
+                width: 1,
+            }),
+            fill: new ol.style.Fill({
+                color: 'rgba(255,255,255,0.5)'
+            }),
+        }));
+        features.push(nodeBFeature);
+
+        //Node C feature:范围半径500米
+        let nodeCFeature = new ol.Feature({
+            geometry: new ol.geom.Circle([3000, -3000], 500),
+        });
+        nodeCFeature.setStyle(new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'green',
+                width: 1,
+            }),
+            fill: new ol.style.Fill({
+                color: 'rgba(255,255,255,0.5)'
+            }),
+        }));
+        features.push(nodeCFeature);
+
+        //Node C feature:范围半径500米
+        let nodeDFeature = new ol.Feature({
+            geometry: new ol.geom.Circle([3000, 3000], 500),
+        });
+        nodeDFeature.setStyle(new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: 'cyan',
+                width: 1,
+            }),
+            fill: new ol.style.Fill({
+                color: 'rgba(255,255,255,0.5)'
+            }),
+        }));
+        features.push(nodeDFeature);
+
+        //node A和node B的line
+        let lines = test(nodeAFeature.getGeometry().getCenter(), nodeBFeature.getGeometry().getCenter(), 5);
+
+        //node A和node C的line
+        lines.push.apply(lines,
+            test(nodeAFeature.getGeometry().getCenter(), nodeCFeature.getGeometry().getCenter(), 2));
+
+        //node A和node D的line
+        lines.push.apply(lines,
+            test(nodeAFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 1));
+
+        //node C和node D的line
+        lines.push.apply(lines,
+            test(nodeCFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 2));
+
+        for (let index = 0; index < lines.length; index++) {
+            const feature = toLineStringFeature(lines[index]);
+            if (index == 0) {
+                feature.setStyle(new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: 'red',
+                        width: 1,
+                    }),
+                }));
+            }
+            if (index == 2) {
+                feature.setStyle(new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: '#CC17BE',
+                        width: 1,
+                    }),
+                }));
+            }
+            features.push(feature);
+        }
+
+        /**
+         *  生产两个node之间的连线
+         *  所有连线围绕node中心平均分布
+         *  nodeA、nodeB间线路条数为奇数时，中心有连线
+         *  nodeA、nodeB间线路条数为偶数时，中心无连线
+         *  多条线的连线按照顺时针旋转在前的顺序排列
+         *  连线间隔为10m
+         */
+        function test(nodeACenter, nodeBCenter, lineCount) {
+            let interval = 100;
+            const distance = distanceBetween(nodeACenter, nodeBCenter);
+            let deltaX = interval / distance * (nodeBCenter[1] - nodeACenter[1]);
+            let deltaY = interval / distance * (nodeACenter[0] - nodeBCenter[0]);
+
+            let lines = [];
+            for (let index = 0; index < lineCount; index++) {
+                let location = (lineCount - 1) / 2 - index;
+                let line = [nodeACenter,[nodeACenter[0] + deltaX * location, nodeACenter[1] + deltaY * location], [nodeBCenter[0] + deltaX * location, nodeBCenter[1] + deltaY * location],nodeBCenter];
+                lines.push(line);
+            }
+            return lines;
+        }
+
+        function distanceBetween(nodeACenter, nodeBCenter) {
+            return Math.sqrt(Math.pow(Math.abs(nodeACenter[0] - nodeBCenter[0]), 2) + Math.pow(
+                    Math.abs(nodeACenter[1] - nodeBCenter[1]), 2));
+        }
+
+        function toLineStringFeature(coordinates) {
+            let lineFeature = new ol.Feature({
+                geometry: new ol.geom.LineString(coordinates),
+            });
+            return lineFeature;
+        }
+
+
+        let vectorLayer = new ol.layer.Vector({
+            source: new ol.source.Vector({
+                features: features,
+            }),
+        });
+
+        //鼠标位置
+        const mousePositionControl = new ol.control.MousePosition({
+            coordinateFormat: ol.coordinate.createStringXY(4),
+            // comment the following two lines to have the mouse position
+            // be placed within the map.
+            className: 'custom-mouse-position',
+            target: document.getElementById('mouse-position'),
+        });
+
+
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                }),
+                vectorLayer
+            ],
+            view: new ol.View({
+                center: mapCenter,
+                extent: [mapSouthwestExtent[0], mapSouthwestExtent[1], mapNortheastExtent[0], mapNortheastExtent[1]],
+                zoom: 13,
+                minZoom: 1
+            }),
+            controls: ol.control.defaults().extend([mousePositionControl])
+        });
+    </script>
+</body>
+</html>
