@@ -90,16 +90,9 @@
             }
 
             /**
-             * 是否经由给定node
-             */
-            isRouteOne(nodeId) {
-                return this.nodeIds.indexOf(nodeId) != -1 ? true : false;
-            }
-
-            /**
              * 是否依次经由给定两个node，不考虑方向
              */
-            isRouteTow(nodeAId, nodeBId) {
+            isRoute(nodeAId, nodeBId) {
                 let nodeAIndex = this.indexOf(nodeAId);
                 let nodeBIndex = this.indexOf(nodeBId);
                 return Math.abs(nodeAIndex - nodeBIndex) == 1 ? true : false;
@@ -109,7 +102,7 @@
              * 更新两个node间的连线坐标
              */
             updateLineString(nodeAId, nodeBId, lineString) {
-                if (!this.isRouteTow(nodeAId, nodeBId)) {
+                if (!this.isRoute(nodeAId, nodeBId)) {
                     return;
                 }
                 let nodeAIndex = this.indexOf(nodeAId);
@@ -225,7 +218,7 @@
             let routeRailwayLines = [];
             for (let index = 0; index < railwayLines.length; index++) {
                 const railwayLine = railwayLines[index];
-                if (railwayLine.isRouteTow(nodeAId, nodeBId)) {
+                if (railwayLine.isRoute(nodeAId, nodeBId)) {
                     routeRailwayLines.push(railwayLine);
                 }
             }
