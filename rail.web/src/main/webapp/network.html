@@ -21,6 +21,268 @@
     <div id="map" class="map"></div>
     <div id="mouse-position"></div>
     <script type="text/javascript">
+        /**
+         * 铁路线
+         */
+        class RailwayLine {
+            constructor(options) {
+                options = options || {};
+                this.id = options.id;
+                this.nodeIds = options.nodeIds || [];
+                this.lineStrings = options.lineStrings || [];
+            }
+
+            /**
+             * 获取Id
+             * @returns {Array|*}
+             */
+            getId() {
+                return this.id;
+            }
+
+            /**
+             *获取经由nodeId数组（有序）
+             */
+            getNodeIds() {
+                return this.nodeIds;
+            }
+
+            /**
+             *获取给定索引的Node
+             */
+            getNodeId(index) {
+                return this.nodeIds[index];
+            }
+
+            /**
+             * 获取线路结构
+             */
+            getLineStrings() {
+                return this.lineStrings;
+            }
+
+            /**
+             * 设置线路结构
+             */
+            setLineStrings(lineStrings) {
+                this.lineStrings = lineStrings;
+            }
+
+            /**
+             * 获取给定id的Node在铁路线的索引
+             */
+            indexOf(nodeId) {
+                for (let index = 0; index < this.nodeIds.length; index++) {
+                    if (this.nodeIds[index] == nodeId) {
+                        return index;
+                    }
+                }
+                return -1;
+            }
+
+            /**
+             * 判定是否与给定nodes方向一致
+             */
+            isIdentical(nodeAId, nodeBId) {
+                let nodeAIndex = this.indexOf(nodeAId);
+                let nodeBIndex = this.indexOf(nodeBId);
+                return (nodeAIndex - nodeBIndex) <= 0 ? true : false;
+            }
+
+            /**
+             * 是否经由给定node
+             */
+            isRouteOne(nodeId) {
+                return this.nodeIds.indexOf(nodeId) != -1 ? true : false;
+            }
+
+            /**
+             * 是否依次经由给定两个node，不考虑方向
+             */
+            isRouteTow(nodeAId, nodeBId) {
+                let nodeAIndex = this.indexOf(nodeAId);
+                let nodeBIndex = this.indexOf(nodeBId);
+                return Math.abs(nodeAIndex - nodeBIndex) == 1 ? true : false;
+            }
+
+            /**
+             * 更新两个node间的连线坐标
+             */
+            updateLineString(nodeAId, nodeBId, lineString) {
+                if (!this.isRouteTow(nodeAId, nodeBId)) {
+                    return;
+                }
+                let nodeAIndex = this.indexOf(nodeAId);
+                let nodeBIndex = this.indexOf(nodeBId);
+                if (nodeAIndex < nodeBIndex) {
+                    this.lineStrings[nodeAIndex] = lineString;
+                } else {
+                    this.lineStrings[nodeBIndex] = lineString.reverse();
+                }
+            }
+        }
+
+        /**
+         * 节点
+         */
+        class Node {
+            constructor(options) {
+                options = options || {};
+                this.id = options.id;
+                this.center = options.center || [];
+                this.name = options.name;
+                this.radius = options.radius ? options.radius : 500;
+            }
+
+            /**
+             * 获取Id
+             * @returns {Array|*}
+             */
+            getId() {
+                return this.id;
+            }
+
+            /**
+             * 获取坐标
+             * @returns {Array|*}
+             */
+            getCenter() {
+                return this.center;
+            }
+
+            /**
+             * 设置坐标
+             * @param center
+             */
+            setCenter(center) {
+                this.center = center;
+            }
+
+            /**
+             * 获取半径
+             * @returns {Array|*}
+             */
+            getRadius() {
+                return this.radius;
+            }
+
+            /**
+             * 设置半径
+             * @param coordinates
+             */
+            setRadius(radius) {
+                this.radius = radius;
+            }
+
+
+            /**
+             * 获取名称
+             * @returns {Array|*}
+             */
+            getName() {
+                return this.name;
+            }
+
+            /**
+             * 设置名称
+             * @param coordinates
+             */
+            setName(name) {
+                this.name = name;
+            }
+        }
+
+        /**
+         * 铁路网自维护核心算法
+         */
+        function setRailwayLineLineStrings(railwayLine, railwayLines, nodes) {
+            for (let nodeIndex = 0; nodeIndex < railwayLine.getNodeIds().length - 1; nodeIndex++) {
+                let nodeAId = railwayLine.getNodeId(nodeIndex);
+                let nodeBId = railwayLine.getNodeId(nodeIndex + 1);
+                const routeRailwayLines = getRouteRailwayLines(railwayLines, nodeAId, nodeBId);
+                const identical = routeRailwayLines[0].isIdentical(nodeAId, nodeBId);
+                let nodeACenter = [];
+                let nodeBCenter = [];
+                if (identical) {
+                    nodeACenter = nodes[nodeAId].getCenter();
+                    nodeBCenter = nodes[nodeBId].getCenter();
+                } else {
+                    nodeACenter = nodes[nodeBId].getCenter();
+                    nodeBCenter = nodes[nodeAId].getCenter();
+                }
+                const lineStrings = lineStringCore(nodeACenter, nodeBCenter, routeRailwayLines.length);
+                for (let railwayLineIndex = 0; railwayLineIndex < routeRailwayLines.length; railwayLineIndex++) {
+                    routeRailwayLines[railwayLineIndex].updateLineString(nodeAId, nodeBId,
+                        lineStrings[railwayLineIndex]);
+                }
+            }
+        }
+
+        /**
+         * 获取经由给定nodes的铁路线
+         */
+        function getRouteRailwayLines(railwayLines, nodeAId, nodeBId) {
+            let routeRailwayLines = [];
+            for (let index = 0; index < railwayLines.length; index++) {
+                const railwayLine = railwayLines[index];
+                if (railwayLine.isRouteTow(nodeAId, nodeBId)) {
+                    routeRailwayLines.push(railwayLine);
+                }
+            }
+            return routeRailwayLines;
+        }
+
+        /**
+         *  核心算法
+         *
+         *  生成两个node之间的连线坐标
+         *  所有连线围绕node中心平均分布
+         *  nodeA、nodeB间线路条数为奇数时，nodes中心有连线
+         *  nodeA、nodeB间线路条数为偶数时，nodes中心无连线
+         *  多条线的连线按照nodeB围绕nodeA顺时针旋转在前的顺序排列
+         *  连线间隔为10m
+         *
+         *  生成的结果：
+         *  两个node间的连线用1个LineString数组表示
+         *  每个数组代表一个LineString
+         *  每个LineString包含4个point坐标
+         *  LineString的第一个坐标一定是nodeA的center，最后一个坐标一定是nodeB的center
+         *
+         *  ***************************************************************************
+         *  * 由于连线平均分布和顺序排列规则，每次调用该函数,相同节点间的连线坐标都会发生修改 *
+         *  ***************************************************************************
+         */
+        function lineStringCore(nodeACenter, nodeBCenter, lineCount) {
+            /**
+             * 相同node间连线间距，默认100m
+             */
+            const interval = 100;
+
+            //计算连点间距
+            const distance = distanceBetween(nodeACenter, nodeBCenter);
+            //根据间隔计算增量xy
+            let deltaX = interval / distance * (nodeBCenter[1] - nodeACenter[1]);
+            let deltaY = interval / distance * (nodeACenter[0] - nodeBCenter[0]);
+
+            let lineStrings = [];
+            for (let index = 0; index < lineCount; index++) {
+                //根据连线数计算连线位置
+                let location = (lineCount - 1) / 2 - index;
+                //计算连线坐标
+                let lineString = [nodeACenter, [nodeACenter[0] + deltaX * location, nodeACenter[1] + deltaY * location], [nodeBCenter[0] + deltaX * location, nodeBCenter[1] + deltaY * location], nodeBCenter];
+                lineStrings.push(lineString);
+            }
+            return lineStrings;
+        }
+
+        /**
+         * 计算平面连点距离
+         */
+        function distanceBetween(nodeACenter, nodeBCenter) {
+            return Math.sqrt(Math.pow(Math.abs(nodeACenter[0] - nodeBCenter[0]), 2) + Math.pow(
+                    Math.abs(nodeACenter[1] - nodeBCenter[1]), 2));
+        }
+
         //中国的中心和东西南北经纬度范围
         //        let mapCenter = ol.proj.fromLonLat([108.55, 34.32]);
         //        let mapSouthwestExtent = ol.proj.fromLonLat([70, 0]);
@@ -32,180 +294,127 @@
         let features = [];
         let nodes = [];
 
-        //测试features
-        //Node A feature:范围半径500米
-        let nodeAFeature = new ol.Feature({
-            geometry: new ol.geom.Circle([0, 0], 500),
+        //node
+        let nodeA = new Node({
+            id: 0,
+            center: [0, 0],
+            radius: 500,
+            name: "A"
         });
-        nodeAFeature.setStyle(new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'red',
-                width: 1,
-            }),
-            fill: new ol.style.Fill({
-                color: 'rgba(255,255,255,0.5)'
-            }),
-            text: new ol.style.Text({text: 'A'}),
-        }));
-        features.push(nodeAFeature);
-        nodes.push(nodeAFeature);
-
-        //Node B feature:范围半径500米
-        let nodeBFeature = new ol.Feature({
-            geometry: new ol.geom.Circle([-3000, -3000], 500),
+        nodes.push(nodeA);
+        let nodeB = new Node({
+            id: 1,
+            center: [-3000, -3000],
+            radius: 600,
+            name: "B"
         });
-        nodeBFeature.setStyle(new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'orange',
-                width: 1,
-            }),
-            fill: new ol.style.Fill({
-                color: 'rgba(255,255,255,0.5)'
-            }),
-            text: new ol.style.Text({text: 'B'}),
-        }));
-        features.push(nodeBFeature);
-        nodes.push(nodeBFeature);
-
-        //Node C feature:范围半径500米
-        let nodeCFeature = new ol.Feature({
-            geometry: new ol.geom.Circle([3000, -3000], 500),
+        nodes.push(nodeB);
+        let nodeC = new Node({
+            id: 2,
+            center: [3000, -3000],
+            name: "C"
         });
-        nodeCFeature.setStyle(new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'green',
-                width: 1,
-            }),
-            fill: new ol.style.Fill({
-                color: 'rgba(255,255,255,0.5)'
-            }),
-            text: new ol.style.Text({text: 'C'}),
-        }));
-        features.push(nodeCFeature);
-        nodes.push(nodeCFeature);
-
-        //Node C feature:范围半径500米
-        let nodeDFeature = new ol.Feature({
-            geometry: new ol.geom.Circle([3000, 3000], 500),
+        nodes.push(nodeC);
+        let nodeD = new Node({
+            id: 3,
+            center: [3000, 3000],
+            radius: 800,
+            name: "D"
         });
-        nodeDFeature.setStyle(new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'cyan',
-                width: 1,
-            }),
-            fill: new ol.style.Fill({
-                color: 'rgba(255,255,255,0.5)'
-            }),
-            text: new ol.style.Text({text: 'D'}),
-        }));
-        features.push(nodeDFeature);
-        nodes.push(nodeDFeature);
+        nodes.push(nodeD);
 
-        /**
-         * 测试根据铁路线站顺生成铁路线拓扑
-         */
-        let railway1 = [0, 1, 2, 3];
-        let lineString = createRailwayLineString(railway1, nodes);
+        //铁路线
+        let railwayLines = [];
+        let railwayLineA = new RailwayLine({
+            id: 0,
+            nodeIds: [0, 1, 2, 3],
+        });
+        railwayLines.push(railwayLineA);
+        let railwayLineB = new RailwayLine({
+            id: 1,
+            nodeIds: [1, 2, 3],
+        });
+        railwayLines.push(railwayLineB);
+        let railwayLineC = new RailwayLine({
+            id: 2,
+            nodeIds: [3, 2, 1, 0],
+        });
+        railwayLines.push(railwayLineC);
+        let railwayLineD = new RailwayLine({
+            id: 3,
+            nodeIds: [3, 2, 0],
+        });
+        railwayLines.push(railwayLineD);
 
-
-        let lineStringFeature = toLineStringFeature(lineString);
-        lineStringFeature.setStyle(new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'red',
-                width: 1,
-            }),
-        }));
-        features.push(lineStringFeature);
-
-        /**
-         *根据铁路线站顺生成铁路线拓扑
-         */
-        function createRailwayLineString(railwayNodes, nodes) {
-            let lineString = [];
-            for (let index = 0; index < railwayNodes.length - 1; index++) {
-                let nodeA = nodes[index];
-                let nodeB = nodes[index + 1];
-                let linesNodeAB = test(nodeA.getGeometry().getCenter(), nodeB.getGeometry().getCenter(), 1);
-                lineString.push.apply(lineString, linesNodeAB[linesNodeAB.length - 1]);
-            }
-            return lineString;
+        for (let index = 0; index < railwayLines.length; index++) {
+            const railwayLine = railwayLines[index];
+            setRailwayLineLineStrings(railwayLine, railwayLines, nodes);
         }
 
-
         /**
-         * 测试两个Node之间连线的绘制算法
+         * 创建Node Feature
          */
-        //        //node A和node B的line
-        //        let lines = test(nodeAFeature.getGeometry().getCenter(), nodeBFeature.getGeometry().getCenter(), 5);
-        //
-        //        //node A和node C的line
-        //        lines.push.apply(lines,
-        //            test(nodeAFeature.getGeometry().getCenter(), nodeCFeature.getGeometry().getCenter(), 2));
-        //
-        //        //node A和node D的line
-        //        lines.push.apply(lines,
-        //            test(nodeAFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 1));
-        //
-        //        //node C和node D的line
-        //        lines.push.apply(lines,
-        //            test(nodeCFeature.getGeometry().getCenter(), nodeDFeature.getGeometry().getCenter(), 2));
-        //
-        //        for (let index = 0; index < lines.length; index++) {
-        //            const feature = toLineStringFeature(lines[index]);
-        //            if (index == 0) {
-        //                feature.setStyle(new ol.style.Style({
-        //                    stroke: new ol.style.Stroke({
-        //                        color: 'red',
-        //                        width: 1,
-        //                    }),
-        //                }));
-        //            }
-        //            if (index == 2) {
-        //                feature.setStyle(new ol.style.Style({
-        //                    stroke: new ol.style.Stroke({
-        //                        color: '#CC17BE',
-        //                        width: 1,
-        //                    }),
-        //                }));
-        //            }
-        //            features.push(feature);
-        //        }
-
-        /**
-         *  生产两个node之间的连线
-         *  所有连线围绕node中心平均分布
-         *  nodeA、nodeB间线路条数为奇数时，中心有连线
-         *  nodeA、nodeB间线路条数为偶数时，中心无连线
-         *  多条线的连线按照顺时针旋转在前的顺序排列
-         *  连线间隔为10m
-         */
-        function test(nodeACenter, nodeBCenter, lineCount) {
-            let interval = 100;
-            const distance = distanceBetween(nodeACenter, nodeBCenter);
-            let deltaX = interval / distance * (nodeBCenter[1] - nodeACenter[1]);
-            let deltaY = interval / distance * (nodeACenter[0] - nodeBCenter[0]);
-
-            let lines = [];
-            for (let index = 0; index < lineCount; index++) {
-                let location = (lineCount - 1) / 2 - index;
-                let line = [nodeACenter, [nodeACenter[0] + deltaX * location, nodeACenter[1] + deltaY * location], [nodeBCenter[0] + deltaX * location, nodeBCenter[1] + deltaY * location], nodeBCenter];
-                lines.push(line);
-            }
-            return lines;
-        }
-
-        function distanceBetween(nodeACenter, nodeBCenter) {
-            return Math.sqrt(Math.pow(Math.abs(nodeACenter[0] - nodeBCenter[0]), 2) + Math.pow(
-                    Math.abs(nodeACenter[1] - nodeBCenter[1]), 2));
-        }
-
-        function toLineStringFeature(coordinates) {
-            let lineFeature = new ol.Feature({
-                geometry: new ol.geom.LineString(coordinates),
+        function toNodeFeature(node) {
+            let feature = new ol.Feature({
+                geometry: new ol.geom.Circle(node.getCenter(), node.getRadius()),
             });
-            return lineFeature;
+            feature.setStyle(new ol.style.Style({
+                stroke: new ol.style.Stroke({
+                    color: randomRgba(),
+                    width: 1,
+                }),
+                fill: new ol.style.Fill({
+                    color: 'rgba(255,255,255,0.5)'
+                }),
+                text: new ol.style.Text({text: node.getName()}),
+            }));
+            return feature;
         }
 
+        /**
+         * 创建铁路线Feature
+         */
+        function toRailwayLineFeature(railwayLine) {
+            let feature = new ol.Feature({
+                geometry: new ol.geom.MultiLineString(railwayLine.getLineStrings()),
+            });
+            feature.setStyle(new ol.style.Style({
+                stroke: new ol.style.Stroke({
+                    color: randomRgba(),
+                    width: 1,
+                }),
+            }));
+            return feature;
+        }
+
+        /**
+         * 随机生成颜色
+         */
+        function randomRgba() {
+            return 'rgba(' + 255 * Math.random() + ',' + 255 * Math.random() + ',' + 255 * Math.random() + ',' + 1 + ')';
+        }
+
+        //生成Node feature
+        for (let index = 0; index < nodes.length; index++) {
+            const node = nodes[index];
+            const feature = toNodeFeature(node);
+            features.push(feature);
+        }
+        //生成RailwayLine feature
+        for (let index = 0; index < railwayLines.length; index++) {
+            const railwayLine = railwayLines[index];
+            const feature = toRailwayLineFeature(railwayLine);
+            //第一条线标红色
+            if (index == 0) {
+                feature.setStyle(new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: 'red',
+                        width: 1,
+                    }),
+                }));
+            }
+            features.push(feature);
+        }
 
         let vectorLayer = new ol.layer.Vector({
             source: new ol.source.Vector({
@@ -213,7 +422,7 @@
             }),
         });
 
-        //鼠标位置
+        //获取鼠标位置的坐标
         const mousePositionControl = new ol.control.MousePosition({
             coordinateFormat: ol.coordinate.createStringXY(4),
             // comment the following two lines to have the mouse position
