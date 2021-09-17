@@ -4,8 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="mose.rail" use-default-filters="false">
-        <context:include-filter type="assignable" expression="mose.rail.controller.NetworkMapController"/>
-        <context:include-filter type="assignable" expression="mose.rail.service.NetworkMapService"/>
+    <context:component-scan base-package="mose.rail2" use-default-filters="false">
+        <context:include-filter type="assignable" expression="mose.rail2.controller.NetworkMapController"/>
+        <context:include-filter type="assignable" expression="mose.rail2.service.NetworkMapService"/>
     </context:component-scan>
 </beans>
