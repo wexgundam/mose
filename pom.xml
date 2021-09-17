@@ -47,8 +47,10 @@
         <common.net.version>3.6</common.net.version>
         <org.locationtech.jts.version>1.16.1</org.locationtech.jts.version>
         <org.osgeo.proj4j.version>0.1.0</org.osgeo.proj4j.version>
+        <geojson-jackson.version>1.14</geojson-jackson.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <commons-math3.version>3.6.1</commons-math3.version>
+        <gt-geojson.version>25.2</gt-geojson.version>
     </properties>
 
     <dependencyManagement>
@@ -327,6 +329,21 @@
                 <artifactId>proj4j</artifactId>
                 <version>${org.osgeo.proj4j.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/de.grundid.opendatalab/geojson-jackson -->
+            <dependency>
+                <groupId>de.grundid.opendatalab</groupId>
+                <artifactId>geojson-jackson</artifactId>
+                <version>${geojson-jackson.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.geotools/gt-geojson -->
+            <dependency>
+                <groupId>org.geotools</groupId>
+                <artifactId>gt-geojson</artifactId>
+                <version>${gt-geojson.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
     <build>

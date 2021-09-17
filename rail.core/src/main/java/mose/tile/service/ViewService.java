@@ -7,11 +7,11 @@ package mose.tile.service;
 
 import mose.core.cache.EhCacheUtil;
 import mose.core.json.JsonUtil;
-import mose.rail.vo.LineView;
-import mose.rail.vo.LineViewTiles;
-import mose.rail.vo.NodeView;
-import mose.rail.vo.NodeViewTiles;
-import mose.rail.vo.TileViews;
+import mose.rail2.vo.LineView;
+import mose.rail2.vo.LineViewTiles;
+import mose.rail2.vo.NodeView;
+import mose.rail2.vo.NodeViewTiles;
+import mose.rail2.vo.TileViews;
 import mose.tile.modal.Bounds;
 import mose.tile.modal.CoordinateSystem;
 import mose.tile.modal.Figure;

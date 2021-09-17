@@ -209,6 +209,13 @@
             <artifactId>proj4j</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/de.grundid.opendatalab/geojson-jackson -->
+        <dependency>
+            <groupId>de.grundid.opendatalab</groupId>
+            <artifactId>geojson-jackson</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
