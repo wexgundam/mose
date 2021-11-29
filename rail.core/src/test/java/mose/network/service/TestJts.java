@@ -20,6 +20,14 @@ public class TestJts {
     GeometryFactory geometryFactory = new GeometryFactory();
 
     @Test
+    public void testDistance() {
+        GeometryFactory geometryFactory = new GeometryFactory();
+        Point pointA = geometryFactory.createPoint(new Coordinate(0, 0));
+        Point pointB = geometryFactory.createPoint(new Coordinate(1, 1));
+        System.out.println(pointA.distance(pointB));
+    }
+
+    @Test
     public void testEmptyPolygon() {
         Polygon polygon = geometryFactory.createPolygon(new Coordinate[0]);
         Assert.assertTrue(polygon.isValid());

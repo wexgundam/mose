@@ -5,7 +5,15 @@
  */
 package mose.core.gis;
 
+import org.junit.Assert;
 import org.junit.Test;
+import org.osgeo.proj4j.CRSFactory;
+import org.osgeo.proj4j.CoordinateReferenceSystem;
+import org.osgeo.proj4j.CoordinateTransform;
+import org.osgeo.proj4j.CoordinateTransformFactory;
+import org.osgeo.proj4j.ProjCoordinate;
+
+import java.math.BigDecimal;
 
 /**
  * what:    (这里用一句话描述这个类的作用). <br/>
@@ -36,5 +44,33 @@ public class TestGisUtil {
         //北京故宫博物院
         System.out.println("x:" + (mercator[0] - topLeftMercator[0]) / (topRightMercator[0] - topLeftMercator[0]) * 400);
         System.out.println("y:" + (topLeftMercator[1] - mercator[1]) / (topRightMercator[1] - bottomLeftMercator[1]) * 400);
+    }
+
+    @Test
+    public void testEpsg4326ToEpsg3857() {
+        //北京故宫博物院
+        double[] targetCoordinates = GisUtil.INSTANCE.epsg4326ToEpsg3857(116.397026, 39.918060);
+        System.out.println("x:" + targetCoordinates[0]);
+        System.out.println("y:" + targetCoordinates[1]);
+
+        //北京故宫博物院
+        targetCoordinates = GisUtil.INSTANCE.epsg4326ToEpsg3857("116.397026,39.918060");
+        System.out.println("x:" + targetCoordinates[0]);
+        System.out.println("y:" + targetCoordinates[1]);
+    }
+
+    @Test
+    public void testProjection() {
+        double[] c = new double[]{116.291213, 39.836643};
+        CoordinateTransformFactory transformFactory = new CoordinateTransformFactory();
+        CRSFactory crsFactory = new CRSFactory();
+        CoordinateReferenceSystem source = crsFactory.createFromName("EPSG:4326");
+        CoordinateReferenceSystem target = crsFactory.createFromName("EPSG:3857");
+
+        CoordinateTransform transform = transformFactory.createTransform(source, target);
+        ProjCoordinate minCoordinate = new ProjCoordinate(c[0], c[1]);
+        transform.transform(minCoordinate, minCoordinate);
+        System.out.println(new BigDecimal(minCoordinate.x));
+        Assert.assertFalse(false);
     }
 }
