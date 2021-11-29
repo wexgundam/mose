@@ -1,0 +1,677 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .map {
+            height: 400px;
+            width: 100%;
+            background-color: rgba(143, 184, 255, 0.5);
+        }
+    </style>
+    <title>Railway Network</title>
+
+    <link href="./assets/openlayers/ol.css" rel="stylesheet" type="text/css" />
+
+    <script src="./assets/openlayers/ol.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <h2>My Map</h2>
+    <div id="map" class="map"></div>
+    <div id="mouse-position"></div>
+    <script type="text/javascript">
+        /**
+         * 铁路线
+         */
+        class RailwayLine {
+            constructor(options) {
+                options = options || {};
+                this.id = options.id;
+                this.nodeIds = options.nodeIds || [];
+                this.lineStrings = options.lineStrings || [];
+            }
+
+            /**
+             * 获取Id
+             * @returns {Array|*}
+             */
+            getId() {
+                return this.id;
+            }
+
+            /**
+             *获取经由nodeId数组（有序）
+             */
+            getNodeIds() {
+                return this.nodeIds;
+            }
+
+            /**
+             *获取给定索引的Node
+             */
+            getNodeId(index) {
+                return this.nodeIds[index];
+            }
+
+            /**
+             * 获取线路结构
+             */
+            getLineStrings() {
+                return this.lineStrings;
+            }
+
+            /**
+             * 设置线路结构
+             */
+            setLineStrings(lineStrings) {
+                this.lineStrings = lineStrings;
+            }
+
+            /**
+             * 获取给定id的Node在铁路线的索引
+             */
+            indexOf(nodeId) {
+                for (let index = 0; index < this.nodeIds.length; index++) {
+                    if (this.nodeIds[index] == nodeId) {
+                        return index;
+                    }
+                }
+                return -1;
+            }
+
+            /**
+             * 判定是否与给定nodes方向一致
+             */
+            isIdentical(nodeAId, nodeBId) {
+                let nodeAIndex = this.indexOf(nodeAId);
+                let nodeBIndex = this.indexOf(nodeBId);
+                return (nodeAIndex - nodeBIndex) <= 0 ? true : false;
+            }
+
+            /**
+             * 是否依次经由给定两个node，不考虑方向
+             */
+            isRoute(nodeAId, nodeBId) {
+                let nodeAIndex = this.indexOf(nodeAId);
+                let nodeBIndex = this.indexOf(nodeBId);
+                return Math.abs(nodeAIndex - nodeBIndex) == 1 ? true : false;
+            }
+
+            /**
+             * 更新两个node间的连线坐标
+             */
+            updateLineString(nodeAId, nodeBId, lineString) {
+                if (!this.isRoute(nodeAId, nodeBId)) {
+                    return;
+                }
+                let nodeAIndex = this.indexOf(nodeAId);
+                let nodeBIndex = this.indexOf(nodeBId);
+                if (nodeAIndex < nodeBIndex) {
+                    this.lineStrings[nodeAIndex] = lineString;
+                } else {
+                    this.lineStrings[nodeBIndex] = lineString.reverse();
+                }
+            }
+        }
+
+        /**
+         * 节点
+         */
+        class Node {
+            constructor(options) {
+                options = options || {};
+                this.id = options.id;
+                this.center = options.center || [];
+                this.name = options.name;
+                this.radius = options.radius ? options.radius : 500;
+            }
+
+            /**
+             * 获取Id
+             * @returns {Array|*}
+             */
+            getId() {
+                return this.id;
+            }
+
+            /**
+             * 获取坐标
+             * @returns {Array|*}
+             */
+            getCenter() {
+                return this.center;
+            }
+
+            /**
+             * 设置坐标
+             * @param center
+             */
+            setCenter(center) {
+                this.center = center;
+            }
+
+            /**
+             * 获取半径
+             * @returns {Array|*}
+             */
+            getRadius() {
+                return this.radius;
+            }
+
+            /**
+             * 设置半径
+             * @param coordinates
+             */
+            setRadius(radius) {
+                this.radius = radius;
+            }
+
+
+            /**
+             * 获取名称
+             * @returns {Array|*}
+             */
+            getName() {
+                return this.name;
+            }
+
+            /**
+             * 设置名称
+             * @param coordinates
+             */
+            setName(name) {
+                this.name = name;
+            }
+        }
+
+        /**
+         * 铁路网自维护核心算法
+         */
+        function setRailwayLineLineStrings(railwayLine, railwayLines, nodes) {
+            for (let nodeIndex = 0; nodeIndex < railwayLine.getNodeIds().length - 1; nodeIndex++) {
+                let nodeAId = railwayLine.getNodeId(nodeIndex);
+                let nodeBId = railwayLine.getNodeId(nodeIndex + 1);
+                const routeRailwayLines = getRouteRailwayLines(railwayLines, nodeAId, nodeBId);
+                const identical = routeRailwayLines[0].isIdentical(nodeAId, nodeBId);
+                let nodeACenter = [];
+                let nodeBCenter = [];
+                if (identical) {
+                    nodeACenter = getNode(nodes, nodeAId).getCenter();
+                    nodeBCenter = getNode(nodes, nodeBId).getCenter();
+                } else {
+                    nodeACenter = getNode(nodes, nodeBId).getCenter();
+                    nodeBCenter = getNode(nodes, nodeAId).getCenter();
+                }
+                const lineStrings = lineStringCore(nodeACenter, nodeBCenter, routeRailwayLines.length);
+                for (let railwayLineIndex = 0; railwayLineIndex < routeRailwayLines.length; railwayLineIndex++) {
+                    routeRailwayLines[railwayLineIndex].updateLineString(nodeAId, nodeBId,
+                        lineStrings[railwayLineIndex]);
+                }
+            }
+        }
+
+        function getNode(nodes, nodeId) {
+            for (let index = 0; index < nodes.length; index++) {
+                if (nodes[index].id == nodeId) {
+                    return nodes[index];
+                }
+            }
+            return null;
+        }
+
+        /**
+         * 获取经由给定nodes的铁路线
+         */
+        function getRouteRailwayLines(railwayLines, nodeAId, nodeBId) {
+            let routeRailwayLines = [];
+            for (let index = 0; index < railwayLines.length; index++) {
+                const railwayLine = railwayLines[index];
+                if (railwayLine.isRoute(nodeAId, nodeBId)) {
+                    routeRailwayLines.push(railwayLine);
+                }
+            }
+            return routeRailwayLines;
+        }
+
+        /**
+         *  核心算法
+         *
+         *  生成两个node之间的连线坐标
+         *  所有连线围绕node中心平均分布
+         *  nodeA、nodeB间线路条数为奇数时，nodes中心有连线
+         *  nodeA、nodeB间线路条数为偶数时，nodes中心无连线
+         *  多条线的连线按照nodeB围绕nodeA顺时针旋转在前的顺序排列
+         *  连线间隔为10m
+         *
+         *  生成的结果：
+         *  两个node间的连线用1个LineString数组表示
+         *  每个数组代表一个LineString
+         *  每个LineString包含4个point坐标
+         *  LineString的第一个坐标一定是nodeA的center，最后一个坐标一定是nodeB的center
+         *
+         *  ***************************************************************************
+         *  * 由于连线平均分布和顺序排列规则，每次调用该函数,相同节点间的连线坐标都会发生修改 *
+         *  ***************************************************************************
+         */
+        function lineStringCore(nodeACenter, nodeBCenter, lineCount) {
+            /**
+             * 相同node间连线间距，默认100m
+             */
+            const interval = 100;
+
+            //计算连点间距
+            const distance = distanceBetween(nodeACenter, nodeBCenter);
+            //根据间隔计算增量xy
+            let deltaX = interval / distance * (nodeBCenter[1] - nodeACenter[1]);
+            let deltaY = interval / distance * (nodeACenter[0] - nodeBCenter[0]);
+
+            let lineStrings = [];
+            for (let index = 0; index < lineCount; index++) {
+                //根据连线数计算连线位置
+                let location = (lineCount - 1) / 2 - index;
+                //计算连线坐标
+                let lineString = [nodeACenter, [nodeACenter[0] + deltaX * location, nodeACenter[1] + deltaY * location], [nodeBCenter[0] + deltaX * location, nodeBCenter[1] + deltaY * location], nodeBCenter];
+                lineStrings.push(lineString);
+            }
+            return lineStrings;
+        }
+
+        /**
+         * 计算平面连点距离
+         */
+        function distanceBetween(nodeACenter, nodeBCenter) {
+            return Math.sqrt(Math.pow(Math.abs(nodeACenter[0] - nodeBCenter[0]), 2) + Math.pow(
+                    Math.abs(nodeACenter[1] - nodeBCenter[1]), 2));
+        }
+
+        //中国的中心和东西南北经纬度范围
+        //        let mapCenter = ol.proj.fromLonLat([108.55, 34.32]);
+        //        let mapSouthwestExtent = ol.proj.fromLonLat([70, 0]);
+        //        let mapNortheastExtent = ol.proj.fromLonLat([140, 55]);
+        //测试
+        let mapCenter = [0, 0];
+        let mapSouthwestExtent = [-3000000, -3000000];
+        let mapNortheastExtent = [3000000, 3000000];
+        let features = [];
+        let nodes = [];
+
+        //node
+        let nodeA = new Node({
+            id: 0,
+            center: [0, 0],
+            radius: 500,
+            name: "A"
+        });
+        nodes.push(nodeA);
+        let nodeB = new Node({
+            id: 1,
+            center: [-3000, -3000],
+            radius: 600,
+            name: "B"
+        });
+        nodes.push(nodeB);
+        let nodeC = new Node({
+            id: 2,
+            center: [3000, -3000],
+            name: "C"
+        });
+        nodes.push(nodeC);
+        let nodeD = new Node({
+            id: 3,
+            center: [3000, 3000],
+            radius: 800,
+            name: "D"
+        });
+        nodes.push(nodeD);
+
+        //铁路线
+        let railwayLines = [];
+//        let railwayLineA = new RailwayLine({
+//            id: 0,
+//            nodeIds: [0, 1, 2, 3],
+//        });
+//        railwayLines.push(railwayLineA);
+//        let railwayLineB = new RailwayLine({
+//            id: 1,
+//            nodeIds: [1, 2, 3],
+//        });
+//        railwayLines.push(railwayLineB);
+//        let railwayLineC = new RailwayLine({
+//            id: 2,
+//            nodeIds: [3, 2, 1, 0],
+//        });
+//        railwayLines.push(railwayLineC);
+//        let railwayLineD = new RailwayLine({
+//            id: 3,
+//            nodeIds: [3, 2, 0],
+//        });
+//        railwayLines.push(railwayLineD);
+
+        var railwayLine = {
+            nodes: [{coordinates:[116.447048,39.902802],name:'北京',id:1437},
+                {coordinates:[116.379007,39.865011],name:'北京南',id:1439},
+                {coordinates:[116.32249,39.8529],name:'柳村线路所',id:1659},
+                {coordinates:[116.289714,39.847841],name:'丰台',id:1384},
+                {coordinates:[116.309714,39.827841],name:'南信号',id:1462},
+                {coordinates:[116.351159,39.72039],name:'黄土坡',id:1909},
+                {coordinates:[116.351159,39.70039],name:'黄村',id:1912},
+                {coordinates:[116.40968,39.66575],name:'魏善庄',id:1906},
+                {coordinates:[116.48878,39.618082],name:'安定',id:1535},
+                {coordinates:[116.595262,39.573592],name:'万庄',id:1355},
+                {coordinates:[116.70564,39.51334],name:'廊坊北',id:1581},
+                {coordinates:[116.844828,39.440001],name:'落垡',id:1809},
+                {coordinates:[116.95002,39.397079],name:'豆张庄',id:1834},
+                {coordinates:[117.065242,39.354535],name:'杨村',id:1651},
+                {coordinates:[117.10944,39.29929],name:'汉沟镇',id:1677},
+                {coordinates:[117.15211,39.24268],name:'北仓',id:1441},
+                {coordinates:[117.18384,39.20356],name:'南仓',id:1460},
+                {coordinates:[117.163322,39.158351],name:'天津西',id:1526},
+                {coordinates:[117.0820445,39.150137],name:'曹庄',id:1634},
+                {coordinates:[117.000767,39.141923],name:'杨柳青',id:1652},
+                {coordinates:[116.99794,39.06461],name:'周李庄',id:1488},
+                {coordinates:[116.95711,39.0199],name:'独流',id:1728},
+                {coordinates:[116.930338,38.932756],name:'静海',id:1892},
+                {coordinates:[116.930609,38.822143],name:'陈官屯',id:1880},
+                {coordinates:[116.93088,38.71153],name:'唐官屯',id:1491},
+                {coordinates:[116.884805,38.64464],name:'马厂',id:1896},
+                {coordinates:[116.83873,38.57775],name:'青县',id:1889},
+                {coordinates:[116.86979,38.52856],name:'李窑',id:1645},
+                {coordinates:[116.90013,38.38736],name:'姚官屯',id:1530},
+                {coordinates:[116.877951,38.309418],name:'沧州',id:1685},
+                {coordinates:[116.84947,38.23972],name:'捷地',id:1607},
+                {coordinates:[116.74608,38.16487],name:'冯家口',id:1432},
+                {coordinates:[116.66648,38.11318],name:'大满庄',id:1517},
+                {coordinates:[116.58688,38.06149],name:'泊头',id:1691},
+                {coordinates:[116.53079,37.89249],name:'东光',id:1377},
+                {coordinates:[116.458455,37.759915],name:'连镇',id:1848},
+                {coordinates:[116.38612,37.62734],name:'吴桥',id:1486},
+                {coordinates:[116.33649,37.53588],name:'许官屯',id:1831},
+                {coordinates:[116.305964,37.490627],name:'长庄',id:1869},
+                {coordinates:[116.30937700000001,37.4429485],name:'德州',id:1594},
+                {coordinates:[116.31279,37.39527],name:'于官屯',id:3634},
+                {coordinates:[116.33537,37.34834],name:'黄河涯',id:3986},
+                {coordinates:[116.39194,37.26246],name:'三唐',id:3611},
+                {coordinates:[116.44007,37.16936],name:'平原',id:3739},
+                {coordinates:[116.56788,37.037841],name:'张庄',id:3745},
+                {coordinates:[116.63374,36.924],name:'禹城',id:3878},
+                {coordinates:[116.67593500000001,36.8207075],name:'晏城北',id:3763},
+                {coordinates:[116.75819,36.80374],name:'晏城',id:3762},
+                {coordinates:[116.78368,36.75784],name:'十二里阁',id:3662},
+                {coordinates:[116.8227,36.7242855],name:'桥南（线路所）',id:3790},
+                {coordinates:[116.86587,36.6579],name:'济西',id:3828},
+                {coordinates:[116.87384,36.625281],name:'水屯',id:3794},
+                {coordinates:[116.90346,36.57923],name:'党家庄',id:3643},
+                {coordinates:[116.855441,36.543963],name:'炒米店',id:3852},
+                {coordinates:[116.86619,36.49439],name:'崮山',id:3735},
+                {coordinates:[116.91046,36.45232],name:'张夏',id:3744},
+                {coordinates:[116.92274,36.399391],name:'青杨',id:3965},
+                {coordinates:[116.928561,36.336882],name:'万德',id:3610},
+                {coordinates:[116.988891,36.272172499999996],name:'界首',id:3868},
+                {coordinates:[117.049221,36.207463],name:'大河',id:3706},
+                {coordinates:[117.11078,36.18723],name:'泰山',id:3810},
+                {coordinates:[117.122951,36.133102],name:'洪沟',id:3815},
+                {coordinates:[117.15032,36.07518],name:'北集坡',id:3661},
+                {coordinates:[117.09826,35.9576],name:'大汶口',id:3705},
+                {coordinates:[117.10632,35.90158],name:'磁窑',id:3876},
+                {coordinates:[117.0637155,35.810361],name:'南驿',id:3670},
+                {coordinates:[117.021111,35.719142],name:'吴村',id:3684},
+                {coordinates:[116.93007,35.665631],name:'姚村',id:3715},
+                {coordinates:[116.86129,35.63407],name:'白家店',id:3870},
+                {coordinates:[116.835568,35.593953],name:'兖州北',id:3641},
+                {coordinates:[116.8409,35.55579],name:'兖州',id:3640},
+                {coordinates:[116.885781,35.489213],name:'程家庄',id:3880},
+                {coordinates:[116.9583,35.40095],name:'邹城',id:3941},
+                {coordinates:[117.002861,35.308171],name:'两下店',id:3620},
+                {coordinates:[117.0729,35.204761],name:'界河',id:3867},
+                {coordinates:[117.1538,35.08061],name:'滕州',id:3841},
+                {coordinates:[117.175541,35.014442],name:'南沙河',id:3668},
+                {coordinates:[117.20299,34.92144],name:'官桥',id:3724},
+                {coordinates:[117.22393,34.85763],name:'井亭',id:3637},
+                {coordinates:[117.25517,34.79351],name:'枣庄西',id:3781},
+                {coordinates:[117.32631,34.78026],name:'沙沟',id:3803},
+                {coordinates:[117.374391,34.613481],name:'韩庄',id:3967},
+                {coordinates:[117.394391,34.613481],name:'利国',id:4090},
+                {coordinates:[117.31913,34.41461],name:'柳泉',id:4389},
+                {coordinates:[117.29913,34.41461],name:'前亭',id:4091},
+                {coordinates:[117.25443,34.35947],name:'茅村',id:4609},
+                {coordinates:[117.230485,34.312470000000005],name:'徐州北',id:4295},
+                {coordinates:[117.20654,34.26547],name:'徐州',id:4290},
+                {coordinates:[117.20211,34.22909],name:'徐州南',id:4296},
+                {coordinates:[117.19768,34.19271],name:'高家营',id:4741},
+                {coordinates:[117.171732,34.130173],name:'三铺',id:4002},
+                {coordinates:[117.121131,34.007402],name:'曹村',id:4349},
+                {coordinates:[117.05362550000001,33.883876],name:'夹沟',id:4197},
+                {coordinates:[116.98612,33.76035],name:'符离集',id:4563},
+                {coordinates:[116.99454,33.63906],name:'宿州',id:4228},
+                {coordinates:[117.01454,33.53906],name:'宿州南',id:4230},
+                {coordinates:[117.17399999999999,33.4624],name:'西寺坡',id:4635},
+                {coordinates:[117.154,33.4024],name:'芦岭',id:4597},
+                {coordinates:[117.230215,33.389745000000005],name:'唐南集',id:4164},
+                {coordinates:[117.30643,33.31709],name:'固镇',id:4173},
+                {coordinates:[117.334561,33.248182],name:'连城',id:4655},
+                {coordinates:[117.35363,33.17971],name:'新马桥',id:4329},
+                {coordinates:[117.37218,33.05412],name:'曹老集',id:4350},
+                {coordinates:[117.37847,32.94317],name:'蚌埠',id:4621},
+                {coordinates:[117.458133,32.927821],name:'蚌埠东',id:4622},
+                {coordinates:[117.62893,32.90534],name:'凤阳',id:4087},
+                {coordinates:[117.72209000000001,32.88046],name:'板桥',id:4382},
+                {coordinates:[117.81525,32.85558],name:'小溪河',id:4241},
+                {coordinates:[117.9888,32.76987],name:'明光',id:4343},
+                {coordinates:[118.03766,32.72751],name:'卞庄',id:4129},
+                {coordinates:[118.07579,32.65218],name:'管店',id:4564},
+                {coordinates:[118.12745,32.57718],name:'三界',id:4001},
+                {coordinates:[118.2161,32.50096],name:'张八岭',id:4278},
+                {coordinates:[118.25451,32.42483],name:'沙河集',id:4440},
+                {coordinates:[118.32751,32.30817],name:'滁州北',id:4499},
+                {coordinates:[118.37255,32.25543],name:'担子',id:4311},
+                {coordinates:[118.52172,32.17538],name:'东葛',id:4024},
+                {coordinates:[118.54172,32.10790325],name:'永宁镇',id:4418},
+                {coordinates:[118.56172,32.085411],name:'高里',id:4744},
+                {coordinates:[118.68049,32.16059],name:'林场',id:4383},
+                {coordinates:[118.797697,32.086866],name:'南京',id:4102},
+                {coordinates:[118.858079,32.104513],name:'兴卫村',id:4082},
+                {coordinates:[118.89093,32.118682],name:'南京东',id:4103},
+                {coordinates:[119.058564,32.170825],name:'龙潭',id:4763},
+                {coordinates:[119.16846,32.17039],name:'下蜀',id:4017},
+                {coordinates:[119.30126,32.17227],name:'高资',id:4743},
+                {coordinates:[119.36465,32.18042],name:'六摆渡',id:4079},
+                {coordinates:[119.43297,32.19852],name:'镇江',id:4691},
+                {coordinates:[119.45797,32.19207],name:'镇江东',id:4689},
+                {coordinates:[119.59209,32.00191],name:'丹阳',id:4040},
+                {coordinates:[119.65126,31.9554],name:'丹阳东',id:4038},
+                {coordinates:[119.74737,31.90508],name:'吕城',id:4156},
+                {coordinates:[119.81384,31.86357],name:'奔牛',id:4201},
+                {coordinates:[119.89123,31.82369],name:'新闸镇',id:4328},
+                {coordinates:[119.9915,31.76751],name:'常州',id:4254},
+                {coordinates:[120.067887,31.722827],name:'戚墅堰',id:4305},
+                {coordinates:[120.1872885,31.6553735],name:'无锡北',id:4334},
+                {coordinates:[120.30669,31.58792],name:'无锡',id:4336},
+                {coordinates:[120.34088,31.54719],name:'无锡南',id:4335},
+                {coordinates:[120.37515,31.51301],name:'周泾巷',id:4162},
+                {coordinates:[120.41607,31.47536],name:'硕放',id:4550},
+                {coordinates:[120.46393,31.4292],name:'望亭',id:4352},
+                {coordinates:[120.51179,31.38304],name:'浒墅关',id:4456},
+                {coordinates:[120.552451,31.341671],name:'苏州西',id:4606},
+                {coordinates:[120.60315,31.36126],name:'苏州',id:4603},
+                {coordinates:[120.705734,31.37126],name:'外跨塘',id:4183},
+                {coordinates:[120.78889,31.36031],name:'唯亭',id:4166},
+                {coordinates:[120.957464,31.36591],name:'昆山',id:4340},
+                {coordinates:[121.051431,31.343672],name:'陆家浜',id:4716},
+                {coordinates:[121.17817,31.30526],name:'安亭',id:4214},
+                {coordinates:[121.2500722,31.2901986],name:'黄渡',id:4754},
+                {coordinates:[121.275461,31.286951],name:'南翔',id:4120},
+                {coordinates:[121.29603549999999,31.2807335],name:'南编',id:4115},
+                {coordinates:[121.3103705,31.276856],name:'南翔机务段',id:4124},
+                {coordinates:[121.332831,31.252897],name:'江桥镇',id:4429},
+                {coordinates:[121.356831,31.242897],name:'上海西',id:4011},
+                {coordinates:[121.40926750000001,31.236248999999997],name:'光新路',id:4072},
+                {coordinates:[121.4255704,31.229601],name:'上海',id:4007},
+                {coordinates:[121.475704,31.219601],name:'客技',id:4226},
+            ]
+        };
+        var rNodes = [];
+        for (let index = 0; index < railwayLine.nodes.length; index++) {
+            const rNode = railwayLine.nodes[index];
+            let nodeD = new Node({
+                id: rNode.id,
+                center: ol.proj.fromLonLat(rNode.coordinates),
+                radius: 500,
+//                name: railwayLine.nodes[index].name
+            });
+            rNodes.push(rNode.id);
+            nodes.push(nodeD);
+        }
+        let newR = new RailwayLine({
+            id: railwayLines.length,
+            nodeIds: rNodes,
+        });
+        railwayLines.push(newR);
+
+        for (let index = 0; index < railwayLines.length; index++) {
+            const railwayLine = railwayLines[index];
+            setRailwayLineLineStrings(railwayLine, railwayLines, nodes);
+        }
+
+        /**
+         * 创建Node Feature
+         */
+        function toNodeFeature(node) {
+            let feature = new ol.Feature({
+                geometry: new ol.geom.Circle(node.getCenter(), node.getRadius()),
+            });
+            feature.setStyle(new ol.style.Style({
+                stroke: new ol.style.Stroke({
+                    color: randomRgba(),
+                    width: 1,
+                }),
+                fill: new ol.style.Fill({
+                    color: 'rgba(255,255,255,0.5)'
+                }),
+                text: new ol.style.Text({text: node.getName()}),
+            }));
+            return feature;
+        }
+
+        /**
+         * 创建铁路线Feature
+         */
+        function toRailwayLineFeature(railwayLine) {
+            let feature = new ol.Feature({
+                geometry: new ol.geom.MultiLineString(railwayLine.getLineStrings()),
+            });
+            feature.setStyle(new ol.style.Style({
+                stroke: new ol.style.Stroke({
+                    color: randomRgba(),
+                    width: 1,
+                }),
+            }));
+            return feature;
+        }
+
+        /**
+         * 随机生成颜色
+         */
+        function randomRgba() {
+            return 'rgba(' + 255 * Math.random() + ',' + 255 * Math.random() + ',' + 255 * Math.random() + ',' + 1 + ')';
+        }
+
+        //生成Node feature
+        for (let index = 0; index < nodes.length; index++) {
+            const node = nodes[index];
+            const feature = toNodeFeature(node);
+            features.push(feature);
+        }
+        //生成RailwayLine feature
+        for (let index = 0; index < railwayLines.length; index++) {
+            const railwayLine = railwayLines[index];
+            const feature = toRailwayLineFeature(railwayLine);
+            //第一条线标红色
+            if (index == railwayLines.length - 1) {
+                feature.setStyle(new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: 'red',
+                        width: 1,
+                    }),
+                }));
+            }
+            features.push(feature);
+        }
+
+        let vectorLayer = new ol.layer.Vector({
+            source: new ol.source.Vector({
+                features: features,
+            }),
+        });
+
+        /**
+         * 获取既有站点数据
+         * @returns {Promise.<void>}
+         */
+        const nodes2 = async () => {
+            const response = await fetch(
+                'http://localhost/file/railLocation.json',
+            );
+            const remoteData = await response.json();
+            const features = [];
+            for (let index = 0; index < remoteData.railLocationJsons.length; index++) {
+                let nodeJson = remoteData.railLocationJsons[index];
+                if (nodeJson.latLngString == "") {
+                    continue;
+                }
+                let centerString = nodeJson.latLngString.split(",").reverse();
+                let center = ol.proj.fromLonLat([centerString[0] * 1, centerString[1] * 1]);
+                let feature = new ol.Feature({
+                    geometry: new ol.geom.Circle(center, 500),
+                });
+                feature.setStyle(new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: randomRgba(),
+                        width: 1,
+                    }),
+                    fill: new ol.style.Fill({
+                        color: 'rgba(255,255,255,0.5)'
+                    }),
+//                    text: new ol.style.Text({text: nodeJson.stationName}),
+                }));
+                features.push(feature);
+            }
+            let nodeVectorLayer = new ol.layer.Vector({
+                source: new ol.source.Vector({
+                    features: features,
+                }),
+            });
+            map.addLayer(nodeVectorLayer);
+            map.render();
+        };
+        //        nodes2();
+
+        mousePositionControl = new ol.control.MousePosition({
+            coordinateFormat: ol.coordinate.createStringXY(4),
+            // comment the following two lines to have the mouse position
+            // be placed within the map.
+            className: 'custom-mouse-position',
+            projection: "EPSG:4326",
+            target: document.getElementById('mouse-position'),
+        });
+
+
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                }),
+                vectorLayer
+            ],
+            view: new ol.View({
+                center: mapCenter,
+//                extent: [mapSouthwestExtent[0], mapSouthwestExtent[1], mapNortheastExtent[0], mapNortheastExtent[1]],
+                zoom: 1,
+                minZoom: 1
+            }),
+            controls: ol.control.defaults().extend([mousePositionControl])
+        });
+    </script>
+</body>
+</html>
