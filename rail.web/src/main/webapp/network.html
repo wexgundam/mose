@@ -47,6 +47,34 @@
         let mapSouthwestExtent = ol.proj.fromLonLat([50, 0]);
         let mapNortheastExtent = ol.proj.fromLonLat([160, 55]);
 
+        const intervalLines = async () => {
+            const response = await fetch(
+                'http://localhost/file/intervalLines.json',
+            );
+            let features = [];
+            const remoteData = await response.json();
+            let feature = new ol.Feature({
+                geometry: new ol.geom.MultiLineString(remoteData.lineStrings),
+            });
+            feature.setStyle(new ol.style.Style({
+                stroke: new ol.style.Stroke({
+                    color: 'blue',
+                    width: 1,
+                }),
+            }));
+            features.push(feature);
+
+            let vectorLayer = new ol.layer.Vector({
+                maxZoom: 11,
+                source: new ol.source.Vector({
+                    features: features,
+                }),
+            });
+            map.addLayer(vectorLayer);
+            map.render();
+        };
+        intervalLines();
+
         const railwayLine = async () => {
             const response = await fetch(
                 'http://localhost/file/railwayline.json',
@@ -65,6 +93,7 @@
             features.push(feature);
 
             let vectorLayer = new ol.layer.Vector({
+                minZoom: 11,
                 source: new ol.source.Vector({
                     features: features,
                 }),
@@ -78,14 +107,29 @@
             const response = await fetch(
                 'http://localhost/file/nodes.json',
             );
-            let features = [];
+            let nodeFeatures = [];
+            let nodeTextFeatures = [];
             const remoteData = await response.json();
             for (let index = 0; index < remoteData.length; index++) {
                 const node = remoteData[index];
-                let feature = new ol.Feature({
+                let nodeFeature = new ol.Feature({
                     geometry: new ol.geom.Circle(node.coordinates, node.radius),
                 });
-                feature.setStyle(new ol.style.Style({
+                nodeFeature.setStyle(new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: randomRgba(),
+                        width: 1,
+                    }),
+                    fill: new ol.style.Fill({
+                        color: 'rgba(255,255,255,0.5)'
+                    }),
+                }));
+                nodeFeatures.push(nodeFeature);
+
+                let nodeTextFeature = new ol.Feature({
+                    geometry: new ol.geom.Circle(node.coordinates, node.radius),
+                });
+                nodeTextFeature.setStyle(new ol.style.Style({
                     stroke: new ol.style.Stroke({
                         color: randomRgba(),
                         width: 1,
@@ -95,15 +139,25 @@
                     }),
                     text: new ol.style.Text({text: node.name}),
                 }));
-                features.push(feature);
+                nodeTextFeatures.push(nodeTextFeature);
             }
 
-            let vectorLayer = new ol.layer.Vector({
+            let nodeVectorLayer = new ol.layer.Vector({
+                minZoom: 8,
+                maxZoom: 10,
                 source: new ol.source.Vector({
-                    features: features,
+                    features: nodeFeatures,
                 }),
             });
-            map.addLayer(vectorLayer);
+            map.addLayer(nodeVectorLayer);
+
+            let nodeTextVectorLayer = new ol.layer.Vector({
+                minZoom: 10,
+                source: new ol.source.Vector({
+                    features: nodeTextFeatures,
+                }),
+            });
+            map.addLayer(nodeTextVectorLayer);
             map.render();
         };
         nodes();

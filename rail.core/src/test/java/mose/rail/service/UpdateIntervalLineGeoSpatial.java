@@ -30,7 +30,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -46,7 +45,7 @@ import java.util.Map;
 @RunWith(SpringJUnit4ClassRunner.class)
 @Configuration
 @ContextConfiguration(classes = {
-        CommonConfiguration.class, RectorNewDataToJson.class
+        CommonConfiguration.class, UpdateIntervalLineGeoSpatial.class
 })
 @PropertySource({"classpath:application-database.properties"})
 @ImportResource({
@@ -57,7 +56,7 @@ import java.util.Map;
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {BureauDao.class, IntervalLineDao.class, NodeDao.class, RailwayLineDao.class}),
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {BureauService.class, IntervalLineService.class, NodeService.class, RailwayLineService.class})
 })
-public class RectorNewDataToJson {
+public class UpdateIntervalLineGeoSpatial {
     @Autowired
     private RailwayLineService railwayLineService;
     @Autowired
@@ -68,7 +67,7 @@ public class RectorNewDataToJson {
     private IntervalLineDao intervalLineDao;
     @Autowired
     private NodeDao nodeDao;
-    int railwayLineId = 3079;
+    int railwayLineId = 813;
 
     /**
      * what:    每次处理一条铁路线. <br/>
@@ -81,7 +80,7 @@ public class RectorNewDataToJson {
      * @author 靳磊 created on 2021/9/22
      */
     @Test
-    public void refactorData() {
+    public void updateData() {
         //获取铁路线
         RailwayLine railwayLine = railwayLineService.getOne(railwayLineId);
 
