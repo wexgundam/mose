@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .map {
+            height: 500px;
+            width: 100%;
+            background-color: rgba(143, 184, 255, 0.5);
+        }
+    </style>
+    <title>Train Diagram</title>
+
+    <link href="./assets/openlayers/ol.css" rel="stylesheet" type="text/css" />
+
+    <script src="./assets/openlayers/ol.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <h2>My Map</h2>
+    <div id="map" class="map"></div>
+    <div id="mouse-position"></div>
+    <div>
+        <input type="text" id="position-text">
+    </div>
+    <script type="text/javascript">
+        /**
+         * 随机生成颜色
+         */
+        function randomRgba() {
+            return 'rgba(' + 255 * Math.random() + ',' + 255 * Math.random() + ',' + 255 * Math.random() + ',' + 1 + ')';
+        }
+
+        var mousePositionControl = new ol.control.MousePosition({
+            coordinateFormat: ol.coordinate.createStringXY(4),
+            // comment the following two lines to have the mouse position
+            // be placed within the map.
+            className: 'custom-mouse-position',
+//            projection: "EPSG:4326",
+            target: document.getElementById('mouse-position'),
+        });
+
+        //地图中心：经纬度[0,0]
+        let mapCenter = [0, 19000];
+        let mapSouthwestExtent = [0, 0];
+        let mapNortheastExtent = [20000, 20000];
+
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+//                    source: new ol.source.OSM()
+                }),
+            ],
+            view: new ol.View({
+                center: mapCenter,
+                extent: [mapSouthwestExtent[0], mapSouthwestExtent[1], mapNortheastExtent[0], mapNortheastExtent[1]],
+                zoom: 0,
+                minZoom: 0
+            }),
+            controls: ol.control.defaults().extend([mousePositionControl])
+        });
+
+        map.on('singleclick', function (event) {
+            console.log(event);
+            document.getElementById('position-text').value = document.getElementById('mouse-position').innerText;
+        });
+
+        //time bar地理信息
+        const trainDiagramLoad = async () => {
+            const response = await fetch(
+                'http://localhost/file/traindiagram.json',
+            );
+
+            const remoteData = await response.json();
+
+            let lineStrings = [];
+            lineStrings = lineStrings.concat(remoteData.timeLineLineStrings);
+            lineStrings = lineStrings.concat(remoteData.nodeLineLineStrings);
+            //        lineStrings = lineStrings.concat(trainlineLines);
+
+            let features = [];
+
+            let lineStringsfeature = new ol.Feature({
+                geometry: new ol.geom.MultiLineString(lineStrings),
+            });
+            lineStringsfeature.setStyle(new ol.style.Style({
+                stroke: new ol.style.Stroke({
+                    color: 'green',
+                    width: 1,
+                }),
+            }));
+            features.push(lineStringsfeature);
+
+            //时间线 layer
+            let timeLineVectorLayer = new ol.layer.Vector({
+                source: new ol.source.Vector({
+                    features: features,
+                }),
+            });
+            map.addLayer(timeLineVectorLayer);
+
+            //时间Text layer
+            let timeLineTexts = remoteData.timeLineTexts;
+            let timeTextFeatures = [];
+            for (let index = 0; index < timeLineTexts.length; index++) {
+                let timeLineText = timeLineTexts[index];
+                let timeLineTextFeature = new ol.Feature({
+                    geometry: new ol.geom.Circle(timeLineText.coordinate, 0),
+                });
+                timeLineTextFeature.setStyle(new ol.style.Style({
+                    text: new ol.style.Text({textBaseline: "bottom", text: timeLineText.text}),
+                }));
+                timeTextFeatures.push(timeLineTextFeature);
+            }
+            let timeTextVectorLayer = new ol.layer.Vector({
+                minZoom: 15,
+                source: new ol.source.Vector({
+                    features: timeTextFeatures,
+                }),
+            });
+            map.addLayer(timeTextVectorLayer);
+
+            //node Text layer
+            let nodeTexts = remoteData.nodeTexts;
+            let nodeTextFeatures = [];
+            for (let index = 0; index < nodeTexts.length; index++) {
+                let nodeText = nodeTexts[index];
+                let nodeTextFeature = new ol.Feature({
+                    geometry: new ol.geom.Circle(nodeText.coordinate, 0),
+                });
+                nodeTextFeature.setStyle(new ol.style.Style({
+                    text: new ol.style.Text({text: nodeText.text, textAlign: "right"}),
+                }));
+                nodeTextFeatures.push(nodeTextFeature);
+            }
+            let nodeTextVectorLayer = new ol.layer.Vector({
+                minZoom: 13,
+                source: new ol.source.Vector({
+                    features: nodeTextFeatures,
+                }),
+            });
+            map.addLayer(nodeTextVectorLayer);
+
+            map.render();
+        };
+        trainDiagramLoad();
+
+        //time bar地理信息
+        const trainDiagramTrainLoad = async () => {
+            const response = await fetch(
+                'http://localhost/file/traindiagramtrain.json',
+            );
+
+            const remoteData = await response.json();
+
+            let lineStringsfeatures = [];
+            let textfeatures = [];
+            for (let index = 0; index < remoteData.length; index++) {
+                let train = remoteData[index];
+                let lineStringsFeature = new ol.Feature({
+                    geometry: new ol.geom.MultiLineString(train.trainLineStrings),
+                });
+                lineStringsFeature.setStyle(new ol.style.Style({
+                    stroke: new ol.style.Stroke({
+                        color: 'red',
+                        width: 1,
+                    }),
+                }));
+                lineStringsfeatures.push(lineStringsFeature);
+
+                //text
+                for (let textIndex = 0; textIndex < train.trainTexts.length; textIndex++) {
+                    let text = train.trainTexts[textIndex];
+                    let textFeature = new ol.Feature({
+                        geometry: new ol.geom.Circle(text.coordinate, 0),
+                    });
+                    textFeature.setStyle(new ol.style.Style({
+                        text: new ol.style.Text({text: text.text}),
+                    }));
+                    textfeatures.push(textFeature);
+                }
+            }
+
+            //layer
+            let trainLineVectorLayer = new ol.layer.Vector({
+                source: new ol.source.Vector({
+                    features: lineStringsfeatures,
+                }),
+            });
+            map.addLayer(trainLineVectorLayer);
+
+            //train Text layer
+            let trainTextVectorLayer = new ol.layer.Vector({
+                minZoom: 15,
+                source: new ol.source.Vector({
+                    features: textfeatures,
+                }),
+            });
+            map.addLayer(trainTextVectorLayer);
+
+            map.render();
+        };
+        trainDiagramTrainLoad();
+    </script>
+</body>
+</html>

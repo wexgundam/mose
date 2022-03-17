@@ -83,7 +83,7 @@ public class CreateIntervalLineFile {
         Map<IntervalLine, List<IntervalLine>> map = toMap(all);
 
         //拓扑区间
-//        createToplogic(all, map);
+        createToplogic(all, map);
 
         //逻辑区间
         createLogic(map);
