@@ -78,9 +78,9 @@ public class TestTrainDiagramService {
         trainDiagramService.updateSpatial(trainDiagram);
 
         //写文件
-//        String trainDiagramFilePath = "D:\\develop\\workspace\\upload\\file\\traindiagram.json";
-//        FileUtil.delete(trainDiagramFilePath);
-//        FileUtil.writeFile(trainDiagramFilePath, trainDiagram.getSpatial());
+        String trainDiagramFilePath = "D:\\develop\\workspace\\upload\\file\\traindiagram.json";
+        FileUtil.delete(trainDiagramFilePath);
+        FileUtil.writeFile(trainDiagramFilePath, trainDiagram.getSpatial());
 
 
         //开始时间
