@@ -43,7 +43,7 @@
         <pinyin4j.version>2.5.1</pinyin4j.version>
         <hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
         <pdfbox.version>2.0.8</pdfbox.version>
-        <common.httpclient.version>4.5.2</common.httpclient.version>
+        <common.httpclient.version>4.5.13</common.httpclient.version>
         <common.net.version>3.6</common.net.version>
         <org.locationtech.jts.version>1.16.1</org.locationtech.jts.version>
         <org.osgeo.proj4j.version>0.1.0</org.osgeo.proj4j.version>
