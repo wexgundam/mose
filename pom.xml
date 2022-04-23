@@ -20,7 +20,7 @@
     <properties>
         <mose.version>1.0-SNAPSHOT</mose.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.3.3.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
         <jstl.version>1.2</jstl.version>
         <servlet-api.version>3.1.0</servlet-api.version>
         <oracle.version>11.2.0.1.0</oracle.version>
